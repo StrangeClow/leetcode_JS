@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        // function jisuan(a, b, rule) {
+        //     if (rule === '加') {
+        //         alert(add(a,b));
+        //         return a + b;
+        //     } else if (rule === '减') {
+        //         return a - b;
+        //     } else if (rule === '乘') {
+        //         return a * b;
+        //     } else if (rule === '除') {
+        //         return a / b;
+        //     }
+        // }
+
+        function add (a,b) {
+            return a + b;
+        }
+       //     jisuan(123,12129,'加');
+
+
+        function a (a,b, rule) {
+             alert(rule(a,b));
+             
+        }
+        a(1000,200,add);
+
+        function box(name,age) {
+          alert(`姓名${name}年龄为${age}`);
+        }
+        box('haha',28);
+
+        function aa () {
+            return arguments[0] + '|'+ arguments[1]
+        }
+        alert(aa(12,53434333333333333));
+    </script>
+</body>
+
+</html>
