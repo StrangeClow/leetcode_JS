@@ -5,23 +5,53 @@
  * 导致第一个5挪动到第二个5后面）。
  */
 
-function selectSort_one(arr) {
-    let len = arr.length,
-        temp,
-        minIndex;
-    for (let i = 0; i < len - 1; i--) {
-        minIndex = i;
-        for (let j = i + 1; j < len; j++) {
-            if (arr[j] < arr[minIndex]) { // 寻找最小的数据
-                minIndex = j;
+
+function a(b) {
+    console.log(b*b);
+    return b*b;
+}
+a(10.87);
+
+// function selectSort_one(arr) {
+//     let len = arr.length,
+//         temp,
+//         minIndex;
+//     for (let i = 0; i < len - 1; i--) {
+//         minIndex = i;
+//         for (let j = i + 1; j < len; j++) {
+//             if (arr[j] < arr[minIndex]) {
+//                 // 寻找最小的数据
+//                 minIndex = j;
+//             }
+//         }
+//         temp = arr[i];
+//         arr[i] = arr[minIndex];
+//         arr[minIndex] = temp;
+//     }
+//     console.log("arr选择排序:", arr);
+//     return arr;
+// }
+
+// selectSort_one([100, 0.012, 0.1, 1001, 10, 0.0, 10000]);
+
+function selectSort_two(array) {
+    var len = array.length;
+    for (var i = 0; i < len - 1; i++) {
+        //这里之所以是len-1，是因为到最后两个元素，交换位置，整个数组就已经排好序了。
+        var minnum = array[i];
+        for (var j = i + 1; j < len; j++) {
+            // j=i+1是把与自己比较的情况给省略掉
+            if (array[j] < minnum) {
+                var c;
+                c = minnum;
+                minnum = array[j]; //交换两个值
+                array[j] = c;
             }
         }
-        temp = arr[i];
-        arr[i] = arr[minIndex];
-        arr[minIndex] = temp;
+        array[i] = minnum;
     }
-    console.log('arr选择排序:', arr);
-    return arr
+    console.log('object',array);
+    return array;
 }
 
-selectSort_one([100, 0.012, 0.1, 1001, 10, 0.0, 10000]);
+selectSort_two([10, 2, 698, 200, 0.1]);
