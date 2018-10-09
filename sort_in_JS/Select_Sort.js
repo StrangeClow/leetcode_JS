@@ -5,34 +5,38 @@
  * 导致第一个5挪动到第二个5后面）。
  */
 
-
 function a(b) {
-    console.log(b*b);
-    return b*b;
+    console.log(b * b);
+    return b * b;
 }
 a(10.87);
 
-// function selectSort_one(arr) {
-//     let len = arr.length,
-//         temp,
-//         minIndex;
-//     for (let i = 0; i < len - 1; i--) {
-//         minIndex = i;
-//         for (let j = i + 1; j < len; j++) {
-//             if (arr[j] < arr[minIndex]) {
-//                 // 寻找最小的数据
-//                 minIndex = j;
-//             }
-//         }
-//         temp = arr[i];
-//         arr[i] = arr[minIndex];
-//         arr[minIndex] = temp;
-//     }
-//     console.log("arr选择排序:", arr);
-//     return arr;
-// }
-
-// selectSort_one([100, 0.012, 0.1, 1001, 10, 0.0, 10000]);
+/**
+ * 1. 理解选择排序的原理
+ * 1.1  首先循环一遍 把最小(最大)的排在最前(后)面，将它与最小(大)的一个元素交换位置
+ * 1.2 接下来在最小的元素中寻找最小的元素，将它与第二小(大)的元素交换位置 以此内推 直到将整个数组排序完成
+ * @param {*} arr
+ */
+function selectSort_One(arr) {
+    for (let i = 0; i < arr.length - 1; i++) {
+        let minNum = arr[i];
+        for (let j = i + 1; j < arr.length; j++) {
+            //  通过循环比较找出数组中最小的元素 排在当前元素的第一(最后)一位，
+            if (minNum < arr[j]) {
+                console.log("当前的minNum:", minNum, "当前的arr[j](最大值):", arr[j]);
+                [minNum, arr[j]] = [arr[j], minNum];
+                // minNum = [arr[j], arr[j] = minNum][0];
+            }
+        }
+        arr[i] = minNum
+        console.log('比较后:',arr);
+    }
+    console.log("选择排序的第一种方法:", arr);
+    return arr
+}
+selectSort_One([0.1,10,1,10.98]);
+selectSort_One([98765, 1000, 0.1, 0.01, 10, 9.88, 0.09]);
+selectSort_One([0.098, 1000, 1, 98765, 0.984635, 87]);
 
 function selectSort_two(array) {
     var len = array.length;
@@ -50,8 +54,54 @@ function selectSort_two(array) {
         }
         array[i] = minnum;
     }
-    console.log('object',array);
+    console.log("选择排序Two:", array);
     return array;
 }
 
 selectSort_two([10, 2, 698, 200, 0.1]);
+
+/**
+ * 1. 理解选择排序的原理
+ * 1.1  首先循环一遍 把最小(最大)的排在最前(后)面，将它与最小(大)的一个元素交换位置
+ * 1.2 接下来在最小的元素中寻找最小的元素，将它与第二小(大)的元素交换位置 以此内推 直到将整个数组排序完成    
+ * @param {*} arr
+ */
+function selectSort_Three(arr) {
+    var len = arr.length;
+    var minIndex, temp;
+    for (var i = 0; i < len - 1; i++) {
+        minIndex = i;
+        for (var j = i + 1; j < len; j++) {
+            if (arr[j] < arr[minIndex]) {
+                //寻找最小的数
+                minIndex = j; //将最小数的索引保存
+                console.log("minIndex：", minIndex);
+            }
+        }
+        temp = arr[i];
+        arr[i] = arr[minIndex];
+        arr[minIndex] = temp;
+    }
+    console.log("选择排序的第三种方法：", arr);
+    return arr;
+}
+selectSort_Three([10, 900, 0.1, 1, 68]);
+
+
+function arrSort3(arr) {
+    var len = arr.length,
+        minIndex, nu;
+    for (var i = 0; i < len - 1; i++) {
+        minIndex = i; //记录每次循环的第一个数为该次循环的最小值索引
+        for (var j = i + 1; j < len; j++) {
+            if (arr[j] < arr[minIndex]) {
+                minIndex = j; //找到每次循环到的最小值，
+            }
+        }
+        nu = arr[i];
+        arr[i] = arr[minIndex]; //将找到的最小值放在每次循环的最开始的地方；
+        arr[minIndex] = nu;
+
+    }
+    console.log(arr);
+}
