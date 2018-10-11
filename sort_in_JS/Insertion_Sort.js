@@ -12,22 +12,58 @@
  * @param {*} arr
  */
 function insertionSort_one(arr) {
-  let len = arr.length,
-    preIndex,
-    time = 0,
-    current;
-  for (var i = 1; i < len; i++) {
-    preIndex = i - 1;
-    current = arr[i];
-    while (preIndex >= 0 && arr[preIndex] > current) {
-      arr[preIndex + 1] = arr[preIndex];
-      preIndex--;
-      time ++;
-      console.log(`当前是第${time}次比较`);
+    let len = arr.length,
+        preIndex,
+        time = 0,
+        current;
+    for (var i = 1; i < len; i++) {
+        preIndex = i - 1;
+        current = arr[i];
+        while (preIndex >= 0 && arr[preIndex] > current) {
+            arr[preIndex + 1] = arr[preIndex];
+            preIndex--;
+            time++;
+            console.log(`当前是第${time}次比较`);
+        }
+        arr[preIndex + 1] = current;
     }
-    arr[preIndex + 1] = current;
-  }
-  console.log(arr);
-  return arr;
+    console.log(arr);
+    return arr;
 }
-insertionSort_one([987,18,0.01,826,1,88,0.009])
+insertionSort_one([987, 18, 0.01, 826, 1, 88, 0.009])
+
+/**
+ * c 插入排序第二种方法
+ * @param {*} arr
+ */
+function insertionSort_two(arr) {
+    for (let i = 0; i < arr.length; i++) {
+        for (let j = 0; j < arr.length; j++) {
+            if (arr[j] < arr[j + 1]) {
+                [arr[j], arr[j + 1]] = [arr[j + 1], arr[j]]
+            }
+        }
+    }
+    console.log('第二种插入排序:', arr)
+    return arr
+}
+
+insertionSort_two([9898, 6556, 0.01, 987654, 0.098, 1, 0.1098522])
+
+
+function insertionSort_three(array) {
+    let times = 0;
+    for (let i = 0; i < array.length; i++) {
+        for (let j = 0; j < array.length -1 - i; j++) {
+            if (array[j] > array[j + 1]) {
+                [array[j], array[j + 1]] = [array[j + 1], array[j]]
+                times++;
+                console.log(`第${times}次执行`)
+            }
+        }
+    }
+    console.log('优化比较次数', array)
+    return array
+}
+
+insertionSort_three([100,98765412,0.0008, 98765, 12, 0.9, 84, 5682,0.09])
