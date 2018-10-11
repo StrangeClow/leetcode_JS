@@ -10,5 +10,9 @@
  * @param {*} arr
  */
 function insertionSort_one(arr) {
-
+     // 先任取一个数 放入数组
+  let len = arr.length;
+  for(let i =0; i< len;i==) {
+      
+  }
 }
