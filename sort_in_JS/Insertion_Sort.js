@@ -7,17 +7,27 @@
  在内部for循环中，设置变量j用于控制待插入的值的比较和交换（左移到合适位置）
 */
 
-
 /**
- *   直接插入排序 
+ *   直接插入排序
  * @param {*} arr
  */
 function insertionSort_one(arr) {
-     // 先任取一个数 放入数组
-  let len = arr.length;
-  for(let i =0; i< len;i--) {
-      
+  let len = arr.length,
+    preIndex,
+    time = 0,
+    current;
+  for (var i = 1; i < len; i++) {
+    preIndex = i - 1;
+    current = arr[i];
+    while (preIndex >= 0 && arr[preIndex] > current) {
+      arr[preIndex + 1] = arr[preIndex];
+      preIndex--;
+      time ++;
+      console.log(`当前是第${time}次比较`);
+    }
+    arr[preIndex + 1] = current;
   }
+  console.log(arr);
+  return arr;
 }
-
-      
+insertionSort_one([987,18,0.01,826,1,88,0.009])
