@@ -6,7 +6,7 @@
 
 
 /**
- *
+ *   直接插入排序 
  * @param {*} arr
  */
 function insertionSort_one(arr) {
@@ -16,3 +16,5 @@ function insertionSort_one(arr) {
       
   }
 }
+
+      
