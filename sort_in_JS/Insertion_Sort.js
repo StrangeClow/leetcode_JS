@@ -67,3 +67,5 @@ function insertionSort_three(array) {
 }
 
 insertionSort_three([100,98765412,0.0008, 98765, 12, 0.9, 84, 5682,0.09])
+
+/*  各个排序的区别 以及关键点部分的写法 在比较上  */
