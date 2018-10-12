@@ -71,16 +71,16 @@ insertionSort_three([100,98765412,0.0008, 98765, 12, 0.9, 84, 5682,0.09])
 /*  各个排序的区别 以及关键点部分的写法 在比较上  */
 
   Array.prototype.insertion_Sort = function() {
-                        let i, j;
-                        for (i = 0; i < this.length; i++) {
-                            for (j = 0; j < i; j++) {
-                                if (this[j] > this[i]) {
-                                    this.splice(j, 0, this[i])
-                                    tis.splice(i + 1, 1)
-                                    break
-                                }
-                            }
-                        }
-                        return this
-                    }
-                    // eg:   [3,5,2,11,1,2,"abc","zfd","sad","eng"].insertion_Sort();
+              let i, j;
+              for (i = 0; i < this.length; i++) {
+                  for (j = 0; j < i; j++) {
+                      if (this[j] > this[i]) {
+                          this.splice(j, 0, this[i])
+                          tis.splice(i + 1, 1)
+                          break
+                      }
+                  }
+              }
+              return this
+          }
+          // eg:   [3,5,2,11,1,2,"abc","zfd","sad","eng"].insertion_Sort();
