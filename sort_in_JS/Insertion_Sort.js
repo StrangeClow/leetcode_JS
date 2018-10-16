@@ -107,3 +107,24 @@ insertionSort_three([100,98765412,0.0008, 98765, 12, 0.9, 84, 5682,0.09])
   }
 
 insertionSort_four([0.98,95685,10,93,0.008]);
+
+
+//排序5
+function insertionSort_five(arr) {
+  let oneArr = arr[0];
+ // 从左边开始 每次拿一个与已排序号的数组进行比较
+ for(let i =0; i< arr.length;i++) {
+   for(let j = 0; j<i;j++) {
+     if(arr[i] <= arr[j]) {
+           // 若介于小于等于当前比较元素 则插入其前方
+   oneArr.splice(j, 0, arr[i]);
+      break;
+        }
+    else if(j === i - 1) {
+    // 弱比最后一个还大 则排在最右侧
+     oneArr.push(arr[i]);
+    }
+   }
+ }
+ return oneArr;
+}
