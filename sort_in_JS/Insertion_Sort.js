@@ -84,3 +84,24 @@ insertionSort_three([100,98765412,0.0008, 98765, 12, 0.9, 84, 5682,0.09])
               return this
           }
           // eg:   [3,5,2,11,1,2,"abc","zfd","sad","eng"].insertion_Sort();
+  
+  //  插入排序
+  function insertionSort_four(arr) {
+   /**
+   * slice(8,-1)意思是从第8位开始（包含第8位）到最后一位之前（-1的意思就是最后一位，不包含最后一位）；
+   *   Object.prototype.toString.call(boj)这个是用来判断数据类型，
+   */
+     if(Object.prototype.toString.call(arr).slice(8,-1) === "Array") {
+          for(let i = 0; i< arr.length; i++) {
+             let key = arr[i];
+               for(let j = i-1;j<arr.length;j++) {
+                arr[j+1] = arr[j];
+               }
+           arr[j+1] = key;
+          }
+           return arr;
+        }
+        else {
+           return "arr is not a Array";
+        }
+  }
