@@ -105,3 +105,5 @@ insertionSort_three([100,98765412,0.0008, 98765, 12, 0.9, 84, 5682,0.09])
            return "arr is not a Array";
         }
   }
+
+insertionSort_four([0.98,95685,10,93,0.008]);
