@@ -128,3 +128,19 @@ function insertionSort_five(arr) {
  }
  return oneArr;
 }
+
+
+// 从第二个元素往后遍历 从前面的序列中找到一个合适的位置插入
+ function insertionSort_six(arr) {
+    for(let i = 1;i < arr.length;i++) {
+       let cuur = arr[i]; //要执行插入操作的元素
+     let j = i;   // 从i开始往回遍历
+       while (j > 0 && arr[j-1] > curr) {   
+// 不断跟curr元素进行比较，大于curr的往后退一位，最终给curr腾出一个插入的位置
+      arr[j] = arr[j-1];
+      j--;
+    }
+    arr[j] = curr                 // curr插入到合适的位置中
+    }
+  return arr;  
+ }
