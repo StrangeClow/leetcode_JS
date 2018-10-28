@@ -27,3 +27,14 @@ function add(...arr) {
   console.log(total);
 }
 add(1,2,3,45,6,88,88);
+
+
+function book(title,author,year) {
+ this.title = title;
+ this.author = author;
+ this.year = year;
+}
+
+const book1 = new book('语文书','zyx','2018');
+const book2 = new book('数学书','x大法','248');
+console.log(book1,book2);
