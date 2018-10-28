@@ -18,3 +18,12 @@
 let a = [1,2,3,4,5];
 let b= [...a];
 console.log(b);
+
+function add(...arr) {
+  let total = arr.reduce((prev,cur,index,arrs)=> {
+    console.log(prev,cur,index);
+    prev + cur
+  })
+  console.log(total);
+}
+add(1,2,3,45,6,88,88);
