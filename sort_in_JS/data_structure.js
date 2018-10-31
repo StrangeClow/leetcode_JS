@@ -38,3 +38,6 @@ function book(title,author,year) {
 const book1 = new book('语文书','zyx','2018');
 const book2 = new book('数学书','x大法','248');
 console.log(book1,book2);
+
+
+// vue 双向绑定的原理    订阅者-发布者模式
