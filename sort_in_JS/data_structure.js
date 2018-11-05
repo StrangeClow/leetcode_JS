@@ -41,3 +41,17 @@ console.log(book1,book2);
 
 
 // vue 双向绑定的原理    订阅者-发布者模式
+/**
+ * @param {number[]} nums
+ * @return 
+ */
+var moveZeroes = function(nums) {
+  for(var i=0,m=0,n=nums.length;i<n;i++){
+      if(nums[m] === 0){
+          nums.splice(m,1);
+          nums.push(0);
+      }else{
+          m++;
+      }
+  }
+};
