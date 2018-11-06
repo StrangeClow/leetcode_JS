@@ -56,4 +56,4 @@ var moveZeroes = function(nums) {
   }
 };
 
-//数组元素的删除 以及更新 splcie  
+//数组元素的删除 以及更新 splcie 根据插入的数据不同 以及个数 俩判断不同
