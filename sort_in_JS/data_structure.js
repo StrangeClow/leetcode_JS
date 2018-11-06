@@ -55,3 +55,5 @@ var moveZeroes = function(nums) {
       }
   }
 };
+
+//数组元素的删除 以及更新 splcie  
