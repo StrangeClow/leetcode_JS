@@ -60,4 +60,4 @@ var moveZeroes = function(nums) {
 
 // 小程序  javascript   vue系列  react系列
 
-// reduce reduceRight   增删改查
+// reduce reduceRight   增删改查  打卡打卡
