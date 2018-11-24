@@ -9,7 +9,8 @@
             "type": "node",
             "request": "launch",
             "name": "启动程序",
-            "program": "${workspaceFolder}/sort_in_JS\\data_structure.js"
+            // "program": "${workspaceFolder}/sort_in_JS\\data_structure.js"
+            "program": "${workspaceFolder}/backJs/01\\test.js"
         }
     ]
 }
