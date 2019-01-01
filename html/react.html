@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>react测试</title>
+      <script src="https://unpkg.com/react@16/umd/react.development.js"></script>
+        <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
+        <script src="https://unpkg.com/babel-standalone@6.15.0/babel.min.js"></script>
+</head>
+<body>
+    <div id="app"></div>
+      <script type="text/babel">  
+        class TimeNow extends React.Component{
+            constructor(){
+                super();
+                this.state = {
+                    time: ''
+                }                
+            }
+            componentDidMount = () =>{
+                setInterval(()=>{
+                    var time = new Date().toLocaleString();
+                    this.setState({
+                        time
+                    });                    
+                }, 1000);
+            }      
+            render = () => {
+                const {time} = this.state;
+                return <div>时间：{time}</div>
+            }
+        }
+        class MessageBox extends React.Component{  
+            onClick = ()=>{  
+                alert('clicked');  
+            }
+            render = ()=>{  
+                return ( <div><button onClick={this.onClick}>Hello World!</button><TimeNow /></div> )  
+            }  
+        }
+        ReactDOM.render( <MessageBox/>,  
+            document.getElementById('app'),
+        )
+    </script>
+</body>
+</html>
