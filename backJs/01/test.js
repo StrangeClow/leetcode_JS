@@ -34,3 +34,6 @@ console.log(arr);
 
 console.log([...new Set(JSON.stringify(arr))]);
 console.log([...new Set(c)]);
+
+
+//持续更新 
