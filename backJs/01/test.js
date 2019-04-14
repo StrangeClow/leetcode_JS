@@ -41,3 +41,5 @@ console.log([...new Set(c)]);
 // 感觉要凉凉了 
 
 //gengin
+
+// 好习惯
