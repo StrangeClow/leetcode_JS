@@ -26,3 +26,16 @@
       }
     }
  }
+
+
+
+ // 构造arr{key: value} 对象 将target-num[i] 差值放在arr{}对象中 并存储其位置i 然后每次在arr{}对象中赵
+ let thirdTwoSum = function(nums, target) {
+     let arr = {}
+     for(let i = 0; i<nums.length; i++) {
+       if(typeof(arr[nums[i]]) !== undefined ) {
+          return [arr[nums[i]],i]
+       }
+       arr[target -nums[i]] = i
+     }
+ }
