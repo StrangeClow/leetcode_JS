@@ -14,7 +14,7 @@
  * 
  *    Array.from 
  * 
- *   
+ *   reduceright 
  * 
  * 
  * 
