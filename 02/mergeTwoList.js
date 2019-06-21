@@ -37,3 +37,25 @@
   * 
   * 方案2 . 比较两条链表的头节点的大小 将较小者作为新链表的头节点 然后递归调用
  */
+
+
+ /**  
+  * 
+  * 采用 尾插法 指向节点
+  */
+var mergeTwoListsTwo = function(l1, l2) {
+    let aa = new ListNode();
+    let current_reference = aa;
+      while (l1 && l2) {
+         if(l1.val <= l2.val){
+             current_reference.next = new ListNode(l1.val);
+            l1 = l1.next;
+         } else {
+             current_reference.next = new ListNode(l2.val);
+             l2 = l2.next;
+         }
+         current_reference = current_reference.next;
+      }
+       current_reference.next = l1 || l2;
+       return aa.next; 
+};
