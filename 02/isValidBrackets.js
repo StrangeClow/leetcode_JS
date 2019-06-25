@@ -14,3 +14,17 @@ var isValidBrackets = function(inputBrackets) {
   }
   return s === ''
 },
+
+var isValidBracketsTwo = function(inputBrackets) {
+  var rightSymbols = []; 
+  for(let i = 0; i< inputBrackets.length; i++) {
+    if(inputBrackets[i] == '(') {   // 匹配括号
+      rightSymbols.push(')')  // 为一组则放入一起
+    } else if(inputBrackets[i] == '[') {
+      rightSymbols.push(']')
+    } else if(rightSymbols.pop() != s[i] ){
+      return false;
+    }
+  }
+  return !rightSymbols.length;
+}
