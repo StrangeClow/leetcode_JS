@@ -15,3 +15,9 @@ const p1 = new point(5,5);
 const p2 = new point(10,10);
 
 console.log(point.distance(p1,p2));
+
+/**  
+ *   extend static 
+ * 
+ * 
+ */

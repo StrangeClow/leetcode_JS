@@ -1,10 +1,10 @@
 /** 
  * 
- *   基础班for循环
+ *   基础for循环
  * 
- *   forEach()循环
+ *   forEach()循环  no return
  * 
- *   forin 循环
+ *   for in 循环  Object
  * 
  *   map
  *   
