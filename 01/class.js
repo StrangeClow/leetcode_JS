@@ -19,5 +19,7 @@ console.log(point.distance(p1,p2));
 /**  
  *   extend static 
  * 
+ * new Set 交集
+ * 
  * 
  */
