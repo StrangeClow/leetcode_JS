@@ -60,4 +60,4 @@ var moveZeroes = function(nums) {
 
 // 小程序  javascript   vue系列  react系列
 
-// reduce reduceRight   增删改查  打卡打卡  排序排序  vue 3.0更新
+// reduce reduceRight   增删改查  打卡打卡  排序排序  vue 3.0更新   flutter   typescript
