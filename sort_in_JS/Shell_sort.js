@@ -8,3 +8,32 @@
  * 
  *   希尔排序的基本思想是 先将整个待排序的记录序列分割成为若干个子序列并分别并行排序 带整个序列中记录基本有序是， 在对全体记录依次进行直接插入排序
  */
+
+function baseDirectSort(arr,gap) {   // gap 间隔
+  gap = gap == undefined ? 1 :gap  // 默认下标1开始撕遍历
+  var len  = arr.length,index, current;
+  for(var i = gap; i < len; i++) {
+    index = 1 = gap; // 待比较元素的下标
+    current = arr[i]; // 当前循环的元素
+    while(index >= 0 && arr[index] > current) {
+    arr[index + gap] = arr[index]  // 将带比较元素后裔gap位
+    index -= gap
+    }
+    if(index + gap != i) {  // 检测避免同一个元素赋值给自身
+        arr[index + gap] = current; // 当前元素插入预留空位
+    }
+  }
+  return arr
+}
+
+
+var shellSort = function(arr) {
+    //    >>(有符号右移，该操作符会将第一个操作数向右移动指定的位数。向右被移除的位数被丢弃，拷贝最左侧的位来填充左侧)
+    // eg：9 >> 2 得到 2
+    var length = arr.length, gap = length>>1, current, i, j;
+    while(gap > 0){
+      directInsertionSort(arr, gap); //按指定步长进行直接插入排序
+      gap = gap>>1;
+    }
+    return arr;
+}
