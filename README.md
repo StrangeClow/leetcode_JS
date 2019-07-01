@@ -62,4 +62,12 @@
 
 ## typescript :fire:==:fire:==:fire:
 
+    基础类型（boolean number string [] Tuple enum any void Null Undefined Never Object）
+    变量声明（var let const）
+    接口 （interface ）
+    类（class）
+    函数
+    泛型
+    枚举（enum）
+
 
