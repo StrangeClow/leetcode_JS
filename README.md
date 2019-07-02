@@ -1,7 +1,7 @@
 ## 每日一道题    :yum:    可惜没做到   :cry:
 
 ### [TOC] letcode begin
- 序号 | 题名 | 难度 | 练习 |状态  
+ 序号 | 题名 | 难度(leetcode区分级别) | 练习 |状态 (:fire:)  
 ---|---|---|---|---
  1 | [两数之和](https://leetcode.com/problems/two-sum/) | 简单 | [JavaScript](https://github.com/StrangeClow/leetcode_JS/blob/master/leetcode/twoSum.js) | √
  2 | [有效的括号](https://leetcode.com/problems/valid-parentheses/) | 简单 | [javascript](https://github.com/StrangeClow/leetcode_JS/blob/master/leetcode/isValidBrackets.js) |  √
@@ -15,6 +15,14 @@
  10 | [最大三角形面积]() | 简单 | [JavaScript]() |  ✘
  11 | [实现strStr()](https://leetcode.com/problems/implement-strstr/) | 简单 | [JavaScript](https://github.com/StrangeClow/leetcode_JS/blob/master/leetcode/implementStrStr.js) |  √
  12 | [搜索插入的位置]() | 简单 | [JavaScript]() |  ✘
+ 13 | [整数转罗马数字]() | 简单 | [JavaScript]() |  ✘
+ 14 | [罗马数字转整数]() | 简单 | [JavaScript]() |  ✘
+ 15 | [最长公共前缀]() | 简单 | [JavaScript]() |  ✘
+ 16 | [报数]() | 简单 | [JavaScript]() |  ✘
+ 17 | [最后一个单词的长度]() | 简单 | [JavaScript]() |  ✘
+ 18 | [加一]() | 简单 | [JavaScript]() |  ✘
+ 19 | [爬楼梯]() | 简单 | [JavaScript]() |  ✘
+ 20 | [相同的树]() | 简单 | [JavaScript]() |  ✘
  
  
  
