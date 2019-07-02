@@ -13,7 +13,7 @@
  8 | [到最近的人的距离](https://leetcode.com/problems/max-consecutive-ones/) | 简单 | [JavaScript](https://github.com/StrangeClow/leetcode_JS/blob/master/leetcode/maxConsecutiveOnes.js) |  √
  9 | [字符的最短距离]() | 简单 | [JavaScript](https://github.com/StrangeClow/leetcode_JS/blob/master/leetcode/shortestToChar.js) |  √
  10 | [最大三角形面积]() | 简单 | [JavaScript]() |  ✘
- 11 | [实现strStr()]() | 简单 | [JavaScript]() |  ✘
+ 11 | [实现strStr()](https://leetcode.com/problems/implement-strstr/) | 简单 | [JavaScript](https://github.com/StrangeClow/leetcode_JS/blob/master/leetcode/implementStrStr.js) |  √
  12 | [搜索插入的位置]() | 简单 | [JavaScript]() |  ✘
  
  
@@ -57,17 +57,25 @@
 
 ## flutter :zap:==:zap:==:zap:
 
+    dart
 
 ***
 
 ## typescript :fire:==:fire:==:fire:
 
     基础类型（boolean number string [] Tuple enum any void Null Undefined Never Object）
+
     变量声明（var let const）
+
     接口 （interface ）
+
     类（class）
+
     函数
+
     泛型
+
     枚举（enum）
+
 
 
