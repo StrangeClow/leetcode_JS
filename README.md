@@ -20,7 +20,7 @@
  15 | [最长公共前缀]() | 中等 | [JavaScript]() |  ✘
  16 | [报数]() | 简单 | [JavaScript]() |  ✘
  17 | [最后一个单词的长度](https://leetcode.com/problems/length-of-last-word/) | 简单 | [JavaScript](https://github.com/StrangeClow/leetcode_JS/blob/master/leetcode/lengthOfLastWord.js) |  √
- 18 | [加一]() | 简单 | [JavaScript]() |  ✘
+ 18 | [加一](https://leetcode.com/problems/plus-one/) | 简单 | [JavaScript](https://github.com/StrangeClow/leetcode_JS/blob/master/leetcode/plusOne.js) |  √
  19 | [爬楼梯]() | 简单 | [JavaScript]() |  ✘
  20 | [相同的树]() | 中等 | [JavaScript]() |  ✘
  
