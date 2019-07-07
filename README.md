@@ -23,6 +23,11 @@
  18 | [加一](https://leetcode.com/problems/plus-one/) | 简单 | [JavaScript](https://github.com/StrangeClow/leetcode_JS/blob/master/leetcode/plusOne.js) |  √
  19 | [爬楼梯]() | 简单 | [JavaScript]() |  ✘
  20 | [相同的树]() | 中等 | [JavaScript]() |  ✘
+ 21 | [对称二叉树]() | 中等 | [JavaScript]() |  ✘
+ 22 | [二叉树的最大深度]() | 简单 | [JavaScript]() |  ✘
+ 23 | [将有序数组转换为二叉搜索树]() | 简单 | [JavaScript]() |  ✘
+ 24 | [杨辉三角]() | 简单 | [JavaScript]() |  ✘
+ 25 | [只出现一次的数字]() | 简单 | [JavaScript]() |  ✘
  
  
  
