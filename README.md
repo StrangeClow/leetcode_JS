@@ -39,7 +39,7 @@
  3 | [插入排序]() | M | [JavaScript](https://github.com/StrangeClow/leetcode_JS/blob/master/sort_in_JS/Insertion_Sort.js) | √
  4 | [选择排序]() | M | [JavaScript](https://github.com/StrangeClow/leetcode_JS/blob/master/sort_in_JS/Select_Sort.js) | √
  5 | [希尔排序]() | :heart: | [JavaScript](https://github.com/StrangeClow/leetcode_JS/blob/master/sort_in_JS/Shell_sort.js) | √
- 6 | [快速排序]() | M | [JavaScript]() | ✘
+ 6 | [快速排序]() | M | [JavaScript](https://github.com/StrangeClow/leetcode_JS/blob/master/sort_in_JS/quickSort.js) |  √
  7 | [桶排序]() | H | [JavaScript]() | ✘
  7 | [归并排序]() | H | [JavaScript]() | ✘
 
