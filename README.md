@@ -41,6 +41,7 @@
  5 | [希尔排序]() | :heart: | [JavaScript](https://github.com/StrangeClow/leetcode_JS/blob/master/sort_in_JS/Shell_sort.js) | √
  6 | [快速排序]() | M | [JavaScript]() | ✘
  7 | [桶排序]() | H | [JavaScript]() | ✘
+ 7 | [归并排序]() | H | [JavaScript]() | ✘
 
  
  
