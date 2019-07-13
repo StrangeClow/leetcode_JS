@@ -27,7 +27,7 @@
  22 | [二叉树的最大深度]() | 简单 | [JavaScript]() |  ✘
  23 | [将有序数组转换为二叉搜索树]() | 简单 | [JavaScript]() |  ✘
  24 | [杨辉三角]() | 简单 | [JavaScript](https://github.com/StrangeClow/leetcode_JS/blob/master/leetcode/pascals-triangle.js) |   √
- 25 | [只出现一次的数字]() | 简单 | [JavaScript]() |  ✘
+ 25 | [只出现一次的数字](https://leetcode.com/problems/single-number/) | 简单 | [JavaScript](https://github.com/StrangeClow/leetcode_JS/blob/master/leetcode/singleNumber.js) |  √
  
  
  
