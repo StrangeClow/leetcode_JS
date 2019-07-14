@@ -28,7 +28,7 @@
  23 | [将有序数组转换为二叉搜索树]() | 简单 | [JavaScript]() |  ✘
  24 | [杨辉三角]() | 简单 | [JavaScript](https://github.com/StrangeClow/leetcode_JS/blob/master/leetcode/pascals-triangle.js) |   √
  25 | [只出现一次的数字](https://leetcode.com/problems/single-number/) | 简单 | [JavaScript](https://github.com/StrangeClow/leetcode_JS/blob/master/leetcode/singleNumber.js) |  √
- 26 | [最大数]() | 简单 | [JavaScript]() |  √
+ 26 | [最大数](https://leetcode-cn.com/problems/largest-number/?utm_source=LCUS&utm_medium=ip_redirect&utm_campaign=transfer2china) | 中等 | [JavaScript](https://github.com/StrangeClow/leetcode_JS/blob/master/leetcode/largestNumber.js) |  √
  
  
  
