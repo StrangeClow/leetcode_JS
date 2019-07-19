@@ -18,7 +18,7 @@
  13 | [整数转罗马数字](https://leetcode.com/problems/integer-to-roman/) | 中等 | [JavaScript](https://github.com/StrangeClow/leetcode_JS/blob/master/leetcode/intTransRoman.js) |  √
  14 | [罗马数字转整数]() | 中等 | [JavaScript]() |  ✘
  15 | [最长公共前缀]() | 中等 | [JavaScript]() |  ✘
- 16 | [报数]() | 简单 | [JavaScript]() |  ✘
+ 16 | [报数]() | 简单 | [JavaScript](https://github.com/StrangeClow/leetcode_JS/blob/master/leetcode/count12321.js) | 
  17 | [最后一个单词的长度](https://leetcode.com/problems/length-of-last-word/) | 简单 | [JavaScript](https://github.com/StrangeClow/leetcode_JS/blob/master/leetcode/lengthOfLastWord.js) |  √
  18 | [加一](https://leetcode.com/problems/plus-one/) | 简单 | [JavaScript](https://github.com/StrangeClow/leetcode_JS/blob/master/leetcode/plusOne.js) |  √
  19 | [爬楼梯]() | 简单 | [JavaScript]() |  ✘
