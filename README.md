@@ -29,7 +29,7 @@
  24 | [杨辉三角]() | 简单 | [JavaScript](https://github.com/StrangeClow/leetcode_JS/blob/master/leetcode/pascals-triangle.js) |   √
  25 | [只出现一次的数字](https://leetcode.com/problems/single-number/) | 简单 | [JavaScript](https://github.com/StrangeClow/leetcode_JS/blob/master/leetcode/singleNumber.js) |  √
  26 | [最大数](https://leetcode-cn.com/problems/largest-number/?utm_source=LCUS&utm_medium=ip_redirect&utm_campaign=transfer2china) | 中等 | [JavaScript](https://github.com/StrangeClow/leetcode_JS/blob/master/leetcode/largestNumber.js) |  √
- 27 | [移动零]() | 简单 | [JavaScript]() |  ✘
+ 27 | [移动零](https://leetcode-cn.com/problems/move-zeroes/) | 简单 | [JavaScript](https://github.com/StrangeClow/leetcode_JS/blob/master/leetcode/movezeros.js) |  √
  28 | [两个数组的交集]() | 简单 | [JavaScript]() |  ✘
  29 | [两整数之和]() | 简单 | [JavaScript]() |  ✘
  30 | [最长回文串]() | 简单 | [JavaScript]() |  ✘
