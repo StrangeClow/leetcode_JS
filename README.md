@@ -32,7 +32,7 @@
  27 | [移动零](https://leetcode-cn.com/problems/move-zeroes/) | 简单 | [JavaScript](https://github.com/StrangeClow/leetcode_JS/blob/master/leetcode/movezeros.js) |  √
  28 | [两个数组的交集]() | 简单 | [JavaScript]() |  ✘
  29 | [两整数之和]() | 简单 | [JavaScript]() |  ✘
- 30 | [最长回文串]() | 简单 | [JavaScript]() |  ✘
+ 30 | [最长回文串]() | 中等 | [JavaScript]() |  ✘
  
  
  
