@@ -12,7 +12,7 @@
  7 | [反转整数](https://leetcode.com/problems/reverse-integer/) | 简单 | [JavaScript](https://github.com/StrangeClow/leetcode_JS/blob/master/leetcode/reverse-integer.js) | √
  8 | [到最近的人的距离](https://leetcode.com/problems/max-consecutive-ones/) | 简单 | [JavaScript](https://github.com/StrangeClow/leetcode_JS/blob/master/leetcode/maxConsecutiveOnes.js) |  √
  9 | [字符的最短距离]() | 简单 | [JavaScript](https://github.com/StrangeClow/leetcode_JS/blob/master/leetcode/shortestToChar.js) |  √
- 10 | [最大三角形面积]() | 简单 | [JavaScript]() |  ✘
+ 10 | [最大三角形面积]() | 简单 | [JavaScript](https://github.com/StrangeClow/leetcode_JS/blob/master/leetcode/implementStrStr.js) |  √
  11 | [实现strStr()](https://leetcode.com/problems/implement-strstr/) | 简单 | [JavaScript](https://github.com/StrangeClow/leetcode_JS/blob/master/leetcode/implementStrStr.js) |  √
  12 | [搜索插入的位置]() | 简单 | [JavaScript](https://github.com/StrangeClow/leetcode_JS/blob/master/leetcode/plusOne.js) | √
  13 | [整数转罗马数字](https://leetcode.com/problems/integer-to-roman/) | 中等 | [JavaScript](https://github.com/StrangeClow/leetcode_JS/blob/master/leetcode/intTransRoman.js) |  √
