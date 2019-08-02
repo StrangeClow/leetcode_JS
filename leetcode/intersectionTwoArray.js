@@ -15,3 +15,14 @@ var intersectionInTwoArrays = function(num1, num2) {
   }
   return resultArr
 }
+
+
+
+var intersectionInTwoArraysTwo = function(nums1,nums2) {
+    let result = []
+    for(let num1 of nums1) {  // 循环
+        if(nums2.includes(num1))   // 如果包含  includes 
+            if(!result.includes(num1)) result.push(num1)
+    }
+    return result
+}
