@@ -21,7 +21,7 @@
  16 | [报数]() | 中等 | [JavaScript](https://github.com/StrangeClow/leetcode_JS/blob/master/leetcode/count12321.js) | 
  17 | [最后一个单词的长度](https://leetcode.com/problems/length-of-last-word/) | 简单 | [JavaScript](https://github.com/StrangeClow/leetcode_JS/blob/master/leetcode/lengthOfLastWord.js) |  √
  18 | [加一](https://leetcode.com/problems/plus-one/) | 简单 | [JavaScript](https://github.com/StrangeClow/leetcode_JS/blob/master/leetcode/plusOne.js) |  √
- 19 | [爬楼梯]() | 简单 | [JavaScript]() |  ✘
+ 19 | [爬楼梯](https://leetcode.com/problems/climbing-stairs/) | 简单 | [JavaScript](https://github.com/StrangeClow/leetcode_JS/blob/master/leetcode/climbStairs.js) |   √
  20 | [相同的树]() | 中等 | [JavaScript]() |  ✘
  21 | [对称二叉树]() | 中等 | [JavaScript]() |  ✘
  22 | [二叉树的最大深度]() | 简单 | [JavaScript]() |  ✘
