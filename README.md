@@ -33,6 +33,7 @@
  28 | [两个数组的交集](https://leetcode.com/problems/intersection-of-two-arrays/) | 简单 | [JavaScript](https://github.com/StrangeClow/leetcode_JS/blob/master/leetcode/intersectionTwoArray.js) |   √
  29 | [两整数之和](https://leetcode.com/problems/sum-of-two-integers/) | 简单 | [JavaScript](https://github.com/StrangeClow/leetcode_JS/blob/master/leetcode/twoIntegersSum.js) |  √
  30 | [最长回文串]() | 中等 | [JavaScript]() |  ✘
+ 31 | [Sqrt(x) x 平方根](https://leetcode.com/problems/sqrtx/) | 简单 | [JavaScript](https://github.com/StrangeClow/leetcode_JS/blob/master/leetcode/sqrt(x).js) |  √
  
  
  
