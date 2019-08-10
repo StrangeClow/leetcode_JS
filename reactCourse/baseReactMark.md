@@ -27,3 +27,13 @@
 ### dva结构 组合
 
 
+
+
+
+## 规范相关
+
+    eslint(Airbnb)
+    EditorConfig(编辑器配置文件)
+    
+
+
