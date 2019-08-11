@@ -40,7 +40,23 @@
 
 ### <font color=red>vue.js 运行机制</font> 
 
-     new Vue  ===>  调用_init函数初始化 (在此阶段会初始化  生命周期，时间，props,methods,data,computed与watch ) 最重要的是通过Object.defineProperty设置setter与geeter 
+     new Vue  ===>  调用_init函数初始化 
+       (在此阶段会初始化  生命周期，时间，props,methods,data,computed与watch ) 
+       最重要的是通过Object.defineProperty设置setter与geeter 
+
+    初始化后调用$Mount挂载组件
+
+### 编译
+      parse(解析template模板  形成AST(抽象语法树))
+
+      optimize(标记statis静态节点 不更新当前标记部分 节约性能)
+
+      generate(将AST转化为render function字符串)
+
+
+### <font color=red>响应式 </font>       
+
+
 
     
 
