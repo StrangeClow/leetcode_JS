@@ -36,4 +36,13 @@
 
 
 
+
+###  vue.js 运行机制
+
+     new Vue  ===>  调用_init函数初始化 (在此阶段会初始化  生命周期，时间，props,methods,data,computed与watch ) 最重要的是通过Object.defineProperty 设置<font color=red>setter</font>与geeter 
+
+    
+
+
+
      
