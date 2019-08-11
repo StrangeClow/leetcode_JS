@@ -56,8 +56,20 @@
 
 ### <font color=red>响应式 </font>       
 
+     getter 被设置的对象被读取的时候执行getter函数
+     setter 被设置的对象被赋值的时候执行setter函数
+
+     当render function被渲染的时候，读取对象的值，触发getter函数进行依赖收集
+    将观察者Watcher对象存放到当前臂包中的订阅者Dep的subs中
+
+    当值被修改，触发setter setter通知依赖收集得到的Dep中的watcher  update更新视图 
 
 
+### <font color=red>Virtual DOM </font> 
+
+     Virtual DOM 实际为一棵VNode节点的树 用对象属性来描述节点 
+
+     patch diff算法  比较前后的差异性 
     
 
 
