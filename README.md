@@ -18,7 +18,7 @@
  13 | [整数转罗马数字](https://leetcode.com/problems/integer-to-roman/) | 中等 | [JavaScript](https://github.com/StrangeClow/leetcode_JS/blob/master/leetcode/intTransRoman.js) |  √
  14 | [罗马数字转整数]() | 中等 | [JavaScript]() |  ✘
  15 | [最长公共前缀](https://leetcode.com/problems/longest-common-prefix/) | 中等 | [JavaScript](https://github.com/StrangeClow/leetcode_JS/blob/master/leetcode/longestCoomenprefix.js) |   √
- 16 | [报数]() | 中等 | [JavaScript](https://github.com/StrangeClow/leetcode_JS/blob/master/leetcode/count12321.js) | 
+ 16 | [报数]() | 中等 | [JavaScript](https://github.com/StrangeClow/leetcode_JS/blob/master/leetcode/count12321.js) |  ✘
  17 | [最后一个单词的长度](https://leetcode.com/problems/length-of-last-word/) | 简单 | [JavaScript](https://github.com/StrangeClow/leetcode_JS/blob/master/leetcode/lengthOfLastWord.js) |  √
  18 | [加一](https://leetcode.com/problems/plus-one/) | 简单 | [JavaScript](https://github.com/StrangeClow/leetcode_JS/blob/master/leetcode/plusOne.js) |  √
  19 | [爬楼梯](https://leetcode.com/problems/climbing-stairs/) | 简单 | [JavaScript](https://github.com/StrangeClow/leetcode_JS/blob/master/leetcode/climbStairs.js) |   √
@@ -34,6 +34,7 @@
  29 | [两整数之和](https://leetcode.com/problems/sum-of-two-integers/) | 简单 | [JavaScript](https://github.com/StrangeClow/leetcode_JS/blob/master/leetcode/twoIntegersSum.js) |  √
  30 | [最长回文串]() | 中等 | [JavaScript]() |  ✘
  31 | [Sqrt(x) x 平方根](https://leetcode.com/problems/sqrtx/) | 简单 | [JavaScript](https://github.com/StrangeClow/leetcode_JS/blob/master/leetcode/sqrt(x).js) |  √
+ 31 | [平方数之和]() | 简单 | [JavaScript](https://github.com/StrangeClow/leetcode_JS/blob/master/leetcode/sumOfSquareNumbers.js) |  √
  
  
  
