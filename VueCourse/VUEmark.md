@@ -70,8 +70,31 @@
      Virtual DOM 实际为一棵VNode节点的树 用对象属性来描述节点 
 
      patch diff算法  比较前后的差异性 
+
+
+### <font color=red>响应式系统的基本原理 </font> 
+     /*
+     * obj 目标对象
+     * porp 需要操作的目标对象的属性名
+     * descriptor 描述符
+     */
+     Object.defineProperty(obj,prop,descriptor)
+
+     observer（）
+
+
+
     
+### <font color=red>依赖收集原理</font>
+
+    Dep订阅者 存放watcher观察者对象  进行依赖收集
+
+    Watcher观察者  更新视图
 
 
+
+### <font color=red>VNode节点</font>
+
+    本质为一个javascript对象
 
      
