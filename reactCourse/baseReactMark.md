@@ -66,3 +66,53 @@
 
 ## React Patch方法
 * patch(将tree diff计算后的DOM差异队列更新到真实的DOM节点) 遍历差异队列
+
+## redux应用（可预测的状态容器）
+    redux三大原则
+      ** 单一数据源
+      ** 状态是只读的
+      ** 状态修改均由纯函数完成
+
+    核心API 
+       ** createStore(reducers[,initialState])   
+    
+    createStore创建store对象
+       ** getStore(获取当前store状态)
+       ** dispatch(分发action)
+       ** subscribe(监听变化)
+       ** replaceReducer(更新当前仓库的reducer)
+
+    react-redux(与react绑定)
+
+    redux异步流
+
+      ** redux-thunk
+      ** redux-promise
+      ** redux-composable-fetch
+
+      ** redux-saga
+
+
+
+    复杂异步流
+
+        1. 短连接
+        2. 轮询
+        3. 多异步串联请求
+
+
+## react-router
+
+    声明式路由
+
+
+
+## redux与组件
+
+    容器型组件
+
+
+    展示型组件
+
+
+
