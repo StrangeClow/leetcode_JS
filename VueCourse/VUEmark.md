@@ -97,4 +97,24 @@
 
     本质为一个javascript对象
 
-     
+
+### <font color=red>complie</font>
+
+     complie可分为三个阶段
+
+          1. parse  利用正则等奖template解析 得到class style  形成抽象语法树
+          2. optimize  标记静态节点
+          3. generate   将AST转化为render function
+
+          next得到 
+           
+           render function
+
+
+
+### <font color=red>差异diff patch机制</font>
+
+      diff算法通过同层的树节点进行比较而非对树进行逐层遍历 时间复杂度低
+
+      比较差异 部分更新视图层
+
