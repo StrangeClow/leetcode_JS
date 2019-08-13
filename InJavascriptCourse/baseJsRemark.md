@@ -71,5 +71,37 @@
         2. toLocaleString()
         3. valueof()
         4. toJSON()
-        
-              
+
+
+
+ ### Array  数组
+
+      创建数组 
+         1. []
+         2. new Array()
+
+      数组的读写
+
+      稀疏数组  （包含从0开始的不连续索引）     
+
+      数组元素的添加和删除   push pop   shift  unshift   splice  
+
+      数字遍历   for i    for in    forEach   
+        1. 跳过继承的属性  if(!a.hasOwnProperty(i))  continue 
+
+      数组方法  ......
+
+      数组类型 
+        1. isArray()        Array.isArray([])  true    Array.isArray({})  false 
+
+        // isArray 
+        var isArray = Function.isArray || function(o) {
+          return typeof 0 === 'object' && Object.prototype.toString(0) === '[object Array]'
+        }           
+
+
+      类数组对象
+
+         Arguments对象
+         
+           
