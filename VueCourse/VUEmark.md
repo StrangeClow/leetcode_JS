@@ -118,3 +118,25 @@
 
       比较差异 部分更新视图层
 
+
+### <font color=red>异步更新机制</font>
+
+    setter---Dep---Watcher--Patch---Update
+
+    存入队列中   nextTick原理
+
+
+### <font color=red>vuex基本原理</font>
+
+   数据的响应式化
+
+   commit  触发mutation
+
+   dispatch  触发action（异步）
+
+   
+   
+
+    
+
+
