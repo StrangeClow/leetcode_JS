@@ -115,4 +115,42 @@
     展示型组件
 
 
+##  redux运用
+
+    高阶reducer (根据perviousState和action计算出新的state)
+
+    借用外部工具库
+
+    redux性能优化
+
+
+
+##  解读redux 
+
+    cretaeStore   (reducer, initialState, enhancer)
+
+    初始状态以及getState
+
+    subscribe
+
+    dispatch 
+
+    replaceReducer
+
+
+##  react-redux
+
+       provider  (接受store作为props)
+
+       connect  (mapStateToProps  mapDispatchToProps  mergeProps  options )   (难点 参数可变性)
+
+       
+
+
+
+
+
+    
+
+
 

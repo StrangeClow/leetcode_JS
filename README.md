@@ -7,7 +7,7 @@
  2 | [有效的括号](https://leetcode.com/problems/valid-parentheses/) | 简单 | [javascript](https://github.com/StrangeClow/leetcode_JS/blob/master/leetcode/isValidBrackets.js) |  √
  3 | [合并两个有序链表](https://leetcode.com/problems/merge-two-sorted-lists/) | 简单 | [JavaScript](https://github.com/StrangeClow/leetcode_JS/blob/master/leetcode/mergeTwoList.js) | √
  4 | [回文数](https://leetcode.com/problems/palindrome-number/) | 简单 | [JavaScript](https://github.com/StrangeClow/leetcode_JS/blob/master/leetcode/palindrome-number.js) | √
- 5 | [删除排序数组中的排序](https://leetcode.com/problems/remove-duplicates-from-sorted-list/) | 简单 | [JavaScript](https://github.com/StrangeClow/leetcode_JS/blob/master/leetcode/removeDuplicates.js) | √
+ 5 | [删除排序数组中的重复项](https://leetcode.com/problems/remove-duplicates-from-sorted-list/) | 简单 | [JavaScript](https://github.com/StrangeClow/leetcode_JS/blob/master/leetcode/removeDuplicates.js) | √
  6 | [原地移除元素](https://leetcode.com/problems/remove-element/) | 简单 | [JavaScript](https://github.com/StrangeClow/leetcode_JS/blob/master/leetcode/removeElement.js) | √
  7 | [反转整数](https://leetcode.com/problems/reverse-integer/) | 简单 | [JavaScript](https://github.com/StrangeClow/leetcode_JS/blob/master/leetcode/reverse-integer.js) | √
  8 | [到最近的人的距离](https://leetcode.com/problems/max-consecutive-ones/) | 简单 | [JavaScript](https://github.com/StrangeClow/leetcode_JS/blob/master/leetcode/maxConsecutiveOnes.js) |  √
