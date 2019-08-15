@@ -135,6 +135,30 @@
    dispatch  触发action（异步）
 
    
+###  vue组件化
+
+
+     prop (可配置属性)
+
+       1.  props为对象最佳 
+
+     event (自定义事件)
+       
+       1. $emit触发
+
+     slot (分组组件的内容)
+
+       1.  具名slot
+
+     
+     组件通信 (provide/inject) 类似react的上下文 context   暴露全局 app.vue包裹provide
+
+     
+
+
+
+
+
    
 
     
