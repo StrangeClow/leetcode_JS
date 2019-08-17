@@ -153,6 +153,49 @@
      
      组件通信 (provide/inject) 类似react的上下文 context   暴露全局 app.vue包裹provide
 
+     findComponents （自行实现组件通信）
+
+       向上找最近的组件
+
+         eg:   
+               function findCompoentUpward (context, componentName) {
+                 let parent = context .$parent
+                 let  name = parent.$options.name
+                  while(parent && (!name || [componentName].indexOf(name) < 0)) {     // 是否存在
+                     parent = parent.$parent;
+                     if(parent) {
+                         name = parent.$options.name;
+                     }
+                  }
+                  return parent
+               }
+
+
+### <font color=red>vue构造器</font> 
+
+       extend
+
+       $mount 手动挂载
+
+
+       vue全局组件
+
+       递归组件 
+
+       动态组件
+
+       $nextTick
+
+       $set  
+          A. 数组变动
+          B. 对象属性的添加或删除
+
+          
+
+          
+
+
+
      
 
 
