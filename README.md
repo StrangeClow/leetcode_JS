@@ -43,7 +43,7 @@
 
 ***
 
-### sortInJavascript begin  :blush:
+### sort In Javascript begin  :blush:
  序号 | 题名 | DS | 练习 |状态  
 ---|---|---|---|---
  1 | [冒泡排序]() | :blush: | [JavaScript](https://github.com/StrangeClow/leetcode_JS/blob/master/sort_in_JS/Bubble_Sort.js) | √
@@ -58,7 +58,7 @@
  
  
 
-> sortInJavascript end
+> sort In Javascript end
 
 
 ***
@@ -73,6 +73,10 @@
 
      redux
 
+     diff
+
+     patch更新
+
       
 
   
@@ -83,6 +87,7 @@
 ## flutter :zap:==:zap:==:zap:
 
     dart
+
     sdk
 
 ***
