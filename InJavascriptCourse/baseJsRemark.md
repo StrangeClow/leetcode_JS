@@ -167,14 +167,126 @@
 
 
 
-      立即执行函数 IIFE（      (fucntion(){})(3)      ）
+      立即执行函数 IIFE（      (fucntion(){})(3)      ）  
+          变种方式    1. +function(){}()
+          变种方式    2. -function(){}()
+          变种方式    3. !function(){}()
+          变种方式    4. ~function(){}()
 
 
       函数调用
            函数调用的隐含参数 arguments和this  
-             arguments 传递给函数的所有参数的集合（实现类似函数重载的特性）
+             arguments 传递给函数的所有参数的集合（实现类似函数重载的特性） 对比es6的剩余参数rest rest参数是真正的Array实例
            调用函数的不同方式
            处理函数上下文的问题 
+
+
+      箭头函数   =>
+
+
+      course====context
+        生成器和promise
+        async await
+
+
+
+### 对象与原型
+
+       原型
+
+       函数作为构造器
+
+       原型扩展对象
+
+       继承创建类
+
+###  控制对象的访问
+
+       getter setter
+
+       代理 proxy  (es6)
+
+
+###   正则
+
+          正则表达式(格式)
+          匹配规则
+
+
+### 模块化
+   
+        AMD(基于浏览器)
+
+           define函数  
+              优势： 1.  自动处理依赖
+                    2.  异步加载
+                    3.   同一文件可以定义多个模块
+
+        CommonJS(面向通用javascript环境 nodejs)
+
+           1. MouseCounterModule
+
+        es6模块
+             export
+
+             import    
+
+
+###    浏览器
+
+          DOM操作
+               Attribute
+               Property
+               防抖
+                   浏览器重排 重绘
+
+          事件（event）   js单线程模型
+            1.  事件循环
+                A. 一次处理一个任务
+                B. 事件队列  
+                      a.   宏任务
+                      b.   微任务
+            2.  计时器处理复杂任务
+                A.  浏览器挂起
+            3.  事件冒泡和委派
+                A.   委派到上一层节点
+            4.  自定义事件 （参见其他）
+                 A.  松耦合  
+
+
+
+### 跨浏览器
+
+        渐进增强  优雅降级
+
+        回归 
+
+        特性检测和polyfill
+
+        
+                        
+
+
+
+
+
+
+         
+
+
+
+
+
+    
+
+
+
+
+
+             
+
+
+
 
        
 
