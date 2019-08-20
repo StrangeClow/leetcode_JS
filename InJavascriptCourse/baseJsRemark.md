@@ -322,6 +322,18 @@
 
 
 
+###   JS
+
+         数据类型
+            原始类型(boolean null undefined number string symbol)
+            引用类型(object arr 正则 时间)
+
+            类型转换
+
+
+
+
+
 
         
                         
