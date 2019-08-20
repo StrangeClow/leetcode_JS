@@ -327,8 +327,54 @@
          数据类型
             原始类型(boolean null undefined number string symbol)
             引用类型(object arr 正则 时间)
-
+              typeof  instanceof
             类型转换
+              1. 转Boolean
+              2. 转换为数字
+              3. 转换为字符串
+
+          this  理解this的指向问题
+               1. window
+               2. 调用对象
+               3. new 当前对象
+               4. bind  this为第一个参数
+
+          ==（值 参与类型转换） 与 ===（类型和值）
+
+          闭包相关问题
+
+          浅拷贝
+             1. Object.assign()
+             2. ... 
+          深拷贝
+             1. JSON.parse(JSON.stringfy(object))
+
+          原型以及原型链
+             1. prototype 显式原型对象
+             2. _proto_ 隐式原型对象
+
+          
+          let const var 
+             声明提升 函数提升 赋值不提升
+
+          原型继承和class继承
+
+          异步相关问题 
+             1. ajax回调
+             2. promise 
+             3. async await
+             4. generator
+          
+          定时器相关问题
+             1. setTimeout clearTimeout   
+             2. setInterval clearInterval  
+
+
+          event loop 
+             1. 执行栈  （存储函数调用的栈结构  遵循先进后出的原则）
+             2. 
+
+
 
 
 
