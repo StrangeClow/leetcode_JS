@@ -372,7 +372,62 @@
 
           event loop 
              1. 执行栈  （存储函数调用的栈结构  遵循先进后出的原则）
-             2. 
+
+
+          new
+            调用new的过程
+              1. 新生成了一个对象
+              2. 链接到原型
+              3. 绑定this
+              4. 返回新对象
+
+         instanceof原理  （通过判断对象的原型链中是不是能找到类型的prototype）
+
+
+         垃圾回收机制 （进阶）
+
+
+         浏览器缓存机制相关
+             缓存位置
+                1. Service Worker
+                2. Memory Cache
+                3. Disk Cache
+
+             缓存策略
+                1. 强缓存  
+                     Expires
+                     Cache-Control
+                2. 协商缓存
+
+         浏览器渲染
+               问题1   同时插入几万个DOM节点 实现页面不卡顿
+                     eg: requestAnimationFrame
+                     eg： 虚拟滚动
+
+            重绘与回流
+               重绘（当前节点改变外观 不影响DOM结构）
+               回流（几何结构属性发生变化）
+
+        
+        安全防范相关
+            
+            XSS 跨站点脚本攻击
+
+            CSRF 跨站点请求伪造
+
+
+               
+
+
+
+
+
+
+
+   
+
+
+
 
 
 
