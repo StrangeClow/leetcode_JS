@@ -1,3 +1,11 @@
+/** *
+ * 
+ *    pollify      
+ * 
+ *    下次再继续研究这个   学个思路再   哈哈 
+ * 
+ */
+
 Function.prototype.myBind = function(thisArgs) {
     if(typeof this !== 'function') {
         return
