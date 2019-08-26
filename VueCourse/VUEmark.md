@@ -190,6 +190,19 @@
           A. 数组变动
           B. 对象属性的添加或删除
 
+
+###  flow  静态类型检查工具
+
+
+### vue core  course
+   
+        vue的初始化过程  
+           Function实现的class 原型prototype以及本身扩展实现了一系列方法
+
+
+         
+
+
           
 
           
