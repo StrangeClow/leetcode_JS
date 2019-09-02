@@ -184,7 +184,7 @@
 
        动态组件
 
-       $nextTick
+       $nextTick(有关事件任务调度相关)
 
        $set  
           A. 数组变动

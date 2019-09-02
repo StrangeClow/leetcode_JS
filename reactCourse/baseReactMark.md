@@ -144,6 +144,17 @@
 
        connect  (mapStateToProps  mapDispatchToProps  mergeProps  options )   (难点 参数可变性)
 
+
+### react-hooks （对比之前状态相关信息）
+
+     useState
+     useEffect
+
+
+
+### dva umi(阿里中台应用解决方案)
+
+
        
 
 
