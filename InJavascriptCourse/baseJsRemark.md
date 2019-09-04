@@ -536,6 +536,26 @@
      B. 防抖：事件被触发N秒后在执行回调，如果在N秒内又被触发，则重新计算事件
 
 
+###  BOM(Browser Object Model)
+   
+      window对象
+
+      location对象
+
+      navigator对象
+
+      screen对象
+
+      history对象
+
+
+###  DOM (Document Object Model)
+
+       节点类型 
+
+       DOM操作
+
+
 
 
 
