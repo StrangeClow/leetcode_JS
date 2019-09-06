@@ -553,7 +553,18 @@
 
        节点类型 
 
-       DOM操作
+       DOM操作 
+
+
+###  canvas 
+
+
+###  Service Worker
+
+
+
+
+
 
 
 

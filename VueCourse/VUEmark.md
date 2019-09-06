@@ -200,6 +200,14 @@
            Function实现的class 原型prototype以及本身扩展实现了一系列方法
 
 
+
+### vue3.0  
+
+     proxy代理
+
+     
+
+
          
 
 
