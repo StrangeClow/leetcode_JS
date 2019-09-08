@@ -60,8 +60,19 @@
  
  
 
+
 > sort In Javascript end
 
+
+ ###  algorithmThought :blush:==:blush:
+     
+     1. 分治算法
+     2. 动态规划算法
+     3. 贪心算法 (当前看来最优解)
+     4. 回溯算法 
+     5. 分支界限算法
+
+> 算法思想 end
 
 ***
 
