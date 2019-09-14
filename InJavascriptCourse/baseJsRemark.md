@@ -562,11 +562,32 @@
 ###  Service Worker
 
 
-###  CSS
+###  CSS预编译相关
     
      less
 
      scss
+
+
+###  css相关
+
+   BFC（block formating context）  
+      1.发生原因  如何解决
+
+
+   window.getComputedStyle(element, [psudoELT])     // element 要获取计算元素的样式 pseudoELT 指定一个要匹配的伪元素的字符串
+
+
+   css动画 
+
+   media query
+
+   
+
+
+
+
+     
 
 
 
