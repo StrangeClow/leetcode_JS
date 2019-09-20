@@ -608,6 +608,12 @@
 
 
 ###  Set Map   WeakSet WeakMap 
+
+
+
+###   高阶函数
+
+        curring 
      
      
 
