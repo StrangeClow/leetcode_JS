@@ -645,6 +645,12 @@
              2. 标记清除
          
          weakSet和weakMap不计入垃圾回收机制
+
+
+###  判断是否是数组
+         1. Object.prototype.toString.call()   常用语判断浏览器内置对象
+         2. instaanceof    通过判断对象的原型链上是否能找到类型的prototype
+         3. Array.isArray()  es5新增的方法 判断对象是否为数组 
      
      
 
