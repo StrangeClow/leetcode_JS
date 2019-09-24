@@ -651,6 +651,12 @@
          1. Object.prototype.toString.call()   常用语判断浏览器内置对象
          2. instaanceof    通过判断对象的原型链上是否能找到类型的prototype
          3. Array.isArray()  es5新增的方法 判断对象是否为数组 
+
+
+###   前端加密场景与实现
+         
+
+###   setTimeout  Promise Async/Await
      
      
 
