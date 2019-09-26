@@ -206,6 +206,61 @@
      proxy代理
 
      
+###  MVVM
+
+
+###   组件传值  
+      
+       父-子  props
+       子-父  $emit
+       兄弟组件  bus  -vuex
+       跨级组件  provide/inject
+
+
+###   vue-router
+        
+        导航守卫
+           全局守卫
+              beforeEach（全局前置守卫）
+                  to 代表要进入的目标
+                  from 当前正要离开的路由
+                  next 需要调用的方法
+            
+            全局解析守卫
+                  router.beforeResolve
+
+            全局后置钩子
+                  router.afterEach (不会接受next函数 也不会改变导航本身)      
+
+
+            路由独享守卫
+                 beforeEnter 
+
+            组件内的守卫
+                 beforeRouteEnter  （不能访问this  渲染发我组建的对应路由被confirm调用）
+                 beforeRouteUpdate  （在当前路由改变，但是该组件被复用时调用）
+                 beforeRouteLeave （离开守卫 禁止用户未保存相关信息就突然离开 ）
+
+
+            导航解析流程
+               1. 导航被触发
+               2. 调用beforeRouteLeave
+               3. 调用全局beforeEach
+               4. 重用的组件里调用beforeRouteUpdate
+               5. 路由配置里调用beforeEnter
+               6. 解析异步路由组件
+               7. 被激活的组件里调用beforeRouteEnter
+               8. 调用全局beforeResolve
+               9. 导航被确认
+               10. 全局afterEach钩子函数
+               11. DOM更新
+               12. 实例调用beforeRouteEnter守卫中传给next的函数       
+
+
+      
+
+
+        
 
 
          
