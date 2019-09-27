@@ -657,6 +657,15 @@
          
 
 ###   setTimeout  Promise Async/Await
+
+
+###  call apply bind
+        
+       apply方法接受两个参数 一个是作用域 一个是参数(可以是数组，也可以是arguments对象)
+      call 必须明确传入每一个参数  
+
+      bind的时候传的参数会预先传给返回的参数,调用方法时可以不用传参数，bind方法会创建一个新的函数，当被调用的时候，将其this关键字设置为提供的值，必须手动调用。
+
      
      
 
