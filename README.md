@@ -58,6 +58,7 @@
  6 | [快速排序]() | M | [JavaScript](https://github.com/StrangeClow/leetcode_JS/blob/master/sort_in_JS/quickSort.js) |  √
  7 | [桶排序]() | H | [JavaScript]() | ✘
  8 | [归并排序]() | H | [JavaScript](https://github.com/StrangeClow/leetcode_JS/blob/master/sort_in_JS/mergeSort.js) |  √
+ 9 | [随机洗牌算法]() | H | [JavaScript](https://github.com/StrangeClow/leetcode_JS/blob/master/sort_in_JS/shuffle.js) |  √
 
  
  
