@@ -38,6 +38,7 @@
  33 | [第三大的数](https://leetcode.com/problems/third-maximum-number/) | 简单 | [JavaScript](https://github.com/StrangeClow/leetcode_JS/blob/master/leetcode/thirdMax.js) |  √
  34 | [转小写](https://leetcode.com/problems/to-lower-case/) | 简单 | [JavaScript](https://github.com/StrangeClow/leetcode_JS/blob/master/leetcode/toLowerCase.js) |  √
  35 | [反转字符串](https://leetcode.com/problems/reverse-string/) | 简单 | [JavaScript](https://github.com/StrangeClow/leetcode_JS/blob/master/leetcode/reverseString.js) |  √
+ 36 | [身高检测器](https://leetcode.com/problems/height-checker/) | 简单 | [JavaScript](https://github.com/StrangeClow/leetcode_JS/blob/master/leetcode/heightChecker.js) |   ✘
  
  
  
