@@ -154,6 +154,9 @@
 
 ### dva umi(阿里中台应用解决方案)
 
+        umi 类路由对象
+        dva 封装redux与redux-saga的数据流方案
+
 
        
 
