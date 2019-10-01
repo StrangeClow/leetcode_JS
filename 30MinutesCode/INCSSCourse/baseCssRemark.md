@@ -26,5 +26,11 @@
             3. flex
             4. margin: 0 auto; text-aling:center;
             5. table-cell
+
+
+###  js跨端开发
+        1. 桌面程序  electron 
+            用html css js构建跨平台桌面应用程序的开源库，electron通过将chromium和node.js合并到同一个运行时环境，并打包。
+            electron分为两种进程，主进程和渲染进程。    
    
          
