@@ -676,6 +676,28 @@
            减少文件搜索范围
            babel缓存编译
            webpack4默认压缩并行
+
+
+###   网络请求
+         关注点    
+               入参
+               协议
+               跨域
+               异常处理
+
+         ajax
+             new XMLHttpRequest()
+                  函数 （open send abort(终止) setRequestHeader getRequestHeader ）
+                  事件 （onreadystatechange onload）
+                  属性 （readyState status  responseType response withCredentials）
+                  异常  （onerror ontimeout ）   
+
+         fetch （ajax替代者）
+               方法 （method headers body mode cache redirect）
+               辅助 （Request Response Headers）
+
+                          
+                 
            
 
 
