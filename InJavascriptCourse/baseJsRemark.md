@@ -696,6 +696,19 @@
                方法 （method headers body mode cache redirect）
                辅助 （Request Response Headers）
 
+
+###   js中不改变原数组的方法
+            concat 
+            join
+            toString
+            slice
+
+      es中不改变原数组的方法
+            some
+            filter
+            reduce
+            map 
+            every      
                           
                  
            
