@@ -147,3 +147,23 @@ function insertionSort_five(arr) {
 
 
 // 未完待续
+
+//  使用一个中间函数来解决问题  主要是一种思路  怎么解  终止条件 循环条件 
+function insertfunc(A,i,x) {
+    // A ==>arr
+    // i ==> arr.length - 1
+    // x ==> 循环的索引
+  let p = i -1
+  while(p >= 0 && A[p] > x) {
+      A[p+1] = A[p]
+      p --
+  }
+  A[p+1] = x
+}
+
+function insertion_sort(arr) {
+  for (let index = 0; index < arr.length; index++) {
+      insertfunc(arr,index,arr[i])
+      
+  }
+}
