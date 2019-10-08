@@ -42,3 +42,29 @@ const flattenOne = (arr, depth =1) => {
 
 
 // console.log('aa=====>',aa([1,2,3,4,5,6]));
+
+console.log(1+2+'3');   // 33
+console.log('3'+2+1);   // 321
+console.log(!0&&6);    // 6   // 记住短路相关的运算问题
+
+
+var a = 10;
+(function a() {
+    console.log(a);
+    var a = b = 100;     // 注意赋值的顺序  从右往左
+    console.log(a);
+})();
+console.log(a+b);
+
+function F1() {
+    this.name = 'f1'
+}
+
+function F2() {
+    this.name = 'f2'
+    return {}
+}
+console.log(new F1().name);
+console.log(F1().name);
+console.log(new F2().name);
+console.log(F2().name);
