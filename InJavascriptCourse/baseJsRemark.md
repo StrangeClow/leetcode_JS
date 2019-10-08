@@ -708,7 +708,11 @@
             filter
             reduce
             map 
-            every      
+            every    
+
+
+###  jsonp的原理
+        json with padding的简称，它是一个非官方协议，他允许在服务器端继承Script tags返回客户端，通过javascript callback的形式实现跨域。  创建一个回调函数，然后在远程服务商调用这个函数并且将json数据作为参数进行传递，完成回调。              
                           
                  
            
