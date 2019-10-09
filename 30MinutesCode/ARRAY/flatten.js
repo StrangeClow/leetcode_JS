@@ -56,6 +56,7 @@ var a = 10;
 })();
 console.log(a+b);
 
+
 function F1() {
     this.name = 'f1'
 }
