@@ -167,6 +167,11 @@
       5. connect的作用是连接react组件与Redux store，它包含我们的容器组件的外一层，他接收上面的Provider提供的store里面的state和dispatch，传给一个构造函数，返回一个对象，以属性形式传给我们的容器组件。
 
 
+
+###   diff算法 
+          深度优先遍历
+
+
        
 
 
