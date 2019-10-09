@@ -158,6 +158,15 @@
         dva 封装redux与redux-saga的数据流方案
 
 
+### redux原理
+
+      1. action 把数据从应用传到store的载荷，它是store的唯一来源。通过store.dispatch()将action传入到store
+      2. reducers指定了应用状态的变化如何响应到actions并发送到store
+      3. store就是把action和reducer联系到一起的对象，store本质上是一个状态数，保存了所有对象的状态。
+      4. provider其实就是一个外部容器，他的作用是配合connect来达到跨层级数据传递。
+      5. connect的作用是连接react组件与Redux store，它包含我们的容器组件的外一层，他接收上面的Provider提供的store里面的state和dispatch，传给一个构造函数，返回一个对象，以属性形式传给我们的容器组件。
+
+
        
 
 
