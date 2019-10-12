@@ -44,7 +44,7 @@ const flattenOne = (arr, depth =1) => {
 // console.log('aa=====>',aa([1,2,3,4,5,6]));
 
 console.log(1+2+'3');   // 33
-console.log('3'+2+1);   // 321
+console.log('3'+2+1+1);   // 321
 console.log(!0&&6);    // 6   // 记住短路相关的运算问题
 
 
