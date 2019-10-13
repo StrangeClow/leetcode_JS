@@ -770,6 +770,15 @@
 
 
 
+###   promise解析
+         解决嵌套回调的问题
+         promise是异步编程的解决方案
+         promise.race 类方法 多个promise任务同时执行的时候，返回最新执行结束的Promise任务的结果，不管这个promise结果是成功还是失败
+         promise.all 类方法 同时执行多个Promise 如果全部成功执行 则以数组的方式返回所有任务的执行结果 如有一个Promise任务reject 则只能返回rejected任务的结果
+         
+
+
+
 
 
 
