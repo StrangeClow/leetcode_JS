@@ -775,6 +775,22 @@
          promise是异步编程的解决方案
          promise.race 类方法 多个promise任务同时执行的时候，返回最新执行结束的Promise任务的结果，不管这个promise结果是成功还是失败
          promise.all 类方法 同时执行多个Promise 如果全部成功执行 则以数组的方式返回所有任务的执行结果 如有一个Promise任务reject 则只能返回rejected任务的结果
+
+
+
+
+
+
+###    this指向问题 (根据他的绑定方式来决定 之前记得 好久没看又忘了)
+           
+           1. 作为对象的方法调用     this指向该对象
+           2. 作为普通函数调用       this指向全局对象即window
+           3. 构造器调用            this指向返回的这个对象
+           4. Function.prptotype.call以及Function.prototype.apply调用   this指向分几种情况 1.不传 执行window对象 2.传递另一个函数名 指向这个函数的引用 3. 字符串 数值 指向引用的包装类型
+
+
+###     提升  
+            函数先提升 然后才是变量提升
          
 
 
