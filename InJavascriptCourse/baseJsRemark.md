@@ -786,11 +786,21 @@
            1. 作为对象的方法调用     this指向该对象
            2. 作为普通函数调用       this指向全局对象即window
            3. 构造器调用            this指向返回的这个对象
-           4. Function.prptotype.call以及Function.prototype.apply调用   this指向分几种情况 1.不传 执行window对象 2.传递另一个函数名 指向这个函数的引用 3. 字符串 数值 指向引用的包装类型
+           4. Function.prototype.call以及Function.prototype.apply调用   this指向分几种情况 1.不传 执行window对象 2.传递另一个函数名 指向这个函数的引用 3. 字符串 数值 指向引用的包装类型
 
 
 ###     提升  
             函数先提升 然后才是变量提升
+
+
+
+            vuex 
+              stste    存储数据 存储状态
+               getter  类似于store的计算属性
+               mutation  更改vuex中store的状态 唯一提交方式是mutation
+               action  异步操作
+               module 模块化
+
          
 
 
