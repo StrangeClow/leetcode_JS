@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>验证position</title>
+</head>
+<style>
+   .A {
+       background: red;
+       width: 200px;
+       height: 200px;
+       position: absolute;
+   }
+   .B {
+       position: absolute;
+       width: 100px;
+       height: 100px;
+       background: rosybrown;
+       margin-left: 30px;
+   }
+   .C {
+       position: absolute;
+       width: 50px;
+       height: 50px;
+       background: salmon;
+       margin-left: 30px;
+   }
+   .D {
+       width: 300px;
+       height: 300px;
+       background: seagreen;
+       position: relative;
+   }
+</style>
+<body>
+    <div class="D"></div>
+     <div class="A">
+         <div class="B">
+             <div class="C">
+
+             </div>
+         </div>
+     </div>
+</body>
+</html>
