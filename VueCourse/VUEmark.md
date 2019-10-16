@@ -254,7 +254,16 @@
                9. 导航被确认
                10. 全局afterEach钩子函数
                11. DOM更新
-               12. 实例调用beforeRouteEnter守卫中传给next的函数       
+               12. 实例调用beforeRouteEnter守卫中传给next的函数     
+
+
+
+
+
+###     vuex的原理解析
+
+
+
 
 
       
