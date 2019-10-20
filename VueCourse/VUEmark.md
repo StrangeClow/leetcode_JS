@@ -205,6 +205,11 @@
 
      proxy代理
 
+     vue3.0的响应式用法
+         reactive包装数据
+             reactive()为目标对象创建一个proxy对象
+         effect定义数据变化后的回调
+
      
 ###  MVVM
 

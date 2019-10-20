@@ -810,6 +810,35 @@
         2.  边界问题
         3.  兼容性问题
         4.  扩展性
+
+
+
+
+###    prototype与_proto_
+
+        _proto_是每个对象都有的属性 prototype是函数才会有的属性
+        _proto_指向的是当前对象的原型对象，prototype指向的是以当前函数作为构造函数构造出来的对象的原型对象
+
+
+
+###   webpack相关
+
+        A. 核心概念
+            input
+            output
+            Chunk
+            loader
+            plugin
+            Module
+
+        B. 构建过程
+            递归解析Entry依赖的所有Module
+
+
+
+###    class
+         static静态方法不会被实例继承 二十直接通过类来调用             
+
          
 
 
