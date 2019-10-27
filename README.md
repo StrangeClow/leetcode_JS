@@ -98,6 +98,7 @@
      ant design
 
      dva
+         dva是一个基于redux和redux-sage的数据流解决方案，dva还额外内置了react-router和fetch
 
      umi
 
@@ -136,7 +137,7 @@
 
     函数
 
-    泛型
+    泛型  <>
 
     枚举（enum）
 

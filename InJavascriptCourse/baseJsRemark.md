@@ -851,12 +851,13 @@
 
 
             iframe标签风险
-               解决办法: H5中iframe提供了snadbox属性 可以对iframe标签的行为加以限制
+               解决办法: H5中iframe提供了sandbox属性 可以对iframe标签的行为加以限制
 
 
             csrf:  跨域请求伪造，利用cookie，冒用用户身份，执行违背用户一员的操作或请求
                  解决方案： 验证码
                           携带Token验证
+                          logId
 
 
 
