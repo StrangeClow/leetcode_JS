@@ -15,12 +15,12 @@ Function.prototype.myBind = function(thisArgs) {
     var fnNullFun = function() {}   // 定义一个空函数
     var fnBound = function() {
         var _this = thas instanceof that ? this : thisArgs
-        return that.apply(_this, args.concat(Array.prototype.slice.call(arguments)))
+        return that.apply(_this, args.concat(Array.prototype.slice.call(arguments)))  // apply与其他改变this指向的区别
     }
     // 
-    if(this.prototype) {
+    if(this.prototype) {  
      fnNullFun.prototype = this.prototype
     }
-    fnBound.prototype = new fnNullFun()
+    fnBound.prototype = new fnNullFun()      // 一个对象的原型等于构造函数
     return fnBound
 }

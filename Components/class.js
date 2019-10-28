@@ -1,8 +1,10 @@
 class point  {
+    //  构造函数
     constructor(x,y) {
           this.x = x;
           this.y =y;
     }
+    // 静态方法  
     static distance (a,b) {
        const dx = a.x - b.y;
        const dy = a.y - b.y;
