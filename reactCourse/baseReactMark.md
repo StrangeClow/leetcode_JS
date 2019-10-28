@@ -145,10 +145,15 @@
        connect  (mapStateToProps  mapDispatchToProps  mergeProps  options )   (难点 参数可变性)
 
 
-### react-hooks （对比之前状态相关信息）
+### react-hooks （对比之前状态相关信息） v16.8+
 
-     useState
-     useEffect
+     useState()
+        为函数组件引入状态
+     useEffect()
+     useReducer()
+        action钩子 引入reducer函数
+     useContext()
+         共享状态
 
 
 
