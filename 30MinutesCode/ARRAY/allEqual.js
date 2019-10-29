@@ -4,6 +4,8 @@
  * 
  * Array.prototype.every()
  * 
+ * every本身的特性 
+ * 
  *
  * @param {*} arr
  */
