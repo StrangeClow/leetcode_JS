@@ -1,5 +1,7 @@
 /**
  *   随即洗牌算法  
+ * 
+ *    math.random()
  *
  * @param {*} tempArr
  * @returns
