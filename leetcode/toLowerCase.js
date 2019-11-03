@@ -7,3 +7,6 @@
 const toLowerCase = function(str) {
     return str.toLowerCase();
 }
+
+
+const toLowerCaseTwo = ()=> str.toLowerCase()
