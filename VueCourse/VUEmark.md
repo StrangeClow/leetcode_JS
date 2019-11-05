@@ -134,7 +134,13 @@
 
    dispatch  触发action（异步）
 
+
+###   自定义全局函数
+        
+        vue.prototype.someThods = function() {}
    
+
+
 ###  vue组件化
 
 
