@@ -1,4 +1,4 @@
-### typescript相关
+### typescript相关 (类比Java)
      
      基础类型   表明变量的类型  eg: let isDone: blloean = false
      变量声明
