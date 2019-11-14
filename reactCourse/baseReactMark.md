@@ -185,8 +185,27 @@
 
 
 
-###   ant design pro中台设计方案         
+###   ant design pro中台设计方案
 
+
+
+
+
+###  组建传值
+
+      props 
+
+      context (provider customer)
+
+      路由传参
+
+      ref属性
+
+      redux
+
+      mobx
+
+      
           
 
 
