@@ -43,6 +43,7 @@
  38 | [重复元素](https://leetcode.com/problems/contains-duplicate/) | 简单 | [JavaScript](https://github.com/StrangeClow/leetcode_JS/blob/master/leetcode/containsDuplicate.js) |   √
  39 | [使用栈实现队列](https://leetcode-cn.com/problems/implement-queue-using-stacks//) | 简单 | [JavaScript](https://github.com/StrangeClow/leetcode_JS/blob/master/leetcode/implSQueueUseStack.js) |   √
  40 | [主要的数](https://leetcode.com/problems/majority-element/) | 简单 | [JavaScript](https://github.com/StrangeClow/leetcode_JS/blob/master/leetcode/mainElements.js) |   √
+ 41 | [检测大写字母](https://leetcode.com/problems/detext-capital/) | 简单 | [JavaScript](https://github.com/StrangeClow/leetcode_JS/blob/master/leetcode/detectCapital.js) |   √
  
  
  
