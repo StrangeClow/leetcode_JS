@@ -60,6 +60,20 @@
 ###   快应用  
        
         对比小程序  vue框架
+
+            ├── manifest.json
+            ├── app.ux
+            ├── Page1
+            │   ├── page1.ux
+            ├── Page2
+            │   ├── page2.ux
+            └── Common
+            ├── ComponentA.ux
+            ├── ComponentB.ux
+            └── xxx.png
+
+               
+               mainfest.json包含了应用描述 接口声明 页面路由信息
          
 
        
