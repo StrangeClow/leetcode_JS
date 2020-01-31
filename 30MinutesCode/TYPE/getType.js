@@ -1,5 +1,7 @@
 /**
  *  return the native type of value
+ *  
+ * 三元表达式先判断null 和 undefind 然后再利用constructor去判断
  *
  * @param {*} v
  */
