@@ -51,7 +51,19 @@
 
 ###   小程序组件化
          
-         类比vue react组件化思想
+         类比vue react组件化思想 
+
+            Component {
+                  
+               options: {}
+               
+               properties: {}   // 组件的属性
+
+               data: {} // 组件的初始数据
+
+            }
+
+            组件传值  // 类比其他mvvm框架  
         
          
          
