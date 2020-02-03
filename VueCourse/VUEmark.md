@@ -24,15 +24,15 @@
 
 ### vuex
 
-    State (mapState)
+    State (mapState) // 单一状态树
 
-    Getter (mapGetters)
+    Getter (mapGetters)  // 所有组件的computed属性 getters的返回值会根据他的依赖被缓存起来 
 
-    Mutation(Commit)
+    Mutation(Commit)  // store中的methods 
 
-    Action(分发)
+    Action(分发) // action类似于mutation 不同在于action提交的是muation 而不是直接更改状态 
 
-    Module(分割模块化)
+    Module(分割模块化)  // 将store分成模块 
 
 
 

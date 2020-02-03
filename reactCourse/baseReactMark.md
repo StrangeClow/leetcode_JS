@@ -213,6 +213,31 @@
       ts版
 
 
+
+
+### <font color=red>mobx</font>  
+
+    State(状态)
+
+    Derivations(衍生) 
+         细分： computed values（计算值） 
+               Reactions (反应)
+
+    Actions(动作)
+
+
+
+    API总解 
+
+       装饰器 
+          @observable
+          @action 
+          @observer  
+          @computed  创建计算属性
+
+
+
+
       
           
 
