@@ -101,11 +101,6 @@
         3. 多异步串联请求
 
 
-## react-router
-
-    声明式路由
-
-
 
 ## redux与组件
 
@@ -234,6 +229,82 @@
           @action 
           @observer  
           @computed  创建计算属性
+
+
+
+
+
+## <font color=red>react-router</font> 
+      
+      <BrowserRouter> 
+           basename 基准url 
+           forceRefresh 是否刷新整个页面
+           getUserComfirmation 用于确认导航的函数 
+
+
+
+      <hashRouter>   使用url的hash部分
+
+
+      <Link>  声明式 可访问的导航链接 
+         to string/object      链接地址
+
+
+      <NavLink>  添加特殊的样式 
+
+
+      <Prompt>  跳转链接之前 给予用户相应的提示信息
+
+
+      <MemoryRouter>  将url的历史记录保存在内存中
+
+
+      <Redirect>  导航到一个新的位置 
+
+
+
+
+      <Route>  在其path属性与某个locaiton匹配时呈现一些UI
+
+          router render methods     Route渲染内容有一下几种方式 
+            1. <Route Component>
+            2. <Route Render>
+            3. <Rroute Children>
+
+          router props     三种渲染方式都将提供三种相同的路由属性 
+            1. match 
+            2. location
+            3. history
+
+         
+          path  任何有效的url路径
+
+          exact 如果为true 只有在path完全匹配location.path时才匹配
+
+          sensitive 匹配时将区分大小写
+          
+
+
+     <Router>      所有route通用的低阶接口
+
+
+
+     <Switch>  用于渲染与路径匹配的第一个子<Route>或<redirect>
+
+
+     <withRouter>   将一个组件包裹进route里面 
+
+        
+
+
+
+
+
+
+
+
+
+
 
 
 
