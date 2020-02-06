@@ -294,6 +294,24 @@
 
      <withRouter>   将一个组件包裹进route里面 
 
+
+
+
+
+
+## <font color=red>redux</font> 
+
+   action 
+
+   reducer
+
+   dispatch
+
+   store
+
+     
+
+
         
 
 
