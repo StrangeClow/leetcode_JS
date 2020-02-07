@@ -135,9 +135,11 @@
 
 ##  react-redux
 
-       provider  (接受store作为props)
+       provider  (接受store作为props)  // 创建全局store
 
        connect  (mapStateToProps  mapDispatchToProps  mergeProps  options )   (难点 参数可变性)
+
+       combaineReducers
 
 
 ### react-hooks （对比之前状态相关信息） v16.8+ （解决复用组件难的问题）
