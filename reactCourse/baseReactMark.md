@@ -139,7 +139,7 @@
 
        connect  (mapStateToProps  mapDispatchToProps  mergeProps  options )   (难点 参数可变性)
 
-       combaineReducers
+       combaineReducers // 合并多个reducer
 
 
 ### react-hooks （对比之前状态相关信息） v16.8+ （解决复用组件难的问题）
@@ -303,13 +303,13 @@
 
 ## <font color=red>redux</font> 
 
-   action 
+   action    // 带有type类型的普通对象
 
-   reducer
+   reducer   // 纯函数 处理state的方法
 
-   dispatch
+   dispatch   // 发送action 
 
-   store
+   store    // 创建reudx相关  
 
      
 

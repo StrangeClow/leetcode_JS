@@ -1,3 +1,9 @@
+/**
+ *   
+ *
+ * @param {*} arrr
+ * @param {*} [fn=Boolean]
+ */
 const all = (arrr, fn= Boolean) => arrr.every(fn);   
 
 

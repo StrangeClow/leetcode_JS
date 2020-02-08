@@ -6,3 +6,14 @@
  * @param {*} val
  */
 const isFunction = val => typeof val === 'function'
+
+
+const isFunction1 = (val) => {
+    return typeof val === 'function'
+}
+
+function add(a,b) {
+    return a + b
+}
+
+console.log(isFunction1(add));
