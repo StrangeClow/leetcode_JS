@@ -6,7 +6,7 @@
  var twosUM = function(nums,target) {
     let hash,result;
     nums.forEach( (v, i)=> {
-        if (typeof hash[v] !== "undefined") {
+        if (typeof hash[v] !== "undefined") {    // typeof判断基础类型
             result[0] = i;
             result[1] = hash[v];
         }

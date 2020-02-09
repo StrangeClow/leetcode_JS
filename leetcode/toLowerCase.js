@@ -1,5 +1,6 @@
 /**
  *  转为小写
+ *        str.loLowerCase()
  *
  * @param {*} str
  * @returns
@@ -9,4 +10,8 @@ const toLowerCase = function(str) {
 }
 
 
+/**
+ *
+ *
+ */
 const toLowerCaseTwo = ()=> str.toLowerCase()

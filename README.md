@@ -45,6 +45,9 @@
  40 | [主要的数](https://leetcode.com/problems/majority-element/) | 简单 | [JavaScript](https://github.com/StrangeClow/leetcode_JS/blob/master/leetcode/mainElements.js) |   √
  41 | [检测大写字母](https://leetcode.com/problems/detext-capital/) | 简单 | [JavaScript](https://github.com/StrangeClow/leetcode_JS/blob/master/leetcode/detectCapital.js) |   √
  42 | [字符串中的单词数](https://leetcode.com/problems/const-segments/) | 中等 | [JavaScript](https://github.com/StrangeClow/leetcode_JS/blob/master/leetcode/contSegments.js) |   √
+ 43 | [特殊等价字符串组]() | 中等 | [JavaScript]() |   ✘
+ 44 | [各位相加]() | 简单 | [JavaScript]() |   ✘
+ 44 | [数组的相对排序]() | 中等 | [JavaScript]() |   ✘
  
  
  
