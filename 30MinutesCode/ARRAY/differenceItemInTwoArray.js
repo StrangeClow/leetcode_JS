@@ -1,5 +1,13 @@
+/**
+ *  求取两个数组中的不同值 并return  
+ *
+ * @param {*} a
+ * @param {*} b
+ * @returns
+ */
 const difference = (a,b) => {
-    const s = new Set(b);
+    // new Set() 去重
+    const s = new Set(b);   
     return a.filter( x => !s.has(x))
 }
 

@@ -16,6 +16,7 @@
 var deepFlattenTwo = function(arr) {
   var result = []
   for (let index = 0; index < arr.length; index++) {
+      // 判断是不是数组 
       if(Array.isArray(arr[index])) {
          result = result.concat(deepFlattenTwo(arr[index]))    // 递归调用自身
       } else {

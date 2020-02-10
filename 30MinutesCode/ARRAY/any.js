@@ -1,5 +1,5 @@
 /**
- *   
+ *   判断是否存在 
  *
  * @param {*} arr
  * @param {*} [fn=Boolean]
