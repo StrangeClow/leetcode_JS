@@ -227,9 +227,9 @@
     API总解 
 
        装饰器 
-          @observable
-          @action 
-          @observer  
+          @observable  // 用来声明可观察的数据 让对象可以被追踪
+          @action // 改变obrvable数据 
+          @observer修饰器让组件自动更新   
           @computed  创建计算属性
 
 
