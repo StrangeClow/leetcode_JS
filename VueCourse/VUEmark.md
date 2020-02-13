@@ -128,11 +128,11 @@
 
 ### <font color=red>vuex基本原理</font>
 
-   数据的响应式化
+    数据的响应式化
 
-   commit  触发mutation
+    commit  触发mutation
 
-   dispatch  触发action（异步）
+    dispatch  触发action（异步）
 
 
 ###   自定义全局函数
@@ -274,6 +274,10 @@
 ###     vuex的原理解析
             
             $store
+
+            const store = new Vuex.Store({})
+
+            全局注入store对象，来实现组件间的状态共享
 
 
 
