@@ -31,4 +31,15 @@
  */
 var Graph = function() {
 
+
+    // 存储顶点
+    var vertices = []
+
+    // 存储边
+    var adjList = {}
+
+    // 添加顶点
+
+    
+
 }

@@ -1,3 +1,8 @@
+/**
+ *   es6 类
+ *
+ * @class point
+ */
 class point  {
     //  构造函数
     constructor(x,y) {
@@ -13,6 +18,8 @@ class point  {
     }
 }
 
+ 
+   // 类的实例 new
 const p1 = new point(5,5);
 const p2 = new point(10,10);
 

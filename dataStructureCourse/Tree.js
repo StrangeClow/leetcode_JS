@@ -1,5 +1,8 @@
 /**
  *   树   
+ * 
+ * 
+ *     树的节点  next. 
  *
  */
 var Tree = function() {

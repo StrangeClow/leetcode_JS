@@ -1,5 +1,9 @@
 // 创建集合相关
 
+/**
+ *
+ *
+ */
 var SetFunc = function() {
     // 创建一个集合
     var items = {}
