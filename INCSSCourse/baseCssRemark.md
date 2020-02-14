@@ -43,4 +43,10 @@
  
          1. 标准盒模型   width = content
          2. IE盒子模型   width = padding + border + content
+
+
+ ### css3图片裁剪
+
+
+      object-fit: contain/cover/fill/none/scale-down
           
