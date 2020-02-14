@@ -6,8 +6,17 @@
  * @param {*} arr  指定的简单数组
  * @param {*} val  指定的某一一个值
  */
-const countOccurrences = (arr, val) => arr.reduce((prev,cur)
-   =>(
+const countOccurrences = (arr, val) =>
+  arr.reduce((prev,cur)=>
+  (
        cur === val ? prev+1 : prev+0
     )
 ,0)
+
+
+
+//  test  
+
+let aa = [11,22,33,76,87,57,76,89,22,23,22,45,22]
+
+console.log('一组值中的指定值个数为：',countOccurrences(aa,22));
