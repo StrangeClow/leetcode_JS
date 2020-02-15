@@ -11,8 +11,33 @@
 // }
 
 
+ /**
+  *    方法1  
+  *    
+  *        Array.isArray
+  * 
+  *        reduce 
+  * 
+  *        ... 解构
+  * 
+  *       递归
+  * 
+  *
+  * @param {*} arr
+  */
  const deepFlatten = arr => [].concat(...arr.map(v => (Array.isArray(v) ? deepFlatten(v) : v)));
 
+
+
+
+/**
+ *
+ *  方法2  
+ *  
+ *
+ * @param {*} arr
+ * @returns
+ */
 var deepFlattenTwo = function(arr) {
   var result = []
   for (let index = 0; index < arr.length; index++) {
