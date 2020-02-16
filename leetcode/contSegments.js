@@ -5,10 +5,16 @@
  * @returns
  */
 const contSegments = function(str) {
+    
+    // 去除空格
    let s = str.trim()
+
+   // 若给定字符串长度为 0 则返回0
     if(!s.length) {
         return 0
     }
+
+    // 拆解字符串
     const arr = s.split(/\s+/)
     return arr.length
 }

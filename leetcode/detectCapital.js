@@ -13,5 +13,6 @@
 const detectCapital = function(word) {
     // 正则匹配规则
    const reg = /^([A-Z][a-z]+|[a-z]+|[A-Z]+)$/;
+   // test返回true或false
    return reg.test(word)
 }

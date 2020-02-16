@@ -3,7 +3,7 @@
  * 如果不存在 则返回-1
  *  eg: input==> hello needle ==> 2
  * 
- * 
+ * indexOf
  * 
  *
  * @param {*} haystack

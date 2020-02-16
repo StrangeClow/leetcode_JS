@@ -1,11 +1,15 @@
 /**
  *    报数：报数序列是一个整数序列，按照其中的整数的顺序进行报数
  * 
- *   eg :
+ *   eg :  1  121   12321    1234321
  *
  * @param {*} n
  * @returns
  */
+
+ const countAndSay = function() {
+
+ }
 
 
  //  待完成
