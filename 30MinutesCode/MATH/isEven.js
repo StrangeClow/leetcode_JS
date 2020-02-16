@@ -4,3 +4,14 @@
  * @param {*} num
  */
 const isEven = num => num % 2 === 0
+
+
+/**
+ *
+ *
+ * @param {*} num
+ * @returns
+ */
+const isEventwo = (num) => {
+    return num %2 === 0
+}
