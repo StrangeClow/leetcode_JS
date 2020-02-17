@@ -11,3 +11,18 @@ const intersection = function(nums1, nums2) {
     )
     ]
 }
+
+
+
+
+//  第二种   哈希表解决 
+
+const intersectionTwo = function(nums1, nums2) {
+    let set1 = new Set(nums1)
+    let set2 = new Set(nums2)
+
+    for (const key in set1.values()) {
+      !set2.has(key) && set1.delete(key)
+    }
+    return [...set1]
+}

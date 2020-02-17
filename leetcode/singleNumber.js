@@ -13,3 +13,17 @@ var singleNumbr = function(nums) {
     }
     return singleNum
 }
+
+
+
+
+/**
+ *  利用了异或运算  
+ *
+ * @param {*} nums
+ * @returns
+ */
+var singleNumberTwo = function(nums) {
+
+   return nums.reduce((x,y) => x ^ y)
+}
