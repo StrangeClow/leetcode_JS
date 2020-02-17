@@ -15,8 +15,27 @@ const countOccurrences = (arr, val) =>
 
 
 
+const CountNumber = function(arr, val) {
+  // 初始计量单位
+
+ return arr.reduce((prev,cur)=>
+  (
+       cur === val ? prev+1 : prev
+    )
+,0)
+   
+}
+
+
+
 //  test  
 
-let aa = [11,22,33,76,87,57,76,89,22,23,22,45,22]
+let aa = [11,22,33,76,87,57,76,89,22,23,22,45,22,25,35,33]
 
-console.log('一组值中的指定值个数为：',countOccurrences(aa,22));
+console.log('一组值中的指定值个数为：',countOccurrences(aa,33));
+
+
+
+
+
+console.log(CountNumber(aa,33));

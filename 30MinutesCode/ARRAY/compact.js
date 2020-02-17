@@ -15,3 +15,10 @@
  * @param {*} arr
  */
 const compact = arr => arr.filter(Boolean)
+
+
+let aa = [1,2,3,4,true,false,[],NaN]
+
+console.log(compact(aa));  
+
+ // output ==> 1 2 3 4 true []  
