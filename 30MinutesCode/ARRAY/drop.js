@@ -3,5 +3,12 @@
  *
  * @param {*} arr  要删除的元素列表 
  * @param {number} [n=1]  
+ * 
+ * 
+ *  slice() 从已有的数组中返回选定的元素  
+ *     
+ *          1. ArrayObject.slice(start, end)
+ * 
+ * 
  */
 const drop = (arr, n = 1) => arr.slice(n);

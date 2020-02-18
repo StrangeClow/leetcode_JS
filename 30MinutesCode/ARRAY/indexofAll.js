@@ -6,8 +6,8 @@
  * @returns
  */
 const indexofAll = (arr, val) => {
-    const includes = []
+    const ifIncludes = []
     //  循环判断是否有值相等  
-    arr.forEach((el, i) => el === val && includes.push(i))
-    return includes
+    arr.forEach((el, i) => el === val && ifIncludes.push(i))
+    return ifIncludes
 }
