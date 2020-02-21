@@ -21,7 +21,7 @@ export default {
       trnasWord: '好好学习 天天向上'
     }
   },
-  // 向外传递的东西 
+  // 向外传递的属性  规范化 
   props: {
     baseFooter: {
       type: String,

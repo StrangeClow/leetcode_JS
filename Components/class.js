@@ -4,7 +4,7 @@
  * @class point
  */
 class point  {
-    //  构造函数
+    //  构造函数  super方法 
     constructor(x,y) {
           this.x = x;
           this.y =y;
