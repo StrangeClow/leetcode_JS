@@ -13,3 +13,30 @@
 *
 *
 */
+
+
+/**
+ *
+ *    基础方法  交换变量   或采取es6的解构赋值
+ * 
+ * @param {*} a
+ * @param {*} i
+ * @param {*} j
+ */
+function swap(a, i, j) {
+    // 临时变量 
+  let temp = a[j]
+      a[i] = a[j]
+      a[j] = temp
+}
+
+
+
+
+/**
+ *  堆应用主要是用来实现优先队列  
+ *
+ * @param {*} 
+ * @param {*} 
+ * @param {*} 
+ */
