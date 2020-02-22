@@ -50,7 +50,8 @@
  45 | [数组的相对排序]() | 中等 | [JavaScript]() |   ✘
  46 | [快乐数]() | 简单 | [JavaScript](https://github.com/StrangeClow/leetcode_JS/blob/master/leetcode/isHappyNumber.js) |   √
  47 | [同构字符串]() | 简单 | [JavaScript]() |    ✘
- 47 | [找不同]() | 简单 | [JavaScript](https://github.com/StrangeClow/leetcode_JS/blob/master/leetcode/findDiffFunc.js) |   √
+ 48 | [找不同]() | 简单 | [JavaScript](https://github.com/StrangeClow/leetcode_JS/blob/master/leetcode/findDiffFunc.js) |   √
+ 49 | [二叉树的中序遍历]() | 简单 | [JavaScript](https://github.com/StrangeClow/leetcode_JS/blob/master/leetcode/inOrderTraversal.js) |   √
  
  
  
