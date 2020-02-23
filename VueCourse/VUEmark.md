@@ -6,7 +6,7 @@
 
     render 
 
-    组件化(封装 向外暴露属性 方法)
+    组件化(封装 export属性 方法)
 
     form表单
 
@@ -28,7 +28,7 @@
 
     Getter (mapGetters)  // 所有组件的computed属性 getters的返回值会根据他的依赖被缓存起来 
 
-    Mutation(Commit)  // store中的methods 
+    Mutation(Commit)  // store中的methods mutations对象中保存着更改数据的回调函数type，的一个参数是state,第二个参数是载荷payload,即自定义参数，调动mutations中回调函数，只能使用store.commit(type, payload)
 
     Action(分发) // action类似于mutation 不同在于action提交的是muation 而不是直接更改状态 
 
@@ -183,7 +183,6 @@
 
        $mount 手动挂载
 
-
        vue全局组件
 
        递归组件 
@@ -215,6 +214,11 @@
          reactive包装数据
              reactive()为目标对象创建一个proxy对象
          effect定义数据变化后的回调
+
+
+      内部相关
+      对比vue2的区别
+      ts
 
      
 ###  MVVM
@@ -279,13 +283,6 @@
 
             全局注入store对象，来实现组件间的状态共享
 
-
-
-
-###    vue3相关内容
-
-        内部相关
-        对比vue2的区别
 
 
 

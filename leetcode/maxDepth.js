@@ -6,11 +6,17 @@
  * @returns
  */
 const maxDepth = function(root) {
+
   // 边界情况 
   if(!root) {
      return 0
   }
+  
+  // 队规检查左右树节点
   var left_depth = maxDepth(root.left);
+
   var right_depth = maxDepth(root.right);
-  return Math.max(left_depth, right_depth)+1;  // 求取左右节点中的最大值 再加上根节点
+
+  // 求取左右节点中的最大值 再加上根节点
+  return Math.max(left_depth, right_depth)+1;  
 }

@@ -11,8 +11,8 @@ const shuffle = function(tempArr) {
    let curr = len - 1
    let tempRandom
 
-   while(curr >-1) {
-     // math.random随机取值
+   while(curr >=1) {
+     // Math.random随机取值
      random = Math.floor(len * Math.random())
      //  解构赋值 交换变量
      [tempArr[curr], tempArr[tempRandom]] = [tempArr[tempRandom], tempArr[curr]]; 
