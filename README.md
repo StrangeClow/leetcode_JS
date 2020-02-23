@@ -52,7 +52,8 @@
  47 | [同构字符串]() | 简单 | [JavaScript]() |    ✘
  48 | [找不同]() | 简单 | [JavaScript](https://github.com/StrangeClow/leetcode_JS/blob/master/leetcode/findDiffFunc.js) |   √
  49 | [二叉树的中序遍历]() | 简单 | [JavaScript](https://github.com/StrangeClow/leetcode_JS/blob/master/leetcode/inOrderTraversal.js) |   √
- 49 | [重叠区间]() | 中等 | [JavaScript](https://github.com/StrangeClow/leetcode_JS/blob/master/leetcode/mergeTwoArrays.js) |   √
+ 50 | [重叠区间]() | 中等 | [JavaScript](https://github.com/StrangeClow/leetcode_JS/blob/master/leetcode/mergeTwoArrays.js) |   ✘
+ 50 | [字符串大写转小写]() | 简单 | [JavaScript](https://github.com/StrangeClow/leetcode_JS/blob/master/leetcode/transBigWordToSmallWord.js) |   √
  
  
  
