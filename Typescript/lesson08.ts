@@ -8,5 +8,7 @@
     declare var;  // 声明全局变量
     declare function // 声明全局方法
     declare class  // 声明全局类
-    declare enum ;   // 声明枚举
-    declare namespace ; // 声明命名空间
+
+    declare enum   // 声明枚举
+    
+    declare namespace // 声明命名空间
