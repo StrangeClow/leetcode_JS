@@ -303,6 +303,52 @@
 
 
 
+
+###     重点  
+           1. 组件化
+           2. 响应式
+           3. vdom和diff
+                 a.vDom
+                    A. h
+                    B. Vnode
+                    C. patch
+                    D. key
+                    E. ......
+
+
+                 b.diff算法总结
+                     A. patchVnode
+                     B. addVnodes removeVnodes
+                     C. updateChildren（更新时key的比较）
+
+           4. 模板编译
+            
+                compile编译
+
+           6. 渲染过程
+                
+                初次渲染过程
+                    解析vue模板为render函数
+                    触发响应式 设置data属性 生成getter
+                    执行render函数 生成Vnode节点
+
+                更新过程
+                    修改data 触发setter  
+                    重新执行render 生成新的newVode节点
+                    patch(Vnode, newVode)
+                      
+   
+           7. 前端路由
+
+
+
+
+
+
+
+
+
+
         
             
 
