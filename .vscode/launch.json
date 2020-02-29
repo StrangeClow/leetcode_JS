@@ -12,7 +12,7 @@
             "request": "launch",
             "name": "启动程序",
             // "program": "${workspaceFolder}/sort_in_JS\\data_structure.js"          
-            "program": "${workspaceFolder}/30MinutesCode/BROWSER\\createElement.js"
+            "program": "${workspaceFolder}/30MinutesCode/FUNCTION\\defer.js"
             // "program": "${workspaceFolder}/leetcode\\twoIntegersSum.js"
         }
     ]
