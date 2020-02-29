@@ -308,7 +308,7 @@
            1. 组件化
            2. 响应式
            3. vdom和diff
-                 a.vDom
+                 a.vDom ===>用js模拟dom结构，计算出最小变更，操作dom
                     A. h
                     B. Vnode
                     C. patch
@@ -336,7 +336,7 @@
                     修改data 触发setter  
                     重新执行render 生成新的newVode节点
                     patch(Vnode, newVode)
-                      
+
    
            7. 前端路由
 

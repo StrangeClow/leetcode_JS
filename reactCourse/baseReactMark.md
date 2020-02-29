@@ -50,11 +50,57 @@
  *   无状态组件
 
 
+ *   生命周期概览 
+ *    
+         1.开始
+
+            getDefaultProps
+
+            getInitialState
+
+            componentWillMount
+
+            render()
+
+            componentDidMount
+
+
+         2. 运行中  
+
+            compenentWillReceiveProps（属星props改变）
+
+            shouldComponentUpdate （state是否改变）
+
+               若是
+                 componentWillUpdate
+                 render()
+                 componentDidMount
+               若不是
+
+
+          3. 卸载
+
+              componentWillUnmount
+
+              结束    
+
+
+        react新增的两个生命周期
+
+              1. getDerivedStateFromProps(nextProps, preState)   
+    
+              2. getSnapshotBeforeUpdate(prevprops, prevState)       
+
+
+
 ## setState机制
 
 *  this.state访问state
 *  this.setState更新state
-*  setState异步更新（队列机制更新）
+*  setState可能是异步更新(分情况)
+      1.
+      1. 
+*  不可变值
 
 
 ## diff算法
@@ -303,13 +349,18 @@
 
 ## <font color=red>redux</font> 
 
-   action    // 带有type类型的普通对象
+    action    // 带有type类型的普通对象
 
-   reducer   // 纯函数 处理state的方法
+    reducer   // 纯函数 处理state的方法
+ 
+    dispatch   // 发送action 
 
-   dispatch   // 发送action 
+    store    // 创建reudx相关  
 
-   store    // 创建reudx相关  
+
+
+
+
 
      
 
