@@ -97,10 +97,22 @@
 
 *  this.state访问state
 *  this.setState更新state
-*  setState可能是异步更新(分情况)
-      1.
-      1. 
+*  setState可能是异步更新(分情况)   batchUpdate机制     isBatchingUpdate
+      1. 普通使用(异步)
+      2. setTimeout DOM事件(异步)
 *  不可变值
+
+## transaction事务机制
+
+*  
+
+
+
+## 更新的两个阶段
+
+      1. reconciliation阶段 执行diff算法
+      2. commit阶段 将diff结果渲染到DOM 
+
 
 
 ## diff算法
@@ -225,6 +237,10 @@
 ###    React Fiber
 
          react16中新的协调引擎或重新实现核心算法，他的主要目标是支持虚拟dom的增量渲染。
+
+         1. 将reconciliation阶段进行任务拆分
+         2. DOM需要渲染时暂停，空闲事件在恢复
+         3. window.requestIdleCallback()会在浏览器空闲时期依次调用函数
 
 
 
