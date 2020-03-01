@@ -27,3 +27,45 @@ var intersectionInTwoArraysTwo = function(nums1,nums2) {
     }
     return result
 }
+
+
+
+
+/**
+ *   数组的交集
+ *
+ * @param {*} nums1
+ * @param {*} nums2
+ */
+const intersectionInTwoArrays3 = function(nums1, nums2) {
+  
+  console.log('object',nums1,nums2)
+  // 创建set的实例
+  let tempSet = new Set()
+  // 定义一个空数组
+  let result = []
+
+  // 循环数组1 把数据添加到临时set中
+  nums1.forEach(element => {
+    tempSet.add(element)
+  })
+  console.log('tempSet11',tempSet)
+
+  // 循环数组2 并临时set中是否存在当前元素 
+  nums2.forEach((element,index)=> {
+    if(tempSet.has(element)) {
+      // push到res中
+      result.push(element)
+        // 删除当前元素 
+        tempSet.delete(element)
+    }
+  })
+
+  return result
+}
+
+
+let n1 = [3,5,6,7,2] 
+let n2 = [8,4,2,6,1]
+
+console.log('数组交集===>',intersectionInTwoArrays3(n1,n2)) 
