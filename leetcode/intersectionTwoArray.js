@@ -22,13 +22,22 @@ var intersectionInTwoArrays = function(num1, num2) {
 var intersectionInTwoArraysTwo = function(nums1,nums2) {
     let result = []
     for(let num1 of nums1) {  // 循环
-        if(nums2.includes(num1))   // 如果包含  includes 
-            if(!result.includes(num1)) result.push(num1)
+        if(nums2.includes(num1)) {  // 如果包含  includes 
+            if(!result.includes(num1))  {
+            // 结果中无nums1
+              result.push(num1)
+            }
+          } 
     }
     return result
 }
 
 
+let a1 = [1,3,4,9,6]
+let a2 = [0,4,8,3]
+
+// output ===> [3,4]
+//console.log('数组交集===>',intersectionInTwoArraysTwo(a1,a2))
 
 
 /**
@@ -39,7 +48,6 @@ var intersectionInTwoArraysTwo = function(nums1,nums2) {
  */
 const intersectionInTwoArrays3 = function(nums1, nums2) {
   
-  console.log('object',nums1,nums2)
   // 创建set的实例
   let tempSet = new Set()
   // 定义一个空数组
@@ -57,6 +65,7 @@ const intersectionInTwoArrays3 = function(nums1, nums2) {
       // push到res中
       result.push(element)
         // 删除当前元素 
+        console.log('删除前',tempSet)
         tempSet.delete(element)
     }
   })
@@ -68,4 +77,5 @@ const intersectionInTwoArrays3 = function(nums1, nums2) {
 let n1 = [3,5,6,7,2] 
 let n2 = [8,4,2,6,1]
 
-console.log('数组交集===>',intersectionInTwoArrays3(n1,n2)) 
+ console.log('数组交集===>',intersectionInTwoArrays3(n1,n2)) 
+ // output ==> [6,2]
