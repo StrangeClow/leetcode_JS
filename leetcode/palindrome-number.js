@@ -8,6 +8,10 @@
      return  x.toString().split('').reverse().join('') === x.toString()
  }
 
+ let n1 = 12321
+ let n2 = 123432
+ console.log('回文数判断====>',isPalindrome(n1))
+ console.log('回文数判断====>',isPalindrome(n2))
 
  var secondIsPalindrome = function(x) {
        let y = x,   // 保存当前变量的副本
@@ -18,3 +22,11 @@
        }
        return y == tempReversed
  }
+
+ let n3 = 58285
+ let n4 = 582851
+ console.log(secondIsPalindrome(n3))
+ console.log(secondIsPalindrome(n3))
+
+
+ 

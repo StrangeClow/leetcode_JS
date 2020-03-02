@@ -7,6 +7,11 @@
  * 输出：1->1->2->3->4->4
  */
 
+function ListNode(val) {
+   this.val = val;
+   this.next = null;
+ }
+
  var mergeTwoLists = function(l1,l2) {
     let l3 = new ListNode(-1),
     c3 = l3;
@@ -23,7 +28,12 @@
     //循环完某一链表后 将另一链表剩下的部分直接加入到l3
     c3.next = (l1===null) ? l2 : l1;
     return l3.next;
- },
+ }
+
+ let l1 = [1,3,5,7]
+ let l2 = [2,4,6,8]
+
+ console.log('合并有序链表===>',mergeTwoLists(l1,l2))
 
 
 
