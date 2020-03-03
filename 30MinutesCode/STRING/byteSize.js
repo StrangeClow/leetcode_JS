@@ -4,4 +4,13 @@
  *
  * @param {*} str
  */
-const byteSize = str => new Blob([str]).size
+const byteSize = str => {
+
+    // 要在浏览器环境下才可以   Blob是一种javascript数据类型  
+    return new Blob([str]).size
+
+} 
+
+
+let a1 = 'hello world'
+console.log('字符长度===>',byteSize(a1))
