@@ -4,3 +4,7 @@
  * @param {*} str
  */
 const isLowerCase = str => str === str.toLowerCase()
+
+
+let a1 = 'heeloworldto mE'
+console.log(isLowerCase(a1));

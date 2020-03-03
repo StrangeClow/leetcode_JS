@@ -6,6 +6,36 @@
  *
  * @param {*} str
  */
-const capitalizeEveryWord = str =>
+const capitalizeEveryWord = str => {
 
-      str.replace(/\b[a-z]/g, char => char.toUpperCase());
+   console.log('str==',str);
+    // string.replce用于在字符串中用一些字符替换另一些字符，或替换一个与正则匹配的子串
+   //    string.replace(regexp/substr(要替换的模式), replacement(必填，替换文本或生成替换文本的函数))
+      
+     /**
+       *  
+       *       /\b[a-z]/g   全局索引a-z字符
+       *    
+       *      
+       *
+       * 
+       */
+   
+    return  str.replace(/\b[a-z]/g,  char => char.toUpperCase());
+}
+
+
+
+
+
+
+  let a1 = 'good luck to me'      
+  console.log('首字母大写==',capitalizeEveryWord(a1));
+
+   // 只针对单字符 
+  const UP = function(str) {
+      
+   return str.substring(0,1).toUpperCase() + str.substring(1)
+  }
+
+  console.log(UP(a1));

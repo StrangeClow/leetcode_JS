@@ -12,5 +12,5 @@ const byteSize = str => {
 } 
 
 
-let a1 = 'hello world'
+let a1 = 'hello world js'
 console.log('字符长度===>',byteSize(a1))
