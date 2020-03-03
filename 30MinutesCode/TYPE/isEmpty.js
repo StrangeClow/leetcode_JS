@@ -4,10 +4,18 @@
  * @param {*} val
  */
 const isEmpty = val => {
-    val == null || !(Object.keys(val) || val).length
+    console.log(val);
+   return val == null || !(Object.keys(val) || val).length
 }
 
 
 // eg 
 
 console.log(isEmpty(true));
+
+let a = 'hello'
+let b = null
+let c = undefined
+let d = 123456
+
+console.log(isEmpty(a));

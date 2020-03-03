@@ -1,8 +1,22 @@
 /**
- *  
+ *   是否为纯对象形式  不包括数组 等 
  *
  * @param {*} val
  */
 const isPlainObject = val => {
-    !! val && typeof val === 'object' && val.constructor === Object
+  return  !! val && typeof val === 'object' && val.constructor === Object
 }
+
+
+let a1 = [1,2,3,4,5]
+let a2 = {
+
+}
+let a3 = 123
+let a4 = 'string'
+
+
+console.log(isPlainObject(a1));
+console.log(isPlainObject(a2));
+console.log(isPlainObject(a3));
+console.log(isPlainObject(a4));

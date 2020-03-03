@@ -28,7 +28,7 @@ console.log(getType({}))
 console.log(getType(new Object()))
 
 
-const types = function typeInfo(info) {
+const types = function(info) {
   return Object.prototype.toString.call(info)
 }
 console.log('------------');
