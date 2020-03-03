@@ -12,7 +12,7 @@
             "request": "launch",
             "name": "启动程序",
             // "program": "${workspaceFolder}/sort_in_JS\\data_structure.js"          
-            "program": "${workspaceFolder}/30MinutesCode/STRING\\reverseString.js"
+            "program": "${workspaceFolder}/30MinutesCode/TYPE\\getType.js"
             // "program": "${workspaceFolder}/dataStructureCourse\\Queue.js"
             // "program": "${workspaceFolder}/leetcode\\removeElement.js"
         }

@@ -4,3 +4,7 @@
  * @param {*} str
  */
 const splitLens = str => str.split(/\r?\n/)
+
+let a1 ='hello\n is \n a \n word'
+
+console.log(splitLens(a1));

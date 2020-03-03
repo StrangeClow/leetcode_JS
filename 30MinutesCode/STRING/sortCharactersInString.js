@@ -13,4 +13,6 @@ const sortCharactersInString = str =>
 
 
 
- // eg:   input  'reactinfo '       output===> 按字母顺序输出 
+ // eg:   input  'reactinfo '       output===> 按字母顺序输出
+ 
+ console.log(sortCharactersInString('hello'));      // ===> ehllo

@@ -26,3 +26,12 @@ console.log(getType(8.098))
 console.log(getType(/ghg/))
 console.log(getType({}))
 console.log(getType(new Object()))
+
+
+const types = function typeInfo(info) {
+  return Object.prototype.toString.call(info)
+}
+console.log('------------');
+console.log(types('helloe'));
+console.log(types(null));
+console.log(types(8888));
