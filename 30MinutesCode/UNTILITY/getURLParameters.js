@@ -12,6 +12,10 @@
 
   let a2 = 'http://url.com/page?name=Adam&surname=Smith'
 
+  let a3 = 'https://zh-hans.reactjs.org/docs/context.html#___gatsby'
+
+  let a4 = 'https://leetcode-cn.com/problems/reverse-integer/solution/hua-jie-suan-fa-7-zheng-shu-fan-zhuan-by-guanpengc/'
+
 
 
 
@@ -23,6 +27,7 @@
       let regexp = /([^?=&]+)(=([^&]*))/g
       // 正则匹配后的参数值
       let regUrl = url.match(regexp)
+      console.log('正则匹配==',regUrl);
       let res = regUrl.reduce((prev, curr) => 
           (
             // slice（start，end）从已有的数组中返回选定的元素 
@@ -32,5 +37,8 @@
       return res
     }
 
+console.log('解析url参数',getURLParameters3(a1));
 console.log('解析url参数',getURLParameters3(a2));
+// console.log('解析url参数',getURLParameters3(a3));
+// console.log('解析url参数',getURLParameters3(a4));
 
