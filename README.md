@@ -62,7 +62,7 @@
  57 | [有多小小于当前数字的数字]() | 简单 | [JavaScript]() |   ✘
  58 | [判断字符是否唯一]() | 简单 | [JavaScript]() |   ✘
  59 | [按奇偶排序数组]() | 简单 | [JavaScript]() |   ✘
- 60 | [数组中重复的数字]() | 简单 | [JavaScript](https://github.com/StrangeClow/leetcode_JS/blob/master/leetcode/findReapteNumber.js) |   ✘
+ 60 | [数组中重复的数字]() | 简单 | [JavaScript](https://github.com/StrangeClow/leetcode_JS/blob/master/leetcode/findReapteNumber.js) |   √
  
  
  

@@ -822,21 +822,6 @@
 
 
 
-###   webpack相关
-
-        A. 核心概念
-            input
-            output
-            Chunk
-            loader
-            plugin
-            Module
-
-        B. 构建过程
-            递归解析Entry依赖的所有Module
-
-
-
 ###    class
          static静态方法不会被实例继承 而是直接通过类来调用 
          extends继承机制

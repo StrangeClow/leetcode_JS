@@ -2,7 +2,7 @@
     
     基础语法
 
-    slot
+    slot 扩展插槽
 
     render 
 
@@ -10,14 +10,14 @@
 
     form表单
 
-    指令(自定义指令)
+    指令(自定义指令) v-directive
 
 
 ###  vue-router
      
-     动态路由
+     动态路由  addRoutes()
 
-     路由传参(两种)
+     路由传参(两种) 
      
      导航守卫(router.beforeEach ......)
 

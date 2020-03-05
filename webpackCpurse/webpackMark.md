@@ -73,6 +73,25 @@
 
 
 
+     ##. 构建过程
+            递归解析Entry依赖的所有Module
+
+
+
+
+
+
+     # 创建webpack插件
+
+           1. 插件构成
+                 a. 具名javascript函数
+                 b. 函数原型定义apply方法
+                 c. 指定初级到webpack本身的事件钩子
+                 d. 操作webpack内部的实例
+                 e. 调用webpack提供的callback回调
+
+
+
 
 
 
