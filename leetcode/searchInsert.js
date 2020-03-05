@@ -11,13 +11,19 @@
  * @returns   第一种操作为暴力解法   循环
  */
 var searchInsert = function(nums, target) {
-for (let index = 0; index < nums.length; index++) {
-   if(nums[index] >= target) {
-     return index
-   }
- }
-return nums.length
+    console.log(nums, target);
+    for (let index = 0; index < nums.length; index++) {
+    if(nums[index] >= target) {
+        console.log('index==',index);
+        return index
+    }
+    }
+    console.log('nums===',nums);
+    return nums.length
 }
+
+let a1 = [1,3,4,5,8], t1 = 4
+console.log(searchInsert(a1,t1));
 
 
 /**

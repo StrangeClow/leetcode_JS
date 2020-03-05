@@ -1,3 +1,10 @@
+/**
+ *  
+ *
+ * @param {*} m
+ * @param {*} n
+ * @returns
+ */
 function pascalsTriangle(m,n) {
     // 先判断特殊情况 以及边界问题
     if(n == 0) return 1;

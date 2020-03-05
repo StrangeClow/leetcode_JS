@@ -14,7 +14,7 @@
  9 | [字符的最短距离]() | 简单 | [JavaScript](https://github.com/StrangeClow/leetcode_JS/blob/master/leetcode/shortestToChar.js) |  √
  10 | [最大三角形面积]() | 简单 | [JavaScript](https://github.com/StrangeClow/leetcode_JS/blob/master/leetcode/maxTriangleSpace.js) |  ✘
  11 | [实现strStr()](https://leetcode.com/problems/implement-strstr/) | 简单 | [JavaScript](https://github.com/StrangeClow/leetcode_JS/blob/master/leetcode/implementStrStr.js) |  √
- 12 | [搜索插入的位置]() | 简单 | [JavaScript](https://github.com/StrangeClow/leetcode_JS/blob/master/leetcode/plusOne.js) | √
+ 12 | [搜索插入的位置]() | 简单 | [JavaScript](https://github.com/StrangeClow/leetcode_JS/blob/master/leetcode/searchInsert.js) | √
  13 | [整数转罗马数字](https://leetcode.com/problems/integer-to-roman/) | 中等 | [JavaScript](https://github.com/StrangeClow/leetcode_JS/blob/master/leetcode/intTransRoman.js) |  √
  14 | [罗马数字转整数]() | 中等 | [JavaScript]() |  ✘
  15 | [最长公共前缀](https://leetcode.com/problems/longest-common-prefix/) | 中等 | [JavaScript](https://github.com/StrangeClow/leetcode_JS/blob/master/leetcode/longestCoomenprefix.js) |   √
@@ -56,6 +56,13 @@
  51 | [字符串大写转小写]() | 简单 | [JavaScript](https://github.com/StrangeClow/leetcode_JS/blob/master/leetcode/transBigWordToSmallWord.js) |   √
  52 | [宝石与石头]() | 简单 | [JavaScript](https://github.com/StrangeClow/leetcode_JS/blob/master/leetcode/numJewelsInStones.js) |   √
  53 | [翻转二叉树]() | 简单 | [JavaScript](https://github.com/StrangeClow/leetcode_JS/blob/master/leetcode/turnTree.js) |   √
+ 54 | [各位相加]() | 简单 | [JavaScript]() |   ✘
+ 55 | [左旋转字符串]() | 简单 | [JavaScript]() |   ✘
+ 56 | [替换空格]() | 简单 | [JavaScript]() |   ✘
+ 57 | [有多小小于当前数字的数字]() | 简单 | [JavaScript]() |   ✘
+ 58 | [判断字符是否唯一]() | 简单 | [JavaScript]() |   ✘
+ 59 | [按奇偶排序数组]() | 简单 | [JavaScript]() |   ✘
+ 60 | [数组中重复的数字]() | 简单 | [JavaScript](https://github.com/StrangeClow/leetcode_JS/blob/master/leetcode/findReapteNumber.js) |   ✘
  
  
  
