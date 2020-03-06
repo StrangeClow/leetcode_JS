@@ -15,6 +15,14 @@ var sortedArrayToBST = function(nums) {
     return generate(nums, 0, nums.length-1);
   };
   
+  /**
+   * 工具函数  
+   *
+   * @param {*} arr
+   * @param {*} start
+   * @param {*} end
+   * @returns
+   */
   function generate(arr, start, end) {
     if(start > end)
       return null;

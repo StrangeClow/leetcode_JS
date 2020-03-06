@@ -12,6 +12,6 @@ const toLowerCase = function(str) {
 
 /**
  *
- *
+ *  字符串.toLowerCase()
  */
 const toLowerCaseTwo = ()=> str.toLowerCase()

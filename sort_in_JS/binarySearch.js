@@ -13,7 +13,7 @@
  */
 function binarySearch(arr, x) {
    let left = 0,  // 查找的左边界
-       right = arr.length -1 ,  // 查找的右边界
+       right = arr.length -1,  // 查找的右边界
        guessNum;  // left  right的中间位置
     while(left <= right) {
         guessNum = Math.floor((left + right) / 2)
