@@ -1,11 +1,11 @@
 <template>
     <div>
-        
+        <Inner/>
     </div>
 </template>
 
 <script>
-import {} from '01.vue'
+import Inner from 'inner.vue'
 export default {
     
 }
