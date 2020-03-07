@@ -17,7 +17,7 @@
   let a4 = 'https://leetcode-cn.com/problems/reverse-integer/solution/hua-jie-suan-fa-7-zheng-shu-fan-zhuan-by-guanpengc/'
 
 
-
+  let a5 = 'http://www.domain.com/?user=anonymous&id=123&id=456&city=%E5%8C%97%E4%BA%AC&enabled';
 
 
 
@@ -39,6 +39,7 @@
 
 console.log('解析url参数',getURLParameters3(a1));
 console.log('解析url参数',getURLParameters3(a2));
+console.log('解析url参数',getURLParameters3(a5));
 // console.log('解析url参数',getURLParameters3(a3));
 // console.log('解析url参数',getURLParameters3(a4));
 
