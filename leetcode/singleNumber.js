@@ -9,6 +9,7 @@
 var singleNumbr = function(nums) {
     let singleNum 
     for (let index = 0; index < nums.length; index++) {
+        // ^异或运算
         singleNum^=nums[i]
     }
     return singleNum
