@@ -49,7 +49,7 @@ var romanToInt = function(nums) {
      
     
      let index = 0
-     // 一天小于等于12小时
+     // 一天等于12小时
      while(index <= 12) {
         while(nums >= intArr[index]) {
             // 对应roman值累加

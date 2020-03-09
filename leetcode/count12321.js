@@ -7,8 +7,11 @@
  * @returns
  */
 
- const countAndSay = function() {
-
+ const countAndSay = function(num) {
+  
+    if(num === 1) {
+      return '1'
+    }
  }
 
 

@@ -16,7 +16,7 @@
  11 | [实现strStr()](https://leetcode.com/problems/implement-strstr/) | 简单 | [JavaScript](https://github.com/StrangeClow/leetcode_JS/blob/master/leetcode/implementStrStr.js) |  √
  12 | [搜索插入的位置]() | 简单 | [JavaScript](https://github.com/StrangeClow/leetcode_JS/blob/master/leetcode/searchInsert.js) | √
  13 | [整数转罗马数字](https://leetcode.com/problems/integer-to-roman/) | 中等 | [JavaScript](https://github.com/StrangeClow/leetcode_JS/blob/master/leetcode/intTransRoman.js) |  √
- 14 | [罗马数字转整数]() | 中等 | [JavaScript]() |  ✘
+ 14 | [罗马数字转整数](https://leetcode-cn.com/problems/roman-to-integer/) | 简单 | [JavaScript](https://github.com/StrangeClow/leetcode_JS/blob/master/leetcode/RomanToInt.js) |  ✘
  15 | [最长公共前缀](https://leetcode.com/problems/longest-common-prefix/) | 中等 | [JavaScript](https://github.com/StrangeClow/leetcode_JS/blob/master/leetcode/longestCoomenprefix.js) |   √
  16 | [报数]() | 中等 | [JavaScript](https://github.com/StrangeClow/leetcode_JS/blob/master/leetcode/count12321.js) |  ✘
  17 | [最后一个单词的长度](https://leetcode.com/problems/length-of-last-word/) | 简单 | [JavaScript](https://github.com/StrangeClow/leetcode_JS/blob/master/leetcode/lengthOfLastWord.js) |  √
