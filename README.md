@@ -61,7 +61,7 @@
  56 | [替换空格]() | 简单 | [JavaScript](https://github.com/StrangeClow/leetcode_JS/blob/master/leetcode/replaceSpace.js) |   √
  57 | [有多小小于当前数字的数字]() | 简单 | [JavaScript]() |   ✘
  58 | [判断字符是否唯一]() | 简单 | [JavaScript](https://github.com/StrangeClow/leetcode_JS/blob/master/leetcode/judgeStrIsOnly.js) |    √
- 59 | [按奇偶排序数组]() | 简单 | [JavaScript]() |   ✘
+ 59 | [按奇偶排序数组](https://leetcode-cn.com/problems/sort-array-by-parity/) | 简单 | [JavaScript](https://github.com/StrangeClow/leetcode_JS/blob/master/leetcode/sortArraybyParity.js) |   ✘
  60 | [数组中重复的数字]() | 简单 | [JavaScript](https://github.com/StrangeClow/leetcode_JS/blob/master/leetcode/findReapteNumber.js) |   √
  
  
