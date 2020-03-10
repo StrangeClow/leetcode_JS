@@ -10,7 +10,7 @@
  */
 var largestNumber = function(nums) {
   // 首先判断特殊情况 处理数据边界问题
-  if(nums.every(item=> n === 0)) {
+  if(nums.every(item=> item === 0)) {
     return '0'
   }
   else {
@@ -20,3 +20,8 @@ var largestNumber = function(nums) {
       }).join('')
   }
 }
+
+
+
+let a1 = [10,2]
+console.log(largestNumber(a1));

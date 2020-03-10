@@ -1,5 +1,5 @@
 /**
- *  
+ *  给定一个非负整数 生成杨辉三角
  *
  * @param {*} m
  * @param {*} n
@@ -22,3 +22,6 @@ function Print(n){
 }
 
 // 打印规则的杨辉三角问题
+
+
+console.log(Print(5));

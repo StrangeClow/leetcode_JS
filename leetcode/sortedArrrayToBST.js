@@ -8,10 +8,19 @@
  * @param {*} nums
  * @returns
  */
+
+function treeNode(val) {
+  this.val = val
+  this.left = val
+  this.right = val
+}
+
 var sortedArrayToBST = function(nums) {
     // 处理边界情况
-    if(nums === null || nums.length === 0)   
+    if(nums === null || nums.length === 0)  {
       return null;
+    } 
+    //递归刷节点
     return generate(nums, 0, nums.length-1);
   };
   
@@ -26,7 +35,9 @@ var sortedArrayToBST = function(nums) {
   function generate(arr, start, end) {
     if(start > end)
       return null;
+    // 取中间值
     let mid = Math.floor((start+end)/2);
+    // new 一个节点
     let root = new TreeNode(arr[mid]);
     root.left = generate(arr, start, mid-1);
     root.right = generate(arr, mid+1, end);
