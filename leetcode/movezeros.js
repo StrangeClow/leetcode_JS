@@ -20,4 +20,10 @@ let tempNums
       }
     }
    }
+   return nums
 }
+
+
+
+let n1 = [0,2,6,1,0,8,9]
+console.log(movezeros(n1));

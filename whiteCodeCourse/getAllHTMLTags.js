@@ -4,7 +4,7 @@
  *
  * @returns
  */
-function getAllHTMLTags () {
+function getAllHTMLTags() {
   const tags = [...window.document.querySelectorAll('*')].map(  // querySelectorAll 获取元素标签
     dom => dom.tagName
   )

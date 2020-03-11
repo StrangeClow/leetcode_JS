@@ -208,7 +208,7 @@
 
 ### vue3.0  
 
-     proxy代理
+    new Proxy()代理
 
      vue3.0的响应式用法
          reactive包装数据
@@ -230,6 +230,7 @@
        子-父  $emit
        兄弟组件  bus  -vuex
        跨级组件  provide/inject
+       缓存   storage
 
 
 ###   vue-router

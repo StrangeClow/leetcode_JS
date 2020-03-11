@@ -22,3 +22,15 @@ const isBoolean2 = function(val) {
 
 console.log(isBoolean2('hhh'));
 console.log(isBoolean2(true));
+
+
+/**
+ *
+ *
+ * @param {*} val
+ * @returns
+ */
+const isBoolean3 = function(val) {
+  return Object.prototype.toString.call(val) === ['object', 'Boolean']
+}
+
