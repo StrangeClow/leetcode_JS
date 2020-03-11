@@ -33,4 +33,3 @@ console.log(isBoolean2(true));
 const isBoolean3 = function(val) {
   return Object.prototype.toString.call(val) === ['object', 'Boolean']
 }
-

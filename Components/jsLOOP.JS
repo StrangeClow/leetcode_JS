@@ -8,17 +8,17 @@
  * 
  *   map
  *   
- *    reduce
+ *   reduce
  *    
- *    filter 
+ *   filter 
  * 
- *    Array.from 
+ *   Array.from 
  * 
  *   reduceright 
  * 
- *    部分循环无法退出 map   基础循环可以退出
+ *   部分循环无法退出 map   基础循环可以退出
  * 
- *     部分循环会重新生成新的数组   有的会改变原数组
+ *   部分循环会重新生成新的数组   有的会改变原数组
  * 
  * 
 */

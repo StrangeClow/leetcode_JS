@@ -20,3 +20,9 @@ function add(a,b) {
 }
 
 console.log(isFunction1(add));
+
+
+
+const isFunction2 = function(val) {
+    return Object.prototype.toString.call(val) === ['object','Function']
+}
