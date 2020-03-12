@@ -32,7 +32,7 @@
  27 | [移动零](https://leetcode-cn.com/problems/move-zeroes/) | 简单 | [JavaScript](https://github.com/StrangeClow/leetcode_JS/blob/master/leetcode/movezeros.js) |  √
  28 | [两个数组的交集](https://leetcode.com/problems/intersection-of-two-arrays/) | 简单 | [JavaScript](https://github.com/StrangeClow/leetcode_JS/blob/master/leetcode/intersectionTwoArray.js) |   √
  29 | [两整数之和](https://leetcode.com/problems/sum-of-two-integers/) | 简单 | [JavaScript](https://github.com/StrangeClow/leetcode_JS/blob/master/leetcode/twoIntegersSum.js) |  √
- 30 | [最长回文串]() | 中等 | [JavaScript]() |  ✘
+ 30 | [最长回文串](https://leetcode-cn.com/problems/longest-palindrome/) | 中等 | [JavaScript]() |  ✘
  31 | [Sqrt(x) x 平方根](https://leetcode.com/problems/sqrtx/) | 简单 | [JavaScript](https://github.com/StrangeClow/leetcode_JS/blob/master/leetcode/sqrt(x).js) |  √
  32 | [平方数之和]() | 简单 | [JavaScript](https://github.com/StrangeClow/leetcode_JS/blob/master/leetcode/sumOfSquareNumbers.js) |  √
  33 | [第三大的数](https://leetcode.com/problems/third-maximum-number/) | 简单 | [JavaScript](https://github.com/StrangeClow/leetcode_JS/blob/master/leetcode/thirdMax.js) |  √
