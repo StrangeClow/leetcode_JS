@@ -7,13 +7,13 @@
 
 
 
-    ##  输出(output)
-        
+    ##  输出(output)  (new HtmlWebpackPlugin)
+             单输出
+             多输出
 
 
 
-
-    ##  loader
+    ##  loader （loder的执行顺序从后往前）
            css 
            html
            js 
@@ -45,7 +45,7 @@
     ## devtool 映射源代码信息 （source map）
 
 
-    ## 缓存(cache)
+    ## 缓存(cache) cacheGroups(缓存分组)
        babel缓存
           cacheDirectory: true
        文件缓存
@@ -69,6 +69,9 @@
      ### 加载(懒加载/预加载)    
 
 
+     ###  抽离公共代码部分 （splitChunks）
+
+
      ## externals(引入其他的类库或者API)  
 
 
@@ -87,6 +90,30 @@
                  c. 指定初级到webpack本身的事件钩子
                  d. 操作webpack内部的实例
                  e. 调用webpack提供的callback回调
+
+
+#  优化webpack构建速度
+
+           1. 优化babel-loder
+           2. IgnorePlugin
+           3. noParese
+           4. happypack
+
+
+
+
+
+##  es6中module和commonjs区别
+
+        A. ES6静态引入 编译时引入
+        B. commonjs动态引入 执行时引入
+
+
+
+
+ ##   及时识别风险 及时汇报        
+
+                     
 
 
 
