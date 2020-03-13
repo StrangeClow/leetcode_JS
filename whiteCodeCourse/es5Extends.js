@@ -137,6 +137,28 @@ console.log(a1.getFruitName('菠萝菠萝'))
  
 /**
  *   6. 寄生组合式继承
- *   借用构造函数来继承属性，通过原型链的混合形式来继承方法
+ *   借用构造函数来继承属性，通过原型链的混合形式来继承方法，不需要为子类指定原型二调用父类的构造函数，
+ * 仅需要父类原型的一个副本
  * 
  */
+
+ function inheritPrototype(Female, Person) {
+   var protoType = object.create(Person.prototype)
+   protoType.constructor = Female
+   Female.prototype = prototype
+ }
+
+ // 取代如下内容
+ Female.prototype = new Person()
+ Female.prototype.constructor = Female
+
+
+ //  
+
+ inheritPrototype(Female,Person)
+ Female.prototype.sayAge = function() {
+   return `${this.name} ${this.age}`
+ }
+
+ var fm = new Female('js','java',10)
+ fm.sayAge()
