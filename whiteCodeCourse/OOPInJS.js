@@ -99,5 +99,13 @@ Fruit.prototype.fruitName = function() {
    console.log(this)
 }
 
+
+/**
+ *   使用new创建实例
+ *      1. 创建零食边来那个，可以使用this访问这个临时变量
+ *      2. return临时对象
+ *      3. 指定原型prototype
+ *      4. 创建实例，绑定原型
+ */
 let f1 = new Fruit('apple')
 console.log(f1)
