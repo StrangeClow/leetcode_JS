@@ -15,5 +15,11 @@
  * @returns
  */
 const longestPalindrome = function(str) {
-    return res
+
+   if(!str || str.length === 0) return 0
+    
+   // 先字符串排序 
+   let tempS = s.split('').sort()
+   
+   
 }
