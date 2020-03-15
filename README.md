@@ -38,8 +38,8 @@
  33 | [第三大的数](https://leetcode.com/problems/third-maximum-number/) | 简单 | [JavaScript](https://github.com/StrangeClow/leetcode_JS/blob/master/leetcode/thirdMax.js) |  √
  34 | [转小写](https://leetcode.com/problems/to-lower-case/) | 简单 | [JavaScript](https://github.com/StrangeClow/leetcode_JS/blob/master/leetcode/toLowerCase.js) |  √
  35 | [反转字符串](https://leetcode.com/problems/reverse-string/) | 简单 | [JavaScript](https://github.com/StrangeClow/leetcode_JS/blob/master/leetcode/reverseString.js) |  √
- 36 | [身高检测器](https://leetcode.com/problems/height-checker/) | 简单 | [JavaScript](https://github.com/StrangeClow/leetcode_JS/blob/master/leetcode/heightChecker.js) |   ✘
- 37 | [两个数组的交集](https://leetcode.com/problems/intersection-of-two-arrays/) | 简单 | [JavaScript](https://github.com/StrangeClow/leetcode_JS/blob/master/leetcode/heightChecker.js) |   √
+ 36 | [高度检测器](https://leetcode.com/problems/height-checker/) | 简单 | [JavaScript](https://github.com/StrangeClow/leetcode_JS/blob/master/leetcode/heightChecker.js) |   ✘
+ 37 | [字符串中的单词数](https://leetcode-cn.com/problems/number-of-segments-in-a-string/) | 简单 | [JavaScript](https://github.com/StrangeClow/leetcode_JS/blob/master/leetcode/numsOfOneString.js) |   √
  38 | [重复元素](https://leetcode.com/problems/contains-duplicate/) | 简单 | [JavaScript](https://github.com/StrangeClow/leetcode_JS/blob/master/leetcode/containsDuplicate.js) |   √
  39 | [使用栈实现队列](https://leetcode-cn.com/problems/implement-queue-using-stacks//) | 简单 | [JavaScript](https://github.com/StrangeClow/leetcode_JS/blob/master/leetcode/implSQueueUseStack.js) |   √
  40 | [主要的数](https://leetcode.com/problems/majority-element/) | 简单 | [JavaScript](https://github.com/StrangeClow/leetcode_JS/blob/master/leetcode/mainElements.js) |   √
