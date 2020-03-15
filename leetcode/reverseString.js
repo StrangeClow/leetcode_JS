@@ -1,5 +1,8 @@
 /**
  *   反转字符串
+ * 
+ *  写一个函数，将输入的字符串反转过来，输入字符串以字符数组char[]的形式给出
+ * 不分配额外空间，需原地修改数组。
  *
  * @param {*} str
  * @returns
@@ -38,3 +41,15 @@ const reverseString = function(str) {
 
 
 console.log(reverseString('reverseString'));
+
+
+
+
+const reverseString3 = function(str) {
+    let index = 0
+    for (let index = 0; index < str.length - 1; index++) {
+        // 解构赋值  交换变量位置 
+        [str[index], str[str.length - 1 - index]] = [str[str.length - 1 - index], str[index]]
+    }
+    return str
+}
