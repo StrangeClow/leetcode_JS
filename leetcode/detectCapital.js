@@ -16,3 +16,8 @@ const detectCapital = function(word) {
    // test返回true或false
    return reg.test(word)
 }
+
+
+
+console.log(detectCapital('CHINA'));
+console.log(detectCapital('japaN'));
