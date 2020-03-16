@@ -32,3 +32,43 @@ const mainElement = function(nums) {
       } 
       return num
 }
+
+
+
+
+/**
+ *  
+ *
+ * @param {*} nums
+ * @returns
+ */
+const mainElement2 = function(nums) {
+   
+   if(nums.length === 1) return nums[0]
+
+   let len = nums.length / 2
+
+   let tMap = new Map()
+
+
+   for (let index = 0; index < nums.length; index++) {
+       if(tMap.has(nums[index])) {
+     
+            tMap.set(nums[index],tMap.get(nums[index])+1)
+
+         if(tMap.get(nums[index]) > len) {
+
+           return nums[index]
+         }
+       }
+       else {
+         tMap.set(nums[index], 1)
+       }
+   }
+   return -1
+}
+
+
+
+
+console.log(mainElement2([1,2,5,9,5,9,5,5,5]));
