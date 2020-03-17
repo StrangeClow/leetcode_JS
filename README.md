@@ -45,18 +45,18 @@
  40 | [主要的数](https://leetcode.com/problems/majority-element/) | 简单 | [JavaScript](https://github.com/StrangeClow/leetcode_JS/blob/master/leetcode/mainElements.js) |   √
  41 | [检测大写字母](https://leetcode.com/problems/detext-capital/) | 简单 | [JavaScript](https://github.com/StrangeClow/leetcode_JS/blob/master/leetcode/detectCapital.js) |   √
  42 | [字符串轮转](https://leetcode-cn.com/problems/string-rotation-lcci/) | 中等 | [JavaScript](https://github.com/StrangeClow/leetcode_JS/blob/master/leetcode/stringRotation.js) |   √
- 43 | [特殊等价字符串组]() | 中等 | [JavaScript]() |   ✘
- 44 | [各位相加]() | 简单 | [JavaScript]() |   ✘
- 45 | [数组的相对排序]() | 中等 | [JavaScript]() |   ✘
- 46 | [快乐数]() | 简单 | [JavaScript](https://github.com/StrangeClow/leetcode_JS/blob/master/leetcode/isHappyNumber.js) |   √
- 47 | [同构字符串]() | 简单 | [JavaScript]() |    ✘
- 48 | [找不同]() | 简单 | [JavaScript](https://github.com/StrangeClow/leetcode_JS/blob/master/leetcode/findDiffFunc.js) |   √
+ 43 | [特殊等价字符串组](https://leetcode-cn.com/problems/groups-of-special-equivalent-strings/) | 中等 | [JavaScript](https://github.com/StrangeClow/leetcode_JS/blob/master/leetcode/numSpecialEquivGroups.js) |   ✘
+ 44 | [各位相加](https://leetcode-cn.com/problems/add-digits/) | 简单 | [JavaScript](https://github.com/StrangeClow/leetcode_JS/blob/master/leetcode/addDigits.js) |   ✘
+ 45 | [数组的相对排序](https://leetcode-cn.com/problems/relative-sort-array/) | 中等 | [JavaScript](https://github.com/StrangeClow/leetcode_JS/blob/master/leetcode/relativeSortArray.js) |   ✘
+ 46 | [快乐数](https://leetcode-cn.com/problems/happy-number/) | 简单 | [JavaScript](https://github.com/StrangeClow/leetcode_JS/blob/master/leetcode/isHappyNumber.js) |   √
+ 47 | [同构字符串](https://leetcode-cn.com/problems/isomorphic-strings/) | 简单 | [JavaScript](https://github.com/StrangeClow/leetcode_JS/blob/master/leetcode/isIsomorphic.js) |    ✘
+ 48 | [找不同](https://leetcode-cn.com/problems/find-the-difference/) | 简单 | [JavaScript](https://github.com/StrangeClow/leetcode_JS/blob/master/leetcode/findDiffFunc.js) |   √
  49 | [二叉树的中序遍历]() | 简单 | [JavaScript](https://github.com/StrangeClow/leetcode_JS/blob/master/leetcode/inOrderTraversal.js) |   √
  50 | [重叠区间]() | 中等 | [JavaScript](https://github.com/StrangeClow/leetcode_JS/blob/master/leetcode/mergeTwoArrays.js) |   ✘
  51 | [字符串大写转小写]() | 简单 | [JavaScript](https://github.com/StrangeClow/leetcode_JS/blob/master/leetcode/transBigWordToSmallWord.js) |   √
  52 | [宝石与石头]() | 简单 | [JavaScript](https://github.com/StrangeClow/leetcode_JS/blob/master/leetcode/numJewelsInStones.js) |   √
  53 | [翻转二叉树]() | 简单 | [JavaScript](https://github.com/StrangeClow/leetcode_JS/blob/master/leetcode/turnTree.js) |   √
- 54 | [各位相加]() | 简单 | [JavaScript]() |   ✘
+ 54 | [平衡二叉树(深度优先搜索)]() | 简单 | [JavaScript]() |   ✘
  55 | [左旋转字符串](https://leetcode-cn.com/problems/zuo-xuan-zhuan-zi-fu-chuan-lcof/) | 简单 | [JavaScript]() |   ✘
  56 | [替换空格]() | 简单 | [JavaScript](https://github.com/StrangeClow/leetcode_JS/blob/master/leetcode/replaceSpace.js) |   √
  57 | [有多小小于当前数字的数字]() | 简单 | [JavaScript](https://github.com/StrangeClow/leetcode_JS/blob/master/leetcode/smallerNumbersThanCurrnet.js) |   ✘
