@@ -63,6 +63,7 @@
  58 | [判断字符是否唯一]() | 简单 | [JavaScript](https://github.com/StrangeClow/leetcode_JS/blob/master/leetcode/judgeStrIsOnly.js) |    √
  59 | [按奇偶排序数组](https://leetcode-cn.com/problems/sort-array-by-parity/) | 简单 | [JavaScript](https://github.com/StrangeClow/leetcode_JS/blob/master/leetcode/sortArraybyParity.js) |    √
  60 | [数组中重复的数字]() | 简单 | [JavaScript](https://github.com/StrangeClow/leetcode_JS/blob/master/leetcode/findReapteNumber.js) |   √
+ 61 | [旋转数组的最小数字](https://leetcode-cn.com/problems/xuan-zhuan-shu-zu-de-zui-xiao-shu-zi-lcof/) | 简单 | [JavaScript](https://github.com/StrangeClow/leetcode_JS/blob/master/leetcode/findReapteNumber.js) |   √
  
  
  
