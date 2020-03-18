@@ -14,7 +14,7 @@
             // "program": "${workspaceFolder}/sort_in_JS\\data_structure.js"          
             //  "program": "${workspaceFolder}/30MinutesCode/UNTILITY\\getURLParameters.js"
             // "program": "${workspaceFolder}/dataStructureCourse\\Queue.js"
-               "program": "${workspaceFolder}/leetcode\\rotateMinArray.js"
+               "program": "${workspaceFolder}/leetcode\\majorityElement.js"
             //   "program": "${workspaceFolder}/backOFJs\\Dedeplication.js"
             //   "program": "${workspaceFolder}/whiteCodeCourse\\es5Extends.js"
         }
