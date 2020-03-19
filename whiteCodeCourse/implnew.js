@@ -23,3 +23,19 @@ const implNew = function() {
    return typeof res === 'object' ? res : tempObj
 
 }
+
+
+
+
+
+
+const implNew = function() {
+
+    let fn = Array.prototype.shift.call(arguments)
+
+    let tempObj = Object.create(fn.prototype)
+    
+    let changeThis = fn.apply(tempObj, arguments)
+
+    return typeof changeThis === 'object' ? changeThis : tempObj
+}

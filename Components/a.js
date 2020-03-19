@@ -10,3 +10,11 @@ const d = [[1,5],[2,8,9]].reduce((f,g)=> {
     return f.concat(g);
 })
 console.log(d);
+
+
+
+const PushArr = function(arr) {
+    return arr.reduce((item, prev)=> {
+        console.log(item,prev);
+    })
+}
