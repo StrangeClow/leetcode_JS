@@ -1,5 +1,5 @@
 /**
- *  函数节流 防止频繁操作
+ *  函数节流 防止频繁操作 （一定时间段内只执行一次 ）
  * 
  *   节流与防抖的区别 侧重点是那些 
  *
@@ -9,9 +9,13 @@
  */
 const throttle = function(cb, ms) {
     let timer = null
-    const ctx=  this
-    return (...args) => {
-        clearTimeout(timer)
-        timer = setTimeout(cb.bind(ctx,...args),ms)
+    
+    let throttleFunc = function() {
+       clearTimeout(timer)
+       timer = setTimeout(() => {
+           cb.apply(this, arguments)
+       }, ms);
     }
+
+    return throttleFunc 
 }
