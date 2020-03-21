@@ -26,3 +26,8 @@ console.log(isFunction1(add));
 const isFunction2 = function(val) {
     return Object.prototype.toString.call(val) === ['object','Function']
 }
+
+
+const isFunction3 = function(val) {
+    return val.constructor === Function
+}
