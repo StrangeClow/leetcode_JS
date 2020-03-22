@@ -22,3 +22,15 @@ const IMPLinstanceof = function(left, right) {
        LProto = LProto._proto_
     }
 }
+
+
+
+const IMPLinstanceof2 = function(leftType, rightType) {
+    while(leftType) {
+        leftType = left._proto_
+        if(leftType === rightType.prototype) {
+           return true
+        } 
+        return false
+    }
+}
