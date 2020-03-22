@@ -14,21 +14,26 @@
  * 
  * 
  */
+ const soluteCourseFunc = function() {
 
- var data = []
-     for (var index = 0; index < 3; index++) {
-         data[i] = function() {
-             console.log(i);
+     var data = []
+         for (var index = 0; index < 3; index++) {
+             console.log(index);
+             data[index] = function() {
+                 console.log(index);
+             }
          }
-     }
+ }
 
+ console.log(soluteCourseFunc());
 
  // 改进
  
   for (var index = 0; index < 3; index++) {
-     data[i] = (function(num){
+      let data = []
+     data[index] = (function(num){
         return function() {
             console.log(num);
         }
-     })(i)
+     })(index)
   }

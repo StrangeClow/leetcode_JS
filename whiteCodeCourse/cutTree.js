@@ -13,7 +13,7 @@ function cutTree(list,MM,range) {
        return 0
    }
    let start = 0,
-       end = Math.max(...list)   // 去list的最大值
+       end = Math.max(...list)   // 取list的最大值
     while(start <= end) {
       const middle = start + ((end - start) >> 1)
       let res = 0

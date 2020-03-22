@@ -29,7 +29,7 @@ const implNew = function() {
 
 
 
-const implNew = function() {
+const implNew2 = function() {
 
     let fn = Array.prototype.shift.call(arguments)
 

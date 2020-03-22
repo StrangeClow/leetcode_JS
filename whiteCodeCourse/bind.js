@@ -7,6 +7,7 @@
  */
 
 Function.prototype.myBind = function(thisArgs) {
+    // 当前this非function
     if(typeof this !== 'function') {
         return
     }
