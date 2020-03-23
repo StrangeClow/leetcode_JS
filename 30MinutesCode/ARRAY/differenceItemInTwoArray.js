@@ -8,6 +8,7 @@
 const difference = (a,b) => {
     // new Set() 去重
     const s = new Set(b);   
+    // 过滤非值
     return a.filter( x => !s.has(x))
 }
 
