@@ -7,7 +7,7 @@
  * @param {number} [depth=1]   depth代表平铺的深度
  */
 const flatten = (arr, depth =1) => 
-    depth != 1
+    depth !== 1
     ? arr.reduce((prev,curr) => prev.concat(Array.isArray(curr) ? flatten(curr, depth -1): curr),[])
     : arr.reduce((prev, curr) => prev.concat(curr),[])
 

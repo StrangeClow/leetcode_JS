@@ -4,3 +4,7 @@
  * @param {*} arr
  */
 const head= arr => arr[0]
+
+
+let n1 = [1,2,3,4,5]
+console.log(head(n1));     // output===> 1
