@@ -11,8 +11,8 @@
 
 function treeNode(val) {
   this.val = val
-  this.left = val
-  this.right = val
+  this.left = null
+  this.right = null
 }
 
 var sortedArrayToBST = function(nums) {

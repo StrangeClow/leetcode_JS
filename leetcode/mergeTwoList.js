@@ -7,6 +7,7 @@
  * 输出：1->1->2->3->4->4
  */
 
+ // 初始化一个listNode类
 function ListNode(val) {
    this.val = val;
    this.next = null;
