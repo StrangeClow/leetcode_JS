@@ -1,5 +1,7 @@
 /**
  *   是否为纯对象形式  不包括数组 等 
+ * 
+ *    val.constructor === 指定类型     val.constructor.name.toLowerCase() ===某某类型
  *
  * @param {*} val
  */

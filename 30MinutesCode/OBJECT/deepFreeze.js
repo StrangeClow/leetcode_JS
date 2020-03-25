@@ -11,4 +11,6 @@ const deepFreeze = obj =>
        // 是否冻结
     || Object.isFrozen(obj[prop]) 
     ? null : deepFreeze(obj[prop])
+
+    // obj.freeze() 冻结属性
   ) || Object.freeze(obj);
