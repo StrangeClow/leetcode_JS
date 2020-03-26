@@ -67,7 +67,7 @@
  62 | [数组中出现次数超过一半的数字](https://leetcode-cn.com/problems/shu-zu-zhong-chu-xian-ci-shu-chao-guo-yi-ban-de-shu-zi-lcof/) | 简单 | [JavaScript](https://github.com/StrangeClow/leetcode_JS/blob/master/leetcode/findReapteNumber.js) |   √
  63 | [合并排序的数组](https://leetcode-cn.com/problems/sorted-merge-lcci/) | 简单 | [JavaScript](https://github.com/StrangeClow/leetcode_JS/blob/master/leetcode/mergeSortedArr.js) |  ✘
  64 | [比较字符串中最小字母出现的次数](https://leetcode-cn.com/problems/compare-strings-by-frequency-of-the-smallest-character/) | 简单 | [JavaScript](https://github.com/StrangeClow/leetcode_JS/blob/master/leetcode/numSmallerByFrequency.js) |  ✘
- 65 | [反转链表(单链)](https://leetcode-cn.com/problems/fan-zhuan-lian-biao-lcof/) | 简单 | [JavaScript](https://github.com/StrangeClow/leetcode_JS/blob/master/leetcode/reverseList.js) |  ✘
+ 65 | [反转链表(单链)](https://leetcode-cn.com/problems/fan-zhuan-lian-biao-lcof/) | 简单 | [JavaScript](https://github.com/StrangeClow/leetcode_JS/blob/master/leetcode/reverseList.js) |  √
  
  
  
