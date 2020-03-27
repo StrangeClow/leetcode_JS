@@ -12,3 +12,7 @@
  * 
  */
 const drop = (arr, n = 1) => arr.slice(n);
+
+
+
+console.log(drop([12,34,56,78,90],1));

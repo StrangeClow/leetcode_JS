@@ -6,9 +6,9 @@
  * @returns
  */
 const difference = (a,b) => {
-    // new Set() 去重
+    // new Set() 去重 对数组b中元素去重
     const s = new Set(b);   
-    // 过滤非值
+    // 过滤非值 存在a中但不存在b中
     return a.filter( x => !s.has(x))
 }
 

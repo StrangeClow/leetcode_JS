@@ -44,7 +44,7 @@ var deepFlattenTwo = function(arr) {
   for (let index = 0; index < arr.length; index++) {
       // 判断是不是数组 
       if(Array.isArray(arr[index])) {
-         result = result.concat(deepFlattenTwo(arr[index]))    // 递归调用自身
+         result = result.concat(deepFlattenTwo(arr[index]))    // 递归调用自身往回走
       } else {
           result.push(arr[index])   // 不是数组  证明是单个数据  push添加
       }

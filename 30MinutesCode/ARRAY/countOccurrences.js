@@ -4,7 +4,7 @@
  *    reduce迭代
  *
  * @param {*} arr  指定的简单数组
- * @param {*} val  指定的某一一个值
+ * @param {*} val  指定的某一个值
  */
 const countOccurrences = (arr, val) =>
   arr.reduce((prev,cur)=>
