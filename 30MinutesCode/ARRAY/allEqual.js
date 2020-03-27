@@ -18,5 +18,9 @@
  */
 
 const allEqual = arr=> {
-    arr.every(val => val === arr[0])
+  return  arr.every(val => val === arr[0])
 }
+
+
+console.log(allEqual([1,1,1,1,2]));
+console.log(allEqual([1,1,1,1,1]));

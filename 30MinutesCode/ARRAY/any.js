@@ -12,3 +12,8 @@
  * @param {*} [fn=Boolean]
  */
 const any = (arr, fn= Boolean) => arr.some(fn);
+
+
+console.log(any([false,NaN]));        // 都为false
+console.log(any([false,true,12]));    // 存在为true的值
+console.log(any([true,1234]));    // 都为true
