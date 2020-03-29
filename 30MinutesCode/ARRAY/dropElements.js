@@ -15,3 +15,15 @@ const dropElements = (arr, func) => {
     // 循环结束 返回删除后的元素信息
     return arr
 }
+
+
+const getq = function(n) {
+    return n >= 3
+}
+
+
+
+
+let a = [1,2,3,4,5,6]
+
+console.log(dropElements(a,n => n >= 3));
