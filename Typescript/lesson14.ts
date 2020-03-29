@@ -63,3 +63,46 @@ class person implements eat, drink{
         console.log('drink milk')
     }
 }
+
+
+
+interface eatFood{
+    eatFood(): void;
+}
+
+
+/**
+ *   接口与接口之间可以继承 
+ *
+ * @interface eatFood
+ * @implements {eat}
+ */
+interface eatFood extends eat{
+
+   eatFood(): void;
+}
+
+
+
+
+/**
+ *   接口继承类
+ *
+ */
+
+ class point{
+     x: number
+     y: number
+     constructor(x:number, y:number){
+        this.x = x
+        this.y = y
+     }
+ }
+
+
+ interface point3D extends point{
+     z: number;
+ }
+
+
+ let point3D: point3D = {x:1,y:1,z:1}
