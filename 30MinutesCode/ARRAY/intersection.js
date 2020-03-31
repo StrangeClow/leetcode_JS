@@ -9,5 +9,9 @@ const intersection = (a,b) => {
     const s= new Set(b)   // new Set去重
     // fliter过滤 
    // has方法判断是否存在
-    return a.fliter(x => s.has(x))
+    return a.filter(x => s.has(x))
 }
+
+
+
+console.log(intersection([12,3,4,5,6,7],[3,4,5,8,90]));
