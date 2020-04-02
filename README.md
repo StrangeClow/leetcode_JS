@@ -68,6 +68,8 @@
  63 | [合并排序的数组](https://leetcode-cn.com/problems/sorted-merge-lcci/) | 简单 | [JavaScript](https://github.com/StrangeClow/leetcode_JS/blob/master/leetcode/mergeSortedArr.js) |  ✘
  64 | [比较字符串中最小字母出现的次数](https://leetcode-cn.com/problems/compare-strings-by-frequency-of-the-smallest-character/) | 简单 | [JavaScript](https://github.com/StrangeClow/leetcode_JS/blob/master/leetcode/numSmallerByFrequency.js) |  ✘
  65 | [反转链表(单链)](https://leetcode-cn.com/problems/fan-zhuan-lian-biao-lcof/) | 简单 | [JavaScript](https://github.com/StrangeClow/leetcode_JS/blob/master/leetcode/reverseList.js) |  √
+ 66 | [交换数字](https://leetcode-cn.com/problems/swap-numbers-lcci/) | 中等 | [JavaScript](https://github.com/StrangeClow/leetcode_JS/blob/master/leetcode/swapNumber.js) |  √
+ 67 | [无重复字符串的排列组合](https://leetcode-cn.com/problems/permutation-i-lcci/) | 中等 | [JavaScript](https://github.com/StrangeClow/leetcode_JS/blob/master/leetcode/permutation.js) |  ✘
  
  
  
