@@ -3,6 +3,23 @@
 })(12,890)
 
 
+!(function(a,b){
+ let c =  a + b
+ console.log(c)
+}(1,2))
+
+~(function(a,b){
+ let c =  a + b
+ console.log(c)
+}(1,2))
+
+
+~(function(a,b){
+ let c =  a + b
+ console.log(c)
+}(1,2))
+
+
 var arr = [{
        key: '01',
        value: '乐乐'

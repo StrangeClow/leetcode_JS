@@ -27,8 +27,12 @@ var arrList = [{
   }];
 
 const Dedeplication = function(arr) {
+    // hash对象
     let hashObject = {}
+    // reduce()
     const reduceArr = arr.reduce((prev,curr)=> {
+        // 不为空  
+        // 为真则添加进去
         hashObject[prev.name] ? '' : hashObject[curr.name] = true && prev.push(curr)
         return prev
     },[])
@@ -55,6 +59,7 @@ var arr2 = [{
 
 var hash = {};
 let arr1 = arr2.reduce(function(item, next) {
+    // a[b]  a对象的b属性 
     hash[next.key] ? '' : hash[next.key] = true && item.push(next);
     return item
 }, [])
