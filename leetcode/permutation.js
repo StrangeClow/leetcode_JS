@@ -22,7 +22,8 @@ const permutation = function(s) {
          return res.concat(curr)
       }
     }
-
+    
+    // 回溯算法 每次计算最优解 
     for (let index = 0; index < store.length; index++) {
        curr+= store[index]
 

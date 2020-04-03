@@ -13,7 +13,7 @@
             "name": "启动程序",
             // "program": "${workspaceFolder}/sort_in_JS\\data_structure.js"          
             //  "program": "${workspaceFolder}/30MinutesCode/UNTILITY\\getURLParameters.js"
-             "program": "${workspaceFolder}/30MinutesCode/ARRAY\\remove.js"
+             "program": "${workspaceFolder}/30MinutesCode/ARRAY\\initializeArrayWithValues.js"
             // "program": "${workspaceFolder}/dataStructureCourse\\Queue.js"
             //    "program": "${workspaceFolder}/leetcode\\sumNums.js"
             //   "program": "${workspaceFolder}/backOFJs\\Dedeplication.js"
