@@ -12,10 +12,11 @@ const implNew = function() {
     // 新创建一个新对象
    let tempObj = new Object()
 
-   // 改变指向
+   // 改变指向   Array.prototype.shift.apply()
    let Constructor = [].shift.apply(arguments)
+   //    _proto_
    tempObj._proto_ = Constructor.prototype
-   // 取的构造函数的返回值
+   // 取出构造函数的返回值
    let res = Constructor.apply(tempObj, arguments)
   
    // 返回当前数据值

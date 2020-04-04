@@ -11,7 +11,14 @@
  */
 const IMPLinstanceof = function(left, right) {
     let RProto = right.prototype   // 取右表达式的显示类型
+    console.log('RProto==',RProto)
     LProto = left._proto_;    // 取左表达式的隐式类型
+    console.log('LProto==',LProto)
+
+    let a = 'hello'
+    console.log('hello1===',a._proto_)
+    console.log('hello2===',a.prototype)
+
     while(true) {
        if(left === null) {
            return false
@@ -24,13 +31,20 @@ const IMPLinstanceof = function(left, right) {
 }
 
 
+let m = [1,2,3]
+console.log(IMPLinstanceof(m, Array))
+
 
 const IMPLinstanceof2 = function(leftType, rightType) {
     while(leftType) {
-        leftType = left._proto_
+        leftType = leftType._proto_
         if(leftType === rightType.prototype) {
            return true
         } 
         return false
     }
 }
+
+
+let n = [1,2,3]
+console.log(IMPLinstanceof2(n, Array))

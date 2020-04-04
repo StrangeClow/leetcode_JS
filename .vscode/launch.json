@@ -15,10 +15,10 @@
             //  "program": "${workspaceFolder}/30MinutesCode/UNTILITY\\getURLParameters.js"
             //  "program": "${workspaceFolder}/30MinutesCode/ARRAY\\without.js"
             // "program": "${workspaceFolder}/dataStructureCourse\\Queue.js"
-               "program": "${workspaceFolder}/leetcode\\timesInArray.js"
+            //    "program": "${workspaceFolder}/leetcode\\timesInArray.js"
             //   "program": "${workspaceFolder}/backOFJs\\Dedeplication.js"
             // "program": "${workspaceFolder}/backOFJs\\01/test.js"
-            //   "program": "${workspaceFolder}/whiteCodeCourse\\es5Extends.js"
+              "program": "${workspaceFolder}/whiteCodeCourse\\implementsInstanceof.js"
         }
     ]
 }
