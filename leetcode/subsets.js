@@ -51,3 +51,16 @@ const subsets2 = function(arr) {
 
   }
 }
+
+
+
+
+/**
+ *
+ *
+ * @param {*} arr
+ * @returns
+ */
+const subsets3 = function(arr) {
+  return arrs
+}

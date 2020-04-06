@@ -113,3 +113,23 @@ console.log(xieT.getHobby('football'));
 console.log(xieT.getSex(0));
 console.log(liT.getName('xiaomi'));
 console.log(liT.getSex(1));
+
+
+
+
+
+const UserInfo = class User {
+  constructor(name, age) {
+     this.name = name
+     this.age = age
+  }
+}
+let txq = new UserInfo('hello',18)
+
+console.log(txq)
+
+
+
+// 子类的_proto_指向父类本身
+// 子类的prototype属性的_proto_指向父类的prototype属性
+// 实例的_proto_属性的_proto_指向父类实例的_proto_

@@ -162,3 +162,31 @@ console.log(a1.getFruitName('菠萝菠萝'))
 
  var fm = new Female('js','java',10)
  fm.sayAge()
+
+
+
+
+
+
+
+
+ // 视频教程
+
+ function Food() {
+   this.type = type
+ }
+
+ Food.prototype.getType = function() {
+   return `类型为==${this.type}`
+ }
+
+ function vegetables(name) {
+   this.name = name 
+ }
+
+
+ vegetables.prototype = new Food()
+
+ const tomato = new vegetables('tomato')
+
+ console.log(tomato.getType())
