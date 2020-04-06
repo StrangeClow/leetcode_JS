@@ -15,5 +15,21 @@
  * @returns
  */
 const balancedStringSplit = function(str) {
-    return strs
+    
+    let num = 0
+    let res = 0
+
+    for (let index = 0; index < str.length; index++) {
+       if(str[index] === 'R') {
+           num ++
+       }
+       else {
+           num --
+       }
+       if(num == 0) {
+          res
+       }
+        
+       return res
+    }
 }
