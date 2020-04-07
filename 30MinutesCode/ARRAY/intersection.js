@@ -15,3 +15,17 @@ const intersection = (a,b) => {
 
 
 console.log(intersection([12,3,4,5,6,7],[3,4,5,8,90]));
+
+
+
+
+/**
+ *
+ *
+ * @param {*} a
+ * @param {*} b
+ * @returns
+ */
+const intersection2 = function(a, b) {
+    return ab
+}
