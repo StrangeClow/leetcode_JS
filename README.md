@@ -73,6 +73,7 @@
  68 | [数组中数字出现的次数 II](https://leetcode-cn.com/problems/shu-zu-zhong-shu-zi-chu-xian-de-ci-shu-ii-lcof/) | 中等 | [JavaScript](https://github.com/StrangeClow/leetcode_JS/blob/master/leetcode/timesInArray.js) |  √
  69 | [子集(回溯算法)](https://leetcode-cn.com/problems/subsets/) | 中等 | [JavaScript](https://github.com/StrangeClow/leetcode_JS/blob/master/leetcode/subsets.js) |  ✘
  70 | [分隔平衡字符串(贪心算法)](https://leetcode-cn.com/problems/split-a-string-in-balanced-strings/) | 中等 | [JavaScript](https://github.com/StrangeClow/leetcode_JS/blob/master/leetcode/balancedStringSplit.js) |  ✘
+ 71 | [统计位数为偶数的数字](https://leetcode-cn.com/problems/find-numbers-with-even-number-of-digits/) | 简单 | [JavaScript](https://github.com/StrangeClow/leetcode_JS/blob/master/leetcode/findNumbersInEven.js) |  √
  
  
  
