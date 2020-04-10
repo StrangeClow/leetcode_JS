@@ -19,6 +19,36 @@ const deepClone = (obj) => {
 }
 
 
+let a = {
+   name: 'vs code',
+   age: 4,
+   sex: 0,
+   type: undefined,
+   getName() {
+      console.log('my name is ')
+   },
+   b: {
+      prov: 'hello',
+      getProv(provInfo) {
+        console.log(provInfo);
+      }
+   }
+}
+
+console.log(deepClone(a));
+
+// 此方法值克隆简单对象
+const deepClone3 = function(obj) {
+   return JSON.parse(JSON.stringify(obj))
+} 
+
+console.log(deepClone3(a))
+
+console.log(a.age +1)
+
+console.log(Object.assign({},a))
+
+
 
 /**
  *
