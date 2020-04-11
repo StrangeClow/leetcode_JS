@@ -6,3 +6,13 @@
  * @param {*} obj
  */
 const objectToPairs = obj => Object.keys(obj).map(k => [k, obj[k]])
+
+
+
+let c = {
+    a:1,
+    b:2
+}
+
+
+console.log(objectToPairs(c));

@@ -1,4 +1,4 @@
-## 每日一道题    :yum:    可惜没做到   :cry:
+## 每日一道题    :yum:      :cry:
 
 ### [TOC] letcode begin
  序号 | 题名 | 难度(leetcode区分级别) | 练习 |状态 (:fire:)  

@@ -14,7 +14,7 @@
             // "program": "${workspaceFolder}/sort_in_JS\\data_structure.js"          
             //  "program": "${workspaceFolder}/30MinutesCode/UNTILITY\\getURLParameters.js"
             //  "program": "${workspaceFolder}/30MinutesCode/ARRAY\\union.js"
-             "program": "${workspaceFolder}/30MinutesCode/OBJECT\\deepClone.js"
+             "program": "${workspaceFolder}/30MinutesCode/OBJECT\\objectToPairs.js"
             // "program": "${workspaceFolder}/dataStructureCourse\\Queue.js"
             //    "program": "${workspaceFolder}/leetcode\\findNumbersInEven.js"
             //   "program": "${workspaceFolder}/backOFJs\\Dedeplication.js"

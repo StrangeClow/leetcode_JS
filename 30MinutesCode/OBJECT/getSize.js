@@ -1,11 +1,11 @@
 /**
  *  获取 array object  string的长度  
- *   利用各自的判断方法  结合三元表达式
+ *   利用各自的判断方法  结合三元表达式   a ? b : c ? d : e
  *
  * @param {*} val
  */
 const getSize = (val)=> {
-    Array.isArray(val) 
+  return  Array.isArray(val) 
     ? val.length
     : val && typeof val === "object"
     ? val.size || val.length || Object.keys(val).length
@@ -14,3 +14,9 @@ const getSize = (val)=> {
     ? new Blob([val]).size
     : 0
 }
+
+
+console.log(getSize(12345));
+console.log(getSize('hello world'));
+console.log(getSize([1,2,3,4,5,6,7]));
+console.log(getSize({a:1,b:2}));
