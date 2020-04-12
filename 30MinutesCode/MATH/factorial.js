@@ -8,14 +8,19 @@
  * @param {*} n
  */
 const factorial = n => 
-   
+   // n < 0 
     n < 0 ? 
 
       (() => {
 
           throw new Error('negative numbers are not allowed!')
       })()
-
+     // n <=1  返回自身
       : n <= 1 ? 
-
+      // 递归调用
       1 : n * factorial(n - 1)
+
+
+
+
+console.log(factorial(6))      // output ===>  720  

@@ -13,3 +13,8 @@ const isDivisable = (dividend, divisor) => {
  return     dividend % divisor === 0
 
 }
+
+
+console.log(isDivisable(2,1))
+console.log(isDivisable(1,1))
+console.log(isDivisable(3,2))

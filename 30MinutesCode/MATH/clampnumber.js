@@ -11,5 +11,9 @@
  * @param {*} b
  */
 const clampNumber = (num, a, b) => {
-    Math.max(Math.min(num,Math.max(a,b)),Math.min(a,b))
+    // math.max()框定取值范围 
+   return Math.max(Math.min(num,Math.max(a,b)),Math.min(a,b))
 }
+
+
+console.log(clampNumber(2,3,5));
