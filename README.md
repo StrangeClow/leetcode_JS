@@ -75,8 +75,7 @@
  70 | [分隔平衡字符串(贪心算法)](https://leetcode-cn.com/problems/split-a-string-in-balanced-strings/) | 中等 | [JavaScript](https://github.com/StrangeClow/leetcode_JS/blob/master/leetcode/balancedStringSplit.js) |  ✘
  71 | [统计位数为偶数的数字](https://leetcode-cn.com/problems/find-numbers-with-even-number-of-digits/) | 简单 | [JavaScript](https://github.com/StrangeClow/leetcode_JS/blob/master/leetcode/findNumbersInEven.js) |  √
  72 | [6和9组成的最大数字](https://leetcode-cn.com/problems/maximum-69-number/) | 简单 | [JavaScript](https://github.com/StrangeClow/leetcode_JS/blob/master/leetcode/maximum69Number.js) |  ✘
- 73 | [根据字符出现频率排序](https://leetcode-cn.com/problems/sort-characters-by-frequency/) | 简单 | [JavaScript](https://github.com/StrangeClow/leetcode_JS/blob/master/leetcode/maximum69Number.js) |  ✘
- 
+ 73 | [根据字符出现频率排序](https://leetcode-cn.com/problems/sort-characters-by-frequency/) | 中等 | [JavaScript](https://github.com/StrangeClow/leetcode_JS/blob/master/leetcode/frequencySort.js) |  √
  
  
 > leetcode end   :kissing_heart:
