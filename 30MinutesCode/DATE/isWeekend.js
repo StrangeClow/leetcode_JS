@@ -11,3 +11,6 @@
 const isWeekend = (t = new Date()) => {
     return (t.getDay()) % 6 === 0  
 }
+
+
+console.log(isWeekend(new Date()));

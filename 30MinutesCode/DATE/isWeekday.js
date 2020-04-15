@@ -1,5 +1,5 @@
 /**
- *   判断是是否只周末   返回布尔值 
+ *   是否为工作日 
  *    
  *     1. 获取当前时间 %6 判断 
  *
@@ -9,3 +9,7 @@
 const isWeekday = (t = new Date()) => {
     return t.getDay() % 6 !== 0
 }
+
+
+
+console.log(isWeekday(new Date()));
