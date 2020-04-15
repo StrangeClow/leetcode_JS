@@ -7,5 +7,6 @@
  * @param {boolean} [opts=false]   / 是否冒泡
  */
 const off = function(el, event, fn, opts = false) {
-  el.removeEventLisener(event, fn, opts)
+  //removeEventLisener()
+  return   el.removeEventLisener(event, fn, opts)
 }
