@@ -40,5 +40,5 @@
   let middleArr = Math.floor(arr.length / 2),   // 将无需数组划分为两个数组
       leftArr = arr.slice(0,middleArr),
       rightArr = arr.slice(middleArr,arr.length)
-    return merge(mergeSort(leftArr),mergeSort(rightArr))   // 递归条用，分别对左右两部分数组并行排序合并
+    return merge(mergeSort(leftArr),mergeSort(rightArr))   // 递归调用，分别对左右两部分数组并行排序合并
  }

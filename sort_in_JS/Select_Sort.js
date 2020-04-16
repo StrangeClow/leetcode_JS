@@ -88,9 +88,10 @@ function selectSort_Three(arr) {
 selectSort_Three([10, 900, 0.1, 1, 68]);
 
 
-function arrSort3(arr) {
+function arrSort3(arr) {     // 第一步先拿出arr.Math.max()或arr.Math.min()的元素
     var len = arr.length,
-        minIndex, nu;
+        minIndex, 
+        nu
     for (var i = 0; i < len - 1; i++) {
         minIndex = i; //记录每次循环的第一个数为该次循环的最小值索引
         for (var j = i + 1; j < len; j++) {
@@ -99,9 +100,13 @@ function arrSort3(arr) {
             }
         }
         nu = arr[i];
-        arr[i] = arr[minIndex]; //将找到的最小值放在每次循环的最开始的地方；
+        arr[i] = arr[minIndex]; //将找到的最小值放在每次循环的最开始的地方；  顺序排序 
         arr[minIndex] = nu;
 
     }
-    console.log(arr);
+    return arr
 }
+
+
+let n5 = [1,9,2,4,7,5,6,10]
+console.log(arrSort3(n5));
