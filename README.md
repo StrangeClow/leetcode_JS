@@ -77,6 +77,7 @@
  72 | [6和9组成的最大数字](https://leetcode-cn.com/problems/maximum-69-number/) | 简单 | [JavaScript](https://github.com/StrangeClow/leetcode_JS/blob/master/leetcode/maximum69Number.js) |  ✘
  73 | [根据字符出现频率排序](https://leetcode-cn.com/problems/sort-characters-by-frequency/) | 中等 | [JavaScript](https://github.com/StrangeClow/leetcode_JS/blob/master/leetcode/frequencySort.js) |  √
  74 | [全排列](https://leetcode-cn.com/problems/permutations/) | 中等 | [JavaScript](https://github.com/StrangeClow/leetcode_JS/blob/master/leetcode/permute.js) |  √
+ 75 | [拼写单词](https://leetcode-cn.com/problems/find-words-that-can-be-formed-by-characters/) | 简单 | [JavaScript](https://github.com/StrangeClow/leetcode_JS/blob/master/leetcode/countCharacters.js) |  ✘
  
  
 > leetcode end   :kissing_heart:
