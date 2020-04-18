@@ -78,6 +78,8 @@
  73 | [根据字符出现频率排序](https://leetcode-cn.com/problems/sort-characters-by-frequency/) | 中等 | [JavaScript](https://github.com/StrangeClow/leetcode_JS/blob/master/leetcode/frequencySort.js) |  √
  74 | [全排列](https://leetcode-cn.com/problems/permutations/) | 中等 | [JavaScript](https://github.com/StrangeClow/leetcode_JS/blob/master/leetcode/permute.js) |  √
  75 | [拼写单词](https://leetcode-cn.com/problems/find-words-that-can-be-formed-by-characters/) | 简单 | [JavaScript](https://github.com/StrangeClow/leetcode_JS/blob/master/leetcode/countCharacters.js) |  ✘
+ 76 | [有序数组的平方](https://leetcode-cn.com/problems/squares-of-a-sorted-array/) | 简单 | [JavaScript](https://github.com/StrangeClow/leetcode_JS/blob/master/leetcode/sortedSquares.js) |  √
+ 77 | [一周中的第几天](https://leetcode-cn.com/problems/day-of-the-week/) | 简单 | [JavaScript](https://github.com/StrangeClow/leetcode_JS/blob/master/leetcode/dayOfTheWeek.js) |  √
  
  
 > leetcode end   :kissing_heart:
