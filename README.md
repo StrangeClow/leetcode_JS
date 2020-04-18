@@ -80,6 +80,7 @@
  75 | [拼写单词](https://leetcode-cn.com/problems/find-words-that-can-be-formed-by-characters/) | 简单 | [JavaScript](https://github.com/StrangeClow/leetcode_JS/blob/master/leetcode/countCharacters.js) |  ✘
  76 | [有序数组的平方](https://leetcode-cn.com/problems/squares-of-a-sorted-array/) | 简单 | [JavaScript](https://github.com/StrangeClow/leetcode_JS/blob/master/leetcode/sortedSquares.js) |  √
  77 | [一周中的第几天](https://leetcode-cn.com/problems/day-of-the-week/) | 简单 | [JavaScript](https://github.com/StrangeClow/leetcode_JS/blob/master/leetcode/dayOfTheWeek.js) |  √
+ 78 | [访问所有点的最小时间](https://leetcode-cn.com/problems/minimum-time-visiting-all-points/) | 简单 | [JavaScript](https://github.com/StrangeClow/leetcode_JS/blob/master/leetcode/minTimeToVisitAllPoints.js) |  ✘
  
  
 > leetcode end   :kissing_heart:
