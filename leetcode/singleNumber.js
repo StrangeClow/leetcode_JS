@@ -21,6 +21,7 @@ var singleNumbr = function(nums) {
 
 let a1 = [1,1,2]
 console.log(singleNumbr(a1));
+console.log(singleNumbr([1,1,2,2,3,4]));
 
 
 /**
@@ -36,3 +37,4 @@ var singleNumberTwo = function(nums) {
 
 let a2 = [1,1,2]
 console.log(singleNumberTwo(a2));
+console.log(singleNumberTwo([1,1,2,2,3,4]));

@@ -14,10 +14,11 @@ var largestNumber = function(nums) {
     return '0'
   }
   else {
-      return nums.sort((a,b)=> {
+      return nums.sort((a,b)=> {   // arr.sort((a,b)=> a- b)
           [a,b] = [a.toString(),b.toString()]     // 解构赋值 交换变量
           return parseInt(a + b) > parseInt(b + a) ? -1 : 1
-      }).join('')
+      // arr.join()转为字符串    
+      }).join('')  
   }
 }
 
@@ -25,3 +26,12 @@ var largestNumber = function(nums) {
 
 let a1 = [10,2]
 console.log(largestNumber(a1));
+
+let a2 = [3,30,34,5,9]
+console.log(largestNumber(a2));
+
+let a = ['hello','world']    // join()不改变源数据
+console.log(typeof a, a instanceof Array);
+console.log(a.join(''));
+console.log(a);
+console.log(typeof a,a instanceof Array, typeof a.join('-'));

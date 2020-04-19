@@ -1,6 +1,13 @@
 /**
  *  题意： 给定一二叉树，求取其的最大深度
  *   二叉树的深度为根节点到最远子节点的最长路径上的节点数
+ * 
+ *  Definition for a binary tree node
+ * 
+ *  function treeNode(val) {
+ *    this.val = val
+ *    this.left = this.right = null
+ *  }
  *
  * @param {*} root
  * @returns
