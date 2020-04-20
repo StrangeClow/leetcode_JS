@@ -10,12 +10,13 @@
  * @param {*} nums
  */
 var movezeros = function(nums) {
-let tempNums
+   let tempNums
    for (let index = 0; index < nums.length; index++) {
     tempNums = 0;
     for(let i = 0;i < nums.length;i++) {
       if(nums[i] !== 0) {
         [nums[i],nums[tempNums]] = [nums[tempNums],nums[i]]   // 解构赋值 交换变量
+        // 计数累加 
         tempNums++;
       }
     }
@@ -27,3 +28,23 @@ let tempNums
 
 let n1 = [0,2,6,1,0,8,9]
 console.log(movezeros(n1));
+
+
+
+/**
+ *
+ *
+ * @param {*} nums
+ */
+const movezeros2 = function(nums) {
+  let i = 0
+  for(let index = 0; index < nums.length; index++) {
+    if(nums[index] !== 0) {
+      if(i !== index) {
+        nums[i] = nums[index]
+        nums[index] = 0
+      }
+    }
+    i++
+  }
+}
