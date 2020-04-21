@@ -17,7 +17,7 @@
             //  "program": "${workspaceFolder}/30MinutesCode/OBJECT\\objectToPairs.js"
             //  "program": "${workspaceFolder}/30MinutesCode/DATE\\isSameDate.js"
             // "program": "${workspaceFolder}/dataStructureCourse\\Queue.js"
-               "program": "${workspaceFolder}/leetcode\\pascals-triangle.js"
+               "program": "${workspaceFolder}/leetcode\\heightChecker.js"
             //   "program": "${workspaceFolder}/backOFJs\\Dedeplication.js"
             // "program": "${workspaceFolder}/backOFJs\\01/test.js"
             //   "program": "${workspaceFolder}/whiteCodeCourse\\implementsInstanceof.js"

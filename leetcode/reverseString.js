@@ -45,7 +45,7 @@ console.log(reverseString('reverseString'));
 
 
 
-const reverseString3 = function(str) {
+const reverseString3 = function(str) {    // 这个有问题 
     let index = 0
     for (let index = 0; index < str.length - 1; index++) {
         // 解构赋值  交换变量位置 
@@ -53,3 +53,7 @@ const reverseString3 = function(str) {
     }
     return str
 }
+
+
+let s = 'vscode hello'
+console.log(reverseString3(s));

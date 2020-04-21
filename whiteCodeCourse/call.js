@@ -6,6 +6,6 @@ Function.prototype.imitateCall = function(context) {     // context为当前上�
   context.fn = this  // 创建一个fn属性 并将值设置为需要调用的函数
   const args = [...arguments].slice(1)   // 剩余参数 ...    slice()
   const result  = context.fn(...args)
-  delete context.fn   // 删除添加的属性
+  delete context.fn   // 删除添加的属性  obj.delete()
   return result
 }

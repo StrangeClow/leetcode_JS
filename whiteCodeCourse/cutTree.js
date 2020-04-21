@@ -9,11 +9,13 @@
  * @returns
  */
 function cutTree(list,MM,range) {
+    // 边界处理
    if(list.length == 0) {
        return 0
    }
    let start = 0,
        end = Math.max(...list)   // 取list的最大值
+    // 前置循环    
     while(start <= end) {
       const middle = start + ((end - start) >> 1)
       let res = 0

@@ -33,3 +33,6 @@ console.log(mySqrt(n1))
 const mySqrt2 = function(x) {
   return parseInt(Math.sqrt(x))
 }
+
+
+console.log(mySqrt2(2));

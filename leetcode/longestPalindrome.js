@@ -23,3 +23,14 @@ const longestPalindrome = function(str) {
    
    
 }
+
+
+
+const longestPalindrome2 = function(str) {
+   let tempMap = new Map()
+
+   for(let key of str) {
+      console.log('字符串子项',key);
+      
+   }
+}

@@ -1,7 +1,8 @@
 /**
  *   用栈实现队列
  *     结合两种数据的区别  并结合现的方法去实现
- *
+ *     
+ *     prototype
  */
 var myQueue = function() {
     this.array = []
