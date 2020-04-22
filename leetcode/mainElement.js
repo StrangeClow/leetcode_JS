@@ -33,7 +33,8 @@ const mainElement = function(nums) {
       return num
 }
 
-
+let n1 = [1,1,2]
+console.log(mainElement(n1));
 
 
 /**

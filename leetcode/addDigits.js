@@ -11,5 +11,15 @@
  * @returns
  */
 const addDigits = function(num) {
+  
+  while(num > 9) {
+      num = num.toString().split('').reduce((prev, curr)=> {
+        // 累加当前值与前值并计数
+        return parseInt(prev) + parseInt(curr)
+      },0)
+  }
   return num
 }
+
+
+console.log(addDigits(38));
