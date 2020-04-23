@@ -13,7 +13,7 @@ const isHappyNumber = function(n) {
      while(sum !== 1) {
          sum = 0
          for (let index = 0; index < n.length; index++) {
-            sum+=n[i] * n[i]
+            sum+=n[index] * n[index]
              
          }
          if(set.has(sum))   return false
@@ -24,3 +24,9 @@ const isHappyNumber = function(n) {
      }
      return true
 }
+
+
+console.log(isHappyNumber(1));
+console.log(isHappyNumber(2));
+console.log(isHappyNumber(3));
+console.log(isHappyNumber(19));

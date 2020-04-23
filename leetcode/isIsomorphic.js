@@ -19,7 +19,7 @@ const isIsomorphic = function(s, t) {
     // 若 s ==t  
     if(s === t || s === '')  return true
     
-    // 
+    // hashMap
     let mapS  = new Map()
 
     let mapT =  new Map()
@@ -42,3 +42,6 @@ const isIsomorphic = function(s, t) {
 
     return true
 }
+
+
+console.log(isIsomorphic('egg', 'add'));
