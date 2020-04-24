@@ -54,7 +54,7 @@
  49 | [二叉树的中序遍历]() | 简单 | [JavaScript](https://github.com/StrangeClow/leetcode_JS/blob/master/leetcode/inOrderTraversal.js) |   √
  50 | [重叠区间]() | 中等 | [JavaScript](https://github.com/StrangeClow/leetcode_JS/blob/master/leetcode/mergeTwoArrays.js) |   ✘
  51 | [字符串大写转小写]() | 简单 | [JavaScript](https://github.com/StrangeClow/leetcode_JS/blob/master/leetcode/transBigWordToSmallWord.js) |   √
- 52 | [宝石与石头]() | 简单 | [JavaScript](https://github.com/StrangeClow/leetcode_JS/blob/master/leetcode/numJewelsInStones.js) |   √
+ 52 | [宝石与石头](https://leetcode-cn.com/problems/jewels-and-stones/) | 简单 | [JavaScript](https://github.com/StrangeClow/leetcode_JS/blob/master/leetcode/numJewelsInStones.js) |   √
  53 | [翻转二叉树]() | 简单 | [JavaScript](https://github.com/StrangeClow/leetcode_JS/blob/master/leetcode/turnTree.js) |   √
  54 | [平衡二叉树(深度优先搜索)]() | 简单 | [JavaScript]() |   ✘
  55 | [左旋转字符串](https://leetcode-cn.com/problems/zuo-xuan-zhuan-zi-fu-chuan-lcof/) | 简单 | [JavaScript]() |   ✘

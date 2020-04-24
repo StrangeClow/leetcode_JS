@@ -4,6 +4,7 @@
  * @param {*} n
  */
 const validateNumber = n=> {
+  // 包装类型  isNaN
   return  !isNaN(parseFloat(n)) && isFinite(n) && Number(n) == n;
 }
 

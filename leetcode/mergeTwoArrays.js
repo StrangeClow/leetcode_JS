@@ -40,7 +40,9 @@ const mergeTwoArrays = function(intervals) {
     }
 
     //  将两个数组分别排序  
-
+     Array.sort((a, b)=> {
+       return a - b
+     })
     //  未完待续  .............
     
 }

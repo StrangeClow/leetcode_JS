@@ -3,7 +3,7 @@
  *
  * @param {*} num
  */
-const toDecimalMark = num => num.toLocaleString('en-US')
+const toDecimalMark = num => num.toLocaleString('en-US')      // 给定api
 
 
 console.log(toDecimalMark(1232356.07));   // output=> 1,232,356.07

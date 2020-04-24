@@ -23,7 +23,7 @@ const numJewelsInStones = function(J, S) {
     
     // 石头转为数组循环 
     S.split('').forEach((item,index)=> {
-        
+        console.log(item,index);
         // 若宝石存在于石头中 则计数器+1
         if(J.indexOf(item) > -1) {
 
