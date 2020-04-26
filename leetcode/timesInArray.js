@@ -19,10 +19,17 @@ const timesInArray = function(nums) {
 
 //  },new Set())) 
 
- const temp = new Set();
+ const temp = new Set()
+  
+ // Array.from()
+ // arr.reduce(prev,curr,index,arr) 
  return Array.from(nums.reduce((t, num) => {
+     
+    // a ? b : c
      !t.has(num) ? t.add(num) :(temp.has(num) ? t.delete(num) : temp.add(num))
-     return t;
+
+     return t
+
  }, new Set()));
 
 

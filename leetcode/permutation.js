@@ -19,6 +19,7 @@ const permutation = function(s) {
     // 深度优先搜索  
     function DFS(curr, store) {
       if(store === '') {
+         // arr.concat()
          return res.concat(curr)
       }
     }
@@ -27,7 +28,7 @@ const permutation = function(s) {
     for (let index = 0; index < store.length; index++) {
        curr+= store[index]
 
-
+       // 深度优先搜索 入参
        DFS(curr, store.slice(0, index).concat(store.slice(index + 1)))
 
        curr = curr.slice(0, curr.length - 1)

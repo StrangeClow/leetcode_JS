@@ -24,7 +24,8 @@ const swapNumber = function(num) {
  * @returns
  */
 const swapNumber2 = function(num) {
-
+  
+  //es6解构赋值交换变量
   return [num[1],num[0]] = [num[0],num[1]]
   
 }
