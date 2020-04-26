@@ -25,6 +25,16 @@
  * @returns
  */
 const mergeSortedArr = function(A, m, B, n) {
+   
+    // arr.splice(start, end, num)
+    A.splice(m, n, ...B)
     
-    return arr
+    // 数组排序 
+    return A.sort((a, b)=> a - b)
 }
+
+
+A = [1,2,3,0,0,0], m = 3
+B = [2,5,6],       n = 3
+
+console.log(mergeSortedArr(A,m,B,n));

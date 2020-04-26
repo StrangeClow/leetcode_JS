@@ -13,4 +13,8 @@
  */
 const numSmallerByFrequency = function(queries, words) {
  
+    let res = []
+    let tempMap = new Map()
+
+    
 }

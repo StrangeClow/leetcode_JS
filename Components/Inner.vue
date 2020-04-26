@@ -24,8 +24,8 @@ export default {
   // 向外传递的属性  规范化 
   props: {
     baseFooter: {
-      type: String,
-      default: ''
+      type: String,     //数据类型
+      default: ''       // 初始值
     },
     xiaoMi: {
       type: Array,
@@ -38,7 +38,7 @@ export default {
   },
   methods: {
     sendMsg: function () {
-      this.$emit('getMsg', this.trnasWord)
+      this.$emit('getMsg', this.trnasWord)      // $emit()
     }
   }
 }

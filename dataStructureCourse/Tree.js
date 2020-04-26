@@ -11,7 +11,7 @@ var Tree = function() {
     var node = function(value) {
 
         this.value = value
-        this.left = null
+        this.left = null    // this.left = this.right = null
         this.right = null
     }
 

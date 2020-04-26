@@ -18,6 +18,7 @@
  */
 
 const allEqual = arr=> {
+  // 数组中任意值等于arr[0]
   return  arr.every(val => val === arr[0])
 }
 
