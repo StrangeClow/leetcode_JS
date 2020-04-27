@@ -81,7 +81,8 @@
  76 | [有序数组的平方](https://leetcode-cn.com/problems/squares-of-a-sorted-array/) | 简单 | [JavaScript](https://github.com/StrangeClow/leetcode_JS/blob/master/leetcode/sortedSquares.js) |  √
  77 | [一周中的第几天](https://leetcode-cn.com/problems/day-of-the-week/) | 简单 | [JavaScript](https://github.com/StrangeClow/leetcode_JS/blob/master/leetcode/dayOfTheWeek.js) |  √
  78 | [访问所有点的最小时间](https://leetcode-cn.com/problems/minimum-time-visiting-all-points/) | 简单 | [JavaScript](https://github.com/StrangeClow/leetcode_JS/blob/master/leetcode/minTimeToVisitAllPoints.js) |  ✘
- 79 | [数组拆分 I](https://leetcode-cn.com/problems/array-partition-i/) | 简单 | [JavaScript](https://github.com/StrangeClow/leetcode_JS/blob/master/leetcode/arrayPairSum.js) |  ✘
+ 79 | [数组拆分 I](https://leetcode-cn.com/problems/array-partition-i/) | 简单 | [JavaScript](https://github.com/StrangeClow/leetcode_JS/blob/master/leetcode/arrayPairSum.js) | √
+ 80 | [ 组合总和](https://leetcode-cn.com/problems/combination-sum/) | 中等 | [JavaScript](https://github.com/StrangeClow/leetcode_JS/blob/master/leetcode/combinationSum.js) | √
  
  
 > leetcode end   :kissing_heart:
