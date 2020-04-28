@@ -9,7 +9,7 @@
  * @param {*} target
  * @returns
  */
-const combinationSum = function(candidates, target) {
+const combinationSum = function(candidates, target) {        // 递归回溯+剪枝
     
    let res = []
    let tempArr = []
@@ -24,7 +24,6 @@ const combinationSum = function(candidates, target) {
    let backtrack = function(tempArr, target, start) {
        if(target == 0) {
            res.push(tempArr)
-           
            return 
        }
 

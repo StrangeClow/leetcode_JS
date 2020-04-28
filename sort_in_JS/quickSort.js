@@ -12,23 +12,30 @@ function quickSort(arr) {
      return arr
   }
   // 定义数组中间值
-  var middleArrIndex = Math.floor(arr.length / 2)
-  var middleArr = arr.splice(middleArrIndex,1)[0]    // splice（index，1）返回数组中呗删除的那个数
-  var leftArr 
-  var rightArr
+  let middleArrIndex = Math.floor(arr.length / 2)
+  let middleArr = arr.splice(middleArrIndex,1)[0]    // splice（index，1）返回数组中呗删除的那个数
+  console.log('middleArr===',middleArr);
+  let leftArr = []
+  let rightArr = []
 
   // 循环判断，比中间值小的放在左边，比中间值大的放在右边
-  for (let index = 0; index < array.length; index++) {
-     if(arr[i] <= middleArr) {
-       leftArr.push(arr[i])
+  for (let index = 0; index < arr.length; index++) {
+
+     if(arr[index] <= middleArr) {
+       // 准备左侧数据
+       leftArr.push(arr[index])
      }
      else {
-         rightArr.push(arr[i])
+       // 准备右侧数据
+         rightArr.push(arr[index])
      }
   }
   // 递归调用自身
   return quickSort(leftArr).concat([middleArr],quickSort(rightArr));
 
 }
+
+let n = [1,5,9,7,2,5,10,8,99,0]
+console.log(quickSort(n));
 
 // 优化解决方案   原地分区 不用创建新变量
