@@ -10,7 +10,7 @@
  *
  * @param {*} val
  */
-const isFunction = val => typeof val === 'function'
+const isFunction = val => typeof val === 'function'   
 
 
 const isFunction1 = (val) => {

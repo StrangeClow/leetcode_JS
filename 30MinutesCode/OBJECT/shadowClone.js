@@ -1,7 +1,7 @@
 /**
  *   浅复制
  *   
- * 直接用es6对象API  
+ * 直接用es6对象API   Object.assign({}, obj)
  *
  * @param {*} obj
  */
