@@ -15,6 +15,7 @@ const debounce = function(func, delay) {
       timer = setTimeout(() => {
 
          func.apply(this, arguments)  
+      // 延时时间 ms    
       }, delay);
 
   }

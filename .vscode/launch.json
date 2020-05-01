@@ -13,11 +13,11 @@
             "name": "启动程序",
             // "program": "${workspaceFolder}/sort_in_JS\\data_structure.js"          
             //  "program": "${workspaceFolder}/30MinutesCode/UNTILITY\\getURLParameters.js"
-            //  "program": "${workspaceFolder}/30MinutesCode/ARRAY\\union.js"
+             "program": "${workspaceFolder}/30MinutesCode/ARRAY\\differenceItemInTwoArray.js"
             //  "program": "${workspaceFolder}/30MinutesCode/OBJECT\\objectToPairs.js"
             //  "program": "${workspaceFolder}/30MinutesCode/DATE\\isSameDate.js"
             // "program": "${workspaceFolder}/dataStructureCourse\\Queue.js"
-               "program": "${workspaceFolder}/leetcode\\maximumProductOfThree.js"
+            //    "program": "${workspaceFolder}/leetcode\\maximumProductOfThree.js"
             //   "program": "${workspaceFolder}/backOFJs\\Dedeplication.js"
             // "program": "${workspaceFolder}/backOFJs\\01/test.js"
             //   "program": "${workspaceFolder}/whiteCodeCourse\\implementsInstanceof.js"

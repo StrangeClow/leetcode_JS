@@ -14,3 +14,9 @@ const difference = (a,b) => {
 
 
 // input ([1,2,3,4],[1,2,3])   output==>[4]
+
+
+
+let n1 = [1,2,3,4,5]   
+let n2 = [3,4,6,8,5]
+console.log(difference(n1,n2))

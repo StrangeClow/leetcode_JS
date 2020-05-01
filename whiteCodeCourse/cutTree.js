@@ -37,4 +37,3 @@ function cutTree(list,MM,range) {
     return -1
 }
 
-// 主要是思路
