@@ -19,6 +19,7 @@ const average2 = function(...arr) {
       console.log('arr===',arr);
       return [...arr].reduce((curr,prev)=> {
             return curr+ prev
+      // 除以数组的长度 总和/数据个数
       },0) / arr.length
 }
 

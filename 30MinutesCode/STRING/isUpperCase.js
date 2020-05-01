@@ -5,3 +5,8 @@
  * @param {*} str
  */
 const isUpperCase = str => str === str.toUpperCase()
+
+
+
+let s  = 'helloWorlD'
+console.log(isUpperCase(s))
