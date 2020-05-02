@@ -6,6 +6,7 @@
  */
 function getAllHTMLTags() {
   const tags = [...window.document.querySelectorAll('*')].map(  // querySelectorAll 获取元素标签
+    // dom.tagName
     dom => dom.tagName
   )
   return [... new Set(tags)]     // 标签去重

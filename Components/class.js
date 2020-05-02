@@ -18,6 +18,14 @@ class point  {
     }
 }
 
+
+class angelPoint extends point() {
+   constructor(){
+
+   }
+   
+}
+
  
    // 类的实例 new
 const p1 = new point(5,5);

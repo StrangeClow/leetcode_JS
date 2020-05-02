@@ -11,8 +11,10 @@ const throttle = function(cb, ms) {
     let timer = null
     
     let throttleFunc = function() {
+       // 清除定时器  
        clearTimeout(timer)
        timer = setTimeout(() => {
+           // 回调函数改变指向
            cb.apply(this, arguments)
        }, ms);
     }

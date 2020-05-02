@@ -10,6 +10,7 @@
    let tempMap = new Map()
    for(let i = 0; i < nums1.length; i++) {
      let tempNum = target - nums1[i]
+     // map.has()
      if(tempMap.has(tempNum)) {
        return [tempMap.get(tempNum), i]
      }
