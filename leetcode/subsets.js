@@ -12,6 +12,7 @@ const subsets = function(arr) {              // 来源于leetcode  骚操作解�
   return arr.reduce((res, num)=> {
       // 拼接当前项 拼接项为第一项循环拿到的子值 
     return  res.concat(res.map((item,index)=> {
+      console.log('item===index ===',item, index)
         // 往后一层 继续
         return  item.concat(num)
       }))

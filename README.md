@@ -86,6 +86,7 @@
  81 | [ 三个数的最大乘积](https://leetcode-cn.com/problems/maximum-product-of-three-numbers/) | 简单 | [JavaScript](https://github.com/StrangeClow/leetcode_JS/blob/master/leetcode/maximumProductOfThree.js) | √
  82 | [ IP地址无效化](https://leetcode-cn.com/problems/defanging-an-ip-address/) | 简单 | [JavaScript](https://github.com/StrangeClow/leetcode_JS/blob/master/leetcode/defangIPaddr.js) | √
  83 | [ 分割数组](https://leetcode-cn.com/problems/partition-array-into-disjoint-intervals/) | 中等 | [JavaScript](https://github.com/StrangeClow/leetcode_JS/blob/master/leetcode/partitionDisjoint.js) | √
+ 84 | [ 数组序号转换](https://leetcode-cn.com/problems/rank-transform-of-an-array/) | 简单 | [JavaScript](https://github.com/StrangeClow/leetcode_JS/blob/master/leetcode/arrayRankTransform.js) | √
  
  
  

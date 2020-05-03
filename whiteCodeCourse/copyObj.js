@@ -5,6 +5,8 @@
  * @returns
  */
 const copyObj = function(obj) {
+    
+    // (...Object)
     return {...obj}
 }
 
