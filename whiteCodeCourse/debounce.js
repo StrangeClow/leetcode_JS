@@ -13,7 +13,7 @@ const debounce = function(func, delay) {
           clearInterval(timer)
       }
       timer = setTimeout(() => {
-
+         // apply()
          func.apply(this, arguments)  
       // 延时时间 ms    
       }, delay);

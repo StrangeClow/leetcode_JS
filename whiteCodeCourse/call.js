@@ -1,3 +1,9 @@
+/**
+ *
+ *
+ * @param {*} context
+ * @returns
+ */
 Function.prototype.imitateCall = function(context) {     // context为当前上下文环境
   if(typeof this !== 'function') {   // 若this不是一个function  抛异常
      throw new TypeError('error')
