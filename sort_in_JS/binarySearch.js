@@ -15,8 +15,10 @@ function binarySearch(arr, x) {
    let left = 0,  // 查找的左边界
        right = arr.length -1,  // 查找的右边界
        guessNum;  // left  right的中间位置
+    
+    // 循环的退出条件是 left<= right 
     while(left <= right) {
-        guessNum = Math.floor((left + right) / 2)
+        guessNum = Math.floor((left + right) / 2)    // 这个地方可以优化改进   (left + （right - left）) / 2 
         // 循环不变式
         // left 查找范围左侧  
         // right 查找范围右侧

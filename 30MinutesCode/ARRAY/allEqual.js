@@ -25,3 +25,15 @@ const allEqual = arr=> {
 
 console.log(allEqual([1,1,1,1,2]));
 console.log(allEqual([1,1,1,1,1]));
+
+
+
+const allEqual2 = function(arr) {
+  return arr.every((item,index)=> {
+    console.log('计算item和index===',item, index)
+    return item === arr[arr.length -1]
+  })
+}
+
+
+console.log(allEqual2([1,2,3,4,5,6,7,8,1]))
