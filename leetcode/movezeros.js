@@ -15,7 +15,7 @@ var movezeros = function(nums) {
     tempNums = 0;
     for(let i = 0;i < nums.length;i++) {
       if(nums[i] !== 0) {
-        [nums[i],nums[tempNums]] = [nums[tempNums],nums[i]]   // 解构赋值 交换变量
+        [nums[i],nums[tempNums]] = [nums[tempNums],nums[i]]   // 解构赋值 交换变量   [a, b] = [b, a]
         // 计数累加 
         tempNums++;
       }
@@ -37,14 +37,21 @@ console.log(movezeros(n1));
  * @param {*} nums
  */
 const movezeros2 = function(nums) {
+  // 基础下标 
   let i = 0
+  // 循环当前数值 
   for(let index = 0; index < nums.length; index++) {
+    // 若当前项数值不等于0 
     if(nums[index] !== 0) {
+      // 且指针不等于当前小标
       if(i !== index) {
+
         nums[i] = nums[index]
+
         nums[index] = 0
       }
     }
+    // 累加自变量 移动指针 
     i++
   }
 }
