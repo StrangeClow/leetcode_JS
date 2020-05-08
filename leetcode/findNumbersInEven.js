@@ -13,6 +13,7 @@ const findNumbersInEven = function(arrs) {
      return arrs.filter((item,index)=> {
          // 数组的每一项转化为字符串并取余
          console.log(item,index);
+         // length == 0 
          return item.toString().length % 2 === 0
 
      }).length

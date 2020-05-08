@@ -1,8 +1,8 @@
-let userName: string | number;
+let userNameTs: string | number;
 
 
-userName = 'hello'
-userName = 10
+userNameTs = 'hello'
+userNameTs = 10
 
 
 

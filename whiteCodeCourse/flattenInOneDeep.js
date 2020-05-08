@@ -13,11 +13,12 @@ const deepInOneth = function(arr) {
     }
     // 默认取数组第一项为头
     const head = arr[0]
-    // arr第一项是否为数组格式 
-    if(head instanceof Array) {
+    // 验证数据类型 arr第一项是否为数组格式  
+    if(head instanceof Array) {    
        arr[0] = deepInOneth[head]
     } else {
         arr[0] = [arr[0]]
     }
+    // arr.concat()  数组拼接  
     return arr[0].concat(deepInOneth(arr.slice(1)))
 }
