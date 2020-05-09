@@ -38,3 +38,18 @@ const multiplyAndAdd5 = componse(add5, multiply)
 
 
 console.log(multiplyAndAdd5(5, 2))
+
+
+
+
+function getArrLength(arr) {
+  console.log(arr)
+     return arr.map((item)=> {
+       return item * 3
+     })
+}
+
+
+Array.prototype.getArrLength = getArrLength
+let n = [1,2,3,4,5,6,7,8,9]
+// console.log(n.getArrLength())
