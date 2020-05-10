@@ -13,7 +13,7 @@ const shuffle = function(tempArr) {
    let tempRandom
 
    while(curr >=1) {
-     // Math.random随机取值
+     // Math.random随机取值并取浮点型数据
      tempRandom = Math.floor(len * Math.random())
     
      //  解构赋值 交换变量

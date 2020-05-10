@@ -8,7 +8,7 @@
 const sequential_Search = function(arr, target) {
     // 每个子项都必须走一遍 
     for (let index = 0; index < arr.length; index++) {
-       
+       // 数组的某一项index等于目标项
         if(arr[index === target]) {
 
             return index

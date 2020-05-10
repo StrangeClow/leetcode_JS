@@ -38,6 +38,13 @@ selectSort_One([0.1,10,1,10.98]);
 selectSort_One([98765, 1000, 0.1, 0.01, 10, 9.88, 0.09]);
 selectSort_One([0.098, 1000, 1, 98765, 0.984635, 87]);
 
+
+/**
+ *
+ *
+ * @param {*} array
+ * @returns
+ */
 function selectSort_two(array) {
     var len = array.length;
     for (var i = 0; i < len - 1; i++) {
@@ -46,19 +53,24 @@ function selectSort_two(array) {
         for (var j = i + 1; j < len; j++) {
             // j=i+1是把与自己比较的情况给省略掉
             if (array[j] < minnum) {
-                var c;
-                c = minnum;
-                minnum = array[j]; //交换两个值
-                array[j] = c;
+                // 使用中间变量 
+                    // var c;
+                    // c = minnum;
+                    // minnum = array[j]; //交换两个值
+                    // array[j] = c;
+
+                // es6解构赋值
+                 [minnum, array[j]] = [array[j], minnum]
             }
         }
         array[i] = minnum;
     }
-    console.log("选择排序Two:", array);
     return array;
 }
 
-selectSort_two([10, 2, 698, 200, 0.1]);
+
+let a1 = [10, 2, 698, 200, 0.1]
+console.log('选择排序第二种方式的',selectSort_two(a1))
 
 /**
  * 1. 理解选择排序的原理

@@ -88,7 +88,8 @@
  83 | [ 分割数组](https://leetcode-cn.com/problems/partition-array-into-disjoint-intervals/) | 中等 | [JavaScript](https://github.com/StrangeClow/leetcode_JS/blob/master/leetcode/partitionDisjoint.js) | √
  84 | [ 数组序号转换](https://leetcode-cn.com/problems/rank-transform-of-an-array/) | 简单 | [JavaScript](https://github.com/StrangeClow/leetcode_JS/blob/master/leetcode/arrayRankTransform.js) | ✘
  85 | [ 整数的各位积和之差](https://leetcode-cn.com/problems/subtract-the-product-and-sum-of-digits-of-an-integer/) | 简单 | [JavaScript](https://github.com/StrangeClow/leetcode_JS/blob/master/leetcode/subtractProductAndSum.js) | √
- 86 | [ 礼物的最大价值](https://leetcode-cn.com/problems/li-wu-de-zui-da-jie-zhi-lcof/) | 中等 | [JavaScript](https://github.com/StrangeClow/leetcode_JS/blob/master/leetcode/theGiftOfMaxValue.js) | √
+ 86 | [ 礼物的最大价值](https://leetcode-cn.com/problems/li-wu-de-zui-da-jie-zhi-lcof/) | 中等 | [JavaScript](https://github.com/StrangeClow/leetcode_JS/blob/master/leetcode/theGiftOfMaxValue.js) | ✘
+ 87 | [ 不相交的区间]() | 困难 | [JavaScript](https://github.com/StrangeClow/leetcode_JS/blob/master/leetcode/summaryRanges.js) | ✘
  
  
  
