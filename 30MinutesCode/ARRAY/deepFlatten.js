@@ -61,4 +61,40 @@ let a3 = [1,2,[3,[29]],4,5,[8,9,[17]]]
  let a1 = [1,[9,[88,[485],],], [2], [99,[3], 4], 5]
  let a2 = [1,[9,[5,[6]]],8,10]
 console.log(deepFlatten(a2))
+
+
+
+/**
+ *   扁平化数组 
+ *
+ * @param {*} arr
+ * @returns
+ */
+const deepFlatten3 = function(arr) {      // 对比深度复制 对象 
+  
+  let res = []
+  // 1. 先处理边界情况
+  if(!Array.isArray(arr)) return
+
+  // 单层数组
+   arr.forEach((item,index)=> {
+     if(Array.isArray(item)) {
+       console.log('当前子项继续往下一层===',item)
+       // 递归再走一遍 
+       res =  res.concat(deepFlatten3(item))                 // concat()和push()的区别 
+     } else {
+      
+       res.push(item)
+     }
+   })
+  return res
+}
     
+
+let a4 = [1,[9,[5,[6]]],8,10]
+console.log(deepFlatten3(a4))
+
+
+
+
+console.log([1,2,3,4].slice(1))    // 删除第一位 

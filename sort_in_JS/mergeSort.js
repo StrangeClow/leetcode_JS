@@ -42,3 +42,8 @@
       rightArr = arr.slice(middleArr,arr.length)
     return merge(mergeSort(leftArr),mergeSort(rightArr))   // 递归调用，分别对左右两部分数组并行排序合并
  }
+
+
+
+ let n1 = [10, 2, 698, 200, 0.1]
+ console.log('归并排序===',mergeSort(n1))

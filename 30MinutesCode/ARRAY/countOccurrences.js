@@ -53,7 +53,7 @@ console.log(CountNumber(aa,33));
  */
 const CountNumber2 = function(arr, targetNum) {
     
-  
+     //  循环累加出现的次数  循环子项是否等于当前目标值 
 }
 
 console.log(CountNumber2(aa,33));

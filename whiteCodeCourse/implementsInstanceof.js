@@ -35,7 +35,15 @@ let m = [1,2,3]
 console.log(IMPLinstanceof(m, Array))
 
 
+/**
+ *
+ *
+ * @param {*} leftType
+ * @param {*} rightType
+ * @returns
+ */
 const IMPLinstanceof2 = function(leftType, rightType) {
+    // ._proto_
     while(leftType) {
         leftType = leftType._proto_
         if(leftType === rightType.prototype) {
