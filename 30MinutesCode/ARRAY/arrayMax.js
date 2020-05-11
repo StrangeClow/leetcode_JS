@@ -23,3 +23,6 @@ let b= (11,22,33,44,75,895)
 console.log('求取最大值===》',arrayMaxTwo(b));
 
 console.log(arrayMax(a));
+
+
+console.log([1,9,0,2,8,5].sort())

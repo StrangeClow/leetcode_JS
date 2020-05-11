@@ -48,7 +48,7 @@ let arrLike = [
 ]
 
 const testArrayFrom =function() {
-  return  Array.from(arrLike, (item)=> {
+    return  Array.from(arrLike, (item)=> {
         console.log(item)
         return (item.age * 5, item.phone / 3)
       })

@@ -1,5 +1,9 @@
 /**
- *   判断是否存在 
+ *   判断是否存在   对比 all.js   
+ * 
+ *    Array.some()
+ *         .every()
+ *         .all()
  * 
  *    some()
  * 

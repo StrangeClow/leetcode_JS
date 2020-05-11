@@ -39,3 +39,21 @@ console.log('一组值中的指定值个数为：',countOccurrences(aa,33));
 
 
 console.log(CountNumber(aa,33));
+
+
+
+
+
+/**
+ *    某一个数在当前数组中出现的次数  
+ *
+ * @param {*} arr
+ * @param {*} targetNum
+ * @returns
+ */
+const CountNumber2 = function(arr, targetNum) {
+    
+  
+}
+
+console.log(CountNumber2(aa,33));

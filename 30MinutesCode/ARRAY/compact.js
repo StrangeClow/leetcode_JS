@@ -1,7 +1,7 @@
 /**
  *  从数组中移除假值  
  *  
- * 假值(false,null,0,"",undefined,NAN)
+ *  假值(false,null,0,"",undefined,NAN)
  * 
  * 
  *    filter()
