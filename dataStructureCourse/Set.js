@@ -16,7 +16,7 @@ var SetFunc = function() {
       return items.hasOwnproperty(value)
     }
 
-    // 添加元素 （集合是不重复的元素组合）
+    // 添加元素 （集合是不重复的元素组合）  hash.add()
     this.add = function(value) {
         if(!this.has(value)) {
              items[value] = value
@@ -27,7 +27,7 @@ var SetFunc = function() {
         }
     }
 
-    // 删除元素
+    // 删除元素     hash.delete()
     this.remove = function(value) {
         if(this.has(value)) {
            delete items[value]

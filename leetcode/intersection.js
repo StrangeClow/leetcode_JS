@@ -15,7 +15,7 @@ const intersection = function(nums1, nums2) {
 
 
 
-//  第二种   哈希表解决 
+//  第二种   哈希表解决     hash.get()    hash.delete
 
 const intersectionTwo = function(nums1, nums2) {
     let set1 = new Set(nums1)
@@ -25,4 +25,16 @@ const intersectionTwo = function(nums1, nums2) {
       !set2.has(key) && set1.delete(key)
     }
     return [...set1]
+}
+
+
+
+/**
+ *  测试hash
+ *
+ * @param {*} nums
+ * @returns
+ */
+const testHash = function(nums) {
+   return  
 }
