@@ -9,7 +9,11 @@ const without = function(arr, ...args) {
   console.log('剩余参数==',args)
   // filter()过滤  
   // includes() 是否包含  
-  return arr.filter((item,index)=> !args.includes(item))
+  // return arr.filter((item,index)=> !args.includes(item))
+
+  return arr.filter((item, index)=> {
+    return !args.includes(item)
+  })
 }
 
 

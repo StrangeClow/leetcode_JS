@@ -91,6 +91,7 @@
  86 | [ 礼物的最大价值](https://leetcode-cn.com/problems/li-wu-de-zui-da-jie-zhi-lcof/) | 中等 | [JavaScript](https://github.com/StrangeClow/leetcode_JS/blob/master/leetcode/theGiftOfMaxValue.js) | ✘
  87 | [ 不相交的区间]() | 困难 | [JavaScript](https://github.com/StrangeClow/leetcode_JS/blob/master/leetcode/summaryRanges.js) | ✘
  88 | [ nim游戏](https://leetcode-cn.com/problems/nim-game/) | 简单 | [JavaScript](https://github.com/StrangeClow/leetcode_JS/blob/master/leetcode/canWinNim.js) | √
+ 89 | [ 递归乘法](https://leetcode-cn.com/problems/recursive-mulitply-lcci/) | 简单 | [JavaScript](https://github.com/StrangeClow/leetcode_JS/blob/master/leetcode/recursiveMulitplyLcci.js) | √
  
  
  
