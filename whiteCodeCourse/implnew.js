@@ -32,11 +32,15 @@ const implNew = function() {
 
 const implNew2 = function() {
 
-    let fn = Array.prototype.shift.call(arguments)
-
+    // 那都当前函数的参数 
+    let fn = Array.prototype.shift.call(arguments)     
+    
+    // 创建当前对象的副本 
     let tempObj = Object.create(fn.prototype)
     
+    // 改变this指向
     let changeThis = fn.apply(tempObj, arguments)
-
+    
+    // 验证给定变量的类型 
     return typeof changeThis === 'object' ? changeThis : tempObj
 }

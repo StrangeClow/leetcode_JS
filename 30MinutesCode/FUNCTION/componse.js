@@ -14,6 +14,7 @@ const componse = function(...fn) {
 
   return fn.reduce((prev, curr)=> {                                 
       console.log('上一个函数===',prev, '当前函数===',curr)
+      // args参数 
       return (...args) => {
         console.log('展开args====',args)
           return prev(curr(...args))

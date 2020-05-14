@@ -22,3 +22,19 @@ const head2 = function(arr) {
 
 let n2 = [2,3,4,5]
 console.log(head(n2));     // output===> 2
+
+
+
+
+function getObj(obj) {
+    return Object.keys(obj)
+}
+
+
+let aa = {
+    name: 'zdf',
+    age: 18,
+    address: '南沙'
+}
+
+console.log(getObj(aa))
