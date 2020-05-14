@@ -22,3 +22,24 @@ let n1 = [1,2,3,4]
 let n2 = [2,3,6,8]
 
 console.log(similarity(n1,n2))
+
+
+
+
+
+/**
+ *
+ *
+ * @param {*} arr1
+ * @param {*} arr2
+ * @returns
+ */
+const similarity2 = function(arr1, arr2){
+    
+      // 即存在于arr1中，又存在于arr2中
+
+      return arr1.forEach((item, index)=> {
+         console.log('item, index====>',item,index);
+      })
+
+}

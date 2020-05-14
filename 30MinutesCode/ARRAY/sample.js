@@ -5,5 +5,8 @@
  * @returns
  */
 const sample = function(arr) {
-  return 
+  
+  // 取整 随机 
+  return arr[Math.floor(Math.random() * arr.length)]
+
 } 
