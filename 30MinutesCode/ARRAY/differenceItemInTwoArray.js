@@ -20,3 +20,15 @@ const difference = (a,b) => {
 let n1 = [1,2,3,4,5]   
 let n2 = [3,4,6,8,5]
 console.log(difference(n1,n2))
+
+
+const difference2 = function(a, b) {
+    
+   let tempA = new Set(a)
+   let tempB = new Set(b)
+
+   return tempA.filter((item, index)=> {
+       console.log('item==index',item, index);
+   })
+
+}

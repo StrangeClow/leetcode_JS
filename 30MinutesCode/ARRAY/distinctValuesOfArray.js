@@ -26,6 +26,7 @@ const distinctValuesOfArray2 = function(arr) {
     // 新增了内存空间 
     let temp = [], aa = []
     for (let index = 0; index < arr.length; index++) {
+        // 当前temp里面不存在循环的某一项 添加当前循环的项 
         if(!temp.includes(arr[index])) {
             // 装入另外一个空间
             aa.push(arr[index])
