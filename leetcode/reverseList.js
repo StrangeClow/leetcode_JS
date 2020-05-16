@@ -9,7 +9,17 @@
  * @param {*} head
  * @returns
  */
-const reverseList = function(head) {
+
+function listNode() {
+  this.val = val
+  this.next = null
+}
+
+const reverseList = function(head) {    // 循环解法
+
+  if(!head) {
+    return null
+  }
    //
    let prev = null
    let current = head

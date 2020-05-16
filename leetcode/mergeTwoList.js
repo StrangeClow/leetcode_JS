@@ -70,3 +70,33 @@ var mergeTwoListsTwo = function(l1, l2) {
        current_reference.next = l1 || l2;
        return aa.next; 
 };
+
+
+
+
+
+const mergeTwoLists2 = function(l1, l2) {   // 递归解法
+
+   const baseMerge =(l1, l2)=> {
+    
+    // 若链表1为空
+    if(l1 == null) {
+        return l2
+    }
+    // 若链表2为空 
+    if(l2 == null) {
+        return l1
+    }
+    
+    // 若l1 > l2 
+    if(l1.val > l2.val) {
+        //l2.next 
+      l2.next = baseMerge(l1, l2.next)
+      return l2
+    } else {
+            l1.next = baseMerge(l1.next, l2)
+            return l1
+    }
+   }
+   return baseMerge(l1, l2)
+}

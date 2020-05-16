@@ -93,6 +93,7 @@
  88 | [ nim游戏](https://leetcode-cn.com/problems/nim-game/) | 简单 | [JavaScript](https://github.com/StrangeClow/leetcode_JS/blob/master/leetcode/canWinNim.js) | √
  89 | [ 递归乘法](https://leetcode-cn.com/problems/recursive-mulitply-lcci/) | 简单 | [JavaScript](https://github.com/StrangeClow/leetcode_JS/blob/master/leetcode/recursiveMulitplyLcci.js) | √
  90 | [气球的最大数量（哈希表）](https://leetcode-cn.com/problems/maximum-number-of-balloons/) | 中等 | [JavaScript](https://github.com/StrangeClow/leetcode_JS/blob/master/leetcode/theBalloonsOfMaxNumber.js) | ✘
+ 91 | [检测环]() | 中等 | [JavaScript](https://github.com/StrangeClow/leetcode_JS/blob/master/leetcode/hasCycle.js) | ✘
  
  
  

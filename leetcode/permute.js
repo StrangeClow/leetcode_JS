@@ -9,25 +9,27 @@
  * @param {*} nums
  * @returns
  */
-const permute = function(nums) {        // 回溯递归 
+const permute = function(nums) {        // 回溯递归   
  
     let res = []
     let temPath = []
    
     // 递归函数 
     let backtrack = (temPath) => {
+         // 若当前给定序列为空 
         if(temPath.length === nums.length) {
             res.push(temPath)
             return 
         }
         
-        // 循环刷当前给定数组值
-        for(let index = 0; index < nums.length; index ++) {
+        // 循环刷当前给定数值序列
+        for(let index = 0; index < nums.length; index ++) {   // 1. 循环当前项 2.初始项中是否包含循环子项 3. 把当前项添加到初始项中，并复制 做递归调用
             // 若temPath中没有nums[index] 继续下一步
             if(!temPath.includes(nums[index])) {
                  // 把nums[index]添加到数组末尾 
                  temPath.push(nums[index])
-                 // temPath.slice()拷贝当前数组
+                 // temPath.slice()拷贝当前temPath数组
+                 console.log('temPath.slice()==',temPath.slice());
                  backtrack(temPath.slice())
                  // 删除数组末尾的值 
                  temPath.pop()
