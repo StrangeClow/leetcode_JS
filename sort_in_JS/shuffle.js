@@ -18,7 +18,7 @@ const shuffle = function(tempArr) {
     
      //  解构赋值 交换变量
      [tempArr[curr], tempArr[tempRandom]] = [tempArr[tempRandom], tempArr[curr]]; 
-     // 递减
+     // 小标变量递减  
      curr--
    }
    console.log('随机===',tempArr);

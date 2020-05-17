@@ -50,3 +50,14 @@ console.log(n.slice(), n);
 console.log(n.pop(),n);
 
 console.log(permute([1,2,3]));
+
+
+
+const test1 = function(arr) {
+    console.log(arguments,arr,arguments[0]);
+    return arguments
+}
+
+
+let nn = [1,2,3,4,5]
+console.log(test1(nn));

@@ -13,7 +13,7 @@
             "name": "启动程序",
             // "program": "${workspaceFolder}/sort_in_JS\\data_structure.js"          
             //  "program": "${workspaceFolder}/30MinutesCode/UNTILITY\\getURLParameters.js"
-             "program": "${workspaceFolder}/30MinutesCode/ARRAY\\sampleSize.js"
+             "program": "${workspaceFolder}/30MinutesCode/ARRAY\\filterNonUnique.js"
             //  "program": "${workspaceFolder}/30MinutesCode/STRING\\isUpperCase.js"
             //  "program": "${workspaceFolder}/30MinutesCode/OBJECT\\objectToPairs.js"
             //  "program": "${workspaceFolder}/30MinutesCode/DATE\\isSameDate.js"
