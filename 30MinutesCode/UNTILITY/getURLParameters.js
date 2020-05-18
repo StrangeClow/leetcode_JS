@@ -17,7 +17,10 @@
   let a4 = 'https://leetcode-cn.com/problems/reverse-integer/solution/hua-jie-suan-fa-7-zheng-shu-fan-zhuan-by-guanpengc/'
 
 
-  let a5 = 'http://www.domain.com/?user=anonymous&id=123&id=456&city=%E5%8C%97%E4%BA%AC&enabled';
+  let a5 = 'http://www.domain.com/?user=sdksdsfdf&id=123&city=%E5%8C%97%E4%BA%AC&enabled';
+
+
+  let a6 = 'http://www.domain.com/?user=anonymous&id=456&city=的分类的咖啡店了辅导费';
 
 
 
@@ -26,6 +29,7 @@
       // 正则匹配  匹配url路径的参数间隔符  ？ = & 等
       let regexp = /([^?=&]+)(=([^&]*))/g
       // 正则匹配后的参数值
+      // str.match()来获取所有的键值对
       let regUrl = url.match(regexp)
       console.log('正则匹配==',regUrl);
       let res = regUrl.reduce((prev, curr) => 
@@ -40,7 +44,7 @@
 console.log('解析url参数',getURLParameters3(a1));
 console.log('解析url参数',getURLParameters3(a2));
 console.log('解析url参数',getURLParameters3(a5));
-// console.log('解析url参数',getURLParameters3(a3));
+console.log('解析url参数',getURLParameters3(a6));
 // console.log('解析url参数',getURLParameters3(a4));
 
 
@@ -53,5 +57,27 @@ console.log('解析url参数',getURLParameters3(a5));
  * @returns
  */
 const getURLParameters1 = function(url) {
-  return urls
+  console.log(url);
+  // 正则匹配 
+   let reg = new RegExp("(^|&)" + url + "=([^&*])(&|$)")
+   console.log(reg);
+   // substr()
+   // match()
+   let res= window.location.search.substr(1).match(reg)
+    console.log(res);
+   if(res !== null) {
+      // unescape()
+       return unescape(res[2])
+   }
+   return null
+
 }
+
+
+console.log(getURLParameters1(a1));
+
+function a(b) {
+  return Object.prototype.toString.call(b)
+}
+
+console.log(a(12));

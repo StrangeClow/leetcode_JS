@@ -44,3 +44,11 @@ const reverseString3 = function(str) {
 
 let a3 = 'leetcode'
 console.log(reverseString3(a3));
+
+
+
+const reverseString4 = function(str) {
+  return Array.from(str).reverse().join('')
+}
+
+console.log('第四中====',reverseString4(a3));

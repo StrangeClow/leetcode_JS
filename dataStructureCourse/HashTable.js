@@ -51,3 +51,5 @@ var HashTable = function() {
 
 
 //  思考   hash表冲突解决方案 
+
+            //  1. 开链法

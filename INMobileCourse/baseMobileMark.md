@@ -5,7 +5,7 @@
           4. Meta viewport
 
 ###     解决方案
-           flexible方案
+           flexible方案(淘宝)
            vh vw方案
            安全区域
            js检测屏幕方向

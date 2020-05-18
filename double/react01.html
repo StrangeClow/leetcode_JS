@@ -12,12 +12,19 @@
 <body>
     <div id="app"></div>
     <script type="text/babel">
+    
+    function Getmodel() {
+       
+            return `my name`
+        
+    }
+
     class Hello extends React.Component{
         // getInitialState: function()  {
 
         // },
         render (){
-                return <h3 className="alertRed" style={{fontSize:'30px'}}>hello{this.props.name} {this.props.title}</h3>
+                return <h3 className="alertRed" style={{fontSize:'30px'}}>hello{this.props.name} {this.props.title}  <Getmodel/> </h3>
             }
             // ComponentWillMount: function() {
             //     alert('fgfgfg')

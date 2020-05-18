@@ -8,12 +8,26 @@
 const objectToPairs = obj => Object.keys(obj).map(k => [k, obj[k]])          // Object.keys(onj)   Object.values(obj)
 
 
+const objectToPairs2 = function(obj) {
+   
+    let objKeys = Object.keys(obj)
+
+    let mapKeys = objKeys.map((item,index)=> {
+        console.log(index);
+        return [item, obj[item]]
+    })
+    
+    return mapKeys
+}
+
+
 
 let c = {
     a:1,
     b:2
 }
 
+console.log('第二种====',objectToPairs2(c));
 
 console.log(objectToPairs(c));
 

@@ -25,13 +25,15 @@
           // eg:
           function merge(o,p) {
             for(prop in p) {
-               if(o.hasOwnProperty[prop]) continue;
+               if(o.hasOwnProperty[prop]) continue;  //注解：对象深复制
                o[prop] = p[prop]  
             }
             return o;
           }
         
-        2.Object.keys()
+        2.Object.keys()键
+        3.Object.values()值
+        4.Object.entries()
 
     属性的getter和setter    
 
@@ -95,8 +97,8 @@
         1. isArray()        Array.isArray([])  true    Array.isArray({})  false 
 
         // isArray 
-        var isArray = Function.isArray || function(o) {
-          return typeof 0 === 'object' && Object.prototype.toString(0) === '[object Array]'
+        var isArray = Function.isArray || function(args) {
+          return typeof args === 'object' && Object.prototype.toString(args) === '[object Array]'
         }           
 
 
@@ -123,7 +125,7 @@
           1. 作为函数
           2. 作为对象的方法
           3. 作为构造函数
-          4. 通过它们的call()和apply方法调用
+          4. 通过它们的call(参数)和apply(参数数组)方法调用
 
       形参 实参    （参数多余三个形参 包装为对象 )
 
@@ -142,7 +144,7 @@
 
       高阶函数（操作函数的函数）
 
-      记忆能力的函数
+      记忆能力的函数(momoize)
 
 
 
@@ -272,7 +274,7 @@
 
 
 
-###  http与tcp()
+###  http与tcp
     
     http
        
@@ -528,7 +530,7 @@
 
 ###  前端五大算法
      1. 贪心算法 （局部最优解）
-     2. 分治算法 （拆分陈小模块）
+     2. 分治算法 （拆分最小模块）
      3. 动态规划 （每个状态都是历史的一个总结）
      4. 回溯法   （发现原先的选择不合适时，退回重新选择）
      5. 分支界限法
@@ -653,7 +655,7 @@
 
 ###  判断是否是数组
          1. Object.prototype.toString.call()   常用语判断浏览器内置对象
-         2. instaanceof    通过判断对象的原型链上是否能找到类型的prototype
+         2. instanceof    通过判断对象的原型链上是否能找到类型的prototype
          3. Array.isArray()  es5新增的方法 判断对象是否为数组 
 
 
@@ -672,7 +674,7 @@
 
 
 ###   判断对象类型
-         Object.prototype.toString.call(xx)  ====  [object type]
+         Object.prototype.toString.call(xx)  ====  [object type(类型)]
 
 
 
@@ -705,9 +707,9 @@
             concat 
             join
             toString
-            slice
+            slice  
 
-      es中不改变原数组的方法
+      es6中不改变原数组的方法
             some
             filter
             reduce
@@ -795,7 +797,7 @@
 
 
             vuex 
-              stste    存储数据 存储状态
+               stste    存储数据 存储状态
                getter  类似于store的计算属性
                mutation  更改vuex中store的状态 唯一提交方式是mutation
                action  异步操作
@@ -875,9 +877,9 @@
     ├           ├─ 结构型模式     |──代理模式
     ├                            |──享元模式
     ├           
-    ├           ├─ 行为型模式      |──策略模式
-    ├                             |──策略模式
-                                  |──中介者模式
+    ├           ├─ 行为型模式     |──策略模式
+    ├                            |──策略模式
+                                 |──中介者模式
 
 
 
@@ -885,6 +887,8 @@
 
 
 ###   缓存相关问题  
+        强缓存 
+        协商缓存
 
 
 

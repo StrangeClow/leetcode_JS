@@ -29,6 +29,7 @@ console.log(getType(new Object()))
 
 
 const types = function(info) {
+  // 返回的是[object Number]   而并非单一的数据类型   
   return Object.prototype.toString.call(info)
 }
 console.log('------------');

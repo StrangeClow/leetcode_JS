@@ -21,3 +21,18 @@ const throttle = function(cb, ms) {
 
     return throttleFunc 
 }
+
+
+const throttle2 = function(callback, ms) {
+
+    let timer = null
+
+    return function() {
+        clearTimeout(timer)
+
+        timer = setTimeout(()=> {
+            
+             callback.apply(this,arguments)
+        },ms)
+    }
+}

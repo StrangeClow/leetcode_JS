@@ -12,6 +12,7 @@ function LinkedList() {
         this.element = element
         this.next = null
     }
-
+    
+    
 
 }

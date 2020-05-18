@@ -14,3 +14,8 @@ const deepFreeze = obj =>
 
     // obj.freeze() 冻结属性
   ) || Object.freeze(obj);
+
+
+
+
+  // object.keys()

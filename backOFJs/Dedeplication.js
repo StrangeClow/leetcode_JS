@@ -27,12 +27,13 @@ var arrList = [{
   }];
 
 const Dedeplication = function(arr) {
-    // hash对象
+    // hash对象   obj.属性名 
     let hashObject = {}
     // reduce()
     const reduceArr = arr.reduce((prev,curr)=> {
         // 不为空  
         // 为真则添加进去
+        console.log('prev===>',prev, 'curr=====>',curr);
         hashObject[prev.name] ? '' : hashObject[curr.name] = true && prev.push(curr)
         return prev
     },[])

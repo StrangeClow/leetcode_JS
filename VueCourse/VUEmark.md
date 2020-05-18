@@ -1,4 +1,4 @@
-### vue-info
+### vue-information
     
     基础语法
 

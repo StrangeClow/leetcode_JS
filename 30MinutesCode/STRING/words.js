@@ -1,5 +1,5 @@
 /**
- * String.prototype.split() 
+ * String. .split() 
  *  
  *  将字符串转换为单词数组  
  * 

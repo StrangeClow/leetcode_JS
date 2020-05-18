@@ -1,5 +1,7 @@
 /**
  *   es6 类
+ * 
+ *   constructor()
  *
  * @class point
  */
