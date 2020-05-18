@@ -61,3 +61,25 @@ const test1 = function(arr) {
 
 let nn = [1,2,3,4,5]
 console.log(test1(nn));
+
+
+
+function test2() {
+    let a =[1,2,3]
+    a.join =a.shift
+    console.log(a==1&&a==2&&a==3);
+}
+
+console.log(test2());
+
+
+function A() {
+    let a = 1
+    window.B = function () {
+        console.log(a)
+    }
+  }
+
+
+  console.log(A());
+  console.log(B());

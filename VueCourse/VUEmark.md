@@ -346,6 +346,20 @@
 
 
 
+###     vue双向绑定原理   
+
+             1. 实现一个监听器Observer    
+                  obj.defineProperty()给属性加上setter和getter
+
+             2. 实现一个解析器Compile
+                  解析vue模板指令 初始化渲染页面
+
+             3. 实现一个订阅者Watcher
+                  订阅者连接Obsever和Complie
+
+             4. 实现一个订阅器Deper
+                  采用发布-订阅设计模式 
+
 
 
 

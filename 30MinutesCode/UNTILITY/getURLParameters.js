@@ -43,3 +43,15 @@ console.log('解析url参数',getURLParameters3(a5));
 // console.log('解析url参数',getURLParameters3(a3));
 // console.log('解析url参数',getURLParameters3(a4));
 
+
+
+
+/**
+ *    获取url参数  
+ *
+ * @param {*} url
+ * @returns
+ */
+const getURLParameters1 = function(url) {
+  return urls
+}

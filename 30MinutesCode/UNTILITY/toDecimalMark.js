@@ -1,5 +1,5 @@
 /**
- *   将数字转化为千分位的格式 
+ *   将数字转化为千分位的格式     num.toLocaleString('en-US)
  *
  * @param {*} num
  */

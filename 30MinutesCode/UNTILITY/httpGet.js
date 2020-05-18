@@ -22,3 +22,13 @@ const httpGet = function(url, callback, err = console.error) {
   // 发送请求
   request.send()
 }
+
+
+
+//   new XMLHttpRequest()
+
+//   open()
+
+//  onLoad()
+
+//  send()

@@ -5,9 +5,9 @@
  * @returns
  */
 const timeTaken = callback => {
-    console.time('timeTaken')
+    console.time('timeTakenStsrt')
     const r = callback()
-    console.timeEnd('timeTaken')
+    console.timeEnd('timeTakenEnd')
     return r
 }
 

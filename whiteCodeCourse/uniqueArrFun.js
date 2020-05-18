@@ -5,6 +5,9 @@
  * @returns
  */
 const uniqueArrFun = function(arr) {
+
+    // new Set()
+    // ...展开
    return new Set(...arr)
 }
 
