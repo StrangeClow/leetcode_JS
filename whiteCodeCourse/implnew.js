@@ -44,3 +44,13 @@ const implNew2 = function() {
     // 验证给定变量的类型 
     return typeof changeThis === 'object' ? changeThis : tempObj
 }
+
+
+
+
+const implNew3 = function(con, ...args) {
+   
+    let obj = Object.create(CON.prototype)
+    let result = con.apply(obj, args)
+    return typeof obj == 'object' ? result : obj
+}

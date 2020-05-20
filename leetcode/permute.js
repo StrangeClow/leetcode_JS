@@ -83,3 +83,33 @@ function A() {
 
   console.log(A());
   console.log(B());
+
+
+
+
+
+  function foo(b) {
+      var  a = 5
+      return a * b * 10
+  }
+
+  function bar(x) {
+    var y = 3
+    return foo(x * y)
+  }
+
+  console.log(bar(6));
+
+
+
+
+  var User = {
+      count: 1, 
+      getCount() {
+          return this.count
+      }
+  }
+
+  console.log(User.getCount());
+  var func = User.getCount
+  console.log(func());
