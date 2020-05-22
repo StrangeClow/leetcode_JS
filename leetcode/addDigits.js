@@ -1,5 +1,5 @@
 /**
- *  各位相加 (待完成)
+ *  各位相加 ()
  *    
  *     给定一个非负整数num,反复将各个位的数字相加，直到结果为一位数。
  * 
@@ -12,12 +12,17 @@
  */
 const addDigits = function(num) {
   
-  while(num > 9) {
+  // 循环当前数据 大于等于10
+  while(num >= 10) {
+    // 转字符串再转数组 
+    console.log(num.toString().split(''));
       num = num.toString().split('').reduce((prev, curr)=> {
         // 累加当前值与前值并计数
+        console.log(prev, curr);
         return parseInt(prev) + parseInt(curr)
       },0)
   }
+  console.log(num);
   return num
 }
 

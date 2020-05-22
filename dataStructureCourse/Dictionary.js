@@ -82,3 +82,34 @@ d.set('hello',19)
 
 console.log(d.getValues());
 console.log(d.has(a));
+
+
+
+function test() {
+    message = 'hello world'    // 声明变量时 省略var 
+    console.log(message);
+    return message
+}
+console.log(test());
+console.log(message);   // 非严格模式下不会报错 
+
+
+console.log(null === undefined);
+console.log(null == undefined);  // 强制类型转换
+
+
+
+// 前置递增递减
+// 后置递增递减
+
+
+// 可选动态参数
+function test1 (...args) {
+
+}
+
+
+
+//  concat()  slice()不会更改原始数组  相当于复制一个当前数组的副本   
+
+//  splice()的用法  三个参数 
