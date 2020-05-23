@@ -16,5 +16,10 @@ const uniqueArrFun = function(arr) {
 
 
 const uniqueArrFun2 = function(arr) {
+
+    // 把类数组转化为数组 agruments数据
+    // Array.from()
+
+    // es6的新数据结构  Set 
     return Array.from(new Set(arr))
 }

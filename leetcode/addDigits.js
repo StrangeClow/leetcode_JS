@@ -28,3 +28,32 @@ const addDigits = function(num) {
 
 
 console.log(addDigits(38));
+
+
+
+
+
+let obj  = {}
+
+function add(x, y) {
+  return x * y
+}
+
+// 函数的几种不同的调用方式 
+console.log(add.apply(obj, [2,3]));
+console.log(add.call(obj, 2,9));
+
+
+let aObj = {
+  name: 'js',
+  getName: function(x) {
+    console.log('x===>',x);
+    console.log('this=====>',getName.call(aObj,x));
+     return x
+  }
+}
+
+
+console.log(aObj);
+console.log(aObj.getName('数据结构'));
+

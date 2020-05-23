@@ -20,3 +20,11 @@ const copyObj2 = function(obj) {
        b[key] = a [key]
    }
 }
+
+
+
+
+const copyObj3 = function(obj) {
+    // obj  对象的API
+    return Object.assign({}, obj)
+}
