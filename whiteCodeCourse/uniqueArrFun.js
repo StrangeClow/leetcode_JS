@@ -23,3 +23,7 @@ const uniqueArrFun2 = function(arr) {
     // es6的新数据结构  Set 
     return Array.from(new Set(arr))
 }
+
+
+
+ //  Object.prototype.toString.call(arr) === [object, Array]

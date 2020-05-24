@@ -18,3 +18,13 @@ const sumNums = function(number) {
 
 
 console.log(sumNums(3));
+
+
+
+
+// this的四种绑定规则
+
+//  1. 默认绑定
+//  2. 显示绑定
+//  3. 隐式绑定
+//  4. new绑定

@@ -54,3 +54,14 @@ function getArrLength(arr) {
 Array.prototype.getArrLength = getArrLength
 let n = [1,2,3,4,5,6,7,8,9]
 // console.log(n.getArrLength())
+
+
+
+
+const componse2 = function(f, g) {
+   return function() { 
+     // 给f()传入一个参数 所以使用f.call()
+     // 给g()传入多个参数 所以使用g.apply()
+     return f.call(this, g.apply(this, arguments))
+   }
+}
