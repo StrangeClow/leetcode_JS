@@ -90,7 +90,7 @@ function Sub() {
  
 let s2 =  new Sub()
 console.log('0524===>',s2.colors.push('yellow'));
-console.log('0524====->',s2.colors);
+console.log('0524====>',s2.colors);
 
 /**
  *   3. 组合继承(伪经典继承)

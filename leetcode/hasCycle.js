@@ -21,6 +21,15 @@ const hasCycle = function(head) {    // 利用节点的内存地址来进行判�
 }
 
 
+const hasCycle3 = function(head) {
+   if(JSON.stringify(head)) {
+       return false
+   }
+   else {
+       return true
+   }
+}
+
 function listNode(val) {
     this.val = val
     this.next =null
