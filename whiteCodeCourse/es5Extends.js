@@ -78,7 +78,20 @@ function Apple() {
 let a1 = new Apple()
 a1.fruits.push('water')
 console.log(a1.getFruitName('菠萝菠萝'))
+
+
+function Super() {
+  this.colors = ['red','blue','green']
+}
+function Sub() {
+    // 改变指向继承   
+    Super.call(this)
+}
  
+let s2 =  new Sub()
+console.log('0524===>',s2.colors.push('yellow'));
+console.log('0524====->',s2.colors);
+
 /**
  *   3. 组合继承(伪经典继承)
  *   使用原型链来实现对属性和方法的继承，借用构造函数来实现对实例属性的继承 

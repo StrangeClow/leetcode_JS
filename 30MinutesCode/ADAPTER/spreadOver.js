@@ -5,6 +5,8 @@
  * @returns
  */
 const spreadOver = function(fn) {
+    
+    console.log(...argsArr);
     return argsArr => {
         return fn(...argsArr)
     }

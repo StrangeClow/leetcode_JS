@@ -7,6 +7,8 @@
  *  Object.prototype.String.call('数据类型')
  * 
  *  val.constructor === '指定类型'
+ * 
+ * val.constructor.name.toLowerCase()
  *
  * @param {*} val
  */

@@ -14,6 +14,7 @@
      if(tempMap.has(tempNum)) {
        return [tempMap.get(tempNum), i]
      }
+     // map.set()
      tempMap.set(nums1[i], i)
    }
  }
@@ -27,7 +28,9 @@
  var secondTwoSum = function(nums, target) {
     for(let i = 0; i < nums.length; i++) {
       for(let j = i+1;j<nums.length;j++) {
+           // target = nums[i] + nums[j]
            if(target == nums[i] + nums[j]) {
+               // 直接抛出数组的下标 
                return [i,j]
            }
       }
@@ -54,6 +57,12 @@
      }
  }
 
+
+ const twoSum5= function(nums, traget) {
+   let hash = {}
+   let loop = 0
+   
+ }
 
  
  let a1 = [3,9,8,18,26], t1 = 26

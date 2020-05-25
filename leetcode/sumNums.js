@@ -6,12 +6,10 @@
  * @returns
  */
 const sumNums = function(number) {
+   
+    // 递归调用 
+    return number > 0 && (number + sumNums(number - 1))
     
-    // 尾递归(最后一步调用自身)
-   if(number > 0) {
-      // number（当前值） + sumNums(number - 1) （当前值减一）
-       return number + sumNums(number - 1)
-   }
 
 }
 
@@ -27,4 +25,12 @@ console.log(sumNums(3));
 //  1. 默认绑定
 //  2. 显示绑定
 //  3. 隐式绑定
-//  4. new绑定
+//  4. new绑定          
+
+function fn() {
+    this.a = 2
+    return 
+}
+
+let test1 = new fn()
+console.log('test1',test1);

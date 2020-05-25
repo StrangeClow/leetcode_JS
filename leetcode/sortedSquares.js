@@ -44,3 +44,48 @@ const sortedSquares2 = function(A) {
 
 let a2 = [-3, -1 ,0 ,4, 8,16]
 console.log(sortedSquares2(a2));
+
+
+function Foo(){};
+Foo.prototype.a = 3;
+var f1 = new Foo;
+var f2 = new Foo;
+
+console.log(Foo.prototype.a);//1
+console.log(f1.a);//1
+console.log(f2.a);//1
+
+function foo() {}
+
+let foo1 = new foo()
+let foo2 = new foo()
+
+console.log('foo1',foo1);
+console.log('foo2',foo2);
+console.log('foo2与foo1',foo1 === foo2, foo1 == foo2);
+console.log('foo2与foo1的prototype=========>',foo1.prototype === foo2.prototype, foo1.prototype == foo2.prototype);
+console.log('foo2与foo1的proto=======>',foo1.proto === foo2.proto);
+console.log('foo2与foo1的_proto_=======>',foo1._proto_ === foo2._proto_);
+
+
+
+function Sum(x, y) {
+    console.log(x ,y);
+    let a = x * y
+    return a
+}
+
+Sum.prototype.a = 190.34
+Sum.prototype.getSum = function(z) {
+    console.log('继承prototype');
+   return z * 0.834
+}
+
+// 函数也是对象 
+
+let sum1 = new Sum()
+let sum2 = new Sum()
+
+console.log('sum1===sum2====>',sum1,sum2);
+console.log(sum1.a);
+console.log(sum2.getSum(3));
