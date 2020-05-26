@@ -106,8 +106,8 @@
 
 ##  es6中module和commonjs区别
 
-        A. ES6静态引入 编译时引入
-        B. commonjs动态引入 执行时引入
+        A. ES6静态引入 编译时运行
+        B. commonjs动态引入 执行时运行
 
    
 

@@ -1,4 +1,7 @@
 function fib(n) {
+  if(typeof n !== 'number') {
+    throw new Error('输入的数据类型非法')
+  }
   if(n >=0 && n < 2) {
      return n
   }

@@ -290,7 +290,7 @@
     http/2(多路复用)  http/3   
      
 
-    问题：从输入url到页面展示中间发生了什么
+    问题：从输入url到页面展示中间发生了什么 (https://www.cnblogs.com/xianyulaodi/p/6547807.html) 解释的非常细致
          1. url输入  
               url组成===>  protocol://hostname[:port]/path/[:parameters][?query]#fragment
          2. dns解析(遵照资源)
