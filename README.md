@@ -59,7 +59,7 @@
  54 | [平衡二叉树(深度优先搜索)]() | 简单 | [JavaScript]() |   ✘
  55 | [左旋转字符串](https://leetcode-cn.com/problems/zuo-xuan-zhuan-zi-fu-chuan-lcof/) | 简单 | [JavaScript](https://github.com/StrangeClow/leetcode_JS/blob/master/leetcode/reverseLeftWords.js) |    √
  56 | [替换空格]() | 简单 | [JavaScript](https://github.com/StrangeClow/leetcode_JS/blob/master/leetcode/replaceSpace.js) |   √
- 57 | [有多小小于当前数字的数字]() | 简单 | [JavaScript](https://github.com/StrangeClow/leetcode_JS/blob/master/leetcode/smallerNumbersThanCurrnet.js) |   ✘
+ 57 | [有多少小于当前数字的数字]() | 简单 | [JavaScript](https://github.com/StrangeClow/leetcode_JS/blob/master/leetcode/smallerNumbersThanCurrnet.js) |   ✘
  58 | [判断字符是否唯一]() | 简单 | [JavaScript](https://github.com/StrangeClow/leetcode_JS/blob/master/leetcode/judgeStrIsOnly.js) |    √
  59 | [按奇偶排序数组](https://leetcode-cn.com/problems/sort-array-by-parity/) | 简单 | [JavaScript](https://github.com/StrangeClow/leetcode_JS/blob/master/leetcode/sortArraybyParity.js) |    √
  60 | [数组中重复的数字]() | 简单 | [JavaScript](https://github.com/StrangeClow/leetcode_JS/blob/master/leetcode/findReapteNumber.js) |   √
@@ -85,16 +85,17 @@
  80 | [ 组合总和](https://leetcode-cn.com/problems/combination-sum/) | 中等 | [JavaScript](https://github.com/StrangeClow/leetcode_JS/blob/master/leetcode/combinationSum.js) | √
  81 | [ 三个数的最大乘积](https://leetcode-cn.com/problems/maximum-product-of-three-numbers/) | 简单 | [JavaScript](https://github.com/StrangeClow/leetcode_JS/blob/master/leetcode/maximumProductOfThree.js) | √
  82 | [ IP地址无效化](https://leetcode-cn.com/problems/defanging-an-ip-address/) | 简单 | [JavaScript](https://github.com/StrangeClow/leetcode_JS/blob/master/leetcode/defangIPaddr.js) | √
- 83 | [ 分割数组](https://leetcode-cn.com/problems/partition-array-into-disjoint-intervals/) | 中等 | [JavaScript](https://github.com/StrangeClow/leetcode_JS/blob/master/leetcode/partitionDisjoint.js) | √
- 84 | [ 数组序号转换](https://leetcode-cn.com/problems/rank-transform-of-an-array/) | 简单 | [JavaScript](https://github.com/StrangeClow/leetcode_JS/blob/master/leetcode/arrayRankTransform.js) | ✘
- 85 | [ 整数的各位积和之差](https://leetcode-cn.com/problems/subtract-the-product-and-sum-of-digits-of-an-integer/) | 简单 | [JavaScript](https://github.com/StrangeClow/leetcode_JS/blob/master/leetcode/subtractProductAndSum.js) | √
+ 83 | [分割数组](https://leetcode-cn.com/problems/partition-array-into-disjoint-intervals/) | 中等 | [JavaScript](https://github.com/StrangeClow/leetcode_JS/blob/master/leetcode/partitionDisjoint.js) | √
+ 84 | [数组序号转换](https://leetcode-cn.com/problems/rank-transform-of-an-array/) | 简单 | [JavaScript](https://github.com/StrangeClow/leetcode_JS/blob/master/leetcode/arrayRankTransform.js) | ✘
+ 85 | [整数的各位积和之差](https://leetcode-cn.com/problems/subtract-the-product-and-sum-of-digits-of-an-integer/) | 简单 | [JavaScript](https://github.com/StrangeClow/leetcode_JS/blob/master/leetcode/subtractProductAndSum.js) | √
  86 | [ 礼物的最大价值](https://leetcode-cn.com/problems/li-wu-de-zui-da-jie-zhi-lcof/) | 中等 | [JavaScript](https://github.com/StrangeClow/leetcode_JS/blob/master/leetcode/theGiftOfMaxValue.js) | ✘
  87 | [ 不相交的区间]() | 困难 | [JavaScript](https://github.com/StrangeClow/leetcode_JS/blob/master/leetcode/summaryRanges.js) | ✘
  88 | [ nim游戏](https://leetcode-cn.com/problems/nim-game/) | 简单 | [JavaScript](https://github.com/StrangeClow/leetcode_JS/blob/master/leetcode/canWinNim.js) | √
  89 | [ 递归乘法](https://leetcode-cn.com/problems/recursive-mulitply-lcci/) | 简单 | [JavaScript](https://github.com/StrangeClow/leetcode_JS/blob/master/leetcode/recursiveMulitplyLcci.js) | √
  90 | [气球的最大数量（哈希表）](https://leetcode-cn.com/problems/maximum-number-of-balloons/) | 中等 | [JavaScript](https://github.com/StrangeClow/leetcode_JS/blob/master/leetcode/theBalloonsOfMaxNumber.js) | ✘
  91 | [检测环]() | 中等 | [JavaScript](https://github.com/StrangeClow/leetcode_JS/blob/master/leetcode/hasCycle.js) | √
- 91 | [LRU缓存淘汰算法](https://leetcode-cn.com/problems/lru-cache/) | 中等 | [JavaScript](https://github.com/StrangeClow/leetcode_JS/blob/master/leetcode/LRUCache.js) |✘
+ 92 | [LRU缓存淘汰算法](https://leetcode-cn.com/problems/lru-cache/) | 中等 | [JavaScript](https://github.com/StrangeClow/leetcode_JS/blob/master/leetcode/LRUCache.js) |✘
+ 93 | [独一无二出现的次数](https://leetcode-cn.com/problems/unique-number-of-occurrences/) | 简单 | [JavaScript](https://github.com/StrangeClow/leetcode_JS/blob/master/leetcode/uniqueOccurrences.js) |√
  
  
  
