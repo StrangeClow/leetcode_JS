@@ -95,7 +95,8 @@
  90 | [气球的最大数量（哈希表）](https://leetcode-cn.com/problems/maximum-number-of-balloons/) | 中等 | [JavaScript](https://github.com/StrangeClow/leetcode_JS/blob/master/leetcode/theBalloonsOfMaxNumber.js) | ✘
  91 | [检测环]() | 中等 | [JavaScript](https://github.com/StrangeClow/leetcode_JS/blob/master/leetcode/hasCycle.js) | √
  92 | [LRU缓存淘汰算法](https://leetcode-cn.com/problems/lru-cache/) | 中等 | [JavaScript](https://github.com/StrangeClow/leetcode_JS/blob/master/leetcode/LRUCache.js) |✘
- 93 | [独一无二出现的次数](https://leetcode-cn.com/problems/unique-number-of-occurrences/) | 简单 | [JavaScript](https://github.com/StrangeClow/leetcode_JS/blob/master/leetcode/uniqueOccurrences.js) |√
+ 93 | [独一无二出现的次数](https://leetcode-cn.com/problems/unique-number-of-occurrences/) | 简单 | [JavaScript](https://github.com/StrangeClow/leetcode_JS/blob/master/leetcode/uniqueOccurrences.js) |✘
+ 93 | [搜索旋转排序数组](https://leetcode-cn.com/problems/search-in-rotated-sorted-array/) | 中等 | [JavaScript](https://github.com/StrangeClow/leetcode_JS/blob/master/leetcode/searchInRotatedSortedArray.js) |√
  
  
  

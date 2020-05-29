@@ -17,3 +17,31 @@ const rotateMinArray = function(num) {
 
 let n1 = [3,4,5,2,1]
 console.log(rotateMinArray(n1));
+
+
+
+
+
+const rotateMinArray2 = function(num) {   //来源leetcode
+ 
+   
+    // 二分法解决当前问题 
+    let left = 0
+    let right = num.length - 1
+    
+    // 一个从最左开始往右   一个从最后开始往左   中间相遇
+    while(left < right) {
+        let mid = Math.floor((left + right) / 2)
+        if(num[mid] > num[right]) {
+           left = mid +1
+        } else if(num[mid] < num[right]) {
+             right = mid
+        }
+        else {
+            right --
+        }
+    }
+    return num[left]
+}
+
+console.log(rotateMinArray2(n1));
