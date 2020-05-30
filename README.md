@@ -96,7 +96,8 @@
  91 | [检测环]() | 中等 | [JavaScript](https://github.com/StrangeClow/leetcode_JS/blob/master/leetcode/hasCycle.js) | √
  92 | [LRU缓存淘汰算法](https://leetcode-cn.com/problems/lru-cache/) | 中等 | [JavaScript](https://github.com/StrangeClow/leetcode_JS/blob/master/leetcode/LRUCache.js) |✘
  93 | [独一无二出现的次数](https://leetcode-cn.com/problems/unique-number-of-occurrences/) | 简单 | [JavaScript](https://github.com/StrangeClow/leetcode_JS/blob/master/leetcode/uniqueOccurrences.js) |✘
- 93 | [搜索旋转排序数组](https://leetcode-cn.com/problems/search-in-rotated-sorted-array/) | 中等 | [JavaScript](https://github.com/StrangeClow/leetcode_JS/blob/master/leetcode/searchInRotatedSortedArray.js) |√
+ 94 | [搜索旋转排序数组](https://leetcode-cn.com/problems/search-in-rotated-sorted-array/) | 中等 | [JavaScript](https://github.com/StrangeClow/leetcode_JS/blob/master/leetcode/searchInRotatedSortedArray.js) |√
+ 95 | [重复n次的元素(哈希表)](https://leetcode-cn.com/problems/n-repeated-element-in-size-2n-array/) | 简单 | [JavaScript](https://github.com/StrangeClow/leetcode_JS/blob/master/leetcode/repeatedNTimes.js) |√
  
  
  

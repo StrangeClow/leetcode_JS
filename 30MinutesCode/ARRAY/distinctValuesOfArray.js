@@ -38,3 +38,14 @@ const distinctValuesOfArray2 = function(arr) {
 
 
 console.log(distinctValuesOfArray2([1,2,3,4,5,4,2]));
+
+
+
+const distinctValuesOfArray3 = function(arr) {
+    let tempMap =new Map()
+    console.log(tempMap)
+    return res
+}
+
+
+console.log(distinctValuesOfArray3())

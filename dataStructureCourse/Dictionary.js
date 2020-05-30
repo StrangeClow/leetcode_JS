@@ -77,6 +77,7 @@ let a = [
 
 
 let d = new Dictionary()
+console.log('字典====>',d)
 
 d.set('hello',19)
 
