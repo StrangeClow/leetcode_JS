@@ -900,6 +900,21 @@
             用html css js构建跨平台桌面应用程序的开源库，electron通过将chromium和node.js合并到同一个运行时环境，并打包。
             electron分为两种进程，主进程和渲染进程。    
 
+
+
+
+
+###  版本控制  
+        
+         git 
+            
+            1. 版本回退  
+                    a. git reset  (可添加不同的参数  --mixed  --soft（文件回退到暂存区）  --hard（文件回退到修改前）)
+                    b. git revert
+                    c. git checkout
+      
+      
+
             
     
        

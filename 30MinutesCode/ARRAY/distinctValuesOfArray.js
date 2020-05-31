@@ -37,15 +37,32 @@ const distinctValuesOfArray2 = function(arr) {
 }
 
 
-console.log(distinctValuesOfArray2([1,2,3,4,5,4,2]));
+let nn = [8,9,4,6,1,3,10,4,9]
+
+console.log(distinctValuesOfArray2(nn));
 
 
 
 const distinctValuesOfArray3 = function(arr) {
+    
     let tempMap =new Map()
+    for(let index = 0; index < arr.length; index ++) {
+      
+        if(!tempMap.has(arr[index])) {
+            console.log('符合条件的数据====',arr[index])
+            // tempMap.set(index,arr[index])
+            tempMap.set(arr[index],index)
+            
+        }
+    }
     console.log(tempMap)
-    return res
+    
+    for(let key of tempMap.keys()) {
+        console.log(key)
+    }
+   
+    
 }
 
 
-console.log(distinctValuesOfArray3())
+console.log(distinctValuesOfArray3(nn))
