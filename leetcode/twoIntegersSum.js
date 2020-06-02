@@ -40,3 +40,43 @@ const getTwoIntegersSum2 = function(num1, num2) {
 
 
 console.log(getTwoIntegersSum2(1,29));
+
+
+
+function f() {
+  console.log(this.a)
+}
+
+var obj = {
+  a: 2,
+  f: f
+}
+
+var f2 = obj.f
+var a= 'hello'
+f2()
+
+
+
+function test() {
+  console.log(this.b)
+}
+var b = 'world'
+test()
+
+
+function test1() {
+  console.log(this.c)
+}
+
+let c = 'js'
+test1()
+
+
+function test2() {
+  console.log(this.d)
+}
+
+let d 
+
+test2()
