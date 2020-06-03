@@ -62,6 +62,6 @@ const componse2 = function(f, g) {
    return function() { 
      // 给f()传入一个参数 所以使用f.call()
      // 给g()传入多个参数 所以使用g.apply()
-     return f.call(this, g.apply(this, arguments))
+     return f.call(this, g.apply(this, arguments))    //  一层套一层  改变this指向 传入参数  当前指向作为下一个函数的参数  
    }
 }

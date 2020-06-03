@@ -31,14 +31,17 @@ Function.prototype.myBind = function(thisArgs) {
 
 Function.prototype.ImplBind = function(context) {
 
-    let that = this
+    let that = this   // 保存原函数 
 
-    context  = [].shift.call(arguments)   // 数组开头插入元素
+        context  = [].shift.call(arguments)   // 需要绑定的this上下文   // shift()移除数组的第一个元素并返回 
 
-    args = [].slice.call(arguments)   // 复制当前参数的副本
+        args = [].slice.call(arguments)   //  剩余参数转化为数组 
 
     return function() {
-        // apply(a,b)  a==>     b===> 参数数组
+        // apply(a,b)  a==> this    b===> 参数数组
         return that.apply(context,[].concat.call(args, [].slice.call(arguments)))
+        // 执行新的函数时，会把之前传入的context当做函数体内的this 
+        // 并结合两次分别传入的参数 作为新函数的参数  
+
     }
 }
