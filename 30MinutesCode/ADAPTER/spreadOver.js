@@ -11,3 +11,6 @@ const spreadOver = function(fn) {
         return fn(...argsArr)
     }
 }
+
+const arrMax = spreadOver(Math.max)
+console.log(arrMax[2,5,9]);

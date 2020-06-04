@@ -160,13 +160,141 @@ getName.call(obj2)
 
 
 function add(a,b) {
+    console.log(a,b);
    return a + b
 }
 
-function add1(c, d, add) {
-    return add(c) + add(d)
+function add1(c, add) {
+    return add(c,15) 
 }
 
-add1(12,1,add)
+add1('add1===>',12,add)
+
+
+function func(n) {
+    console.log(n);
+    var n = 456
+    console.log(n);
+}
+// var n = 123
+// func()
+func(n)
+
+
+
+function p1(name, age, job) {
+    this.name = name
+    this.age =age
+    this.job  = job
+}
+
+var p2 = new p1('hello',19,'world')
+console.log(p2);
+
+var p3 = p1('hello11',19,'world22')   // 该this在运行时绑定 所以直接调用p  this会映射到window上
+console.log(p3);
+console.log(window.job);
+
+
+
+function fn() {
+    console.log(n);
+    n = 456    // 此后n值一斤被改了 
+    console.log(n);
+}
+
+var n= 123
+fn(n)
+console.log(n);
+
+
+
+var n  =123
+function fn() {
+    console.log(n);
+}
+
+function fn1() {
+    var n = 456
+    fn()
+}
+
+fn1()
+console.log(n);
+
+
+
+
+var length = 100
+function f1() {
+    console.log(this.length);
+}
+
+var obj =  {
+   x : 10,
+   f2: function(f1) {
+        f1()
+        arguments[0]()    // 等于arguments.length   两个参数 
+   }
+}
+
+obj.f2(f1, 1)
+
+
+function b() {
+    console.log(a);
+    var a = 10
+    function a() {}     // 变量提升   函数优先级更高 
+    a = 100
+    console.log(a);
+}
+
+b()
+
+
+(function(num){
+    console.log(num);
+    var num = 10
+    function num(){}    // 函数的优先级更高   此时会输出  func ==> num
+})(100)
+
+
+(function(num){
+  function num() {}    // num 函数的优先级最高 
+  console.log(num);
+  var num = 101
+  console.log(num);
+})(100)
+
+
+
+function n() {
+    if(2 > 1 ) {
+        arr = 10
+        brr = 20
+        let arr
+        var brr 
+        console.log(arr);
+        console.log(brr);
+    }
+}
+
+n()
+
+
+var r = (function() {
+    var u = {
+        a: 1, b:2
+    }
+   var R = {
+       fn: function(k) {
+            return u[k]
+       }
+   }
+   return R
+})()
+
+console.log(r.fn('a'));
+
 
 

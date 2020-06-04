@@ -26,3 +26,13 @@ console.log(arrayMax(a));
 
 
 console.log([1,9,0,2,8,5].sort())
+
+
+
+
+const arrayMax3 = function() {
+   
+    return Math.max.apply(null,[2,34,67,78,9564])
+}
+
+console.log(arrayMax3());
