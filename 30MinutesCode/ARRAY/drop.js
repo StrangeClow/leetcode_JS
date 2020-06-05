@@ -7,7 +7,7 @@
  * 
  *  slice() 从已有的数组中返回选定的元素  
  *     
- *          1. ArrayObject.slice(start, end) =====> start起止位置  end====>结束位置
+ *          1. Array/Object.slice(start, end) =====> start起止位置  end====>结束位置
  * 
  * 
  */

@@ -14,7 +14,7 @@
  *
  * @param {*} arr
  */
-const compact = arr => arr.filter(Boolean)
+const compact = arr => arr.filter(Boolean)    // Boolean()装箱操作  
 
 
 let aa = [1,2,3,4,true,false,[],NaN]

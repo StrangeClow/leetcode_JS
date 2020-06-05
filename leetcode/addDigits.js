@@ -32,6 +32,23 @@ console.log(addDigits(38));
 
 
 
+// 找规律
+const addDigits2 = function(n) {
+  if(!n) {
+   return 
+  }
+  if(n % 9 === 0 && num !== 0) {
+    return 9
+  }
+  
+  return n % 9
+}
+
+addDigits2(12)
+
+
+
+
 
 let obj  = {}
 
@@ -39,7 +56,7 @@ function add(x, y) {
   return x * y
 }
 
-// 函数的几种不同的调用方式 
+// 函数的几种不同的调用方式   apply  call
 console.log(add.apply(obj, [2,3]));
 console.log(add.call(obj, 2,9));
 

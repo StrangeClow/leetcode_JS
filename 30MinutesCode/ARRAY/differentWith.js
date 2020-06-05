@@ -9,7 +9,7 @@
 const differentWith = function(arr, val, comp) {
     
     return arr.filter((item, index)=> {
-        // arr.findIndex()
+        // arr.findIndex() 返回符合条件的第一个数组的位置 
         return val.findIndex((minItem, minIndex)=> {
 
             return comp(item, minItem)
