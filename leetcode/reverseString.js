@@ -44,16 +44,40 @@ console.log(reverseString('reverseString'));
 
 
 
+var reverseString3 = function(s) {     //  双指针  前后移动 趋向中间  
+   
+    if (s.length > 0) {
+     
+      let left = 0 
+      let right = s.length - 1
 
-const reverseString3 = function(str) {    // 这个有问题 
-    let index = 0
-    for (let index = 0; index < str.length - 1; index++) {
-        // 解构赋值  交换变量位置 
-        [str[index], str[str.length - 1 - index]] = [str[str.length - 1 - index], str[index]]
+      while (left < right) {
+
+        // es6交
+        [s[left], s[right]] = [s[right], s[left]]
+
+        left++
+        right--
+      }
     }
-    return str
-}
+  }
 
 
-let s = 'vscode hello'
+let s = 'vscodehello'
 console.log(reverseString3(s));
+
+
+
+
+function twoSum(arr, target) {
+    if(arr.length <2) return notfound
+    
+    for(let i = 0; i < arr.length; i ++) {
+        for(let j = 0; j < arr.length; j++) {
+            if(targe === arr[i] + arr[j]) {
+                 return [arr[i], arr[j]]
+            }
+        }
+    }
+    
+}
