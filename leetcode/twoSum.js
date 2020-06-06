@@ -6,7 +6,7 @@
  *   output ==> [1,2]
  * 
  */
- const twoSum = function(nums1, target) {
+ const twoSum = function(nums1, target) {    // msp.get map.has  
    let tempMap = new Map()
    for(let i = 0; i < nums1.length; i++) {
      let tempNum = target - nums1[i]

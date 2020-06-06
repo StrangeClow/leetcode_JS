@@ -18,11 +18,29 @@ const longestPalindrome = function(str) {
 
    if(!str || str.length === 0) return 0
     
-   // 先字符串排序 
-   let tempS = s.split('').sort()
+   let len = 0 
    
+   let tempSet = new Set()
+
+   for(let char of str) {       // for of循环  
+         console.log('char=====>',char);
+         if(!tempSet.has(char)) {
+            tempSet.add(char)
+         }
+         else {
+             len = len + 2
+             tempSet.delete(char)
+         }
+   }
+   console.log('tempSet()=======>',tempSet.size);
+   // 求set的长度  因为set集合不重复的特性  
+   return tempSet.size === 0 ? len : len + 1    
    
 }
+
+let s = 'abccccdd'
+
+console.log(longestPalindrome(s));
 
 
 

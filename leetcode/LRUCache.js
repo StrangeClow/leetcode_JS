@@ -3,14 +3,43 @@
  *
  * @param {*} capacity
  */
-let LURCache = function(capacity) {
-     this.cache = new Map()
-     this.capacity = capacity
+class LRUCache{
+    
+    /**
+     *Creates an instance of LRUCache.
+     * @param {*} capacity
+     * @memberof LRUCache
+     */
+    constructor(capacity) {
+         
+        this.capacity = capacity
+
+        this.cache  = new Map()
+    }
+
+     /**
+      *
+      *
+      * @param {*} key
+      * @memberof LRUCache
+      */
+     get(key) {
+       // 当前缓存中不存在 指定key的   
+       if(!this.cache.has(key)) {
+            return -1
+       }
+     }
+
+
+     /**
+      *
+      *
+      * @param {*} key
+      * @param {*} value
+      * @memberof LRUCache
+      */
+     set(key, value) {
+
+     }
 }
 
-
-
-
-LURCache.prototype.get = function(key) {
-
-}

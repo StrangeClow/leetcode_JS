@@ -39,14 +39,14 @@ const frequencySort = function(str) {               //  (来源于leetcode)
         })
     })
     console.log('tempArr==',tempArr);
-    tempArr.sort((a,b)=> {
+    tempArr.sort((a,b)=> {                 // 排序 
         return b.value - a.value
     })
 
     let res = ''
 
-    for (let index = 0; index < tempArr.length; index++) {
-
+    for (let index = 0; index < tempArr.length; index++) {    // 拿value 
+ 
        let tempName = tempArr[index].name
          console.log('tempName==',tempName);
        let tempValue = tempArr[index].value

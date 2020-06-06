@@ -9,13 +9,31 @@
  * @param {*} arr
  * @returns
  */
-const arrayRankTransform = function(arr) {
+const arrayRankTransform = function(arr) {     //  map应用      
      
-    let tempArr = new Map()
+    let tempMap = new Map()
 
     arr.sort((a, b)=> {
         return a - b
     })
+
+    let index = 1
+
+    for(let i = 0; i < arr.length; i++) {
+      if(!tempMap.has(arr[i])) {
+         tempMap.set(arr[i], index++)
+      }
+    }  
+    console.log(tempMap);
+    const res = []
+
+    for(let i = 0; i < arr.length; i++) {
+       if(tempMap.has(arr[i])) {
+           console.log('======',tempMap.get(arr[i]));
+          res.push(tempMap.get(arr[i]))
+       }
+    }
+    return res
 
  console.log('arr====',arr)
 
