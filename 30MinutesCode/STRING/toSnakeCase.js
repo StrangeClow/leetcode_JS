@@ -14,7 +14,11 @@
 const toSnakeCase = str => {
   return  str && 
     str.match(/[A-Z]{2,}(?=[A-Z][a-z]+[0-9]*|\b)|[A-Z]?[a-z]+[0-9]*|[A-Z]|[0-9]+/g)       // str.match(/正则匹配/)
-    .map(x => x.toLowerCase())
+    .map(x =>{
+    
+      console.log('x===>',x);
+     return x.toLowerCase()
+    } )
     // 间隔符连接 Array.join(' ')
     .join('_')
 }

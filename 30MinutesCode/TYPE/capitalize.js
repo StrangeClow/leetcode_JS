@@ -6,6 +6,7 @@
  * @param {boolean} [loeweRest=false]
  */
 const capitalize = ([first, ...rest],loeweRest = false) => {
+   console.log(first,'rest===>', ...rest);
    return first.toUpperCase() + (loeweRest ? rest.join('').toLowerCase() : rest.join(''))
 }
 

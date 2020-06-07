@@ -9,6 +9,8 @@
  * @param {*} fn
  */
 const mapValues = (obj, fn) =>
+  // Object.keys()  
+  // reducce 
   Object.keys(obj).reduce((acc,k) =>{
       accc[k] = fn(obj[fn],k,obj);
       return acc;

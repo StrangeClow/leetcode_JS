@@ -7,11 +7,12 @@
  */
 const httpGet = function(url, callback, err = console.error) {
  
- // new一个实例
+ // new一个XML实例
   const request = new XMLHttpRequest()
 
   request.open('GET', url, true)
-
+  
+  // 成功回调 
   request.onload = function() {
       return callback(request.responseText)
   }

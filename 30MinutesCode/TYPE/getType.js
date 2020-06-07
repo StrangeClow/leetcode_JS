@@ -36,3 +36,10 @@ console.log('------------');
 console.log(types('helloe'));
 console.log(types(null));
 console.log(types(8888));
+
+
+function testType(v) {
+  return v.constructor.name.toLowerCase()
+}
+
+console.log(testType(56));

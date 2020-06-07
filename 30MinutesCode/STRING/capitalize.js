@@ -17,7 +17,7 @@ const capitalize = ([first,...rest], lowerRest = false) =>
 
 
    /**
-    *    解构入参  
+    *    解构入参  rest参数 
     *
     * @param {*} [first, ...rest]
     * @returns

@@ -46,7 +46,19 @@ let p2 = createperson('youtube',18,0)
 console.log('p2===',p2.eat('apple'))
 
 
-
+// es6
+class Person{
+   constructor(name, age) {
+       this.name = name
+       this.age= age
+   }
+   static getAge() {
+      return this.age               
+   }
+   getFullName() {
+      return `vscode ${this.name}`
+   }
+}
 
 
 //  构造函数模式      1. 使用this的上下文对象    2. 不显式创建对象 

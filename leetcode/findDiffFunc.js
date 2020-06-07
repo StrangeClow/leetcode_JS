@@ -24,7 +24,6 @@ const findDiffFunc = function(str1, str2) {
 }
 
 
-console.log('object')
 
 
 let a = 'helloworld'

@@ -10,7 +10,7 @@
 const extendHex = function(shortHex) {
 
     // 添加前缀#
-  let transHex = '#' + shortHex.slice(shortHex.startsWish('#') ? 1 : 0)
+  let transHex = '#' + shortHex.slice(shortHex.startsWish('#') ? 1 : 0)        // String.slice()截取 
   // 转数组
   let tempArr = transHex.split('')
   return tempArr.map((item,index)=> {

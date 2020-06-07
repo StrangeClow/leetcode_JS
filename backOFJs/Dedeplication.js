@@ -26,7 +26,7 @@ var arrList = [{
        "value": '贝贝'
   }];
 
-const Dedeplication = function(arr) {
+const Dedeplication = function(arr) {     // hash表应用   
     // hash对象   obj.属性名 
     let hashObject = {}
     // reduce()

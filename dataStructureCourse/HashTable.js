@@ -40,7 +40,7 @@ var HashTable = function() {
 
   // hash删除元素 
   this.remove = function(key) {
-      items[loseloseHashCode[key]]  =undefined
+      items[loseloseHashCode[key]]  = undefined
   }
 
 }

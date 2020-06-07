@@ -3,7 +3,7 @@
  *  
  *  将字符串转换为单词数组  
  * 
- *  FILTER(Boolean)过滤假值 NAN等
+ *  Filter(Boolean)过滤假值 NAN undefined null等
  *
  * @param {*} str
  * @param {*} [pattern=/[^a-zA-Z-]+/]

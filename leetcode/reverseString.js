@@ -32,6 +32,7 @@ const reverseString = function(str) {
 
    let result = ''
    let count = str.length - 1
+   // 倒叙累加
    while(count >= 0) {
        result += str[count]
        count -= 1
@@ -60,24 +61,32 @@ var reverseString3 = function(s) {     //  双指针  前后移动 趋向中间
         right--
       }
     }
+    console.log('return出去的s',s);
+    return s
   }
 
 
 let s = 'vscodehello'
+let ss = ["h","e","l","l","o"]
 console.log(reverseString3(s));
+// console.log(reverseString3(ss));
 
 
 
+var reverseString55 = function(s) {
+  for(let i = 0;i < s.length / 2; i++){
+    [s[i], s[s.length - 1 - i]] = [s[s.length - 1 - i], s[i]]
+    console.log(s[i], s[s.length -1]);
+  }
+  return s
+};
+console.log(reverseString55('hello'));
 
-function twoSum(arr, target) {
-    if(arr.length <2) return notfound
-    
-    for(let i = 0; i < arr.length; i ++) {
-        for(let j = 0; j < arr.length; j++) {
-            if(targe === arr[i] + arr[j]) {
-                 return [arr[i], arr[j]]
-            }
-        }
-    }
-    
+
+
+function swapNum(n1, n2) {
+   return [n1, n2] = [n2, n1]
 }
+
+console.log(swapNum(5,3));
+

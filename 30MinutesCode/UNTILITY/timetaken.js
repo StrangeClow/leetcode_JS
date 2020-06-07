@@ -4,7 +4,7 @@
  * @param {*} callback
  * @returns
  */
-const timeTaken = callback => {
+const timeTaken = callback => {       // console.tiem
     console.time('timeTakenStsrt')
     const r = callback()
     console.timeEnd('timeTakenEnd')

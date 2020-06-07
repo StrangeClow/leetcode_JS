@@ -34,11 +34,12 @@ const reverseString3 = function(str) {
     while(right < left) {
         console.log('输出字符====>',str[left],str[right]);
         // 交换字符位置  es6解构赋值
-      [str[right],str[left]] = [str[left],str[right]]
+       [str[right],str[left]] = [str[left],str[right]]
        right ++
        left --
        
     }
+    console.log('双指针====>',str);
     return str
 }
 
@@ -47,8 +48,16 @@ console.log(reverseString3(a3));
 
 
 
+
+
 const reverseString4 = function(str) {
   return Array.from(str).reverse().join('')
 }
 
 console.log('第四中====',reverseString4(a3));
+
+
+
+function swapArr(arr, arr2) {
+  return 
+}
