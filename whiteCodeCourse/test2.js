@@ -69,14 +69,14 @@ fn1()
 
 
 
-const foo = {
+const foo11 = {
   bar: 10,
   fn: function() {
      console.log(this)
      console.log(this.bar)
   }
 }
-foo.fn()
+foo11.fn()
 
 
 // var text = '哈哈哈哈哈'
@@ -112,19 +112,19 @@ console.log(o3.fn())
 
 
 
-const foo = {
+const foo12 = {
   name: 'lucas',
   logName: function() {
       console.log(this.name)
   }
 }
 
-const bar = {
+const bar12 = {
   name: 'mike'
 }
 
-console.log(foo.logName());   // 作为对象的方法调用 
-console.log(foo.logName.call(bar))    // call改版指向
+console.log(foo12.logName());   // 作为对象的方法调用 
+console.log(foo12.logName.call(bar12))    // call改版指向
 
 
 //  结论：如果构造函数中显式返回一个值，且返回的是一个对象，那么 this 就指向这个返回的对象；
@@ -235,3 +235,25 @@ for(var i=0,j=0;i<10,j<6;i++,j++){
     k += i + j;
 }
 console.log(k)
+
+
+
+for(var i = 0; i < 5; i++){
+  requestAnimationFrame(() => console.log(i));
+  }
+
+  console.log([] == true);
+
+
+
+  let x = 10;
+let foo = () => {
+console.log(x);
+let x = 20;
+x++;
+}
+foo();
+
+
+var stemp = 'test String'
+console.log(typeof stemp);
