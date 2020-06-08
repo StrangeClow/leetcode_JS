@@ -20,5 +20,6 @@ const deepInOneth = function(arr) {
         arr[0] = [arr[0]]
     }
     // arr.concat()  数组拼接  
+    // arr.slice(1)  删除第一位元素 不改变原arr 
     return arr[0].concat(deepInOneth(arr.slice(1)))
 }

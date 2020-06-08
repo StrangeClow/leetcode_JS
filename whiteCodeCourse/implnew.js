@@ -3,8 +3,8 @@
  * 
  *     分析主要的实现过程
  *         1. 创建一个新对象
- *         2. 将构造函数中的this指向该对象
- *         3. 执行构造函数(给新对象添加属性和方法)
+ *         2. 链接原型  （新创建对象的_proto_属性值设为构造函数的prototype属性值）
+ *         3. 绑定this （构造函数中的this指向新对象并且调用构造函数）
  *         4. 返回新对象
  *
  */
@@ -32,7 +32,7 @@ const implNew = function() {
 
 const implNew2 = function() {
 
-    // 那都当前函数的参数 
+    // 拿到当前函数的参数 
     let fn = Array.prototype.shift.call(arguments)     
     
     // 创建当前对象的副本 

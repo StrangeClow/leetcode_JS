@@ -25,3 +25,44 @@ const findReapteNumber = function(nums) {
 
 let a1 = [1,3,4,5,6,8,5,7,8]
 console.log('寻找重复数==',findReapteNumber(a1));
+
+
+
+
+const  findReapteNumber2 = function(nums) {
+  
+   let hash = {}
+   for(let i of nums) {
+   
+      if(hash[i]) {
+         return i
+      }
+      else {
+         hash[i] = 1
+      }
+   }
+
+
+}
+
+console.log(findReapteNumber2([1,3,6,9,45,90,4,9]));
+
+
+
+const findReapteNumber3 = function(nums) {
+
+  
+   let tempMap = new Map()
+
+   for(let i of nums) {
+      if(tempMap.has(i)) {
+            
+        return i
+
+      }
+      tempMap.set(i,i)
+   }
+
+}
+
+console.log(findReapteNumber3([1,3,6,9,45,90,4,90]));
