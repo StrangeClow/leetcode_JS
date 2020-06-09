@@ -16,3 +16,13 @@ myObject.func();
 let n = [1,3,6,9,4]
 console.log(n.slice(1));
 console.log(n);
+
+
+context  = [].shift.call(arguments)
+
+function t(arr) {
+    return [].shift.call(arr)
+}
+
+let n1 = [1,3,6,9,36]
+console.log(t(n1));   // 输出 1

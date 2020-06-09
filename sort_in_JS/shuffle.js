@@ -1,5 +1,5 @@
 /**
- *   随即洗牌算法  
+ *   随机洗牌算法  
  * 
  *    Math.random()拿到随机数
  *
@@ -11,7 +11,8 @@ const shuffle = function(tempArr) {
    const len = tempArr.length
    let curr = len - 1
    let tempRandom
-
+   
+   // 指针累减
    while(curr >=1) {
      // Math.random随机取值并取浮点型数据
      tempRandom = Math.floor(len * Math.random())

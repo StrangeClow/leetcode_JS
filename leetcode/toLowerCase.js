@@ -6,7 +6,7 @@
  * @param {*} str
  * @returns
  */
-const toLowerCase = function(str) {
+const toLowerCase = function(str) {       // str.API
     return str.toLowerCase();
 }
 

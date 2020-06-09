@@ -39,6 +39,7 @@ const subsets2 = function(arr) {
   let res = []
 
   const backtrack = function(nums, index, temp) {
+      // temp.slice() 拷贝
       res.push(temp.slice())
 
       for(let i = 0; i < nums.arr.length; i ++) {

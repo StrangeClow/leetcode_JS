@@ -40,7 +40,6 @@ var shellSort = function(arr) {
     return arr;
 }
 
-
 let n = [9,1,10,4,2,6,8,5,3,7]
 console.log(shellSort(n));
 
@@ -67,7 +66,7 @@ const shellSort2 = function(arr) {         // 缩小增量排序
 
          for(j = i - gap; j >=0 && arr[j] > temp; j -= gap) {
            
-            //  交换位置  可抛出函数 交换位置 
+            //  交换位置  可抛出函数 交换位置  function swapArr()
             arr[j + gap] =  arr[j]
          }
          arr[j + gap] = temp

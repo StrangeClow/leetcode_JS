@@ -13,7 +13,7 @@ function quickSort(arr) {
   }
   // 定义数组中间值
   let middleArrIndex = Math.floor(arr.length / 2)
-  let middleArr = arr.splice(middleArrIndex,1)[0]    // splice（index，1）返回数组中呗删除的那个数
+  let middleArr = arr.splice(middleArrIndex,1)[0]    // splice（index，1）返回数组中被删除的那个数
   console.log('middleArr===',middleArr);
   let leftArr = []
   let rightArr = []
@@ -35,7 +35,7 @@ function quickSort(arr) {
 
 }
 
-let n = [1,5,9,7,2,5,10,8,99,0]
+let n = [1,5,9,7,2,5,10,8,99,0,-0.7,99996]
 console.log(quickSort(n));
 
 // 优化解决方案   原地分区 不用创建新变量

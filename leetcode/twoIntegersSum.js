@@ -13,12 +13,16 @@ var getTwoIntegersSum = function(a,b) {
     var temp;
     while (a !== 0) {
       temp = (a & b) << 1;  // a & b 得到所有需要进位的地方，左移一位完成进位。
+      console.log('temp====>',temp);
       b = a ^ b;            // a ^ b 得到a与b不一样的地方，即不需要进位的地方
+      console.log('b=====>',b);
       a = temp;
     }
     return b;
 }
 
+
+console.log(getTwoIntegersSum(3,7));
 
 
 const getTwoIntegersSum2 = function(num1, num2) {

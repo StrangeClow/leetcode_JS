@@ -31,7 +31,7 @@ function selectSort_One(arr) {
         arr[i] = minNum
         console.log('比较后:',arr);
     }
-    console.log("选择排序的第一种方法:", arr);
+    
     return arr
 }
 selectSort_One([0.1,10,1,10.98]);
@@ -49,21 +49,21 @@ function selectSort_two(array) {
     var len = array.length;
     for (var i = 0; i < len - 1; i++) {
         //这里之所以是len-1，是因为到最后两个元素，交换位置，整个数组就已经排好序了。
-        var minnum = array[i];
+        var minNum = array[i];
         for (var j = i + 1; j < len; j++) {
             // j=i+1是把与自己比较的情况给省略掉
-            if (array[j] < minnum) {
+            if (array[j] < minNum) {
                 // 使用中间变量 
                     // var c;
-                    // c = minnum;
-                    // minnum = array[j]; //交换两个值
+                    // c = minNum;
+                    // minNum = array[j]; //交换两个值
                     // array[j] = c;
 
                 // es6解构赋值
-                 [minnum, array[j]] = [array[j], minnum]
+                 [minNum, array[j]] = [array[j], minNum]
             }
         }
-        array[i] = minnum;
+        array[i] = minNum;
     }
     return array;
 }

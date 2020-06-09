@@ -32,9 +32,11 @@ const turnTree = function(root) {
     if(!root)  return null
     
     // 解构赋值  交换变量 
-    [root.left, root.right] = [turnTree(root.right, root.left)]
-
+    [root.left, root.right] = [turnTree(root.right), turnTree(root.left)]
+     
+    return root
 }
+
 
 
 //   核心  交换左右树节点的位置   
