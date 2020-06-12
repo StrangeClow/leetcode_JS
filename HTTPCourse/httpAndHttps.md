@@ -19,5 +19,14 @@
            Last-Modified （服务器在响应请求时，告诉浏览器最后的修改时间）
            If-Modified-Since （再次请求服务器时，通过此字段通知服务器上次请求时，服务器返回的资源最后的修改时间）
            Etag/ If-None-Match （优先级高于Last-Modifed / If-Modifed-Since）服务器响应请求时，告诉浏览器当前资源在服务器的唯一标识
+
+
+
+###    缓存的优先级比较   
+
+            强缓存 >  协商缓存(对比缓存)
+            cache-control > expires (强缓)
+            Etag > last-Modified (对比缓)
+
     
  

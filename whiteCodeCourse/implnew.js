@@ -2,7 +2,7 @@
  *   实现new 
  * 
  *     分析主要的实现过程
- *         1. 创建一个新对象
+ *         1. 创建新对象
  *         2. 链接原型  （新创建对象的_proto_属性值设为构造函数的prototype属性值）
  *         3. 绑定this （构造函数中的this指向新对象并且调用构造函数）
  *         4. 返回新对象
@@ -48,9 +48,9 @@ const implNew2 = function() {
 
 
 
-const implNew3 = function(con, ...args) {
+const implNew3 = function(fn, ...args) {
    
-    let obj = Object.create(CON.prototype)
-    let result = con.apply(obj, args)
+    let obj = Object.create(fn.prototype)
+    let result = fn.apply(obj, args)
     return typeof obj == 'object' ? result : obj
 }
