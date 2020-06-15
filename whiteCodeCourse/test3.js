@@ -147,3 +147,20 @@ Array.prototype.getUnique = function(ar1) {  // 访问对象属性  obj[prop]
 }
 console.log(ar1.getUnique(ar1));
 
+
+
+var msg='hello'; 
+for (var i=0; i<10; i++)
+ { 
+   var msg='hello'+i*2+i; 
+ }
+ console.log(msg);
+
+ var arr=[{a:1},{}];
+arr.forEach(function(item,idx){
+    item.b=idx; // idx 等于索引
+});
+console.log(arr);
+
+
+

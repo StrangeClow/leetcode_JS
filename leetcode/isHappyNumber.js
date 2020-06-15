@@ -5,6 +5,34 @@
  *
  * @param {*} num
  */
+
+function getSum(n) {
+    n = n +''
+    let sum = 0
+    for(let num of n) {
+        sum += num * num
+    }
+    return sum
+}
+
+const isHappyNumber2 = function(n) {     // hash对象存储出现过的值   若再次出现则表情无限循环  非快乐数 
+    let res= getSum(n)
+
+    let obj = {}
+
+    while(res != 1) {
+      if(res in obj) {     // 循环对象的属性 
+           return false
+      }
+      obj[res] = 1
+      res = getSum(res)
+    }
+    return true
+}
+
+console.log(isHappyNumber2(19));
+
+
 const isHappyNumber = function(n) {
 
      let set = new Set()

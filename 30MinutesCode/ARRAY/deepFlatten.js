@@ -81,7 +81,7 @@ const deepFlatten3 = function(arr) {      // 对比深度复制 对象
      if(Array.isArray(item)) {
        console.log('当前子项继续往下一层===',item)
        // 递归再走一遍 
-       res =  res.concat(deepFlatten3(item))                 // concat()和push()的区别 
+       res =  res.concat(deepFlatten3(item))   // 循环依次 解构一层              // concat()和push()的区别 
      } else {
       
        res.push(item)
@@ -91,7 +91,7 @@ const deepFlatten3 = function(arr) {      // 对比深度复制 对象
 }
     
 
-let a4 = [1,[9,[5,[6]]],8,10]
+let a4 = [1,[9,[5,[6,[98]]]],8,10]
 console.log(deepFlatten3(a4))
 
 

@@ -5,7 +5,7 @@
  * @returns
  */
 const castArray = function(val) {
-  return Array.isArray(val) ? val : [val]
+  return Array.isArray(val) ? val : [val]     // 装箱操作 
 }
 
 

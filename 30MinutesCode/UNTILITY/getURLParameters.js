@@ -50,4 +50,6 @@ console.log('解析url参数',getURLParameters3(a6));
 
 
 
-
+const getURLParameters = function(url) {
+  
+}

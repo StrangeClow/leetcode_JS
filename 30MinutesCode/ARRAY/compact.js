@@ -17,8 +17,8 @@
 const compact = arr => arr.filter(Boolean)    // Boolean()装箱操作  
 
 
-let aa = [1,2,3,4,true,false,[],NaN]
+let aa = [1,2,3,4,true,false,[],NaN,{},'hello',new Date(),/12/g ]
 
 console.log(compact(aa));  
 
- // output ==> 1 2 3 4 true []  
+ // output ==> 1 2 3 4 true []  {}

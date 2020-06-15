@@ -36,3 +36,11 @@ const arrayMax3 = function() {
 }
 
 console.log(arrayMax3());
+
+
+const arrayMax4 = function(arr) {
+    return Math.max.apply(null, arr)
+}
+
+
+console.log(arrayMax4([1,23,34,43,56,343]));

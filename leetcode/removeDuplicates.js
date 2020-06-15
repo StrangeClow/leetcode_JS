@@ -8,7 +8,7 @@
   * eg  input 【1,2,3,4,5,2,4】
   *   ouput 返回length为5 【1,2,3,4,5】
   * 
-  * 思路 ：重复元素一定是数组中相邻的元素 我们可以通过遍历数组 找出相邻的相同项
+  * 思路 ：重复元素一定是数组中相邻的元素 我们可以通过遍历数组 找出相邻的相同项   先排序 重复元素必定相邻
  */
 
  //  这个返回了移除后的数据项  
@@ -22,12 +22,12 @@
           i--
       }
     }
-    return num  
+    return num 
  }
 
 
  let n1 = [1,3,4,5,8,8,9,10,10,11]
- console.log('移除排序数组的重复项====>',removeDuplicates(n1))
+ console.log('移除排序数组的重复项====>',removeDuplicates(n1),removeDuplicates(n1).length)
 
 
 
