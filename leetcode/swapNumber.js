@@ -29,3 +29,9 @@ const swapNumber2 = function(num) {
   return [num[1],num[0]] = [num[0],num[1]]
   
 }
+
+
+
+Array.prototype.swapNumber3 = function(num) {
+  return  [num[1], num[0]]
+}

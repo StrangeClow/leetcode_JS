@@ -24,7 +24,7 @@
 
 
 
-    const getURLParameters3 = function(url) {
+const getURLParameters3 = function(url) {
        
       // 正则匹配  匹配url路径的参数间隔符  ？ = & 等
       let regexp = /([^?=&]+)(=([^&]*))/g
@@ -50,34 +50,4 @@ console.log('解析url参数',getURLParameters3(a6));
 
 
 
-/**
- *    获取url参数  
- *
- * @param {*} url
- * @returns
- */
-const getURLParameters1 = function(url) {
-  console.log(url);
-  // 正则匹配 
-   let reg = new RegExp("(^|&)" + url + "=([^&*])(&|$)")
-   console.log(reg);
-   // substr()
-   // match()
-   let res= window.location.search.substr(1).match(reg)
-    console.log(res);
-   if(res !== null) {
-      // unescape()
-       return unescape(res[2])
-   }
-   return null
 
-}
-
-
-console.log(getURLParameters1(a1));
-
-function a(b) {
-  return Object.prototype.toString.call(b)
-}
-
-console.log(a(12));

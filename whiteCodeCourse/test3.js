@@ -110,3 +110,40 @@ if(true){
     console.log(a);
     // let a = 2;
 }
+
+
+let ar = [1,23,4,5,6,7,1,2,45,98,0,5,23,23,7,45,98]
+
+Array.prototype.unique = function(ar) {
+    let res=  []
+    
+    ar.map((item,index)=> {
+      
+        if(!res.includes(item)) {
+           
+           res.push(item)
+        }
+    })
+    return res
+}
+
+console.log(ar.unique(ar));
+
+
+
+let ar1 = [12,34,33,56,67,12,34]
+
+Array.prototype.getUnique = function(ar1) {  // 访问对象属性  obj[prop]
+    let obj = {}
+    let tempArr = []
+
+    for(let i = 0; i < ar1.length; i ++) {  
+      if(!obj[ar1[i]]) {    // 对象的属性是否存在  若无当前属性 则存入 
+           obj[ar1[i]] = 1
+           tempArr.push(ar1[i])
+      }
+    }
+    return tempArr
+}
+console.log(ar1.getUnique(ar1));
+

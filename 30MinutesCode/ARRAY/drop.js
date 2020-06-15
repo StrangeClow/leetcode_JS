@@ -14,5 +14,18 @@
 const drop = (arr, n = 1) => arr.slice(n);
 
 
+let arr = [12,34,56,78,90]
 
-console.log(drop([12,34,56,78,90],1));
+console.log(drop(arr,1));
+
+
+let arr1 = [12,34,56,78,90]
+
+const drop2 = function(arr, n) {
+    // console.log(arr);
+     arr.splice(0,n)
+     return arr
+}
+
+console.log(drop2(arr1,1));
+
