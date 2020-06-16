@@ -2,8 +2,8 @@
     
     创建对象
        1. 对象字面量
-       2. new 构造函数
-       3.  Object.create
+       2. new Object构造函数
+       3. Object.create
 
     访问对象属性    属性=名字+值+特性
        1.  .操作符

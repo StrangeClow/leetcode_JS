@@ -159,8 +159,106 @@ for (var i=0; i<10; i++)
  var arr=[{a:1},{}];
 arr.forEach(function(item,idx){
     item.b=idx; // idx 等于索引
+
 });
 console.log(arr);
 
 
+function *IdGenerator(){ 　
+    　let id = 0; 　
+    　while(id <= 10){ 
+        console.log('id===',id);
+        yield ++id; 
+    } 
+} 
 
+
+const promiseFunc = function(value) {
+    return new Promise((resolve, reject)=> {
+      if(true) {
+          resolve(value)
+      } else {
+          reject(error)
+      }
+    })
+}
+
+
+console.log(promiseFunc('hello world'));
+
+const aa1 = function(val) {
+   return new Promise((resolve, reject)=> {
+     if(val == 1) {
+        resolve(val)
+     } else {
+         reject('出错')
+     }
+   }).then(()=> {
+       console.log('皮皮虾');
+   })
+}
+
+console.log(aa1(1));
+
+
+function foo(a) {    
+     console.log( a + b );     // 抛出错误 
+        b = a;
+ } 
+ 
+foo( 2 );
+
+
+function foo(a) {    
+     var b = a * 2; 
+    function bar(c) {        
+         console.log( a, b, c );     
+        } 
+    bar( b * 3 ); } 
+ 
+foo( 2 ); // 2, 4, 12
+
+
+
+for(var i = 0; i < 10; i ++) {
+  console.log(i);
+}
+
+
+setTimeout(function() {
+    
+for(var i = 0; i < 10; i ++) {
+    console.log(i);
+  }
+},1000)
+
+
+for(var i  = 0; i < 10; i++) {
+    setTimeout(() => {
+        console.log(i);
+    }, i*1000);
+}
+
+for(let i  = 0; i < 10; i++) {    // 相当于重新绑定道循环的每一个迭代中 
+    setTimeout(() => {
+        console.log(i);
+    }, i*1000);
+}
+
+
+for(var i = 0 ; i < 5; i++) {
+    (function(){
+        var j  = i    // 闭包的块级作用域 
+        setTimeout(() => {
+            console.log(j);
+        }, j*1000);
+    })()
+}
+
+for(var i = 0 ; i < 5; i++) {
+    (function(j){
+        setTimeout(() => {
+            console.log(j);
+        }, j*1000);
+    })(i)
+}
