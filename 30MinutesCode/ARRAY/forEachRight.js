@@ -12,3 +12,6 @@ const forEachRight = (arr, callback) =>
    // 循环走回调
    .forEach(callback)
 
+
+
+console.log(forEachRight([1,2,3,4,5],val=> console.log(val)));   

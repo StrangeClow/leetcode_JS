@@ -1,5 +1,5 @@
 /**
- *  返回数组中指定的索引 若果没有 则为空  
+ *  返回数组中指定值对应的数组索引
  *  
  * @param {*} arr
  * @param {*} val
@@ -16,3 +16,22 @@ const indexofAll = (arr, val) => {
 
 let n1 = [1,2,3,4,5,6]
 console.log(indexofAll(n1,5));
+
+
+
+const indexofAll2 = function(arr, val) {
+
+    arr.map((item, index)=> {
+        console.log(item, index);
+    })
+}
+
+
+let n2 = [1,2,3,4,5,6]
+console.log(indexofAll2(n2,4));
+
+console.log(!!'');
+
+var a = '40'
+ var b = 7
+ console.log(typeof (a%b));

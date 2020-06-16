@@ -12,4 +12,8 @@ const findLast = (arr, fn)=> {
   
    // pop() 返回删除的最后一个元素
   return arr.filter(fn).pop()
+
 }
+
+
+console.log([1,2,3,4].pop());
