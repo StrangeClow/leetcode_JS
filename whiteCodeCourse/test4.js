@@ -29,7 +29,15 @@ for (const key in aa) {
     }
 }
 
-
+console.log(typeof typeof 42);
 
 // 让 Button“继承”Widget 
 Button.prototype = Object.create( Widget.prototype ); 
+
+
+
+//  显式强制类型转换为布尔值最常用的方式是 ！！ 第二个！会将结果反转回原值
+
+var a =  '0'
+console.log(!a);
+console.log(!!a);

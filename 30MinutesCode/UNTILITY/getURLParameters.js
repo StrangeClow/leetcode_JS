@@ -41,15 +41,49 @@ const getURLParameters3 = function(url) {
       return res
     }
 
-console.log('解析url参数',getURLParameters3(a1));
-console.log('解析url参数',getURLParameters3(a2));
-console.log('解析url参数',getURLParameters3(a5));
-console.log('解析url参数',getURLParameters3(a6));
+console.log('解析url参数a1==>',getURLParameters3(a1));
+console.log('解析url参数a2==>',getURLParameters3(a2));
+console.log('解析url参数a5==>',getURLParameters3(a5));
+console.log('解析url参数a6==>',getURLParameters3(a6));
 // console.log('解析url参数',getURLParameters3(a4));
 
 
 
 
-const getURLParameters = function(url) {
+const getURLParameters = function(url) {     //  拆分方法使用场景比较少  
   
+  let res = {}
+
+  let urls = url.split('?')
+
+  let arr = urls[1].split('&')
+  
+  for(let i = 0; i <arr.length; i++) {
+    let a  = arr[i].split('=')
+    res[a[0]] = a[1]
+  }
+
+  return res
+
 }
+
+console.log(getURLParameters(a1));
+console.log(getURLParameters(a2));
+// console.log(getURLParameters(a4));
+console.log(getURLParameters(a5));
+
+
+
+
+
+// URLSearchParams()
+
+
+var searchParams = new URLSearchParams(a6);
+
+for (let p of searchParams) {
+  console.log('p===>',p);
+}
+
+console.log( typeof 'hello');
+

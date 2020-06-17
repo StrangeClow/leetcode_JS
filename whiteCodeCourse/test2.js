@@ -10,7 +10,10 @@ setTimeout(function(){
 },0)
 
 
-
+var a = "false"; var b = "0"; var c = "''"; 
+ console.log(new Boolean(a)); console.log(b); console.log(c);
+var d = Boolean( a && b && c ); 
+console.log(d);
 
 const a = {      //  先调用valueOf函数 数组调用valueOf返回的是数组本身  再次调用toString()函数 并且return的是a.i++
     i : 1,
