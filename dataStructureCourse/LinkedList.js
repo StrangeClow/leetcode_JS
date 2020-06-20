@@ -12,7 +12,11 @@ function LinkedList() {
         this.element = element
         this.next = null
     }
-    
-    
+
+
+   //  像链表中插入某一节点  
+   this.insert = function() {
+
+   }
 
 }

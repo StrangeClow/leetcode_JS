@@ -85,5 +85,5 @@ for (let p of searchParams) {
   console.log('p===>',p);
 }
 
-console.log( typeof 'hello');
+console.log( typeof 'hello');    // string
 

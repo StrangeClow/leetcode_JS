@@ -14,18 +14,26 @@
  */
 const getKthFromEnd = function(head, k) {      // 双指针 
   
-    let p = head, q = head    // 声明p q两个指针 
-
-    let i = 0
-
-    while(p) {
-        if(i > k) {
-            q = q.next   // 让p先走k步
+    let right  = head 
+   
+    // right先向右移动k位， 然后   right  - left = k（因为移动了k位）  
+    for(let  i = 0; i < k; i++) {
+        if(right == null) {
+            return null
         }
-        p = p.next
-        i++
+        right = right.next
     }
-    return i < k ? null : q
+    
+    let left = head
+    
+    // left = right - k  =  length -k        // 80634371
+    while(right) {
+       // left right一起向右移动节点 直到边界 next  
+       left = left.next
+       right = right.next
+    }
+
+    return left
 }
 
 

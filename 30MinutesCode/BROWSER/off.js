@@ -1,5 +1,5 @@
 /**
- *  移除时间侦听器 
+ *  移除事件侦听器 
  *
  * @param {*} el 参数 event.target
  * @param {*} event 事件名 

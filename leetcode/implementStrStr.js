@@ -21,6 +21,7 @@ var strStr = function(haystack, needle) {
 }
 
 
+console.log(strStr('hello','o')); 
 
 /**
  *

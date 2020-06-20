@@ -53,8 +53,10 @@ const mainElement2 = function(nums) {
 
 
    for (let index = 0; index < nums.length; index++) {
+       // map.has(元素)  是否存在元素 
        if(tMap.has(nums[index])) {
-     
+            
+            // map.set(key, value)    // map.get(key)  拿到值 
             tMap.set(nums[index],tMap.get(nums[index])+1)
 
          if(tMap.get(nums[index]) > len) {
