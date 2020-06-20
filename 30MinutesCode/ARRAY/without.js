@@ -1,11 +1,11 @@
 /**
- *  从给定数组中排出指定值  
+ *  根据要求把数组中指定的数据去除后并返回 
  *
  * @param {*} arr
  * @param {*} args
  * @returns
  */
-const without = function(arr, ...args) {
+const without = function(arr, ...args) {   //  参数转
   console.log('剩余参数==',args)
   // filter()过滤  
   // includes() 是否包含  
@@ -20,3 +20,6 @@ const without = function(arr, ...args) {
 
 
 console.log(without([1,2,3,4,5,6,7,8],2,5,3))
+
+let n = '1,2,3,4,5,6,7'
+console.log(...(n));

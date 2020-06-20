@@ -23,26 +23,29 @@ const permute = function(nums) {        // 回溯递归
         }
         
         // 循环刷当前给定数值序列
-        for(let index = 0; index < nums.length; index ++) {   // 1. 循环当前项 2.初始项中是否包含循环子项 3. 把当前项添加到初始项中，并复制 做递归调用
+        // 1. 循环当前项 2.初始项中是否包含循环子项 3. 把当前项添加到初始项中，并复制 做递归调用
+        for(let index = 0; index < nums.length; index ++) {   // 或 for of
+          
             // 若temPath中没有nums[index] 继续下一步
             if(!temPath.includes(nums[index])) {
                  // 把nums[index]添加到数组末尾 
                  temPath.push(nums[index])
-                 // temPath.slice()拷贝当前temPath数组
-                 console.log('temPath.slice()==',temPath.slice());
+                 // temPath.slice()浅拷贝当前temPath数组
+                 // 递归调用
                  backtrack(temPath.slice())
-                 // 删除数组末尾的值 
+                 // 删除数组末尾的值并返回  
                  temPath.pop()
             } 
         }
     }
     
-    // 递归刷自身 入参 
+    // 递归刷自身 抛入临时数据 
     backtrack(temPath)
 
     return res
 }
 
+console.log([1,2,3].pop());
 
 let n = [1,2,3,4,5]
 console.log(n.push(6),n);
@@ -51,6 +54,11 @@ console.log(n.pop(),n);
 
 console.log(permute([1,2,3]));
 
+
+
+const permute2 = function(nums) {
+ 
+}
 
 
 const test1 = function(arr) {

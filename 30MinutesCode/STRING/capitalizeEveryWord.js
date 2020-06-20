@@ -15,13 +15,10 @@ const capitalizeEveryWord = str => {
      /**
        *  
        *       /\b[a-z]/g   全局索引a-z字符
-       *    
-       *      
-       *
        * 
        */
    
-    return  str.replace(/\b[a-z]/g,  char => char.toUpperCase());
+    return  str.replace(/\b[a-z]/g,  char => char.toUpperCase());   // 匹配首字母  
 }
 
 
@@ -30,10 +27,10 @@ const capitalizeEveryWord = str => {
 
 
   let a1 = 'good luck to me'      
-  console.log('首字母大写==',capitalizeEveryWord(a1));
-
+   console.log('首字母大写==',capitalizeEveryWord(a1));
+  console.log(a1.substring(0, 1)); // 取到第一个字母 
    // 只针对单字符 
-  const UP = function(str) {
+  const UP = function(str) {     // str.subString(0,1 )
       
    return str.substring(0,1).toUpperCase() + str.substring(1)
   }

@@ -17,7 +17,7 @@ const capitalize = ([first,...rest], lowerRest = false) =>
 
 
    /**
-    *    解构入参  rest参数 
+    *    解构入参  rest参数   es6
     *
     * @param {*} [first, ...rest]
     * @returns
@@ -28,5 +28,5 @@ const capitalize = ([first,...rest], lowerRest = false) =>
       return `${first.toUpperCase()}${rest.join('')}`
    }
 
-   let a2 = 'goodlucktoall'
+   let a2 = 'goodlucktoallme'
    console.log('22=>',capitalize2(a2));

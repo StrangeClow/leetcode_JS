@@ -6,7 +6,7 @@
  *   归并是将两个或以上的有序表组合成新的有序表，假设初始阶段有N个记录，则可以看成是
  * N个有序的子列表，每个子序列的长度为1，然后两两归并，得到2/n 个长度为2的有序的子序列，
  * 再两两归并  如此重复，知道得到一个长度为n的有序序列为止，这种排序方法
- * 也被成为 2-路归并排序 
+ * 也被称为 2-路归并排序 
  * 
  * 
  *     将原数组不断拆分 直到长度为1 不断将已排序数据合并直到再次合并陈原数组
@@ -38,12 +38,14 @@
       return arr
   }
   let middleArr = Math.floor(arr.length / 2),   // 将无需数组划分为两个数组
+      // 数组的左半部分
       leftArr = arr.slice(0,middleArr),
+      // 数组的右半部分
       rightArr = arr.slice(middleArr,arr.length)
     return merge(mergeSort(leftArr),mergeSort(rightArr))   // 递归调用，分别对左右两部分数组并行排序合并
  }
 
 
 
- let n1 = [10, 2, 698, 200, 0.1]
+ let n1 = [10, 2, 698, 200, 0.1,0,344444444]
  console.log('归并排序===',mergeSort(n1))

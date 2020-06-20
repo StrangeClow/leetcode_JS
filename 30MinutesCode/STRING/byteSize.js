@@ -14,3 +14,23 @@ const byteSize = str => {
 
 let a1 = 'hello world js'
 console.log('字符长度===>',byteSize(a1))
+
+
+
+const byteSize2 = function(str) {
+    // 区分不同的情况 
+    
+    let len = 0
+    for(let i = 0; i < str.length; i++) {
+        if(str.charCodeAt(i) > 127 || str.charCodeAt(i) == 94) {
+             let = len + 2
+        } else {
+            len ++
+        }
+    }
+    return len
+    // 英文
+}
+
+let s2 = 'vscodeq'
+console.log(byteSize2(s2));
