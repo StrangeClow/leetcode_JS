@@ -15,9 +15,9 @@ const sleep = ms =>
 
 
   const a =  async function sleepyWork() {
-        console.log("I'm going to sleep for 1 second.");
-        await sleep(4000);
-        console.log('I woke up after 1 second.');
+        console.log("I'm going to sleep for 2 second.");
+        await sleep(2000);
+        console.log('I woke up after 2 second.');
       }     
 
 

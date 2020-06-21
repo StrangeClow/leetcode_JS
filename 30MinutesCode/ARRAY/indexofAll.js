@@ -20,15 +20,19 @@ console.log(indexofAll(n1,5));
 
 
 const indexofAll2 = function(arr, val) {
-
-    arr.map((item, index)=> {
-        console.log(item, index);
+   let target = []
+    arr.map((item, index)=> {    // 如何思考  
+       if(item === val) {
+         
+          target =  index
+       }
     })
+    return target
 }
 
 
 let n2 = [1,2,3,4,5,6]
-console.log(indexofAll2(n2,4));
+console.log(indexofAll2(n2,5));
 
 console.log(!!'');
 

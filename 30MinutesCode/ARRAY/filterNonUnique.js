@@ -24,3 +24,24 @@ let  n = [1,2,2,3,4,5,6,7,5]
 console.log(filterNonUnique(n));
 
 
+const filterNonUnique2 = function(arr) {
+   let tempMap = new Map()
+   let tempArr = []
+   // for(let i = 0; i < arr.length; i ++) {
+      // console.log(arr[i]);
+      for(let item of arr) {
+
+         if(!tempMap.has(item)) {
+            // console.log('11',arr[i]);
+            tempMap.set(item,item)
+            tempArr.push(item)
+          }
+      }
+         // tempMap.delete(i)
+       
+   // }
+   return tempArr
+}
+
+let  n = [3,6,1,9,0,4,3,9,3,33,3]
+console.log(filterNonUnique2(n));

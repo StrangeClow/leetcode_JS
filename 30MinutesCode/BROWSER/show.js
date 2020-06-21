@@ -4,6 +4,12 @@
  * @param {*} el
  */
 const show =(...el)=> 
+       // 解析 
        [...el].forEach(e=>
          (e.style.display = '')
 ) 
+
+
+const show2 = function(...el) {
+  
+}

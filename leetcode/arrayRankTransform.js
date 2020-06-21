@@ -32,6 +32,7 @@ const arrayRankTransform = function(arr) {     //  map应用
            console.log('======',tempMap.get(arr[i]));
           res.push(tempMap.get(arr[i]))
        }
+       
     }
     return res
 

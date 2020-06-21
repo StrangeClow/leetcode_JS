@@ -21,3 +21,6 @@ const memoize = function(fn) {
     return cahed
 
 }
+
+
+console.log(memoize());
