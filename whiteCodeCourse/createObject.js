@@ -15,6 +15,8 @@ console.log(obj.getFullName());
 
 
 
+//  Object.create({},obj)
+
 //   工厂模式 抽象创建对象的具体过程 用函数来封装特定接口创建对象
 
 function createPerson(name, age, obj) {
