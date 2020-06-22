@@ -11,9 +11,10 @@ const uniqueOccurrences = function(arr) {
    
     let map = new Map()
     for(let index = 0; index < arr.length; index++) {
-      
+      // map.has(obj[key])
       if(map.has(arr[index])) {
           console.log('object',arr[index]);
+          // map.delete(arr[index])
            map.delete(arr[index])
            
       }

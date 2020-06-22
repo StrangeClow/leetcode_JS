@@ -8,6 +8,7 @@
  * @returns
  */
 const thirdMax = function(nums) {
+  // 定义初始时的三个值 
   let max1= nums[0],
       max2= null,
       max3 = null
