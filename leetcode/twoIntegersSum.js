@@ -47,6 +47,9 @@ console.log(getTwoIntegersSum2(1,29));
 
 
 
+
+
+
 function f() {
   console.log(this.a)
 }

@@ -25,7 +25,7 @@
 
  //  undefined与null与任何值比较都是false  但 undefined == null
 
-// 双层循环遍历数据 让目标值等于 i+j   返回即可
+// 双层循环遍历数据 target == num[i] + num[j]  返回即可
  var secondTwoSum = function(nums, target) {
     for(let i = 0; i < nums.length; i++) {
       for(let j = i+1;j<nums.length;j++) {
@@ -48,6 +48,7 @@
   * @returns
   */
  const thirdTwoSum = function(nums, target) {
+    // 对象属性 
      let arr = {}
      for(let i = 0; i<nums.length; i++) {
        if((arr[nums[i]]) >= 0 ) {
