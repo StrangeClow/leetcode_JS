@@ -12,7 +12,7 @@ const lastValue = function(arr) {
 console.log(lastValue([1,2,3,4,5,6,7,8]))
 
 
-// 直接拿数组方法 
+// 直接拿数组方法  删除数组的最后一个元素 
 const lastValue2 = function(arr) {
     return arr.pop()
 }

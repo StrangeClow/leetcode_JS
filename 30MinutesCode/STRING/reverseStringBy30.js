@@ -9,9 +9,17 @@ const reverseString = str => [...str].reverse().join('')
 let a1 = 'good luck to me'
 console.log('反转字符串===',reverseString(a1));
 
+/**
+ *
+ *
+ * @param {*} str  
+ * @returns
+ */
 const reverseString2 = function(str) {
+   // 转数组 
    let tempStr = str.split('')
    console.log(tempStr);
+   // arr.reverse() 反转 
   return tempStr.reverse().join('')
 }
 

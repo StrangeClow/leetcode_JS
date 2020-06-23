@@ -1,4 +1,5 @@
 /**
+ *  通过删除给定函数为其返回false的元素来对数组进行突变
  *    移除数组中的元素  
  *
  *  从数组中移除给定函数返回false的元素集合
@@ -16,7 +17,7 @@ const remove = function(arr, fn) {
   // 获取过滤函数之后拿到的数据结合 
   let tempArr = arr.filter(fn)
 
-
+        //  reduce迭代
  return tempArr.reduce((prev, curr)=> {
 
       console.log('reduce数据===',prev, curr);
@@ -32,6 +33,8 @@ const remove = function(arr, fn) {
       return prev.concat(curr)
 
   },[])
+
+
 
 
 

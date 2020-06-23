@@ -18,9 +18,8 @@ const combinationSum = function(candidates, target) {        // 递归回溯+剪
    candidates = candidates.sort((a, b)=> {
        return a - b
    })
-   console.log('candidates====',candidates);
 
-  
+  // 递归子函数 
    let backtrack = function(tempArr, target, start) {
        if(target == 0) {
            res.push(tempArr)

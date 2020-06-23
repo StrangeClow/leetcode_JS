@@ -11,6 +11,7 @@
  * @returns
  */
 const maskFunc = (cc, num = 4, mask = "*") => {
+    // (... + cc) 转化为字符串 
     return ('' + cc).slice(0, -num).replace(/./g, mask) + ('' + cc).slice(-num)
 }
 

@@ -1,7 +1,7 @@
 /**
  *    主要是正则匹配绝对路径的相关信息  
  * 
- *      test校验 
+ *      test校验  return  true/false 
  *
  * @param {*} str
  */
