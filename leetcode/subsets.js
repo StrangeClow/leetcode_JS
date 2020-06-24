@@ -1,5 +1,5 @@
 /**
- * 给定一组不含重复元素的整数数组nums,返回该数组所有可能的子集(幂集)
+ * 给定一组不含重复元素的整数数组nums,返回该数组所有可能的子集(幂集) 组合方式 
  * 
  * 说明： 解集不能包含重复的元素 
  *
@@ -34,7 +34,7 @@ console.log(subsets(num))
  * @param {*} arr
  * @returns
  */
-const subsets2 = function(arr) {
+const subsets2 = function(arr) {       //   需要修正 
 
   let res = []
 
@@ -54,7 +54,8 @@ const subsets2 = function(arr) {
   }
 }
 
-
+let n2 = [1,2,3]
+console.log(subsets2(n2))
 
 
 /**

@@ -24,3 +24,12 @@ const subtractProductAndSum = function(n) {
 }
 
 console.log(subtractProductAndSum(234))
+
+
+
+const subtractProductAndSum2 = function(n)  {
+   if(!n || typeof n !== number)  return false
+   
+   
+
+}

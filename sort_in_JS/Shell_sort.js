@@ -47,12 +47,13 @@ console.log(shellSort(n));
 
 const shellSort2 = function(arr) {         // 缩小增量排序 
   
-  // 基本数值 
+  // 声明基础变量
   let len = arr.length,
       temp,
       gap = 1,
       j
-
+     
+      //  动态设置 
       while(gap < len / 3) {
            gap = gap * 3
            console.log('gap====',gap);
@@ -76,5 +77,6 @@ const shellSort2 = function(arr) {         // 缩小增量排序
      return arr
 }
 
+let n2 = [999,1,86,4806,0.02,12,45,59039]
 
-console.log('希尔排序==',shellSort2(n));
+console.log('希尔排序==',shellSort2(n2));

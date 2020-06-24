@@ -38,3 +38,15 @@ const timesInArray = function(nums) {
 
 
 console.log(timesInArray([3,4,3,3]))
+
+
+const timesInArray2 = function(arr) {
+ 
+    const tempMap = new Map()
+
+    for(let i = 0; i < arr.length; i++) {
+       if(true) {
+
+       }
+    }
+}

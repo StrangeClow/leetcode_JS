@@ -15,7 +15,7 @@
 
 ###  vue-router
      
-     动态路由  addRoutes()
+     动态路由  addRoutes()  进入系统前 动态获取用户菜单
 
      路由传参(两种) 
      
@@ -40,7 +40,7 @@
 
 ### <font color=red>vue.js 运行机制</font> 
 
-     new Vue  ===>  调用_init函数初始化 
+    new Vue  ===>  调用_init函数初始化 
        (在此阶段会初始化  生命周期，时间，props,methods,data,computed与watch ) 
        最重要的是通过Object.defineProperty设置setter与geeter 
 
