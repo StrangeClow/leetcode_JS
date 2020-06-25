@@ -21,10 +21,14 @@ const head2 = function(arr) {
 
 
 let n2 = [2,3,4,5]
-console.log(head(n2));     // output===> 2
+console.log(head2(n2));     // output===> 2
 
-
-
+// return last value 
+const head3 = function(arr) {
+    return arr.pop()
+}
+let n2 = [2,3,4,5]
+console.log(head3(n2));     // output===> 2
 
 function getObj(obj) {
     return Object.keys(obj)

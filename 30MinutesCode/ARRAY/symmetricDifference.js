@@ -15,7 +15,7 @@ const symmetricDifference = function(arr1, arr2) {
 
     console.log(tempArr1, tempArr2, typeof tempArr1,  Array.isArray(tempArr2) , Array.isArray(arr1))
     
-    //  ...arr    return [...a1, ...a2]  去重展开再组合 
+    //  ...arr    return [...a1, ...a2]  去重展开再组合 子项 
     return [...arr1.filter((item1,index1)=> {
 
         

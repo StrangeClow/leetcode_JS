@@ -9,7 +9,7 @@
  * @param {*} fn
  * @returns
  */
-const componse = function(...fn) {
+const componse = function(...fn) {   // 多个函数 
   console.log('展开函数名=====',...fn)
 
   return fn.reduce((prev, curr)=> {                                 

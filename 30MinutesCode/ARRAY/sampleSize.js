@@ -18,8 +18,10 @@ const sampleSize = function([...arr], n = 1) {
     //  return arr.slice(0, n)
 
      let m = arr.length;
+  //  循环递减    
   while (m) {
     const i = Math.floor(Math.random() * m--);
+    // es6解构赋值 交换变量 
     [arr[m], arr[i]] = [arr[i], arr[m]];
   }
   return arr.slice(0, n);
