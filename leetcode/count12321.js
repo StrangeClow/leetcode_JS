@@ -12,6 +12,10 @@
     if(num === 1) {
       return '1'
     }
+    for(let index = 0; index < num.length; index++) {
+           console.log(object);
+    }
+
  }
 
 
