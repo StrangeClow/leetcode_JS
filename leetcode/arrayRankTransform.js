@@ -12,7 +12,7 @@
 const arrayRankTransform = function(arr) {     //  map应用      
      
     let tempMap = new Map()
-
+    // 数据排序 
     arr.sort((a, b)=> {
         return a - b
     })
@@ -21,15 +21,18 @@ const arrayRankTransform = function(arr) {     //  map应用
 
     for(let i = 0; i < arr.length; i++) {
       if(!tempMap.has(arr[i])) {
+         // map.set(a,b)
          tempMap.set(arr[i], index++)
       }
     }  
     console.log(tempMap);
     const res = []
-
+    // 当前数据已排序
     for(let i = 0; i < arr.length; i++) {
        if(tempMap.has(arr[i])) {
-           console.log('======',tempMap.get(arr[i]));
+        
+           // 拿索引  
+           console.log('装索引===',tempMap.get(arr[i]));
           res.push(tempMap.get(arr[i]))
        }
        

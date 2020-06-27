@@ -15,14 +15,14 @@ const addDigits = function(num) {
   // 循环当前数据 大于等于10
   while(num >= 10) {
     // 转字符串再转数组 
-    console.log(num.toString().split(''));
+     // 必要的条件 判断 
       num = num.toString().split('').reduce((prev, curr)=> {
         // 累加当前值与前值并计数
-        console.log(prev, curr);
+        
         return parseInt(prev) + parseInt(curr)
       },0)
   }
-  console.log(num);
+  
   return num
 }
 

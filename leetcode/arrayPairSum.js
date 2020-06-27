@@ -56,5 +56,5 @@ const arrayPairSum2 = function(nums) {    // 排序 过滤 累加
     },0)
 }
 
-
-console.log(arrayPairSum2(n));
+let n1 = [1,2,3,4,5]
+console.log(arrayPairSum2(n1));
