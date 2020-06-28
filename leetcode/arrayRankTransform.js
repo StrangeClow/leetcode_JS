@@ -9,7 +9,7 @@
  * @param {*} arr
  * @returns
  */
-const arrayRankTransform = function(arr) {     //  map应用      
+const arrayRankTransform = function(arr) {     //  待纠正    
      
     let tempMap = new Map()
     // 数据排序 
@@ -48,3 +48,36 @@ const arrayRankTransform = function(arr) {     //  map应用
 
 let n = [40, 10, 20, 30]
 console.log(arrayRankTransform(n))
+
+
+
+
+
+
+const arrayRankTransform2 = function(arr) {    //   hash表
+
+   let newArr = [...arr].sort((a,b)=>   a - b)
+
+   const rankMap = getRankMap(newArr)
+   
+    return arr.map((item)=> rankMap.get(item))
+
+   }
+      function getRankMap(arr) {
+         let rankMap = new Map()
+   
+         let rank = 1
+   
+         for(let key of arr) {
+          
+           if(!rankMap.has(key)) {
+              // map.set(A,B)
+               rankMap.set(key, rank++)
+           }
+         }
+         return rankMap
+      }
+
+let n1 = [40, 10, 20, 30]
+
+console.log(arrayRankTransform2(n1))
