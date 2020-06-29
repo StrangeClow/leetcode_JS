@@ -11,7 +11,7 @@ function quickSort(arr) {
   if(arr.length <= 1) {
      return arr
   }
-  // 定义数组中间值
+  // 拿到数组长度的一半 
   let middleArrIndex = Math.floor(arr.length / 2)
   let middleArr = arr.splice(middleArrIndex,1)[0]    // splice（index，1）返回数组中被删除的那个数
   console.log('middleArr===',middleArr);

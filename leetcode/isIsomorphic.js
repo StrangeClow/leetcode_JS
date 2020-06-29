@@ -38,7 +38,7 @@ const isIsomorphic = function(s, t) {
 
         mapT.set(t[i],s)
         
-    }
+    }   //
 
     return true
 }
