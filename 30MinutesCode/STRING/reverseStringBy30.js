@@ -29,7 +29,7 @@ console.log(reverseString2(a2));
 
 
 /**
- *    双指针写法   不再单纯使用数组或字符串的api 
+ *    双指针(一指向最左 一指向最右)   不再单纯使用数组或字符串的api 
  *
  * @param {*} str
  */
@@ -40,7 +40,7 @@ const reverseString3 = function(str) {
     let left = str.length - 1
 
     while(right < left) {
-        console.log('输出字符====>',str[left],str[right]);
+       
         // 交换字符位置  es6解构赋值
        [str[right],str[left]] = [str[left],str[right]]
        right ++

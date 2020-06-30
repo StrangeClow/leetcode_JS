@@ -47,7 +47,7 @@ const quickSort2 = function(arr) {       // 这个有问题   待审查
   let curr = arr[0]
   
   let middleArrIndex = Math.floor(arr.length / 2)
-  let middleArr = arr.splice(middleArrIndex,1)[0]    // splice（index，1）返回数组中被删除的那个数
+  let middleArr = arr.splice(middleArrIndex,1)[0]    // splice（index，1）返回数组中被删除的那个数  取出基准数 并去除
 
   let left = []
 
@@ -74,3 +74,8 @@ const quickSort2 = function(arr) {       // 这个有问题   待审查
 }
 
 console.log(quickSort2([1,5,9,7,2,5,10,8,99,0,-0.7,99996]));
+
+
+
+
+

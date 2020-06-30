@@ -33,7 +33,9 @@ const getKthFromEnd = function(head, k) {      // 双指针
        right = right.next
     }
 
-    return left
+    return left 
 }
+
+
 
 

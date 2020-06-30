@@ -85,7 +85,7 @@ const findKthLargest3 = function(nums, k) {      // 快排
    // 反之在右节点
    else {
       console.log('右区间=====>');
-       return findKthLargest3(right, k.left.length - 1)
+       return findKthLargest3(right, k.left.length - 1)   // 参数 
    }
 }
 
