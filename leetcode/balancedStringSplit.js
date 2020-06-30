@@ -17,19 +17,30 @@
 const balancedStringSplit = function(str) {
     
     let num = 0
+    // 计数标记
     let res = 0
 
     for (let index = 0; index < str.length; index++) {
-       if(str[index] === 'R') {
-           num ++
-       }
-       else {
-           num --
-       }
-       if(num == 0) {
-          res
-       }
-        
-       return res
+        if(str[index] !== 'R' || str[index] !== 'L') {
+           return false
+        }
+        // 判断是否符合规则 
+        if(str[index] === 'R') {
+          num ++
+        } 
+        else {
+            num--
+        }
+        //  当前 l  + r 等于0时， count加1
+        if (num === 0) {
+            res++;
+        }
+
     }
+
+    return res
 }
+
+
+let s = "RLRRLLRLRL"
+console.log(balancedStringSplit(s));

@@ -262,3 +262,18 @@ for(var i = 0 ; i < 5; i++) {
         }, j*1000);
     })(i)
 }
+
+
+var a = 10
+function a () {
+
+}
+console.log(typeof a);      // 函数提升优先级高于变量提升  此题中变量覆盖函数声明   a显示undefined 然后是函数体   然后才是赋值 a = 10
+
+
+
+
+console.log(output(typeof (function() {output('Hello World!')})()));   // 先执行匿名函数 输出hello world 执行完毕后 无返回值 则输出undefined
+
+
+
