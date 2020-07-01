@@ -100,6 +100,7 @@
  95 | [重复n次的元素(哈希表)](https://leetcode-cn.com/problems/n-repeated-element-in-size-2n-array/) | 简单 | [JavaScript](https://github.com/StrangeClow/leetcode_JS/blob/master/leetcode/repeatedNTimes.js) |√
  96 | [链表中倒数第k的节点](https://leetcode-cn.com/problems/lian-biao-zhong-dao-shu-di-kge-jie-dian-lcof/) | 简单 | [JavaScript](https://github.com/StrangeClow/leetcode_JS/blob/master/leetcode/getKthFromEnd.js) |√
  97 | [数组中的第k个最大元素](https://leetcode-cn.com/problems/kth-largest-element-in-an-array/) | 简单 | [JavaScript](https://github.com/StrangeClow/leetcode_JS/blob/master/leetcode/findKthLargest.js) |√
+ 98 | [非递增顺序的最小子序列(贪心算法)](https://leetcode-cn.com/problems/minimum-subsequence-in-non-increasing-order/) | 简单 | [JavaScript](https://github.com/StrangeClow/leetcode_JS/blob/master/leetcode/minSubsequence.js) |√
  
  
  

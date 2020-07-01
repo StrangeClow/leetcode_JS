@@ -31,3 +31,9 @@ const majorityElement = function(nums) {
 
 let n1 = [1, 2, 3, 2, 2, 2, 5, 4, 2]
 console.log(majorityElement(n1));
+
+
+
+const majorityElement2 = function(nums) {
+    
+}
