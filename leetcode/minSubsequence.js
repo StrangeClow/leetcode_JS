@@ -8,5 +8,37 @@
  * @returns
  */
 const minSubsequence = function(nums) {
-    return s
+  
+  let sum = nums.reduce((curr, prev) => {
+      return curr + prev
+  },0)
+
+   let halfSum = Math.floor((sum) / 2)
+  
+  // 数组降序排
+  nums.sort((a,b) => {
+      return  a > b ? -1 : 1
+  })
+
+  console.log('nums数据===',nums);
+
+  const res = []
+
+  let tempNum =  0
+
+  for(let index = 0; index < nums.length; index ++) {
+       if(tempNum > halfSum) {
+           break
+       }
+       else {
+           tempNum += nums[index]
+           res.push(nums[index])
+       }
+  }
+
+  return res 
+
 }
+
+let n1 = [4,3,10,9,8]
+console.log(minSubsequence(n1));

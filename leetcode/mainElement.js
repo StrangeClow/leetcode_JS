@@ -1,5 +1,5 @@
 /**
- *   主要元素
+ *   主要元素  （类比 数组中出现次数超过一半的数字 ）
  *     
  *   题意： 给定一个长度为n的数组，找到其主要元素，主要元素是出现次数严格大于n/2的元素
  * 
@@ -47,7 +47,7 @@ const mainElement2 = function(nums) {
    
    if(nums.length === 1) return nums[0]
 
-   let len = nums.length / 2
+   let len = Math.floor(nums.length / 2)  //  当前测试用例长度为9 
 
    let tMap = new Map()
 
@@ -60,7 +60,7 @@ const mainElement2 = function(nums) {
             tMap.set(nums[index],tMap.get(nums[index])+1)
 
          if(tMap.get(nums[index]) > len) {
-
+           
            return nums[index]
          }
        }

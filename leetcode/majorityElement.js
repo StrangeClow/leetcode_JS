@@ -34,6 +34,21 @@ console.log(majorityElement(n1));
 
 
 
-const majorityElement2 = function(nums) {
-    
+const majorityElement2 = function(nums) {   // hashmap  
+     
+  let hash = {}
+
+  for(let item of nums) {
+    //  hash表 obj[属性]  
+    hash[item] = hash[item] == null ? 1 : hash[item] + 1
+    // 若当前数值大于nums数组长度的一半 
+      if(hash[item] >= (nums.length / 2)) {
+         
+         return item
+      }
+  }
+
 }
+
+let n2 = [1, 2, 3, 2, 2, 2, 5, 4]
+console.log(majorityElement2(n2));
