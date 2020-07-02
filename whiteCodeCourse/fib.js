@@ -3,7 +3,7 @@ function fib(n) {
     throw new Error('输入的数据类型非法')
   }
   if(n >=0 && n < 2) {
-    console.log('a');
+   
      return n
   }
   return fib(n-1) + fib(n-2)

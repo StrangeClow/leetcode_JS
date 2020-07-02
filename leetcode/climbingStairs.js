@@ -19,8 +19,9 @@ const clibmStairs = function(n) {
 
     let a = 1, b = 1
       while(n -- > 0) {
-          b += a    // 或者采用es6的解构赋值  [a, b] = [b, a + b];  
-          a = b-a 
+        //   b += a    // 或者采用es6的解构赋值  [a, b] = [b, a + b];  
+        //   a = b-a 
+          [a,b] = [b, a + b]
       }
       return a
 }
@@ -30,3 +31,25 @@ let n1 = 5
 let n2 = 3
 console.log(clibmStairs(n1));
 console.log(clibmStairs(n2));
+
+
+
+const clibmStairs2 = function(n) {     // 动态规划 
+    
+    // 来源于leetcode (https://leetcode-cn.com/problems/climbing-stairs/solution/hua-jie-suan-fa-70-pa-lou-ti-by-guanpengchn/)
+
+   //  声明dp
+    const dp = [];
+    dp[0] = 1;
+    dp[1] = 1;
+    for(let i = 2; i <= n; i++) {
+        dp[i] = dp[i - 1] + dp[i - 2];
+    }
+    return dp[n];
+
+}
+
+let n3 = 4
+let n4 = 5 
+console.log(clibmStairs2(n3));
+console.log(clibmStairs2(n4));
