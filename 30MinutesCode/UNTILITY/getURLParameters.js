@@ -24,7 +24,7 @@
 
 
 
-const getURLParameters3 = function(url) {
+const getURLParameters = function(url) {
        
       // 正则匹配  匹配url路径的参数间隔符  ？ = & 等
       let regexp = /([^?=&]+)(=([^&]*))/g
@@ -41,22 +41,24 @@ const getURLParameters3 = function(url) {
       return res
     }
 
-console.log('解析url参数a1==>',getURLParameters3(a1));
-console.log('解析url参数a2==>',getURLParameters3(a2));
-console.log('解析url参数a5==>',getURLParameters3(a5));
-console.log('解析url参数a6==>',getURLParameters3(a6));
-// console.log('解析url参数',getURLParameters3(a4));
+console.log('解析url参数a1==>',getURLParameters(a1));
+console.log('解析url参数a2==>',getURLParameters(a2));
+console.log('解析url参数a5==>',getURLParameters(a5));
+console.log('解析url参数a6==>',getURLParameters(a6));
+// console.log('解析url参数',getURLParameters(a4));
 
 
 
 
-const getURLParameters = function(url) {     //  拆分方法使用场景比较少  
+const getURLParameters2 = function(url) {     //  拆分方法使用场景比较少  
   
   let res = {}
 
   let urls = url.split('?')
 
   let arr = urls[1].split('&')
+
+ //    var arr = url.substr(url.indexOf('?') + 1).split('&')  等价 
   
   for(let i = 0; i <arr.length; i++) {
     let a  = arr[i].split('=')
@@ -67,23 +69,42 @@ const getURLParameters = function(url) {     //  拆分方法使用场景比较�
 
 }
 
-console.log(getURLParameters(a1));
-console.log(getURLParameters(a2));
-// console.log(getURLParameters(a4));
-console.log(getURLParameters(a5));
+console.log(getURLParameters2(a1));
+console.log(getURLParameters2(a2));
+// console.log(getURLParameters2(a4));
+console.log(getURLParameters2(a5));
 
 
 
 
 
-// URLSearchParams()
+// URLSearchParams()处理url的查询字符串 
 
 
-var searchParams = new URLSearchParams(a6);
+let a7 = 'https://u.geekbang.org/lesson/27?article=248169&utm_source=time_web&utm_medium=menu&utm_term=timewebmenu'
+var searchParams = new URLSearchParams(a7);
 
 for (let p of searchParams) {
   console.log('p===>',p);
 }
-
 console.log( typeof 'hello');    // string
 
+
+let a8 = 'http://www.domain.com/?user=sdksdsfdf&id=123&city=%E5%8C%97%E4%BA%AC&enabled&name=hello';
+let parsingUrl = new URLSearchParams(a8)
+
+for(let item of parsingUrl) {
+  console.log('解析a8参数====>',item);
+}
+
+let testUrl = new URL(a8)
+console.log('new URL解析====>',testUrl);
+
+function getUrlQueyr(search) {
+  const searchObj = {};
+  for (let [key, value] of new URLSearchParams(search)) {
+      searchObj[key] = value;
+  }
+  return searchObj;
+}
+console.log('getUrlQueyr====>',getUrlQueyr(a8));

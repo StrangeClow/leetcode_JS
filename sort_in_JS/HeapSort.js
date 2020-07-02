@@ -43,9 +43,12 @@
 
 function swap(a, i, j) {
   // 临时变量 
-let temp = a[i]
-    a[i] = a[j]
-    a[j] = temp
+// let temp = a[i]
+//     a[i] = a[j]
+//     a[j] = temp
+    
+   // es6解构赋值
+    [a[j], a[i]] = [a[i], a[j]]
 }
 
 function heapSort(arr) {
