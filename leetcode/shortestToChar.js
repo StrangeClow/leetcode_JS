@@ -27,3 +27,6 @@ var shortestToChar = function(singleStr,word) {
      })
      return returnShortest
  }
+
+ let  S = 'loveleetcode', C = 'e'
+ console.log(shortestToChar(S,C));

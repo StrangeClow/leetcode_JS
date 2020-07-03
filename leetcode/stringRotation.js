@@ -7,17 +7,19 @@
  * @returns
  */
 const stringRotation = function(s1, s2) {
-  
+    
+    // s1 s2的长度不同  肯定不可能通过旋转完成
     if(s1.length !== s2.length)  return false
 
     // 循环比较  
-    while(true) {
+    const copyStr = s1 + s1
 
-    }
+    return copyStr.includes(s2)
 
 }
 
-
+console.log(stringRotation('ab','ba'));
+console.log(stringRotation('abd','bac'));
 
 
 const stringRotation2 = function(s1, s2) {
