@@ -6,6 +6,7 @@
  * @returns
  */
 const take = function(arr, n = 1) {
+  // arr.slice()  倒序取数据 
   return arr.slice(0, n)
 }
 

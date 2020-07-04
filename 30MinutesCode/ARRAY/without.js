@@ -12,6 +12,7 @@ const without = function(arr, ...args) {   //  参数转
   // return arr.filter((item,index)=> !args.includes(item))
 
   return arr.filter((item, index)=> {
+    // 循环当前数据集合 拿到非目标值并返回 
     return !args.includes(item)
   })
 }

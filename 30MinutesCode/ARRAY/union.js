@@ -15,9 +15,9 @@ const union = function(arr1, arr2) {
 
 
 
-let n1 = [1,2,3,4,5]
+let n1 = [1,2,3,4,5,12]
 let n2 = [5,6,7,8,9,10]
-console.log(union(n1,n2));      // 1 2 3 4 5 6 7 8 9 10
+console.log(union(n1,n2));      // 1 2 3 4 5 6 7 8 9 10 12
 
 
 
@@ -29,5 +29,9 @@ console.log(union(n1,n2));      // 1 2 3 4 5 6 7 8 9 10
  * @returns
  */
 const union2 = function(arr1, arr2) {
-    return arrs
+    return new Set(arr1.concat(...arr2))
 }
+
+let n1 = [1,2,3,4,5,12]
+let n2 = [5,6,7,8,9,10]
+console.log(union2(n1,n2));     

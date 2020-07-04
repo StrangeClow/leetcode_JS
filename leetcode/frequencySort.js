@@ -46,11 +46,12 @@ const frequencySort = function(str) {               //  (来源于leetcode)
     let res = ''
 
     for (let index = 0; index < tempArr.length; index++) {    // 拿value 
- 
+       
+        // value值
        let tempName = tempArr[index].name
-         console.log('tempName==',tempName);
+        // 索引值
        let tempValue = tempArr[index].value
-      console.log('tempValue==',tempValue);
+     
        for(let j = 0; j < tempValue; j++) {
         res += tempName
         
