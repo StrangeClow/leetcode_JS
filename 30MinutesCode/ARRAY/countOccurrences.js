@@ -17,7 +17,7 @@ const countOccurrences = (arr, val) =>
 
 const CountNumber = function(arr, val) {
   // 初始计量单位
-
+  // reduce(prev,curr,idex,arr)
  return arr.reduce((prev,cur)=>
   (
        cur === val ? prev+1 : prev

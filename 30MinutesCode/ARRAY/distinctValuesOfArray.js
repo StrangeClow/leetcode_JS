@@ -56,13 +56,14 @@ const distinctValuesOfArray3 = function(arr) {
         }
     }
     console.log(tempMap)
-    
+    let res = []
     for(let key of tempMap.keys()) {
         console.log(key)
+        res.push(key)
     }
    
-    
+    return res
 }
 
-
-console.log(distinctValuesOfArray3(nn))
+let nn1 = [8,9,4,6,1,3,10,4,9]
+console.log(distinctValuesOfArray3(nn1))

@@ -24,4 +24,9 @@
         // arr.pop() 移除栈顶元素并返回
         return this.items.pop()
     }
+
+    // 栈长度
+    Stack.prototype.size = function() {
+         return this.items.length
+    }
  }

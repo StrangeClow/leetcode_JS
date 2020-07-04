@@ -7,17 +7,6 @@
  * @param {*} arr
  * @param {number} [depth=1]
  */
-const flattenOneDepth = (arr, depth =1) => {
-    return  arr.reduce((a,v)=>{
-        a.concat(depth > 1 && Array.isArray(v) ? flattenOneDepth(v, depth -1): v)
-     },[])
-}
-
-
-let n1 = [1,[2,[3,45,6]]]
-
-console.log(flattenOneDepth(n1,2));
-
 
 const flattenOneDepth2 = function(arr, depth = 1) {
     // 循环子项
@@ -30,3 +19,16 @@ const flattenOneDepth2 = function(arr, depth = 1) {
 
 let n2 = [1,[2,[3,[4,5,6]]]]
 console.log(flattenOneDepth2(n2,2));
+
+
+
+const flattenOneDepth3 = function(arr, n = 1) {
+   if(!arr || !(arr instanceof Array))  return false
+   if(!Array.isArray(arr)) {
+       console.log('是否为数组');
+   }
+}
+
+let n = [1,2,3,[4,5,[6,7,[8],9],10],11]
+console.log(flattenOneDepth3(n));
+

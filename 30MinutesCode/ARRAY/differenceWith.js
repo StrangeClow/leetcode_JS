@@ -18,7 +18,7 @@ const differenceWith1 = function(arr, val, comp) {
 }
 
 let n1 = [1,1,2,1.5,3,0]
-let n2 = [1.9, 3, 0]
+let n2 = [1.9,3,0]
 
 const comp = function(a,b) {   // 函数名 
     return Math.round(a) === Math.round(b)

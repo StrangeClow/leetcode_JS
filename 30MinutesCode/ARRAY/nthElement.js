@@ -16,3 +16,10 @@ const  nthElement = (arr, n = 0) => {
 
 let n1  = ['a', 'b', 'c']
 console.log(nthElement(n1, 2));      // output====> c
+
+
+const nthElement2 = function(arr,n = 0) {
+   return  arr.splice(arr.length - 1, n)
+}
+let n2 = [1,2,3,4]
+console.log(nthElement2(n2, 2));   
