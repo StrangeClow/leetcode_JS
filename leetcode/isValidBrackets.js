@@ -20,7 +20,7 @@ const enumBrackets = {
  * @param {*} inputBrackets
  * @returns
  */
-var isValidBrackets = function(inputBrackets) {
+var isValidBrackets = function(inputBrackets) {      // 哈希表匹配关系 
   
   let temp = []
   // 转为数组

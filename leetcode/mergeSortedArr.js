@@ -26,7 +26,7 @@
  */
 const mergeSortedArr = function(A, m, B, n) {
    
-    arr.splice(start, end, num)
+   // arr.splice(start, end, num)
     // A.splice(m, n, ...B)   // 从m开始切，切n个元素 在往数组A中依次添加B中的元素 
     // A.splice(m, n, Array.prototype.push.apply(B))
     console.log('A.splice()===>',A);

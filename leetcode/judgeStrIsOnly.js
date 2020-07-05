@@ -15,7 +15,7 @@ const judgeStrIsOnly = function(str) {
     for(let i = 0; i < str.length; i ++) {
         //hash存在当前值
       if(hash[str[i]]) {
-          console.log('==',hash[str[i]]);
+         
         return false
       } else {
           hash[str[i]] = true
@@ -33,3 +33,25 @@ let a3 = 'abcde'
 console.log(judgeStrIsOnly(a1));
 console.log(judgeStrIsOnly(a2));
 console.log(judgeStrIsOnly(a3));
+
+
+
+
+const judgeStrIsOnly2 = function(str) {
+
+  let tempMap = new Map()
+
+  for(let index = 0; index < str.length; index++) {
+        if(!tempMap.has(str[index])) {
+               tempMap.set(str[index],index )
+              //  tempMap.set(str[index],tempMap.get(str[index] + 1))
+        }
+  }
+  console.log(tempMap);
+  return tempMap.size == str.length ? true : false
+}
+
+let s4 = 'kitty'
+let s5 = 'vscode'
+console.log(judgeStrIsOnly2(s4));
+console.log(judgeStrIsOnly2(s5));
