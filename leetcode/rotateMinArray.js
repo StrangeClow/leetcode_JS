@@ -27,14 +27,16 @@ const rotateMinArray2 = function(num) {   //来源leetcode
    
     // 二分法解决当前问题 
     let left = 0
-    let right = num.length - 1
+    let right = num.length - 1 
     
     // 一个从最左开始往右   一个从最后开始往左   中间相遇
     while(left < right) {
         // 中间值 
         let mid = Math.floor((left + right) / 2)
+        // 若中间值大于最大值
         if(num[mid] > num[right]) {
            left = mid +1
+           // 若中间值小于最大值 
         } else if(num[mid] < num[right]) {
              right = mid
         }

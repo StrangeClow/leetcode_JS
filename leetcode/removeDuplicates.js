@@ -63,3 +63,35 @@
 
 let n2 = [0,0,1,1,2,3,4,5,5,5,6]
 console.log(removeDuplicates2(n2))
+
+
+
+/**
+ *  双指针 
+ *
+ * @param {*} arr
+ * @returns
+ */
+const removeDuplicates3 = function(nums) {    //  双指针
+   
+  if(nums.length === 0)  return 0
+  
+  // 声明指针 
+  let left = 0
+  // 循环当前数据集合 
+  for(let index = 0; index < nums.length; index++) {
+
+     if(nums[index] !== nums[left]) {
+       // 移动指针 
+       left ++
+       // 赋值
+       nums[left] = nums[index]
+     }
+  } 
+  return left + 1
+
+}
+
+
+let n3 = [0,0,1,1,2,3,4,5,5,5,6]
+console.log(removeDuplicates3(n3))

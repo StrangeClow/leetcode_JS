@@ -9,10 +9,10 @@
  *
  * @param {*} nums
  */
-var movezeros = function(nums) {
-   let tempNums
+var movezeros = function(nums) {    // 移动指针 
+    
    for (let index = 0; index < nums.length; index++) {
-    tempNums = 0;
+   let tempNums = 0
     for(let i = 0;i < nums.length;i++) {
       if(nums[i] !== 0) {
         [nums[i],nums[tempNums]] = [nums[tempNums],nums[i]]   // 解构赋值 交换变量   [a, b] = [b, a]
