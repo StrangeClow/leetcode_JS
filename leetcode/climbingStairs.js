@@ -40,12 +40,12 @@ const clibmStairs2 = function(n) {     // 动态规划
 
    //  声明dp
     const dp = [];
-    dp[0] = 1;
-    dp[1] = 1;
+    dp[0] = 1
+    dp[1] = 1
     for(let i = 2; i <= n; i++) {
-        dp[i] = dp[i - 1] + dp[i - 2];
+        dp[i] = dp[i - 1] + dp[i - 2]
     }
-    return dp[n];
+    return dp[n]
 
 }
 
@@ -53,3 +53,4 @@ let n3 = 4
 let n4 = 5 
 console.log(clibmStairs2(n3));
 console.log(clibmStairs2(n4));
+console.log(clibmStairs2(6));

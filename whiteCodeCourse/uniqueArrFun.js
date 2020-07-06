@@ -21,7 +21,7 @@ const uniqueArrFun2 = function(arr) {
     // Array.from()
 
     // es6的新数据结构  Set 
-    return Array.from(new Set(arr))
+    return Array.from(new Set(arguments[0]))
 }
 
 let n2 = [12,34,1,2,34,56]
@@ -51,3 +51,5 @@ console.log(uniqueArrFun2(n2));
 
 let n3 = [11,28,35,45,50,11,4,35]
 console.log(uniqueArrFun3(n3));
+
+

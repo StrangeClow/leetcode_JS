@@ -3,11 +3,11 @@
  * 
  *       栈  树    哈希表   
  * 
- *   中序遍历优先遍历左节点，然后输出中间节点的val 最后遍历右节点 
+ *   中序遍历优先遍历左节点，然后输出中间节点的val 最后遍历右节点   左-中-右
  *
  * @param {*} root
  */
-const inOrderTraversal = function(root) {
+const inOrderTraversal = function(root) {      //  栈
   
     // 创建相应的栈 节点空间 
   let stack = [], list = [],  node = root 
@@ -30,3 +30,6 @@ const inOrderTraversal = function(root) {
       }
       return list
 }
+
+
+//  最小重复子问题
