@@ -3,7 +3,7 @@
  /** 
   *  给定义一个排序数组 需要在原地删除重复出现的元素 使得每个元素只出现一次 返回移除后的数组长度 
   * 
-  *  不适用额外的数组空间 必须原地修改输入数组
+  *  不使用额外的数组空间 必须原地修改输入数组
   * 
   * eg  input 【1,2,3,4,5,2,4】
   *   ouput 返回length为5 【1,2,3,4,5】
@@ -12,9 +12,10 @@
  */
 
  //  这个返回了移除后的数据项  
- var removeDuplicates = function(num) {
+ var removeDuplicates = function(num) {     // 遍历移除 
    // 基础for循环
     for(let i = 0; i< num.length; i++) {
+      // 因为数组已排序 若当前值等于下一项值  表明为重复值  删除当前元素  
       if(num[i] == num[i+1]) {
           //  此处Array.splice操作相当于改变了数组  对题意有点违背 
           num.splice(i,1)    // 注意splice的用法 不同的传参的意义   
@@ -46,7 +47,7 @@
     if(nums.length == 0) return 0
     if(nums.length == 1) return nums
     
-    // 定义初始数组长度 
+    // 慢指针 
     let slow = 0
     for(let fast = 0; fast< nums.length; fast++) {
       console.log('nums[slow]===>',nums[slow],nums[fast])
@@ -66,32 +67,62 @@ console.log(removeDuplicates2(n2))
 
 
 
-/**
- *  双指针 
- *
- * @param {*} arr
- * @returns
- */
-const removeDuplicates3 = function(nums) {    //  双指针
-   
-  if(nums.length === 0)  return 0
-  
-  // 声明指针 
-  let left = 0
-  // 循环当前数据集合 
-  for(let index = 0; index < nums.length; index++) {
+const removeDuplicates4 = function(nums) {   //  错误示范 
+  if(nums.length == 0) return 0
 
-     if(nums[index] !== nums[left]) {
-       // 移动指针 
-       left ++
-       // 赋值
-       nums[left] = nums[index]
-     }
-  } 
-  return left + 1
+  let tempMap = new Map()
 
+  for (let index = 0; index < nums.length; index++) {
+   if(!tempMap.has(nums[index])) {
+      //  tempMap.set(index, nums[index])
+      //  tempMap.set(nums[index],tempMap.get(nums[index]+1) )
+      
+       tempMap.set(nums[index],index )
+   }
+    
+  }
+  console.log(tempMap);
 }
 
+let n4 = [1,1,2]
+console.log(removeDuplicates4(n4));
 
-let n3 = [0,0,1,1,2,3,4,5,5,5,6]
-console.log(removeDuplicates3(n3))
+
+
+
+const removeDuplicates5 = function(nums) {     // 双指针 
+ let slow = 0
+  for(let fast = 0; fast < nums.length; fast++) {
+     if(nums[slow] !== nums[fast]) {
+       // slow往前一步
+       slow++
+       //把fast赋值给slow
+       nums[slow] = nums[fast]
+     }
+  }
+  // 加1 为长度 
+  return slow + 1
+}
+
+console.log(removeDuplicates5([1,1,2]));
+
+
+
+const removeDuplicates6 = function(nums) {
+  
+  if(nums.length == 0)  return 0
+
+  let hash  = {}
+  let count = 0
+     for (const iterator of nums) {
+        if(!hash[iterator]) {
+          
+            hash[iterator] = iterator
+
+            count ++
+        }
+     }
+    return count
+  }
+
+  console.log(removeDuplicates6([1,1,2]));

@@ -102,6 +102,7 @@
  97 | [数组中的第k个最大元素](https://leetcode-cn.com/problems/kth-largest-element-in-an-array/) | 简单 | [JavaScript](https://github.com/StrangeClow/leetcode_JS/blob/master/leetcode/findKthLargest.js) |√
  98 | [非递增顺序的最小子序列(贪心算法)](https://leetcode-cn.com/problems/minimum-subsequence-in-non-increasing-order/) | 简单 | [JavaScript](https://github.com/StrangeClow/leetcode_JS/blob/master/leetcode/minSubsequence.js) |√
  99 | [连续子数组的最大和(动态规划)](https://leetcode-cn.com/problems/lian-xu-zi-shu-zu-de-zui-da-he-lcof/) | 简单 | [JavaScript](https://github.com/StrangeClow/leetcode_JS/blob/master/leetcode/maxSubArray.js) |√
+ 100 | [二叉树的前序遍历](https://leetcode-cn.com/problems/binary-tree-preorder-traversal/) | 中等 | [JavaScript](https://github.com/StrangeClow/leetcode_JS/blob/master/leetcode/preorderTraversal.js) |√
  
  
  

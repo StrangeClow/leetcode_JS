@@ -13,10 +13,10 @@
  * @returns
  */
 
-const maxDepth = function(root) {
+const maxDepth = function(root) {    // 递归求解 
 
   // 边界情况 
-  if(!root) {
+  if(!root || root == null) {
      return 0
   }
   

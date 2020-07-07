@@ -1,7 +1,7 @@
 /**
  *    数组中重复的数字
  * 
- *       找出nums里重复的数字，可能为一个，也可能为多个 
+ *       请找出nums中任意一个重复的数字 
  *
  * @param {*} nums
  * @returns
@@ -29,12 +29,13 @@ console.log('寻找重复数==',findReapteNumber(a1));
 
 
 
-const  findReapteNumber2 = function(nums) {
+const  findReapteNumber2 = function(nums) {   // 需要改进 存在多个符合要求的数据时 
   
    let hash = {}
    for(let i of nums) {
    
       if(hash[i]) {
+         console.log('ii====>',i);
          return i
       }
       else {
@@ -46,6 +47,7 @@ const  findReapteNumber2 = function(nums) {
 }
 
 console.log(findReapteNumber2([1,3,6,9,45,90,4,9]));
+console.log(findReapteNumber2([1,3,6,9,45,90,4,9,6,3]));
 
 
 
@@ -65,4 +67,4 @@ const findReapteNumber3 = function(nums) {
 
 }
 
-console.log(findReapteNumber3([1,3,6,9,45,90,4,90]));
+console.log(findReapteNumber3([1,3,6,9,45,90,4,90,3]));
