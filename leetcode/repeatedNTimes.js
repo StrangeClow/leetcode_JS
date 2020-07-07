@@ -11,7 +11,7 @@ const repeatedNTimes = function(A) {
     let set = new Set()
     console.log(set)
     for(let item of A) {
-       console.log(item)
+      
        if(!set.has(item)) {
              set.add(item)
        } else {
@@ -29,3 +29,17 @@ console.log(repeatedNTimes(n))
 
 
 //    或者hash表 
+
+
+const repeatedNTimes2 = function(arr) {
+    let hash = {}
+    let res = 0
+    for(let i of arr) {
+        if(!hash[i]) {
+            hash[i] = i
+            res = i
+        }
+    }
+    return res
+}
+console.log(repeatedNTimes2([1,2,3,3]));

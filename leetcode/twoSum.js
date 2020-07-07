@@ -23,10 +23,10 @@
  console.log('实践1',twoSum(a2,t2))
 
 
- //  undefined与null与任何值比较都是false  但 undefined == null
+ //  undefined与null与任何值比较都是false  但 undefined == null    
 
 // 双层循环遍历数据 target == num[i] + num[j]  返回即可
- var secondTwoSum = function(nums, target) {
+ var secondTwoSum = function(nums, target) {   //  抛索引 
     for(let i = 0; i < nums.length; i++) {
       for(let j = i+1;j<nums.length;j++) {
            // target = nums[i] + nums[j]

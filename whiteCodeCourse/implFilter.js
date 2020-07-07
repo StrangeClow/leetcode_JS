@@ -7,22 +7,20 @@ Array.prototype.implFilter = function(fn, context) {
     if(typeof fn !== 'function') {
        throw new Error(`${fn} is not a function`)
     }
-    console.log('this====>',this);
+   
     let tempThis = this
     let arr = []
-    console.log('tempThis===>',tempThis);
-    console.log('arr===>',arr);
+   
     for(let index = 0; index < tempThis.length; index++) {
-        console.log('context====>',context);
-        console.log('tempThis[index]====>',tempThis[index]);
-        console.log('tempThis====>',tempThis);
+      
+       
       let result = fn.call(context, tempThis[index], tempThis)
-      console.log('result====>',result);
+    
       if(result) {
          arr.push(tempThis[index])
       }
     }
-    console.log('return arr====>',arr);
+   
     return arr
 }
 

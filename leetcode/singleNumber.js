@@ -38,3 +38,20 @@ var singleNumberTwo = function(nums) {
 let a2 = [1,1,2]
 console.log(singleNumberTwo(a2));
 console.log(singleNumberTwo([1,1,2,2,3,4]));
+
+
+
+const singleNumbr3 = function(arr) {
+
+    let hash = {}
+   let singleN = 0
+    for(let item of arr) {
+        if(!hash[item]) {
+           hash[item] = item
+           singleN = item
+        }
+    }
+    return singleN
+}
+
+console.log(singleNumbr3([1,1,2,2,3,3,4]));

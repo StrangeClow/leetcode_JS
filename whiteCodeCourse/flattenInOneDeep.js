@@ -23,3 +23,6 @@ const deepInOneth = function(arr) {
     // arr.slice(1)  删除第一位元素 不改变原arr 
     return arr[0].concat(deepInOneth(arr.slice(1)))
 }
+
+let n = [1,2,3,[4]]
+console.log(deepInOneth(n));
