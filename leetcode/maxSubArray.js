@@ -7,7 +7,7 @@
  * @param {*} nums
  * @returns
  */
-const  maxSubArray = function(nums) {   //（动态规划）
+const  maxSubArray = function(nums) {   //（动态规划）拆分子问题
     
     // 定义状态数组dp[i]的含义：  数组中元素下标为[0,i]的连续子数组最大和
     let maxNum = nums[0]

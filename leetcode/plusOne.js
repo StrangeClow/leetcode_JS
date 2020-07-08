@@ -24,7 +24,7 @@ var plusOne = function(digits) {
    * @param {*} digit
    * @returns
    */
-  const plusOne2 = function(digit) {
+  const plusOne2 = function(digit) {    // 有问题 需更新
     for(let i = 0; i < digit.length; i ++) {
         // 取数组最后一位 
         if(i === (digit.length - 1)) {
@@ -39,6 +39,6 @@ var plusOne = function(digits) {
 let a1 = [2,3,4]
 let a2 = [3,5,7,8]
 let a3 = [4,3,2,1]
-console.log(plusOne(a1));
+// console.log(plusOne(a1));
 console.log(plusOne2(a2));
 console.log(plusOne2(a3));

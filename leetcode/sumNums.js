@@ -6,7 +6,7 @@
  * @returns
  */
 const sumNums = function(number) {
-   
+    
     // 递归调用 
     return number > 0 && (number + sumNums(number - 1))
     

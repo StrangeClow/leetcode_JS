@@ -73,3 +73,8 @@ let jj = 'aAdfg'
 let ss = 'aAAbbbbDEfEffggghhh'
 
 console.log(numJewelsInStones2(jj,ss));
+
+
+let s = 'v-html'
+let [,tag] = s.split('-')
+console.log(tag);

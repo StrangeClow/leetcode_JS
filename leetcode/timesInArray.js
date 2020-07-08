@@ -43,10 +43,17 @@ console.log(timesInArray([3,4,3,3]))
 const timesInArray2 = function(arr) {
  
     const tempMap = new Map()
-
+    let singleN = []
     for(let i = 0; i < arr.length; i++) {
-       if(true) {
-
+       if(!tempMap.has(arr[i])) {
+           tempMap.set(arr[i],i)
+           console.log(arr[i]);
+           singleN.push(arr[i]) 
        }
     }
+    return singleN
+    // 在对比 原数组 
 }
+
+
+console.log(timesInArray2([3,3,4,3]));
