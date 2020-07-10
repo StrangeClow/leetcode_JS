@@ -22,7 +22,7 @@ console.log(containsDuplicate([1,5,6,4,2,7,2]));
 
 
 
-const containsDuplicate2 = function(nums) {
+const containsDuplicate2 = function(nums) {     // set.add() map.set()
   
      let tempSet = new Set()
 

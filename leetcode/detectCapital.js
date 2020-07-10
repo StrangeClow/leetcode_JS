@@ -21,3 +21,5 @@ const detectCapital = function(word) {
 
 console.log(detectCapital('CHINA'));
 console.log(detectCapital('japaN'));
+
+
