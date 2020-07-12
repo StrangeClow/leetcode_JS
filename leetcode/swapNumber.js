@@ -32,6 +32,6 @@ const swapNumber2 = function(num) {
 
 
 
-Array.prototype.swapNumber3 = function(num) {
+Array.prototype.swapNumber3 = function(num) {  // 强制改变顺序
   return  [num[1], num[0]]
 }

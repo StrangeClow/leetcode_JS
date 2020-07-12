@@ -317,11 +317,15 @@
                     E. ......
 
 
-                 b.diff算法总结
+                 b.diff算法总结（同层的树节点 时间复杂度为O(n)）
                      A. patchVnode
                      B. addVnodes removeVnodes
                      C. updateChildren（更新时key的比较）
-
+                 
+                 c. diff流程拆分
+                     A. 对新旧节点进行标记
+                     B. 循环对新老节点进行比较并移动对应的VNode节点 
+                     C. 循环结束后，根据新老节点的不同，作相应的节点的添加或删除
            4. 模板编译
             
                 compile编译

@@ -7,7 +7,7 @@
  * @param {*} nums
  * @returns
  */
-const  maxSubArray = function(nums) {   //（动态规划）拆分子问题
+const  maxSubArray = function(nums) {   // 对单一结果分类 
     
     // 定义状态数组dp[i]的含义：  数组中元素下标为[0,i]的连续子数组最大和
     let maxNum = nums[0]
@@ -23,4 +23,24 @@ const  maxSubArray = function(nums) {   //（动态规划）拆分子问题
 
 
 let n = [-2,1,-3,4,-1,2,1,-5,4]
-console.log(maxSubArray(n));
+console.log('dp1==>',maxSubArray(n));
+
+
+
+const maxSubArray2 = function(nums) { 
+   var dp = []
+   // 假设nums长度为1 则连续最大子序和为nums[0]
+   dp[0] = nums[0]
+   var maxNum = dp[0]
+   // 同理 若nums长度为2 则 max  = Math.max(nums[0],nums[0]+ nums[1])
+   for(let i = 1; i < nums.length; i++) {
+       // dp规划 
+       dp[i] = Math.max(nums[i], dp[i - 1] + nums[i])
+       maxNum = Math.max(dp[i], maxNum)
+   }
+   return maxNum
+} 
+
+
+let n1 = [-2,1,-3,4,-1,2,1,-5,4]
+console.log('dp2===>',maxSubArray2(n1));

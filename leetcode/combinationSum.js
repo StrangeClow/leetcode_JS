@@ -51,7 +51,19 @@ const combinationSum = function(candidates, target) {        // 递归回溯+剪
 
 
 
-let c = [2,3,6,7], t = 7
+let c = [2,3,6,7,1,4], t = 7
 
 
 console.log(combinationSum(c, t));
+
+
+
+
+const combinationSum2 = function(arr, target) {   // 剪枝(通过某种判断 去掉不必要的遍历过程)
+
+    let copyArr = arr.sort((a,b) => {
+        return a - b
+    })
+
+
+}

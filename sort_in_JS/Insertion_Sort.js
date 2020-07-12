@@ -43,7 +43,7 @@ insertionSort_one([987, 18, 0.01, 826, 1, 88, 0.009])
 function insertionSort_two(arr) {
     for (let i = 0; i < arr.length; i++) {
         for (let j = 0; j < arr.length; j++) {
-            if (arr[j] < arr[j + 1]) {
+            if (arr[j] > arr[j + 1]) {
                 [arr[j], arr[j + 1]] = [arr[j + 1], arr[j]]
             }
         }
@@ -58,7 +58,7 @@ insertionSort_two([9898, 6556, 0.01, 987654, 0.098, 1, 0.1098522])
 function insertionSort_three(array) {
     let times = 0;
     for (let i = 0; i < array.length; i++) {
-        for (let j = 0; j < array.length -1 - i; j++) {
+        for (let j = 0; j < array.length -1 - i; j++) {    // 优化排序次数 
             if (array[j] > array[j + 1]) {
                 [array[j], array[j + 1]] = [array[j + 1], array[j]]
                 times++;

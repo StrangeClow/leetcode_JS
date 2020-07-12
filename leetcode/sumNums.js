@@ -14,6 +14,7 @@ const sumNums = function(number) {
 }
 
 
+//  优化递归
 
 console.log(sumNums(3));
 
