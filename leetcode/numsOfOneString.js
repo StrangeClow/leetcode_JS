@@ -20,3 +20,8 @@ let s1 = 'hello hubeiwuhan'
 let s2 = 'hello'
 console.log(numsOfOneString(s1));
 console.log(numsOfOneString(s2));
+
+
+
+// new Bolb
+

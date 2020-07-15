@@ -9,7 +9,7 @@
  * @param {*} nums
  * @returns
  */
-const permute = function(nums) {        // 回溯递归   
+const permute = function(nums) {        // 回溯递归   全排列类比决策树 
  
     let res = []
     let temPath = []
@@ -45,14 +45,25 @@ const permute = function(nums) {        // 回溯递归
     return res
 }
 
-console.log([1,2,3].pop());
 
 let n = [1,2,3,4,5]
+console.log(permute([1,2,3]));
+
+
+
+
+
+
+
+
+
+
+
+console.log([1,2,3].pop());
 console.log(n.push(6),n);
 console.log(n.slice(), n);
 console.log(n.pop(),n);
 
-console.log(permute([1,2,3]));
 
 
 

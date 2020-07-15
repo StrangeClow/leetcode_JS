@@ -25,11 +25,12 @@ const throttle = function(cb, ms) {
 }
 
 
-const throttle2 = function(callback, ms) {
+const throttle2 = function(callback, ms) { 
 
     let timer = null
 
     return function() {
+        // 清楚定时器 
         clearTimeout(timer)
 
         timer = setTimeout(()=> {
