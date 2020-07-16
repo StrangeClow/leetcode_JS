@@ -7,30 +7,34 @@
  * @param {*} arr
  * @returns
  */
-const uniqueOccurrences = function(arr) {       //  有问题 
+const uniqueOccurrences = function(arr) {       //  有问题  每个数字的出现次数不一样  并非总长度 
    
     let map = new Map()
+    let res = []
     for(let index = 0; index < arr.length; index++) {
-   
       if(!map.has(arr[index])) {
-        
-          //  map.delete(arr[index])
-           map.set(index, arr[index])
+        // map的索引和值
+        map.set(index, arr[index])
+        // 删除当前元素 
+        console.log(map.get(index));
+        map.delete(arr[index])
       }
-
-     
     }
-   
+    console.log(map);
+    return [...map.values()].length !== arr.length
 }
-
-
 
 
 let n = [1,2,2,1,1,3]
 console.log(uniqueOccurrences(n));
 
 
-const uniqueOccurrences2  = function(arr) {
+
+
+
+
+
+const uniqueOccurrences2  = function(arr) {   // 比操作之后的数组长度 
 
   let obj = {}
   
@@ -44,7 +48,7 @@ const uniqueOccurrences2  = function(arr) {
     list.push(obj[element])
   }
   
-  return [...new Set(list)].length === list.length      // 拿处理后的数据长度对比   
+  return [...new Set(list)].length !== list.length      // 拿处理后的数据长度对比   
 }
 
 
@@ -52,6 +56,9 @@ let n2 = [1,2,2,1,1,3]
 let n3 = [1,2,3,4]
 console.log(uniqueOccurrences2(n2));
 console.log(uniqueOccurrences2(n3));
+
+
+
 
 
 

@@ -11,7 +11,7 @@
  * @returns
  */
 const addDigits = function(num) {
-  
+  console.log(typeof num);
   // 循环当前数据 大于等于10
   while(num >= 10) {
     // 转字符串再转数组 
@@ -27,7 +27,10 @@ const addDigits = function(num) {
 }
 
 
-console.log(addDigits(38));
+console.log(addDigits(36));
+
+
+console.log('12'.toString().split(''));
 
 
 
