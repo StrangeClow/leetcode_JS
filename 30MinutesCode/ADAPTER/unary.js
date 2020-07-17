@@ -14,4 +14,10 @@ console.log(['6', '8', '10'].map(unary(parseInt)));
 let n = [1,2,3,4,5]
 
 
+const unary = function(fn)  {
+    return function(val) {
+        return fn(val)
+    }
+}
+
 

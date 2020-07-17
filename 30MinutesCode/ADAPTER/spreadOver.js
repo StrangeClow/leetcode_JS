@@ -4,13 +4,13 @@
  * @param {*} fn
  * @returns
  */
-const spreadOver = function(fn) {
+const spreadOver = function(fn) {    // 有问题
     
-    console.log(...argsArr);
+    // console.log(...argsArr);
     return argsArr => {
         return fn(...argsArr)
     }
 }
 
 const arrMax = spreadOver(Math.max)
-console.log(arrMax[2,5,9]);
+console.log(arrMax[1,2,3]);
