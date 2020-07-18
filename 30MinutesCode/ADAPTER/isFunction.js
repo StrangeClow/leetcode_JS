@@ -34,4 +34,4 @@ const isFunction2 = function(val) {
 
 const isFunction3 = function(val) {
     return val.constructor === Function
-}
+} 

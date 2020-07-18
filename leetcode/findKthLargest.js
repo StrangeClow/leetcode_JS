@@ -74,7 +74,7 @@ const findKthLargest3 = function(nums, k) {      // 快排
    }
    
    // 表明基准是第k大的元素  
-   if(left.length +1 == k) {
+   if(left.length + 1 == k) {
        console.log('curr===>',curr);
      return curr
    }

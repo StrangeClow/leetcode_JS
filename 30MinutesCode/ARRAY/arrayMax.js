@@ -44,3 +44,14 @@ const arrayMax4 = function(arr) {
 
 
 console.log(arrayMax4([1,23,34,43,56,343]));
+
+
+
+
+const arrayMax5 = function(arr) {
+   // 
+    return Math.max.call(null, ...arr)
+}
+
+let a6 = [1,2,3,4,9,7,8]
+console.log(arrayMax5(a6));

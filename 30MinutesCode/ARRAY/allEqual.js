@@ -31,6 +31,7 @@ console.log(allEqual([1,1,1,1,1]));
 const allEqual2 = function(arr) {
   return arr.every((item,index)=> {
     console.log('计算item和index===',item, index)
+    // 第一个值和最后一个值 
     return item === arr[arr.length -1]
   })
 }

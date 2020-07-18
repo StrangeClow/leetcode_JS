@@ -56,6 +56,7 @@ const distinctValuesOfArray3 = function(arr) {
         }
     }
     console.log(tempMap)
+    //  Array.from
     let res = []
     for(let key of tempMap.keys()) {
         console.log(key)
