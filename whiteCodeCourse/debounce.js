@@ -19,7 +19,7 @@ const debounce = function(func, delay) {
          // arguments  函数参数 
          func.apply(this, arguments)  
       // 延时时间 ms    
-      }, delay);
+      }, delay); 
 
   }
 
