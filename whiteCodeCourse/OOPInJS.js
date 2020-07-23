@@ -46,7 +46,11 @@ let p2 = createperson('youtube',18,0)
 console.log('p2===',p2.eat('apple'))
 
 
-// es6
+
+
+
+
+// es6方式 
 class Person{
    constructor(name, age) {
        this.name = name

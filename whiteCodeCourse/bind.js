@@ -29,6 +29,10 @@ Function.prototype.myBind = function(thisArgs) {
 
 
 
+
+
+
+//  函数原型 
 Function.prototype.ImplBind = function(context) {
 
     let that = this   // 保存原函数 

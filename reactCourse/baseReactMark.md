@@ -215,7 +215,7 @@
 ### dva umi(阿里中台应用解决方案)
 
         umi 类路由对象
-        dva 封装redux与redux-saga的数据流方案
+        dva 封装redux与redux-saga(异步请求)的数据流方案
 
 
 ### redux原理
@@ -250,15 +250,15 @@
 
 
 
-###  组建传值
+###  react组建传值
 
       props 
 
-      context (provider customer)
+      context (provider customer --跨组件传值) 
 
-      路由传参
+      路由传参 (react-router)
 
-      ref属性
+      ref属性 (获取组件实例)
 
       redux
 
@@ -290,9 +290,9 @@
 
        装饰器 
           @observable  // 用来声明可观察的数据 让对象可以被追踪
-          @action // 改变obrvable数据 
-          @observer修饰器让组件自动更新   
-          @computed  创建计算属性
+          @action  // 改变obrvable数据 
+          @observer  // 修饰器让组件自动更新   
+          @computed  //  创建计算属性
 
 
 
@@ -371,7 +371,7 @@
  
     dispatch   // 发送action 
 
-    store    // 创建reudx相关  
+    store    // 创建redux相关  
 
 
 
