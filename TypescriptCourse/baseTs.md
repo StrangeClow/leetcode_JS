@@ -25,7 +25,7 @@
 
 
 
- ### ts在真实大项项目中的实践   ant desgin pro 
+ ### ts在真实大型项目中的实践   ant desgin pro 
 
    
 

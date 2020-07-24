@@ -14,7 +14,9 @@ function Person(name, age) {
 } 
 
 let t = new Person()
-console.log(t.getName('xoaomi'));
+console.log(t.prototype === Person._proto_);       //   true
+console.log(t._proto_ === Person.prototype);      //   false
+console.log(t.getName('xiaomi'));
 
 
 
@@ -57,6 +59,9 @@ let s1 = new Son('hello')
 // console.log(s1)
 // console.log(s1.getName('world'))
  
+
+
+
 /**
  *   2. 借用构造函数（伪造对象或经典继承）
  *   在子类型构造函数的内部调用超类型构造函数，  通过apply()或call()在新创建的构造函数上执行构造函数

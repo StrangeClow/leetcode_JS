@@ -56,13 +56,18 @@ class Person{
        this.name = name
        this.age= age
    }
-   static getAge() {
-      return this.age               
+   static getAge(age) {
+     
+      return age               
    }
    getFullName() {
-      return `vscode ${this.name}`
+      return `我的名字 ${this.name}`
    }
 }
+
+let p = new Person('vs code',18)
+console.log(Person.getAge(12));
+console.log(p.getFullName());
 
 
 //  构造函数模式      1. 使用this的上下文对象    2. 不显式创建对象 

@@ -106,3 +106,56 @@ promise2.then((res) => {
    })
 })
 console.log('script end')
+
+
+
+
+
+
+
+
+function a() {
+   let n= 10
+   if(true) {
+     let n = 100
+   }
+   console.log(n)
+   
+ }
+ console.log('打印n',a())    // 10
+ 
+ 
+ 
+ 
+ var n1 = 123
+ function f1() {
+   console.log('f1====>',n1)
+ }
+ function f2() {
+   var n = 456
+   // 里面读不到值  声明提升 赋值未提升 
+   // f1()
+ }
+ 
+ //  console.log('执行f2====>',f2())
+ f2()
+ console.log(n1)
+ 
+ 
+ 
+ 
+ var length = 100
+ function f3() {
+   console.log(this.length)  // 100
+ }
+ 
+ var obj = {
+   x: 10,
+   f4: function(f3) {
+      f3()
+      arguments[0]()  //  arguments[0] = f1  f1有两个参数  所以length = 2
+   }
+ }
+ 
+ // 当前obj对象调用f4()
+ obj.f4(f3, 1)    // 输出 100  2

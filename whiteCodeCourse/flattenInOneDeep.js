@@ -20,9 +20,15 @@ const deepInOneth = function(arr) {
         arr[0] = [arr[0]]
     }
     // arr.concat()  数组拼接  
-    // arr.slice(1)  删除第一位元素 不改变原arr 
+    // arr.slice(1)  删除arr的第一位元素 并范湖剩余元素
     return arr[0].concat(deepInOneth(arr.slice(1)))
 }
 
 let n = [1,2,3,[4]]
 console.log(deepInOneth(n));
+
+
+
+let n1 = [1,2,3,4]
+console.log(n1.slice(1));
+console.log(n1);

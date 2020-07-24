@@ -22,7 +22,7 @@ const shuffle = function(tempArr) {
      // 小标变量递减  
      curr--
    }
-   console.log('随机===',tempArr);
+  //  console.log('随机===',tempArr);
    return tempArr
 }
 

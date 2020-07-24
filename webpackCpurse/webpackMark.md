@@ -22,7 +22,7 @@
 
 
 
-    ##  插件(plugins)
+    ##  插件(plugins) （具有apply方法的javascript对象）
 
 
 

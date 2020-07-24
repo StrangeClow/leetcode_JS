@@ -16,4 +16,9 @@ class binaryTree{
     insert() {
 
     }
+    
+    // 
+    delete() {
+
+    }
 }

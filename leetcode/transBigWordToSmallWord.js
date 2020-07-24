@@ -23,7 +23,7 @@ const transBigWordToSmallWord = function(str) {
 let s = 'GoodlUcktoMe88'
 
 
-console.log(transBigWordToSmallWord(s));
+console.log(transBigWordToSmallWord(s)); 
 
 
 

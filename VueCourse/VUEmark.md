@@ -49,7 +49,7 @@
 ### 编译
       parse(解析template模板  形成AST(抽象语法树))
 
-      optimize(标记statis静态节点 不更新当前标记部分 节约性能)
+      optimize(标记static静态节点 不更新当前标记部分 节约性能)
 
       generate(将AST转化为render function字符串)
 

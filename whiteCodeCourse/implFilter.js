@@ -14,7 +14,8 @@ Array.prototype.implFilter = function(fn, context) {
     for(let index = 0; index < tempThis.length; index++) {
       
        
-      let result = fn.call(context, tempThis[index], tempThis)
+      let result = fn.call(context, tempThis[index])
+    //   let result = fn.call(context, tempThis[index], tempThis)
     
       if(result) {
          arr.push(tempThis[index])
@@ -26,6 +27,7 @@ Array.prototype.implFilter = function(fn, context) {
 
 
 let n = [1,2,3,4,5,6,7,8]
+
 
 const testFilter = function(arr) {
     return arr.implFilter((item, index)=> {
