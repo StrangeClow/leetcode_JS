@@ -1,4 +1,5 @@
 /**
+ *   两数之和
  *    给定一个按升序排序的数组，请找出两个数，使得它们的和等于traget 
  *    函数需要返回两个数的下标，且下标不能相同，较小的下标在前，大的在后 
  * 
@@ -25,7 +26,7 @@
 
  //  undefined与null与任何值比较都是false  但 undefined == null    
 
-// 双层循环遍历数据 target == num[i] + num[j]  返回即可
+// 双层循环遍历数据 target == num[i] + num[j]  目标值 = 循环数据的索引 并抛出 
  var secondTwoSum = function(nums, target) {   //  抛索引 
     for(let i = 0; i < nums.length; i++) {
       for(let j = i+1;j<nums.length;j++) {
@@ -38,6 +39,8 @@
     }
  }
  
+ let n0 = [1,3,5,4,6,7,2], t0 = 9
+ console.log(secondTwoSum(n0,t0)); 
 
  
  /**
@@ -54,7 +57,6 @@
        if((arr[nums[i]]) >= 0 ) {
           return [arr[nums[i]],i]
        }
-    
        arr[target -nums[i]] = i
      }
  }
@@ -74,7 +76,7 @@
     for(let index = 0; index < nums.length; index ++) {
 
       let k = target - nums[index]
-      console.log('k====>',k);
+     
       if(map.has(k)) {
         console.log('map.get(k), index===>',map.get(k), index);
          return [map.get(k), index]
@@ -92,3 +94,9 @@
  let a6 = [,8,18,26,69,0,46,7], t6 = 17
  console.log('方法5==>',twoSum5(a5,t5))
  console.log('方法5不存在的情况==>',twoSum5(a6,t6))
+
+
+
+ const twoSum6 = function(num) {    //  看看双指针能不能
+
+ }

@@ -17,12 +17,7 @@ const transBigWordToSmallWord = function(str) {
 
 }
 
-
-
-
 let s = 'GoodlUcktoMe88'
-
-
 console.log(transBigWordToSmallWord(s)); 
 
 
@@ -38,11 +33,8 @@ const transBigWordToSmallWord2 = function(str) {
     let tempArr = str.split('')
     
     for (const key in tempArr) {
-      
       let charCode = tempArr[key].charCodeAt(0)
-
       console.log('字符码值为:',charCode)
-      
       //  [A-Z]的ASCII码范围为 [65-90]
       if(charCode >= 65 && charCode <= 90) {
          
@@ -57,15 +49,8 @@ const transBigWordToSmallWord2 = function(str) {
 
 }
 
-
 let ss = '88GooD00lUckToME520'
-
 console.log(transBigWordToSmallWord2(ss));
-
-
-
-
-
 
 
 
@@ -84,35 +69,34 @@ const transBigWordToSmallWord3 = function(str) {
            C: "c",
            D: "d",
            E: "e",
-            F: "f",
+           F: "f",
            G: "g",
-            H: "h",
-            I: "i",
-            J: "j",
-            K: "k",
-            L: "l",
-            M: "m",
-            N: "n",
-            O: "o",
-            P: "p",
-            Q: "q",
-            R: "r",
-            S: "s",
-            T: "t",
-            U: "u",
-            V: "v",
-            W: "w",
-            X: "x",
-            Y: "y",
-            Z: "z"
+           H: "h",
+           I: "i",
+           J: "j",
+           K: "k",
+           L: "l",
+           M: "m",
+           N: "n",
+           O: "o",
+           P: "p",
+           Q: "q",
+           R: "r",
+           S: "s",
+           T: "t",
+           U: "u",
+           V: "v",
+           W: "w",
+           X: "x",
+           Y: "y",
+           Z: "z"
      }
 
       let result = ''
 
       for (let index = 0; index < str.length; index++) {
 
-        
-
+    
          console.log('字典值==',letterDictionary[str[index]]);
 
           result +=str[index] in  letterDictionary ? letterDictionary[str[index]] : str[index]

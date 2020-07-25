@@ -25,12 +25,17 @@ const sortArraybyParity = function(num) {
           console.log('奇数',element);
           tempArr.push(element)
       }
-  });
+  })
   return tempArr
 }
-
 
 let a1 = [2,3,4,1]
 let a2 = [6,5,2,8,9,76,101,99]
 console.log(sortArraybyParity(a1));
 console.log(sortArraybyParity(a2));
+
+
+
+const sortArraybyParity2 = function(num) {
+  
+}

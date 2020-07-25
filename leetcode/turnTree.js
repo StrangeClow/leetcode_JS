@@ -29,9 +29,9 @@
 const turnTree = function(root) {
     
     // 边界情况 若非树节点 则返回null
-    if(!root)  return null
+    if(!root || root === null)  return null
     
-    // 解构赋值  交换变量 
+    // 解构赋值  交换变量    左 == 右     右 == 左
     [root.left, root.right] = [turnTree(root.right), turnTree(root.left)]
      
     return root

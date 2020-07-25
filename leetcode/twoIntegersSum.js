@@ -21,7 +21,6 @@ var getTwoIntegersSum = function(a,b) {
     return b;
 }
 
-
 console.log(getTwoIntegersSum(3,7));
 
 
@@ -31,19 +30,17 @@ const getTwoIntegersSum2 = function(num1, num2) {
   if(num2 === 0) {
      return num1
   }
-  
   // 异或运算 将二进制的数转换为十进制的数 
   let sum = num1 ^ num2
   //      << 表示左移运算 
   let carry = (num1 & num2) << 1
   console.log('异或==',sum, '左移运算==',carry);
   return getTwoIntegersSum2(sum, carry)
-
 }
-
-
-
 console.log(getTwoIntegersSum2(1,29));
+
+
+
 
 
 

@@ -18,7 +18,7 @@ const clibmStairs = function(n) {
     if(n === 2) return 2
 
     let a = 1, b = 1
-      while(n -- > 0) {
+      while(n-- > 0) {
         //   b += a    // 或者采用es6的解构赋值  [a, b] = [b, a + b];  
         //   a = b-a 
           [a,b] = [b, a + b]

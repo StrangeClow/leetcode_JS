@@ -34,20 +34,17 @@ console.log(uniqueOccurrences(n));
 
 
 
-const uniqueOccurrences2  = function(arr) {   // 比操作之后的数组长度 
+const uniqueOccurrences2  = function(arr) {   // 比操作之后的数组长度和原始数据长度 
 
-  let obj = {}
-  
+  let obj = {}     // 对象属性 
   arr.forEach(element => {
     obj[element]  = obj[element] ? ++obj[element] : 1
   });
 
   let list = []
-
   for(let element in obj) {
     list.push(obj[element])
   }
-  
   return [...new Set(list)].length !== list.length      // 拿处理后的数据长度对比   
 }
 
