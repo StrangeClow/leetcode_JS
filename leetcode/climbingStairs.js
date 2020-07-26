@@ -34,7 +34,7 @@ console.log(clibmStairs(n2));
 
 
 
-const clibmStairs2 = function(n) {     // 动态规划 
+const clibmStairs2 = function(n) {     // 动态规划 1.最优子问题 2. 边界条件   3.状态转移方程)
     
     // 来源于leetcode (https://leetcode-cn.com/problems/climbing-stairs/solution/hua-jie-suan-fa-70-pa-lou-ti-by-guanpengchn/)
 

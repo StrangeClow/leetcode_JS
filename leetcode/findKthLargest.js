@@ -28,7 +28,7 @@ const findKthLargest = function(nums, k) {     //  脑回路
 
 
 let n = [3,2,1,5,6,4], k = 2
-console.log(findKthLargest(n, k));
+console.log(findKthLargest(n, k)); 
 
 
 
