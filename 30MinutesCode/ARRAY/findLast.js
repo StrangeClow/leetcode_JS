@@ -16,4 +16,6 @@ const findLast = (arr, fn)=> {
 }
 
 
-console.log([1,2,3,4].pop());
+let n = [1,2,3,4,5,6]
+console.log(n.pop())     // pop会改变当前数组n
+console.log(n)

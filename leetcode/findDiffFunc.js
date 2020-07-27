@@ -4,7 +4,7 @@
  * @param {*} str1
  * @param {*} str2
  */
-const findDiffFunc = function(str1, str2) {
+const findDiffFunc = function(str1, str2) { 
 
   let code = 0
 
@@ -19,7 +19,8 @@ const findDiffFunc = function(str1, str2) {
       code ^= item.charCodeAt(0)
   }
   console.log('输出code===>',code)
-
+  
+  // String.fromcharCode() 返回由指定的 UTF-16 代码单元序列创建的字符串。
   return String.fromCharCode(code)
 }
 

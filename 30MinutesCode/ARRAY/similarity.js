@@ -13,9 +13,7 @@ const similarity  = function(arr1,arr2) {
         return arr2.includes(item)
         
     })
-
 }
-
 
 
 let n1 = [1,2,3,4]

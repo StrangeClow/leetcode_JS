@@ -62,7 +62,6 @@ const distinctValuesOfArray3 = function(arr) {
         console.log(key)
         res.push(key)
     }
-   
     return res
 }
 

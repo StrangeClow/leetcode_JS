@@ -1,5 +1,5 @@
 /**
- * 过滤掉数组中的非唯一值    indexOf    lastIndexOf  一前一后索引 
+ * 过滤掉数组中的非唯一值    indexOf从前往后    lastIndexOf从后往前
  *
  * @param {*} arr
  * @returns

@@ -11,11 +11,7 @@ const difference = (a,b) => {
     // 过滤非值 存在a中但不存在b中
     return a.filter( x => !s.has(x))
 }
-
-
 // input ([1,2,3,4],[1,2,3])   output==>[4]
-
-
 
 let n1 = [1,2,3,4,5]   
 let n2 = [3,4,6,8,5]

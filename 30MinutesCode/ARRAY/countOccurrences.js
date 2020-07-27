@@ -14,6 +14,13 @@ const countOccurrences = (arr, val) =>
 ,0)
 
 
+let aa = [11,22,33,76,87,57,76,89,22,23,22,45,22,25,35,33]
+
+console.log('一组值中的指定值个数为：',countOccurrences(aa,33));
+
+
+
+
 
 const CountNumber = function(arr, val) {
   // 初始计量单位
@@ -27,18 +34,11 @@ const CountNumber = function(arr, val) {
 }
 
 
-
 //  test  
 
-let aa = [11,22,33,76,87,57,76,89,22,23,22,45,22,25,35,33]
 
-console.log('一组值中的指定值个数为：',countOccurrences(aa,33));
-
-
-
-
-
-console.log(CountNumber(aa,33));
+let bb = [11,22,33,76,87,57,76,89,22,23,22,33,45,22,25,35,33,33]
+console.log(CountNumber(bb,33));
 
 
 
@@ -53,7 +53,8 @@ console.log(CountNumber(aa,33));
  */
 const CountNumber2 = function(arr, targetNum) {
     
-     //  循环累加出现的次数  循环子项是否等于当前目标值 设定初始值  
+     //  循环累加出现的次数  循环子项是否等于当前目标值 设定初始值
+     // 若数组仅一个值重复 则去重后比较数组length  相减
 }
 
 console.log(CountNumber2(aa,33));

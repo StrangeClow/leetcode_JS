@@ -17,13 +17,5 @@ const dropElements = (arr, func) => {
 }
 
 
-const getq = function(n) {
-    return n >= 3
-}
-
-
-
-
 let a = [1,2,3,4,5,6]
-
 console.log(dropElements(a,n => n >= 3));

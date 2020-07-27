@@ -49,15 +49,16 @@ var deepFlattenTwo = function(arr) {
           result.push(arr[index])   // 不是数组  证明是单个数据  push添加
       }
   }
-  return result
+  return result.sort((a,b)=> {
+    return a - b
+  })
 }
-
-
-
 
 
 let a3 = [1,2,[3,[29]],4,5,[8,9,[17]]]
  console.log('变种扁平化数组==>',deepFlattenTwo([1, [2], [[3], 4], 5]));
+ console.log('变种扁平化数组==>',deepFlattenTwo(a3));
+
  let a1 = [1,[9,[88,[485],],], [2], [99,[3], 4], 5]
  let a2 = [1,[9,[5,[6]]],8,10]
 console.log(deepFlatten(a2))

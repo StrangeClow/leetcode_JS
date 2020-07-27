@@ -14,4 +14,4 @@ const forEachRight = (arr, callback) =>
 
 
 
-console.log(forEachRight([1,2,3,4,5],val=> console.log(val)));   
+console.log(forEachRight([1,2,3,4,5],val=> console.log(val * 3)));   
