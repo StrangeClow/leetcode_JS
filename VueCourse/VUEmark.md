@@ -13,14 +13,6 @@
     指令(自定义指令) v-directive
 
 
-###  vue-router
-     
-     动态路由  addRoutes()  进入系统前 动态获取用户菜单
-
-     路由传参(两种) 
-     
-     导航守卫(router.beforeEach ......)
-
 
 ### vuex
 
@@ -213,28 +205,33 @@
      vue3.0的响应式用法
          reactive包装数据
              reactive()为目标对象创建一个proxy对象
-         effect定义数据变化后的回调
+         effect定义数据变化后的回调  reflect
 
 
       内部相关
       对比vue2的区别
       ts
 
-     
-###  MVVM
 
 
 ###   组件传值  
       
        父-子  props
        子-父  $emit
-       兄弟组件  bus  -vuex
+       兄弟组件  bus  vuex
        跨级组件  provide/inject
-       缓存   storage
+       缓存   storage类
+       实例   refs
 
 
 ###   vue-router
-        
+
+        动态路由  addRoutes()  进入系统前 动态获取用户菜单
+
+        路由传参(两种) 
+     
+        导航守卫(router.beforeEach ......)
+
         导航守卫
            全局守卫
               beforeEach（全局前置守卫）

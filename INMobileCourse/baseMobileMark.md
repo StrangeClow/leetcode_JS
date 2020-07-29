@@ -12,17 +12,17 @@
 
 
 
-###  移动端兼容性解决方案  
+###     移动端兼容性解决方案  
 
-       vw+rem方案
-       媒介查询
+          vw+rem方案
+          媒介查询
 
 
 
 ###   移动端字体
         
-         ios系统
-         android系统  两个系统的默认字体不同
+          ios系统
+          android系统  两个系统的默认字体不同
 
          
 
@@ -37,7 +37,7 @@
                  4. 多主体共存型
 
           
-           通过JSBridge与native或H5互相通信
+          通过JSBridge与native或H5互相通信
            
 
 
@@ -87,7 +87,7 @@
        
 ###   小程序多端框架  
    
-              taro (react)
-              uniapp (vue)
-              mpvue (vue)
+            taro (react)
+            uniapp (vue)
+            mpvue (vue)
 

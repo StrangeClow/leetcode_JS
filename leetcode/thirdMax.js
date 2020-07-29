@@ -65,7 +65,7 @@ const thirdMax2 = function(nums) {
     return Math.max(...tempSort)
   }
   
-  // 骚操作  哈哈哈   长度大于3  取排序后数组的索引第三位 
+  // 骚操作  长度大于3  取排序后数组的索引第三位 
   if(tempSort.length >= 3) {
     console.log('tempSort==',tempSort)
     return tempSort[2]

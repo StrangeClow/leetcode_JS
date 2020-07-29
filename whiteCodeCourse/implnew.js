@@ -54,3 +54,16 @@ const implNew3 = function(fn, ...args) {
     let result = fn.apply(obj, args)
     return typeof obj == 'object' ? result : obj
 }
+
+
+const implNew4 = function(implNew, ...args) {
+    
+    // 创建空对象
+    let obj = {}
+    // 将新对象的proto指向构造函数的prototype
+    obj._proto_ = implNew.prototype
+    // 将implNew的执行上下文this绑定到obj上
+    const res = implNew.apply(obj, args)
+    // 返回当前结果 判断类型 
+    return res instanceof Object ? res : obj
+}
