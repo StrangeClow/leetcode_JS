@@ -5,11 +5,12 @@
  * @param {*} callback
  * @param {*} [err=console.error]
  */
-const httpGet = function(url, callback, err = console.error) {
+const httpGet = function(url, callback, err = console.error) {   // 默认参数
  
  // new一个XML实例
   const request = new XMLHttpRequest()
-
+  
+  // 1.  xhr.open()
   request.open('GET', url, true)
   
   // 成功回调 

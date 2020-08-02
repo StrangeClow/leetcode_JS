@@ -22,13 +22,20 @@ console.log(flattenOneDepth2(n2,2));
 
 
 
-const flattenOneDepth3 = function(arr, n = 1) {
-   if(!arr || !(arr instanceof Array))  return false
-   if(!Array.isArray(arr)) {
-       console.log('是否为数组');
-   }
-}
 
-let n = [1,2,3,[4,5,[6,7,[8],9],10],11]
-console.log(flattenOneDepth3(n));
+
+const flattenOneDepth3 = function(arr, n = 1) {      // n为拆开的层数  可设置值为n即展开n层
+
+   if(!arr || !(arr instanceof Array))  return false
+
+      return arr.reduce((prev,curr)=> {
+        
+          return prev.concat( Array.isArray(curr) ? flattenOneDepth3(curr) : curr)
+        
+       },[])
+
+}
+let n4 = [1,[2,[3,[4,5,6]]]]
+let n = [1,2,3,[4,5,[6,7,[8],9],10],11] 
+console.log(flattenOneDepth3(n4));
 

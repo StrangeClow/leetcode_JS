@@ -30,3 +30,10 @@
 
     
  
+
+
+###       https 
+
+              https由http进行通信 利用ssl/tls来加密数据包 
+              默认工作在tcp协议的443端口
+              http握手需交换3个包 https握手除需3次外 另外9次SLL包  （http位于传输层）

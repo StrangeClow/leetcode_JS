@@ -24,7 +24,6 @@ console.log(rotateMinArray(n1));
 
 const rotateMinArray2 = function(num) {   //来源leetcode
  
-   
     // 二分法解决当前问题 
     let left = 0
     let right = num.length - 1 
@@ -47,4 +46,5 @@ const rotateMinArray2 = function(num) {   //来源leetcode
     return num[left]
 }
 
-console.log(rotateMinArray2(n1));
+let n2 = [3,0,1,7,9,7]
+console.log(rotateMinArray2(n2));

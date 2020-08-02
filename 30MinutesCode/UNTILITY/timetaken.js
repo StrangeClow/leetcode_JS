@@ -13,9 +13,4 @@ const timeTaken = callback => {       // console.tiem
 
 
 //   eg 
-
-function add(a,b) {
-   return a + b
-}
-
-console.log(timeTaken(add(10,20)));
+console.log(timeTaken(()=> Math.pow(2,10)));

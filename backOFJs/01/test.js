@@ -100,3 +100,16 @@ let arrO = [{
 console.log(uniqueObj(arrO));
 
 
+
+
+
+var a = [0];
+if (a) {
+  console.log(a == true);
+} else {
+  console.log("wut");
+}
+
+
+
+console.log(Object.entries("jumi"));

@@ -27,19 +27,24 @@ var arrList = [{
   }];
 
 const Dedeplication = function(arr) {     // hash表应用   
-    // hash对象   obj.属性名 
+    // hash对象   obj.属性名   obj[属性名]   // 对象读取属性的方式 
     let hashObject = {}
     // reduce()
     const reduceArr = arr.reduce((prev,curr)=> {
         // 不为空  
         // 为真则添加进去
-        console.log('prev===>',prev, 'curr=====>',curr);
-        hashObject[prev.name] ? '' : hashObject[curr.name] = true && prev.push(curr)
+        // console.log('prev===>',prev, 'curr=====>',curr);
+        hashObject[curr.name] ? '' : hashObject[curr.name] = true && prev.push(curr)
         return prev
     },[])
-    console.log('reduceArr==',reduceArr);
+    // console.log('reduceArr==',reduceArr);
     return reduceArr
 }
+console.log(Dedeplication(arrList));
+
+
+
+
 var arr2 = [{
     "name": "ZYTX",
     "age": "Y13xG_4wQnOWK1QwJLgg11d0pS4hewePU95UHtpMl3eE81uS74NC-6zu-Rtnw4Ix",

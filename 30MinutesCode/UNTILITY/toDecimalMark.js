@@ -23,4 +23,4 @@ const toDecimalMark2 = function(num,point = 2) {    // 正则匹配   来自于�
     return sFloat ? `${sInt}.${sFloat}` : `${sInt}`;
 }
 
-console.log(toDecimalMark2(1232356.07));   // output=> 1,232,356.07
+console.log(toDecimalMark2(1232356.0798));   // output=> 1,232,356.08   // 四舍五入

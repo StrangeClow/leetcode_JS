@@ -6,7 +6,7 @@
 const isFunction = val => typeof val === 'function'
 
 
-
+//  val.constructor.name.toLowerCase()
 const isFunction2 = function(val) {
     return val.constructor === Function
 }

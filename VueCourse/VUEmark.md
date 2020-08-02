@@ -20,10 +20,34 @@
 
     Getter (mapGetters)  // 所有组件的computed属性 getters的返回值会根据他的依赖被缓存起来 
 
-    Mutation(Commit)  // store中的methods mutations对象中保存着更改数据的回调函数type，的一个参数是state,第二个参数是载荷payload,即自定义参数，调动mutations中回调函数，只能使用store.commit(type, payload)
+    Mutation(Commit)  // store中的methods mutations对象中保存着更改数据的回调函数type，的一个参数是state,第二个参数是载荷payload,即自定义参数，调动mutations中回调函数，只能使用store.commit(type, payload) 
+```
+   mutations: {
+       increment(state) {
+           // 变更当前commit状态
+           state.count++
+       }
+   }
 
-    Action(分发) // action类似于mutation 不同在于action提交的是muation 而不是直接更改状态 
+   // 显式提交mutations
+   store.commit(mutations)
+```
 
+    Action(分发)  // action类似于mutation 不同在于action提交的是muation 而不是直接更改状态  Action可包含任意异步操作  Action通过store.dispatch()
+```
+   mutations: {
+       increment(state) {
+           // 变更当前commit状态
+           state.count++
+       }
+   }
+
+  actions: {
+      increment(context) {
+          context.commit('increment)
+      }
+  }
+```
     Module(分割模块化)  // 将store分成模块 
 
 

@@ -8,17 +8,12 @@
 
 
   let a1 = 'https://music.163.com/#/discover/toplist?id=2006508653'
-
-
   let a2 = 'http://url.com/page?name=Adam&surname=Smith'
 
   let a3 = 'https://zh-hans.reactjs.org/docs/context.html#___gatsby'
 
   let a4 = 'https://leetcode-cn.com/problems/reverse-integer/solution/hua-jie-suan-fa-7-zheng-shu-fan-zhuan-by-guanpengc/'
-
-
   let a5 = 'http://www.domain.com/?user=sdksdsfdf&id=123&city=%E5%8C%97%E4%BA%AC&enabled';
-
 
   let a6 = 'http://www.domain.com/?user=anonymous&id=456&city=的分类的咖啡店了辅导费';
 
@@ -29,16 +24,16 @@ const getURLParameters = function(url) {
       // 正则匹配  匹配url路径的参数间隔符  ？ = & 等
       let regexp = /([^?=&]+)(=([^&]*))/g
       // 正则匹配后的参数值
-      // str.match()来获取所有的键值对
-      let regUrl = url.match(regexp)
+      // str.match()来获取所有的键值对     //  decodeURI解析编码
+      let regUrl = decodeURI(url).match(regexp)
       console.log('正则匹配==',regUrl);
-      let res = regUrl.reduce((prev, curr) => 
+       return regUrl.reduce((prev, curr) => 
           (
             // slice（start，end）从已有的数组中返回选定的元素 
            (prev[curr.slice(0, curr.indexOf('='))] = curr.slice(curr.indexOf('=') + 1))
            ,prev) 
         ,{})
-      return res
+     
     }
 
 console.log('解析url参数a1==>',getURLParameters(a1));
@@ -51,28 +46,25 @@ console.log('解析url参数a6==>',getURLParameters(a6));
 
 
 const getURLParameters2 = function(url) {     //  拆分方法使用场景比较少  
-  
+
   let res = {}
-
-  let urls = url.split('?')
-
-  let arr = urls[1].split('&')
-
- //    var arr = url.substr(url.indexOf('?') + 1).split('&')  等价 
+    let urls = decodeURI(url).split('?')
+    console.log(urls);
+     let arr = urls[1].split('&')
+    console.log(arr);
+    // var arr = url.substr((decodeURI(url)).indexOf('?') + 1).split('&')   //  等价 
   
   for(let i = 0; i <arr.length; i++) {
     let a  = arr[i].split('=')
     res[a[0]] = a[1]
   }
-
   return res
 
 }
-
+let a9 = 'http://www.domain.com/?user=sdksdsfdf&id=123&city=%E5%8C%97%E4%BA%AC&enabled=false&name=英语';
+console.log(getURLParameters2(a9));
 console.log(getURLParameters2(a1));
 console.log(getURLParameters2(a2));
-// console.log(getURLParameters2(a4));
-console.log(getURLParameters2(a5));
 
 
 
