@@ -1,9 +1,9 @@
 /**
- *  禁止修改当前对象   Object.freeze() 冻结对象属性 
+ *  禁止修改当前对象   Object.freeze() 冻结对象属性             //  Fira Code
  *
  * @param {*} obj
  */
-const deepFreeze = obj =>
+const deepFreeze = obj =>  
     // 循环对象的属性值
   Object.keys(obj).forEach(prop =>
     // instanceof  判断类型

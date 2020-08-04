@@ -1,8 +1,12 @@
  // 回文数是指正序和倒叙都是一样的数  并且我们假设所输入的数字为整数
 
  var isPalindrome = function(x) {
+    
+    // 过滤掉非数字或字符串 
+    let reg = /[^0-9a-zA-Z]/g
+    
      if(!x) {
-          return
+          return false
      }
      // 反转 字符串转化为数组 数组反转后再转化为字符串
      return  x.toString().split('').reverse().join('') === x.toString()
@@ -30,3 +34,4 @@
 
 
  
+

@@ -7,7 +7,7 @@
  *   注意： 假设字符串的长度不会超过1010
  * 
  *   input==> abccccdd
- *   output ==> 7
+ *   output ==> 7   dccaccd
  * 
  *   
  *
@@ -41,6 +41,8 @@ const longestPalindrome = function(str) {
 let s = 'abccccdd'
 
 console.log(longestPalindrome(s));
+
+
 
 
 

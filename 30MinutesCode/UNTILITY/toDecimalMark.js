@@ -24,3 +24,15 @@ const toDecimalMark2 = function(num,point = 2) {    // 正则匹配   来自于�
 }
 
 console.log(toDecimalMark2(1232356.0798));   // output=> 1,232,356.08   // 四舍五入
+
+
+
+let n9 = 839448834902874.945
+let reg0 = /(d)(?=(\d{3})+$)/g
+let reg = /(?!^)(?=(\d{3})+$)/g
+let reg1 = /(?=(\B\d{3})+(\.|$))/g
+let reg2 = /(\d{1,3})(?=(\d{3})+(?:$|\.))/g
+console.log(n9.toString().replace(reg0, '$1,'));
+console.log(n9.toString().replace(reg, ','));
+console.log(n9.toString().replace(reg1, ','));
+console.log(n9.toString().replace(reg2, '$1,'));

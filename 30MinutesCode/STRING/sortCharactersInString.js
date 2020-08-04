@@ -14,11 +14,18 @@ const sortCharactersInString = str =>
      .join('')
 
 
-     const sortCharactersInString4 = function(str) {
-       return Array.from(str).sort((itemA, itemB)=> {
-         return itemA.localeCompare(itemB)
-       }).join('')
-     }
+
+/**
+ *
+ *
+ * @param {*} str
+ * @returns
+ */
+const sortCharactersInString4 = function(str) {
+    return Array.from(str).sort((itemA, itemB)=> {
+       return itemA.localeCompare(itemB)
+     }).join('')
+}
 
 
  // eg:   input  'reactinfo '       output===> 按字母顺序输出

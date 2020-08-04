@@ -77,6 +77,7 @@ function deepCloneTwo(source) {
    for (var key in source) {    // 循环对象的属性
       console.log('key(拿到属性名)===>',key);
       // 若当前数据有指定属性 
+      //   if(source.hasOwnProperty(key))
       if(Object.prototype.hasOwnProperty.call(source,key)) {
          if(typeof source[key] == "Object" && source[key] !== null) {
             target[key] = deepCloneTwo(source[key])

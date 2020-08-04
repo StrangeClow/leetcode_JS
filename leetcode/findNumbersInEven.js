@@ -12,7 +12,7 @@ const findNumbersInEven = function(arrs) {
    
      return arrs.filter((item,index)=> {
          // 数组的每一项转化为字符串并取余
-         console.log(item,index);
+      
          // length == 0 
          return item.toString().length % 2 === 0
 
@@ -20,7 +20,13 @@ const findNumbersInEven = function(arrs) {
 }
 
 
-
-
 let n1 = [12,345,6,7,7898] 
 console.log(findNumbersInEven(n1));
+
+
+const findNumbersInEven2 = function(arr) {     // 偶数的特征  
+  if(arr) {
+
+  }
+
+}

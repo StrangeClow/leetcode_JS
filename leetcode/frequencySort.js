@@ -15,7 +15,7 @@
  * @param {*} str
  * @returns
  */
-const frequencySort = function(str) {               //  (来源于leetcode)
+const frequencySort = function(str) {               //  (来源于leetcode) 还有点问题 
    
     let tempMap = new Map()
 
@@ -53,11 +53,12 @@ const frequencySort = function(str) {               //  (来源于leetcode)
        let tempValue = tempArr[index].value
      
        for(let j = 0; j < tempValue; j++) {
+           console.log('tempName',tempName);
         res += tempName
         
        }
     }
-
+   
     return res 
 }
 
