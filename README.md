@@ -233,10 +233,14 @@
 ###    :heart:塞翁失马:heart:焉知福祸:heart:
 
 
-
+### vue双向绑定
 ![](https://ftp.bmp.ovh/imgs/2020/08/e9ad0eaffeb2982a.png)
 
+### 输入URL
+![](https://ftp.bmp.ovh/imgs/2020/08/efacf3da752e7c01.png)
 
+### 原型与原型链
+![](https://ftp.bmp.ovh/imgs/2020/08/67b2944e813f3edb.png)
 
 
 
