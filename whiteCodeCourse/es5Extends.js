@@ -29,7 +29,7 @@ console.log(t.getName('xiaomi'));
 
  
 /**
- *   1. 原型链
+ *   1. 原型链  (缺点为：共享属性的问题)
  *    
  *   实际中很少使用
  * 
@@ -97,9 +97,11 @@ let s2 =  new Sub()
 console.log('0524===>',s2.colors.push('yellow'));
 console.log('0524====>',s2.colors);
 
+
+
 /**
  *   3. 组合继承(伪经典继承)
- *   使用原型链来实现对属性和方法的继承，借用构造函数来实现对实例属性的继承 
+ *   使用原型链来实现对属性和方法的继承，借用构造函数来实现对实例属性的继承 应用最多的方式
  * 
  */
  function Phone(name,type) {

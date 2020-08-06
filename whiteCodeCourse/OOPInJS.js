@@ -24,11 +24,29 @@ function createObject(name,age) {
    o.sayHi = function(name) {
       return `hello ${o.name}`
    }
-   return o
+   return o 
 }
 
 let p1 = createObject('javascript',10)
 console.log(p1.sayHi());
+
+
+//  构造函数模式      1. 使用this的上下文对象    2. 不显式创建对象 
+function Animal(name) {
+   this.name = name
+   this.sayName = function(name) {
+      return `hello i am ${name}`
+   }
+   this.sayName1 = function() {
+      return `hello this is ${this.name}`
+   }
+}
+
+let cat = new Animal()
+console.log(cat.sayName('大猫'))
+console.log(cat.sayName('小猫'))
+
+
 
 //  工厂模式
 function createperson(name,age,sex) {
@@ -57,7 +75,6 @@ class Person{
        this.age= age
    }
    static getAge(age) {
-     
       return age               
    }
    getFullName() {
@@ -70,20 +87,6 @@ console.log(Person.getAge(12));
 console.log(p.getFullName());
 
 
-//  构造函数模式      1. 使用this的上下文对象    2. 不显式创建对象 
-function Animal(name) {
-   this.name = name
-   this.sayName = function(name) {
-      return `hello i am ${name}`
-   }
-   this.sayName1 = function() {
-      return `hello this is ${this.name}`
-   }
-}
-
-let cat = new Animal()
-console.log(cat.sayName('大猫'))
-console.log(cat.sayName('小猫'))
 
 
 
