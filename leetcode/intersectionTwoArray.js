@@ -21,6 +21,12 @@ var intersectionInTwoArrays = function(num1, num2) {
   return resultArr
 }
 
+let a9 = [1,3,4,9,6]
+let a8 = [0,4,8,3]
+console.log(intersectionInTwoArrays(a9,a8));
+
+
+
 
 
 var intersectionInTwoArraysTwo = function(nums1,nums2) {

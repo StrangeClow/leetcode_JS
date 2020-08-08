@@ -5,7 +5,7 @@
  * @returns
  */
 const uniqueArrFun = function(...arr) {
-
+   
     // new Set()  
     // ...展开  
     // new Set之后为Set类型的数据结构 Array.from(set)转为数组结构 
@@ -50,12 +50,6 @@ console.log(uniqueArrFun2(n2));
     
      return Array.from(tempMap.values())
 
-
-     let tempArr = []
-      tempMap.forEach((item,index)=>{
-         tempArr.push(item)
-     } )
-     return tempArr
  }
 
 let n3 = [11,28,35,45,50,11,4,35]

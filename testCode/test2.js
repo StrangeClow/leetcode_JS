@@ -201,43 +201,14 @@ console.log('end here')
 
 
 
-//  事件执行机制 
-async function async1() {
-  console.log('async1 start')
-  await async2()
-  console.log('async1 end')
-}
-
-async function async2() {
-  console.log('async2')
-}
-
-console.log('script start')
-
-setTimeout(function() {
-  console.log('setTimeout')
-}, 0)  
-
-async1()
-
-new Promise(function(resolve) {
-  console.log('promise1')
-  resolve()
-}).then(function() {
-  console.log('promise2')
-})
-
-console.log('script end')
 
 
 
-
-
-var k = 0;
+ // tubatu 
 for(var i=0,j=0;i<10,j<6;i++,j++){
-    k += i + j;
+    k = i + j;
 }
-console.log(k)
+console.log(k)     // 输出10
 
 
 

@@ -2,11 +2,11 @@
  * 
  *    pollify      
  * 
- *    下次再继续研究这个
+ *    下次再继续研究这个  
  * 
  */
 
-Function.prototype.myBind = function(thisArgs) {
+Function.prototype.myBind = function(thisArgs) {   // bind稍后调用 返回一个函数 
     // 当前this非function类型
     if(typeof this !== 'function') {
         return

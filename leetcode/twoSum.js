@@ -97,6 +97,28 @@
 
 
 
- const twoSum6 = function(num) {    //  看看双指针能不能
+ const twoSum6 = function(nums, target) {    //  看看双指针能不能 
+    let left = 0
+    let right = nums.length - 1 
+    // 前置循环条件
+    while (left < right) {
+        if(nums[left] + nums[right] === target) {
+           return [left + 1, right  + 1]
+        } else if(nums[left] + nums[right]  > target) {  
+          // 此时 则右侧减小 
+          right --
+        } 
+        else {
+          // 左侧增加 
+          left ++
+        }
+    }
+ }
+
+
+
+
+
+ const twoSum7 = function(num) {    //  二分查找 (有序) 
 
  }

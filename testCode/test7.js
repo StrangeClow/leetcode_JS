@@ -29,10 +29,12 @@ console.log('global end')
 
 
 
-
+// 前端事件循环   async await then resolve为微任务 先执行  定时器 事件绑定为宏任务 后执行 
+// 从全局代码开始执行 遇到函数调用则入栈(被压入的函数叫帧) 当函数返回后 则从调用栈弹出 当存在定时器时，定时器里面的
+// 回调函数会入队到消息队列中(宏任务) 消息会在调用栈清空的时候执行 微任务在调用栈清空后立即执行 并且期间新加入的微任务也会一同执行 
 async function async1() {
     console.log('async1 start');     // 2
-    await async2();
+    await async2();     // 微任务任务1
     console.log('async1 end');   // 6
 }
 async function async2() {
@@ -46,7 +48,7 @@ async1();
 new Promise(function(resolve) {
     console.log('promise1');    // 4
     resolve();
-}).then(function() {
+}).then(function() {    // 微任务2
     console.log('promise2');  // 7
 });
 console.log('script end');    // 5
