@@ -7,7 +7,7 @@
  * @param {*} arr2
  * @returns
  */
-const symmetricDifference = function(arr1, arr2) {
+const symmetricDifference = function(arr1, arr2) {    // hash
 
     let tempArr1 = new Set(arr1)
 
@@ -18,13 +18,9 @@ const symmetricDifference = function(arr1, arr2) {
     //  ...arr    return [...a1, ...a2]  去重展开再组合 子项 
     return [...arr1.filter((item1,index1)=> {
 
-        
-
         return !tempArr2.has(item1)
 
     }), ...arr2.filter((item2,index2)=> {
-
-      
 
         return !tempArr1.has(item2)
     })

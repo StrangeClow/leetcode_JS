@@ -70,7 +70,7 @@ console.log(getURLParameters2(a2));
 
 
 
-// URLSearchParams()处理url的查询字符串 
+// URLSearchParams()处理url的查询字符串    URL
 
 
 let a7 = 'https://u.geekbang.org/lesson/27?article=248169&utm_source=time_web&utm_medium=menu&utm_term=timewebmenu'

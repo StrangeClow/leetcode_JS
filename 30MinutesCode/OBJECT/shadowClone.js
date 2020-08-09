@@ -28,3 +28,20 @@ let a = {
 
 
 console.log(shadowClone(a));
+
+
+
+
+
+const shadowClone2 = function(obj) {
+    return {...obj}
+}
+
+let a4 = {
+    ye: 'gfg',
+    ag: 234,
+    test: function() {
+        return this.age
+    }
+}
+console.log(shadowClone2(a4));

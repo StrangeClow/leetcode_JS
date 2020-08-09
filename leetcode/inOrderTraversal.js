@@ -7,7 +7,7 @@
  *
  * @param {*} root
  */
-const inOrderTraversal = function(root) {      //  栈
+const inOrderTraversal = function(root) {      //  栈       //  二叉树和链表 
   
     // 创建相应的栈 节点空间 
   let stack = [], list = [],  node = root 

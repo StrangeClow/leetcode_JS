@@ -34,7 +34,7 @@ console.log(majorityElement(n1));
 
 
 
-const majorityElement2 = function(nums) {   // hashmap  
+const majorityElement2 = function(nums) {   // hashMap  
      
   let hash = {}
 

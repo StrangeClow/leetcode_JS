@@ -28,6 +28,7 @@ console.log(isFunction1(add));
 
 
 const isFunction2 = function(val) {
+    // 原型链查找 
     return Object.prototype.toString.call(val) === ['object','Function']
 }
 

@@ -24,8 +24,6 @@ Function.prototype.imitateCall = function(context) {     // context为当前上�
 
 
 
-
-
 let n = [1,2,3,4,5]
 console.log(Math.max.apply(null,n));
 console.log(Math.max.call(null,1,2,3,4,5,6));
@@ -35,3 +33,19 @@ console.log(Math.max.imitateCall(null,1,2,3,4,5,6,999));
 
 let n = [1,2,3,4]
 console.log(n.slice(1));
+
+
+
+
+
+// 首先通过arguments拿到所所有的实际参数，再通过splice截取除了第一个参数的列表
+
+// 把this对象（this是foo函数）赋值到bar对象的fn属性上，并执行fn函数
+
+// 把先前处理好的参数传递过去，并获取返回结果（如果无就返回undefined），此时就相当于把bar对象中带this的属性和方法都添加到了foo对象中
+
+// 删除bar的fn属性（只是删除fn属性，但this已经指向了传入的那个对象），并返回结果
+
+Function.prototype.myCall = function() {
+  
+}

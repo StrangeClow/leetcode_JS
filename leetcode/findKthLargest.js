@@ -43,7 +43,7 @@ const findKthLargest2 = function(nums, k) {    // 数组排序(降序) 然后取
    nums.sort((a,b)=> {
        return b -a
    }).slice(0,k)   // slice(a,b)截取到第k个元素 
-   console.log(nums);
+  
    return nums[k-1] 
 }
 
@@ -70,7 +70,6 @@ const findKthLargest3 = function(nums, k) {      // 快排
          if(nums[index] <= curr) {
              right.push(nums[index])
          }
-
    }
    
    // 表明基准是第k大的元素  
