@@ -31,3 +31,6 @@ setTimeout(()=> {
 console.log('result 2',getCount());
 
 
+
+
+// 函数是一个单独的值 可以在不同的环境中执行

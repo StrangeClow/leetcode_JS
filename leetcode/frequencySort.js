@@ -15,7 +15,7 @@
  * @param {*} str
  * @returns
  */
-const frequencySort = function(str) {               //  (来源于leetcode) 还有点问题  待纠正
+const frequencySort = function(str) {               //  (来源于leetcode) 还有点问题  待纠正 2020-08-11
    
     let tempMap = new Map()
 

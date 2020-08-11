@@ -243,6 +243,9 @@
 ### 原型与原型链
 ![](https://ftp.bmp.ovh/imgs/2020/08/67b2944e813f3edb.png)
 
+### HTTP缓存
+![](https://ftp.bmp.ovh/imgs/2020/08/b40f2c3f0561f36b.png)
+
 
 
 
