@@ -32,22 +32,21 @@ const timesInArray = function(nums) {
  // 去重 
  }, new Set()));
 
-
 }
-
 
 
 console.log(timesInArray([3,4,3,3]))
 
 
-const timesInArray2 = function(arr) {
- 
+
+
+const timesInArray2 = function(arr) {     // 待纠正 还有问题 
     const tempMap = new Map()
     let singleN = []
     for(let i = 0; i < arr.length; i++) {
        if(!tempMap.has(arr[i])) {
            tempMap.set(arr[i],i)
-           console.log(arr[i]);
+         
            singleN.push(arr[i]) 
        }
     }

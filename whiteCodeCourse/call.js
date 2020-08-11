@@ -46,6 +46,8 @@ console.log(n.slice(1));
 
 // 删除bar的fn属性（只是删除fn属性，但this已经指向了传入的那个对象），并返回结果
 
+
+
 Function.prototype.myCall = function() {    // 保留this 2. 执行函数 3. 删除函数 
   
 }
@@ -53,7 +55,7 @@ Function.prototype.myCall = function() {    // 保留this 2. 执行函数 3. 删
 
 
 
-Function.prototype.myCall99 = function(obj) {
+Function.prototype.myCall99 = function(obj) {     //  来源于课件分析 
   var obj = obj || window
    obj.p = this
    let newArgs = []

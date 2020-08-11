@@ -56,7 +56,7 @@
  51 | [字符串大写转小写]() | 简单 | [JavaScript](https://github.com/StrangeClow/leetcode_JS/blob/master/leetcode/transBigWordToSmallWord.js) |   √
  52 | [宝石与石头](https://leetcode-cn.com/problems/jewels-and-stones/) | 简单 | [JavaScript](https://github.com/StrangeClow/leetcode_JS/blob/master/leetcode/numJewelsInStones.js) |   √
  53 | [翻转二叉树]() | 简单 | [JavaScript](https://github.com/StrangeClow/leetcode_JS/blob/master/leetcode/turnTree.js) |   √
- 54 | [平衡二叉树(深度优先搜索)]() | 简单 | [JavaScript]() |   ✘
+ 54 | [平衡二叉树(深度优先搜索)](https://leetcode-cn.com/problems/ping-heng-er-cha-shu-lcof/) | 简单 | [JavaScript]() |   ✘
  55 | [左旋转字符串](https://leetcode-cn.com/problems/zuo-xuan-zhuan-zi-fu-chuan-lcof/) | 简单 | [JavaScript](https://github.com/StrangeClow/leetcode_JS/blob/master/leetcode/reverseLeftWords.js) |    √
  56 | [替换空格]() | 简单 | [JavaScript](https://github.com/StrangeClow/leetcode_JS/blob/master/leetcode/replaceSpace.js) |   √
  57 | [有多少小于当前数字的数字]() | 简单 | [JavaScript](https://github.com/StrangeClow/leetcode_JS/blob/master/leetcode/smallerNumbersThanCurrnet.js) |   ✘
