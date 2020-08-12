@@ -21,11 +21,14 @@ const balancedStringSplit = function(str) {
     let res = 0
 
     for (let index = 0; index < str.length; index++) {
-        if(str[index] !== 'R' || str[index] !== 'L') {
+        console.log(str[index])
+        if(str[index] !== 'R' || str[index] !== 'L') {    // 这里有问题 待纠正
            return false
         }
+       
         // 判断是否符合规则 
         if(str[index] === 'R') {
+            
           num ++
         } 
         else {

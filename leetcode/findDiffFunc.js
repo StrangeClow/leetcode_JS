@@ -32,3 +32,10 @@ let b = 'helloworlf'
 
 
 console.log(findDiffFunc(a,b));
+
+
+
+
+const findDiffFunc2 = function(str1, str2) {
+  
+}

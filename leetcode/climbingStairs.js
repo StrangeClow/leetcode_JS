@@ -2,7 +2,7 @@
  * 题意：  你正在爬楼梯，需要N步才能到达顶部
  * 每次你可以爬1或者2个台阶，求共有多少种方式
  * 
- * 思路： 递归或者动态规划    斐波那契数列问题   
+ * 思路： 递归或者动态规划    斐波那契数列问题     fib(n -1) + fib(n - 2)
  * 
  * 
  *  每一层 = 前一层数据 + 前两层的数据
@@ -34,7 +34,7 @@ console.log(clibmStairs(n2));
 
 
 
-const clibmStairs2 = function(n) {     // 动态规划 1.最优子问题 2. 边界条件   3.状态转移方程)
+const clibmStairs2 = function(n) {     // 动态规划 1.最优子问题 2. 边界条件   3.状态转移方程
     
     // 来源于leetcode (https://leetcode-cn.com/problems/climbing-stairs/solution/hua-jie-suan-fa-70-pa-lou-ti-by-guanpengchn/)
 

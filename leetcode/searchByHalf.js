@@ -8,7 +8,7 @@
  * @param {*} nums
  * @param {*} target
  */
-const searchByHalf = function(nums, target) {
+const searchByHalf = function(nums, target) {       // 一前一后走 
 
   // 先处理边界情况
   if(nums.length === 0 ||nums.length === 1)  return  -1
@@ -37,3 +37,8 @@ const searchByHalf = function(nums, target) {
 
 let nums = [-1,0,3,5,9,12], target = 9
 console.log(searchByHalf(nums, target));
+
+
+
+//  先处理边界情况 
+//  

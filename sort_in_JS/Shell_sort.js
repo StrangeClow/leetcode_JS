@@ -30,7 +30,7 @@ function baseDirectSort(arr,gap) {   // gap 间隔
 
 var shellSort = function(arr) {
  
-    //    >>(有符号右移，该操作符会将第一个操作数向右移动指定的位数。向右被移除的位数被丢弃，拷贝最左侧的位来填充左侧)
+    //    >>(有符号右移，该操作符会将第一个操作数向右移动指定的位数。向右被移除的位数被丢弃，拷贝最左侧的位来填充左侧) 转换进制
     // eg：9 >> 2 得到 2
     var length = arr.length, gap = length>>1, current, i, j;
     while(gap > 0){
