@@ -7,7 +7,7 @@
  * @param {*} pullArr
  * @returns
  */
-const pullAtIndex = (arr, pullArr) => {
+const pullAtIndex = (arr, pullArr) => { 
     let removed = [],
         pulled = arr
           .map((v, i)=> (pullArr.includes(i) ? removed.push(v) : v))

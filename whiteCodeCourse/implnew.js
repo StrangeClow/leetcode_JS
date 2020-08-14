@@ -50,6 +50,7 @@ const implNew2 = function() {
 
 const implNew3 = function(fn, ...args) {
    
+    // object.create为原型链模式的应用
     let obj = Object.create(fn.prototype)
     let result = fn.apply(obj, args)
     return typeof obj == 'object' ? result : obj

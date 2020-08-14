@@ -7,6 +7,7 @@
 const copyObj = function(obj) {
     
     // (...Object)
+    // Object.assign()
     return {...obj}
 }
 
