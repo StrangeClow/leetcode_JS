@@ -37,7 +37,7 @@ console.log(fib(7));
 */ 
 
 
-//  尾递归 
+//  尾递归  最后一步操作调用自身 
 const fib2 = function(n, current = 0, next = 1) {
   if(typeof n !== 'number') {
      throw new Error('数据类型不合法')

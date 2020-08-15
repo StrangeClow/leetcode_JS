@@ -38,6 +38,9 @@ function bubbleSort(arr) {
 
 bubbleSort([99, 55, 66, 11, 0.08, 999999]);
 
+
+
+//  待改正
 (function(arr) {
   for (let i = 0; i < arr.length - 1; i++) {
     for (let j = 0; j < arr.length - 1 - i; j++) {
@@ -50,6 +53,9 @@ bubbleSort([99, 55, 66, 11, 0.08, 999999]);
     return arr;
   }
 })([987, 456, 298, 786, 0.298]);
+
+
+
 
 function bubbbleSort_one(arr) {
   let len = arr.length;

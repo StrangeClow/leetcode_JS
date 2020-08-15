@@ -40,9 +40,11 @@ function quickSort(arr) {
 let n = [1,5,9,7,2,5,10,8,99,0,-0.7,99996]
 console.log(quickSort(n));
 
+
+
+
+
 // 优化解决方案   原地分区 不用创建新变量
-
-
 const quickSort2 = function(arr) {       // 这个有问题   待审查 
   let curr = arr[0]
   

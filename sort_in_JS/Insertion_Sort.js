@@ -23,6 +23,7 @@ function insertionSort_one(arr) {
     for (var i = 1; i < len; i++) {
         preIndex = i - 1;
         current = arr[i];
+        // 当前项 + 1
         while (preIndex >= 0 && arr[preIndex] > current) {
             arr[preIndex + 1] = arr[preIndex];
             preIndex--;
@@ -35,6 +36,9 @@ function insertionSort_one(arr) {
     return arr;
 }
 insertionSort_one([987, 18, 0.01, 826, 1, 88, 0.009])
+
+
+
 
 /**
  * c 插入排序第二种方法
@@ -51,10 +55,19 @@ function insertionSort_two(arr) {
     console.log('第二种插入排序:', arr)
     return arr
 }
-
 insertionSort_two([9898, 6556, 0.01, 987654, 0.098, 1, 0.1098522])
 
 
+
+
+
+
+/**
+ *
+ *
+ * @param {*} array
+ * @returns
+ */
 function insertionSort_three(array) {
     let times = 0;
     for (let i = 0; i < array.length; i++) {
@@ -72,6 +85,9 @@ function insertionSort_three(array) {
 
 insertionSort_three([100,98765412,0.0008, 98765, 12, 0.9, 84, 5682,0.09])
 
+
+
+
 /*  各个排序的区别 以及关键点部分的写法 在比较上  */
 
   Array.prototype.insertion_Sort = function() {
@@ -87,8 +103,11 @@ insertionSort_three([100,98765412,0.0008, 98765, 12, 0.9, 84, 5682,0.09])
               }
               return this
           }
-          // eg:   [3,5,2,11,1,2,"abc","zfd","sad","eng"].insertion_Sort();
+// eg:   [3,5,2,11,1,2,"abc","zfd","sad","eng"].insertion_Sort();
   
+
+
+
   //  插入排序
   function insertionSort_four(arr) {
    /**

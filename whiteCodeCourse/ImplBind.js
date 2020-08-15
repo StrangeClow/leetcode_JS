@@ -9,7 +9,7 @@
 Function.prototype.myBind = function(thisArgs) {   // bind稍后调用 返回一个函数 
     // 当前this非function类型
     if(typeof this !== 'function') {
-        return
+        throw new Error('当前传入类型不符合要求')
     }
     let that = this
     // arr.prototype.functionName.call()
@@ -23,7 +23,7 @@ Function.prototype.myBind = function(thisArgs) {   // bind稍后调用 返回一
     if(this.prototype) {  
      fnNullFun.prototype = this.prototype
     }
-    fnBound.prototype = new fnNullFun()      // 一个对象的原型等于构造函数
+    fnBound.prototype = new fnNullFun()      // 一个对象的原型等于构造函数  f.prototype = new F()
     return fnBound
 }
 
