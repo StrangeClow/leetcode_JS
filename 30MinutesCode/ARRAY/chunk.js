@@ -7,7 +7,7 @@
  */
 const chunk = function(arr, size) {
     // Array.from  方法从一个类似数组或可迭代对象创建一个新的浅拷贝的数组实例 
-     // Array.from(arrlike, [, mapFn(可选，新数组中的每个元素都会执行当前回调函数)[, thisArg(可选参数，执行回调函数mapFn时this对象)]])
+    // Array.from(arrlike, [, mapFn(可选，新数组中的每个元素都会执行当前回调函数)[, thisArg(可选参数，执行回调函数mapFn时this对象)]])
     return Array.from({
         // Math.ceil()
         length: Math.ceil(arr.length / size)
@@ -19,16 +19,20 @@ const chunk = function(arr, size) {
 }
 
 
-
-
 let n = [1,2,3,4,5,6,7,8,9,10,11], size = 3
-
 console.log(chunk(n, size))
+
+
 
 
 let n1 = [12,34,56,7,8,9]
 console.log(n1.slice(1,4))
 
+
+
+
+
+// 示例  
 let arrLike = [
     {
         name:'a',
@@ -54,4 +58,4 @@ const testArrayFrom =function() {
       })
 } 
 
-console.log(testArrayFrom())
+console.log(testArrayFrom(arrLike))

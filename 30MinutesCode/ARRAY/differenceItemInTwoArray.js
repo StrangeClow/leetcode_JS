@@ -7,15 +7,17 @@
  */
 const difference = (a,b) => {
     // new Set() 去重 对数组b中元素去重
-    const s = new Set(b);   
+    const s = new Set(b)
+    const t = new Set(a)
     // 过滤非值 存在a中但不存在b中
-    return a.filter( x => !s.has(x))
+    return Array.from(t).filter( x => !s.has(x))
 }
 // input ([1,2,3,4],[1,2,3])   output==>[4]
 
 let n1 = [1,2,3,4,5]   
 let n2 = [3,4,6,8,5]
 console.log(difference(n1,n2))
+console.log(difference([1,2,3],[1,2,4]))
 
 
 
@@ -24,7 +26,7 @@ console.log(difference(n1,n2))
 
 
 //   找出两个数据之间的差值 
-const difference2 = function(a, b) {
+const difference2 = function(a, b) {   // 
     
    let tempA = new Set(a)
    let tempB = new Set(b)

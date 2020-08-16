@@ -21,14 +21,24 @@ const hasCycle = function(head) {    // 利用节点的内存地址来进行判�
 }
 
 
+/**
+ *
+ *
+ * @param {*} head
+ * @returns
+ */
 const hasCycle3 = function(head) {
-   if(JSON.stringify(head)) {
+   if(JSON.stringify(head)) {    // 是否和循环引用有关 ？？
        return false
    }
    else {
        return true
    }
 }
+
+
+
+
 
 function listNode(val) {
     this.val = val

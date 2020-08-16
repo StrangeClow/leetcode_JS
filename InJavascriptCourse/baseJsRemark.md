@@ -334,13 +334,13 @@
        
          ``` sequence
             客户端 -> 服务端：
-            客户端 -> 服务端：
-            客户端 -> 服务端：
+            服务端 -> 客户端:
+            服务端 -> 客户端:
             客户端 -> 服务端：
          ```
 
 
-### UDP（面向无连接 不需要再正式传递数据前线连接双方）
+### UDP（面向无连接 不需要再正式传递数据前线连接双方）在直播场景下
 
 
 
@@ -372,11 +372,6 @@
           深拷贝
              1. JSON.parse(JSON.stringfy(object))
 
-          原型以及原型链
-             1. prototype 显式原型对象（构造函数）
-             2. _proto_ 隐式原型对象
-             3. 原型链------一层一层往上查找 直至顶层 Object.prototype  对象--->原型--->原型的原型--->Object
-             4. 每个原型都有一个 constructor 属性指向关联的构造函数 实例原型指向构造函数
 
           
           let const var 
@@ -391,8 +386,8 @@
              4. generator
           
           定时器相关问题
-             1. setTimeout clearTimeout   
-             2. setInterval clearInterval  
+             1. setTimeout clearTimeout   (单次)
+             2. setInterval clearInterval  (循环多次)
 
 
           event loop 
@@ -410,6 +405,7 @@
                 1. Service Worker
                 2. Memory Cache
                 3. Disk Cache
+                4. 
 
              缓存策略
                 1. 强缓存  
@@ -430,9 +426,12 @@
         安全防范相关
             
             XSS 跨站点脚本攻击
+                 1. 过滤输入
+                 2. httponly
+                 3. 开启csp网页安全策略
 
             CSRF 跨站点请求伪造
-
+                  
 
          JS设计模式相关
 

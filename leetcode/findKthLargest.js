@@ -14,14 +14,13 @@ const findKthLargest = function(nums, k) {     //  脑回路
     nums.sort((a,b)=> {
         return b - a
     })
-    console.log(nums);
+   
     // 数组长度  倒序减 - 1 
-    return nums[k - 1]
+    return nums[k - 1]      // nums.length - 1
     
     for (let index = 0; index < nums.length; index++) {    // 第k大的元素 
        
-        // nums[index]中存在一个值为第k大的值 
-        
+        // nums[index]中存在一个值为第k大的值   
 
     }
 }
@@ -53,7 +52,8 @@ console.log(findKthLargest2([3,2,1,5,6,4], k = 2));
 
 
 
-const findKthLargest3 = function(nums, k) {      // 快排
+
+const findKthLargest3 = function(nums, k) {      // 快排 分左右 
    
     // 取任意基准值 
    let curr = nums[0]

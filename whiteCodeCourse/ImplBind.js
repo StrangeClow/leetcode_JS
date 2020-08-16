@@ -49,3 +49,19 @@ Function.prototype.ImplBind = function(context) {
 
     }
 }
+
+
+
+Function.prototype.ImplBind3 =  function(ctx, ...args) {
+
+    return (...args2)=> {
+
+       ctx.fn = this
+       // 先拼接参数 在调用
+       const res = ctx.fn(...args.concat(args2))
+       // 删除当前绑定的属性 
+       delete ctx.fn
+
+       return res
+    }
+}

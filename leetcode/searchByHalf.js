@@ -8,7 +8,7 @@
  * @param {*} nums
  * @param {*} target
  */
-const searchByHalf = function(nums, target) {       // 一前一后走 
+const searchByHalf = function(nums, target) {       // 
 
   // 先处理边界情况
   if(nums.length === 0 ||nums.length === 1)  return  -1
