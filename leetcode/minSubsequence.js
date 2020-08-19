@@ -12,7 +12,8 @@ const minSubsequence = function(nums) {
   let sum = nums.reduce((curr, prev) => {
       return curr + prev
   },0)
-
+  
+  // 总和的一半 
    let halfSum = Math.floor((sum) / 2)
   
   // 数组降序排
@@ -20,10 +21,10 @@ const minSubsequence = function(nums) {
       return  a > b ? -1 : 1
   })
 
-  console.log('nums数据===',nums);
+ 
 
   const res = []
-
+ 
   let tempNum =  0
 
   for(let index = 0; index < nums.length; index ++) {
@@ -41,4 +42,4 @@ const minSubsequence = function(nums) {
 }
 
 let n1 = [4,3,10,9,8]
-console.log(minSubsequence(n1));
+console.log(minSubsequence(n1))

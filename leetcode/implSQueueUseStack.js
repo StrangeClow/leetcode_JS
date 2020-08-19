@@ -6,7 +6,7 @@
  */
 var myQueue = function() {
     this.array = []
-    this.start = 0;
+    this.start = 0
     this.end = 0
 }
 
@@ -30,3 +30,8 @@ myQueue.prototype.peek = function() {
 myQueue.prototype.empty = function() {
     return this.start === this.end
 }
+
+
+
+let tempQuene = new myQueue() 
+console.log(tempQuene);

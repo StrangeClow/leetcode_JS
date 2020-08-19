@@ -4,8 +4,8 @@
  * @param {*} nums
  * @param {*} target
  */
-const searchInRotatedSortedArray = function(nums, target) {     //  核心是思想  如何去思考 
-  console.log(nums,target)
+const searchInRotatedSortedArray = function(nums, target) {     //  核心是思想  如何去思考  双指针 最左最右 
+  
     // 最左侧值
     let left = 0
     // 最右侧值

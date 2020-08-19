@@ -9,9 +9,9 @@
  */
 const numsOfOneString = function(str) {
  
-    if(!str || !str.trim()) return 0
+    if(!str || !str.trim()) return false
   
-    // 去除空格 转为数组 循环过滤掉假值 
+    // 去除空格 转为数组 循环过滤掉假值 （null undefined 等）
     return str.trim().split('').filter(Boolean).length
 }
 

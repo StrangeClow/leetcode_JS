@@ -1,4 +1,4 @@
-### react-intro
+## <font color=yellow>react-intro</font> 
     
     virtual DOM
 
@@ -24,7 +24,9 @@
 ![avatar](https://github.com/StrangeClow/leetcode_JS/blob/master/ImgAblum/props.png)
 
 
-### dva结构 组合
+### dva结构 （路由+数据部分）
+  * umi
+  * 规范
 
 
 
@@ -116,39 +118,40 @@
 
 
 ## diff算法
-* 调和
-* tree diff
-* component diff
-* element diff
+  * 调和
+  * tree diff
+  * component diff
+  * element diff
 
 
 ## React Patch方法
 * patch(将tree diff计算后的DOM差异队列更新到真实的DOM节点) 遍历差异队列
 
-## redux应用（可预测的状态容器）
-    redux三大原则
-      ** 单一数据源
-      ** 状态是只读的
-      ** 状态修改均由纯函数完成
 
-    核心API 
+## <font color=yellow>redux应用（可预测的状态容器）</font> 
+  *  redux三大原则
+      * 单一数据源
+      * 状态是只读的
+      * 状态修改均由纯函数完成
+
+  *  核心API 
        ** createStore(reducers[,initialState])   
     
-    createStore创建store对象
-       ** getStore(获取当前store状态)
-       ** dispatch(分发action)
-       ** subscribe(监听变化)
-       ** replaceReducer(更新当前仓库的reducer)
+  *  createStore创建store对象
+       * getStore(获取当前store状态)
+       * dispatch(分发action)
+       * subscribe(监听变化)
+       * replaceReducer(更新当前仓库的reducer)
 
-    react-redux(与react绑定)
+  *    react-redux(与react绑定)
 
-    redux异步流
+  *   redux异步流
 
-      ** redux-thunk
-      ** redux-promise
-      ** redux-composable-fetch
+      * redux-thunk
+      * redux-promise
+      * redux-composable-fetch
 
-      ** redux-saga
+      * redux-saga
 
 
 
@@ -290,9 +293,9 @@
 
        装饰器 
           @observable  // 用来声明可观察的数据 让对象可以被追踪
-          @action  // 改变obrvable数据 
-          @observer  // 修饰器让组件自动更新   
-          @computed  //  创建计算属性
+          @action      // 改变obrvable数据 
+          @observer    // 修饰器让组件自动更新   
+          @computed    //  创建计算属性
 
 
 

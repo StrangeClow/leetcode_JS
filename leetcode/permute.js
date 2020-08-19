@@ -59,6 +59,7 @@ console.log(permute([1,2,3]));
 
 
 
+
 console.log([1,2,3].pop());
 console.log(n.push(6),n);
 console.log(n.slice(), n);

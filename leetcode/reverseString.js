@@ -8,7 +8,7 @@
  * @returns
  */
 
-const reverseString2 = function(str) {
+const reverseString2 = function(str) {     // 转数组
     if(! str)   return false
 
     if( str.length === 1) return str
@@ -32,7 +32,7 @@ const reverseString = function(str) {
 
    let result = ''
    let count = str.length - 1
-   // 倒叙累加
+   // 倒序累加 
    while(count >= 0) {
        result += str[count]
        count -= 1
