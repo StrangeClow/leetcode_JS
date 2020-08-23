@@ -4,7 +4,7 @@
  * @param {*} arr
  * @returns
  */
-const tail = function(arr) {
+const tail = function(arr) {     // arr.splice(start, end)
   if(arr.length > 1) {
     return arr.slice(1)
   }

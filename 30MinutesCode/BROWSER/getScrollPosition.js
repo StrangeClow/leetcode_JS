@@ -7,3 +7,5 @@ const getScrollPosition = (el = window) => ({
     x: el.pageOffest !== undefined ? el.pageOffset : el.scrollLeft,
     y: el.pageYOffset !== undefined ? el.pageYOffset : el.scrolltTop
 })
+
+

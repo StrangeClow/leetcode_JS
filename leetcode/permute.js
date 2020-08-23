@@ -9,7 +9,7 @@
  * @param {*} nums
  * @returns
  */
-const permute = function(nums) {        // 回溯递归   全排列类比决策树 
+const permute = function(nums) {        // dfs回溯递归   全排列类比决策树 
  
     let res = []
     let temPath = []
