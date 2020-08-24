@@ -7,7 +7,6 @@
  *   J中的字母不重复，J和S的所有字符都是字母，字母区分大小额，因此A 与 a是不同类型的石头    
  * 
  * 
- * 
  *    input ===> J = 'aA'  s= 'aAAbbbb'
  *    output ===> 3
  *  
@@ -48,7 +47,7 @@ console.log(numJewelsInStones(j,s));
 
 
 
-const numJewelsInStones2 = function(J, S) {
+const numJewelsInStones2 = function(J, S) {    //hash表 
    
     const types = {}
 

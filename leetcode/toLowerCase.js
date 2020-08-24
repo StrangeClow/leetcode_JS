@@ -32,7 +32,7 @@ const toLowerCase3 = function(str) {
     let tempCode = str.charCodeAt(index)   // 拿到对应字母的ASCII值
     console.log(tempCode);
     
-    if(tempCode <= 90 && tempCode >= 65) {
+    if(tempCode <= 90 && tempCode >= 65) {      //大小写起始对应的ASCII值 
         // ASCII的规律 起止位置
        res +=  String.fromCharCode(tempCode + 32)
     }

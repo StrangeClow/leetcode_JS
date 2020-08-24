@@ -22,7 +22,7 @@
 
 function orderBy(arr, props, orders) {
 
-    console.log([...arr]);
+ 
     [...arr].sort((a, b) =>
    
     props.reduce((acc, prop, i) => {
