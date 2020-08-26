@@ -1,4 +1,4 @@
-Array.prototype.implFilter = function(fn, context) {
+Array.prototype.implFilter = function(fn, context) {     
     
     // 数组的每个元素调用filter的callback回调函数 
 
@@ -8,7 +8,7 @@ Array.prototype.implFilter = function(fn, context) {
        throw new Error(`${fn} is not a function`)
     }
    
-    let tempThis = this
+    let tempThis = this   // 绑定this
     let arr = []
    
     for(let index = 0; index < tempThis.length; index++) {

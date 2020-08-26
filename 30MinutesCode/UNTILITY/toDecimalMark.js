@@ -18,7 +18,7 @@ const toDecimalMark2 = function(num,point = 2) {    // 正则匹配   来自于�
     let [sInt, sFloat] = (Number.isInteger(num) ? `${num}` : num.toFixed(point)).split('.');
     
     // 正则匹配整型部分
-    sInt = sInt.replace(/\d(?=(\d{3})+$)/g, '$&,');
+    sInt = sInt.replace(/\d(?=(\d{3})+$)/g, '$&,');    // 以三位为一分隔 全局匹配 
     // 拼接数值
     return sFloat ? `${sInt}.${sFloat}` : `${sInt}`;
 }

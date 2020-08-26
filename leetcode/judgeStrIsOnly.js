@@ -12,7 +12,7 @@ const judgeStrIsOnly = function(str) {
     }
 
     let hash = {}
-    for(let i = 0; i < str.length; i ++) {
+    for(let i = 0; i < str.length; i++) {     // 循环 看对象属性是否存在 
         //hash存在当前值
       if(hash[str[i]]) {
          
