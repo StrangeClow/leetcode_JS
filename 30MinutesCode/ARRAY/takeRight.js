@@ -16,3 +16,8 @@ const takeRight =  function(arr, n = 1) {
 
 let n = [1,2,3,4,5,6]
 console.log(takeRight(n,3));
+
+
+const takeRight2 = function(arr, n = 1) {
+   return arr.reduceRight(()=> {},0)
+}

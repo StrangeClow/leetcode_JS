@@ -4,12 +4,12 @@
  * @param {*} fn
  * @returns
  */
-const memoize = function(fn) {
+const memoize = function(fn) {     // 缓存淘汰
     
     // new一个map实例
     const cache = new Map()
     
-    const cahed = function(val) {
+    const cahed = function(val) { 
         
         // map.set()    map.get()
         // fn.call(this, arguments)

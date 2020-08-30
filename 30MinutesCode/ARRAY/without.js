@@ -24,3 +24,18 @@ console.log(without([1,2,3,4,5,6,7,8],2,5,3))
 
 let n = '1,2,3,4,5,6,7'
 console.log(...(n));
+
+
+
+const without2 = function(arr, ...nums) {
+  // 在指定arr数组中 排出nums
+  let res = []
+   for(let i = 0; i < arr.length; i ++) {
+       if(!nums.includes(arr[i])) {
+         res.push(arr[i])
+       }
+   }
+   return res
+}
+
+console.log(without2([1,2,3,4,5,6,7,8],2,5,3))
