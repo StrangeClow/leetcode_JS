@@ -1,4 +1,5 @@
 /**
+ *   找不同 
  *   请找出两个字符串中唯一的不同   
  *
  * @param {*} str1
@@ -36,6 +37,12 @@ console.log(findDiffFunc(a,b));
 
 
 
-const findDiffFunc2 = function(str1, str2) {
+const findDiffFunc2 = function(str1, str2) {   // hash算法  
   
+  let map = new Map()
+  for(let i = 0; i < str1.length; i++) {
+    if(map.has(str1[i])) {
+       
+    }
+  }
 }

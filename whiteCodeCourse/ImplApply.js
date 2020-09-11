@@ -4,7 +4,7 @@ Function.prototype.implApply = function(ctx, args = []) {   // 与call的区别
     ctx.fn = this
     
     // 拿到当前调用函数的值  
-   const res =  ctx.fn(...args)
+   const res =  ctx.fn(...args) 
    
     // 删除当前属性
     delete ctx.fn

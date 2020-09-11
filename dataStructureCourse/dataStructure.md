@@ -97,11 +97,12 @@
       10. 字符串匹配
               A. 朴素
               B. KMP
-              C. Robin-Karp
+              C. Robin-Karp (RK算法)
               D. Boyer-Moore
               E. AC自动机
               F. Trip
               G. 后缀数组
+              H. BF算法
       11. 其他
               A. 数论
               B. 计算几何

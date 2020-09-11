@@ -29,7 +29,7 @@ const throttle = function(cb, ms) {
 //    
 const throttle2 = function(callback, ms) { 
 
-    let timer = null
+    let timer = null   // 
 
     return function() {
         // 清楚定时器 
