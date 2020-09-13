@@ -37,5 +37,8 @@ console.log(sortArraybyParity(a2));
 
 
 const sortArraybyParity2 = function(num) {
-  
+  let temp = []
+  num.reduce((prev,curr)=> {
+    return 
+  })
 }
