@@ -10,30 +10,30 @@
  * @param {*} nums
  * @returns
  */
-const mainElement = function(nums) {
-    // 定义下面用到的基本变量
-   let num = 0,
-       count = 0,
-       i = 0
-      while(i < nums.length) {    // 循环判断比较
-          if(count === 0) {   
-            num = nums[i]
-            count = 1
-            i += 1
-            continue
-          }
-          if(nums[i] !== num) {
-            count -= 1
-          }
-          else {
-              count +=1
-          }
-          i += 1
-      } 
-      return num
+const mainElement = function (nums) {
+  // 定义下面用到的基本变量
+  let num = 0,
+    count = 0,
+    i = 0
+  while (i < nums.length) {    // 循环判断比较
+    if (count === 0) {
+      num = nums[i]
+      count = 1
+      i += 1
+      continue
+    }
+    if (nums[i] !== num) {
+      count -= 1
+    }
+    else {
+      count += 1
+    }
+    i += 1
+  }
+  return num
 }
 
-let n1 = [1,1,2]
+let n1 = [1, 1, 2]
 console.log(mainElement(n1));
 
 
@@ -43,35 +43,42 @@ console.log(mainElement(n1));
  * @param {*} nums
  * @returns
  */
-const mainElement2 = function(nums) {
-   
-   if(nums.length === 1) return nums[0]
+const mainElement2 = function (nums) {
 
-   let len = Math.floor(nums.length / 2)  //  当前测试用例长度为9 
+  if (nums.length === 1) return nums[0]
 
-   let tMap = new Map()
+  let len = Math.floor(nums.length / 2)  //  当前测试用例长度为9 
+
+  let tMap = new Map()
 
 
-   for (let index = 0; index < nums.length; index++) {
-       // map.has(元素)  是否存在元素 
-       if(tMap.has(nums[index])) {
-            
-            // map.set(key, value)    // map.get(key)  拿到值 
-            tMap.set(nums[index],tMap.get(nums[index])+1)
+  for (let index = 0; index < nums.length; index++) {
+    // map.has(元素)  是否存在元素 
+    if (tMap.has(nums[index])) {
 
-         if(tMap.get(nums[index]) > len) {
-           
-           return nums[index]
-         }
-       }
-       else {
-         tMap.set(nums[index], 1)
-       }
-   }
-   return -1
+      // map.set(key, value)    // map.get(key)  拿到值 
+      tMap.set(nums[index], tMap.get(nums[index]) + 1)
+
+      if (tMap.get(nums[index]) > len) {
+
+        return nums[index]
+      }
+    }
+    else {
+      tMap.set(nums[index], 1)
+    }
+  }
+  return -1
 }
 
 
 
 
-console.log(mainElement2([1,2,5,9,5,9,5,5,5]));
+console.log(mainElement2([1, 2, 5, 9, 5, 9, 5, 5, 5]));
+
+
+
+
+const mainElement3 = function () {
+
+}
