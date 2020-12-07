@@ -114,7 +114,7 @@ console.log(add1(4,8));
      }
  }
 
- console.log(add2.call(w,2,3));   // 以对象w的方式来调用add2()方法
+ console.log(add2.call(w,2,3));   //  以对象w的方式来调用add2()方法
  console.log(add2.apply(w,[2,9]));
 
 

@@ -104,7 +104,8 @@
  99 | [连续子数组的最大和(动态规划)](https://leetcode-cn.com/problems/lian-xu-zi-shu-zu-de-zui-da-he-lcof/) | 简单 | [JavaScript](https://github.com/StrangeClow/leetcode_JS/blob/master/leetcode/maxSubArray.js) |√
  100 | [二叉树的前序遍历](https://leetcode-cn.com/problems/binary-tree-preorder-traversal/) | 中等 | [JavaScript](https://github.com/StrangeClow/leetcode_JS/blob/master/leetcode/preorderTraversal.js) |√
  101 | [二分查找](https://leetcode-cn.com/problems/binary-search/) | 简单 | [JavaScript](https://github.com/StrangeClow/leetcode_JS/blob/master/leetcode/searchByHalf.js) |√
- 101 | [好数对的数目 (数组类)](https://leetcode-cn.com/problems/number-of-good-pairs//) | 简单 | [JavaScript](https://github.com/StrangeClow/leetcode_JS/blob/master/leetcode/numIdenticalPairs.js) |√
+ 101 | [好数对的数目 (数组类)](https://leetcode-cn.com/problems/number-of-good-pairs/) | 简单 | [JavaScript](https://github.com/StrangeClow/leetcode_JS/blob/master/leetcode/numIdenticalPairs.js) |√
+ 101 | [替换所有的问号 ()](https://leetcode-cn.com/problems/replace-all-s-to-avoid-consecutive-repeating-characters/) | 简单 | [JavaScript](https://github.com/StrangeClow/leetcode_JS/blob/master/leetcode/modifyString.js) |✘
  
  
  
