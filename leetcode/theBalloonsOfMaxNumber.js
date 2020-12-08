@@ -8,7 +8,7 @@
  * @returns
  */
 const theBalloonsOfMaxNumber = function(text) {
-   
+   // 构建hash
     let tempMap = {}
     
     let arr = []

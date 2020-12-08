@@ -54,7 +54,7 @@ var reverseString3 = function(s) {     //  双指针  前后移动 趋向中间
 
       while (left < right) {
 
-        // es6交
+        // es6交换变量
         [s[left], s[right]] = [s[right], s[left]]
 
         left++

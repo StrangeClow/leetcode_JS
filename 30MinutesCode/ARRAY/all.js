@@ -7,7 +7,7 @@
 const all = (arr, fn= Boolean) => arr.every(fn);   
 
 
-// 利用了es6的every循环全真才为真
+// 利用了es6的every循环全真才为真     // some
 
 
 let n1 = [1,2,3,false,true, NaN, Boolean]

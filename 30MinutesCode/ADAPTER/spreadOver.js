@@ -12,6 +12,6 @@ const spreadOver = function(fn) {    //
 }
 
 const arrayMax = spreadOver(Math.max)
-console.log(arrayMax([1, 2, 3]))
+console.log(arrayMax([1, 2, 3]))    // 3
 
 

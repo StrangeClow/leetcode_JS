@@ -29,7 +29,7 @@ console.log([1,9,0,2,8,5].sort())
 
 
 
-
+// apply
 const arrayMax3 = function() {
    
     return Math.max.apply(null,[2,34,67,78,9564])
@@ -38,8 +38,9 @@ const arrayMax3 = function() {
 console.log(arrayMax3());
 
 
+// 
 const arrayMax4 = function(arr) {
-    return Math.max.apply(null, arr)
+    return Math.max.apply(null, arr) //给入数组
 }
 
 

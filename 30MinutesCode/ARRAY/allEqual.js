@@ -30,7 +30,6 @@ console.log(allEqual([1,1,1,1,1]));
 
 const allEqual2 = function(arr) {
   return arr.every((item,index)=> {
-    console.log('计算item和index===',item, index)
     // 第一个值和最后一个值 
     return item === arr[arr.length -1]
   })
@@ -38,3 +37,10 @@ const allEqual2 = function(arr) {
 
 
 console.log(allEqual2([1,2,3,4,5,6,7,8,1]))
+
+
+
+
+const allEqual3 = (arr)=> {
+  // 基础循环
+}
