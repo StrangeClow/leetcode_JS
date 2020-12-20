@@ -925,6 +925,10 @@
                     a. git reset  (可添加不同的参数  --mixed  --soft（文件回退到暂存区）  --hard（文件回退到修改前）)
                     b. git revert
                     c. git checkout
+
+            2. 存储
+                    a. git stash
+                    b. git stash pop
       
       
 
