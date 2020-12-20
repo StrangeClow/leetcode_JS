@@ -27,6 +27,7 @@ const copyObj2 = function(obj) {
 
 const copyObj3 = function(obj) {
     // obj  对象的API
+    // Object.assign(a,b)    a===>目标对象     b====> 源对象
     return Object.assign({}, obj)
 }
 

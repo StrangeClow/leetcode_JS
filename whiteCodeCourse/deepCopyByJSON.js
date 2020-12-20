@@ -9,4 +9,6 @@ const deepCopy = function(obj) {
 }
 
 
-
+const deepCopy2 = function(obj) {
+    // 递归
+}
