@@ -1,4 +1,4 @@
-Function.prototype.implApply = function(ctx, args = []) {   // 与call的区别 
+Function.prototype.implApply = function(ctx, args = []) {   // 与call的区别  数组 一个一个的值
    
     // 将方法挂载到我们传入的上下文 
     ctx.fn = this
