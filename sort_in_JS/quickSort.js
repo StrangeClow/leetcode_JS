@@ -33,7 +33,7 @@ function quickSort(arr) {
   }
   // 递归调用自身
   console.log('分别指===',leftArr,rightArr,middleArr);
-  return quickSort(leftArr).concat([middleArr],quickSort(rightArr));
+  return quickSort(leftArr).concat([middleArr],quickSort(rightArr));  //左右链接
 
 }
 

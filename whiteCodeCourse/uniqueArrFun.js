@@ -35,7 +35,7 @@ console.log(uniqueArrFun2(n2));
 
  //  Object.prototype.toString.call(arr) === [object, Array]
 
-
+ // hash 
  const uniqueArrFun3 = function(arr) {
     
      let tempMap = new Map()

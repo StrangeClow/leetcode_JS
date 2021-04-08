@@ -25,7 +25,7 @@ function add(a,b) {
 
 console.log(isFunction1(add));
 
-
+// object.prototype.toString.call(val) === ['']
 
 const isFunction2 = function(val) {
     // 原型链查找 
