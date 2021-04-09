@@ -29,6 +29,9 @@ const addDigits = function(num) {
 
 console.log(addDigits(36));
 
+// 1. bianjie 
+
+// arr.reduce((),[])
 
 console.log('12'.toString().split(''));
 

@@ -42,7 +42,7 @@ console.log(arrayPairSum(n));
 
 
 
-const arrayPairSum2 = function(nums) {    // 排序 过滤 累加 
+const arrayPairSum2 = function(nums) {    // 排序 过滤 累加  arr.sort().filter().reduce()
 
  
     return nums.sort((a,b)=> {       // 数组排序

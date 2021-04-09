@@ -67,4 +67,7 @@ const findReapteNumber3 = function(nums) {
 
 }
 
-console.log(findReapteNumber3([1,3,6,9,45,90,4,90,3]));
+console.log(findReapteNumber3([1, 3, 6, 9, 45, 90, 4, 90, 3]));
+
+
+// hash 
