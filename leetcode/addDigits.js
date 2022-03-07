@@ -18,7 +18,7 @@ const addDigits = function(num) {
      // 必要的条件 判断 
       num = num.toString().split('').reduce((prev, curr)=> {
         // 累加当前值与前值并计数
-        
+        // reduce((prev, curr) =>{},[])
         return parseInt(prev) + parseInt(curr)
       },0)
   }
