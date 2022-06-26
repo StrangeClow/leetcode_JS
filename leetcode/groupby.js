@@ -168,6 +168,7 @@ let b = [
      { date: '2018-01-09', SW: '197.95', LL: '466', XXSW: '99.22', CKLL: '93' }
 
 ]
+// 测试
 const format = function(arr, property){
     let dataArr = []
     arr.map(mapItem => {
