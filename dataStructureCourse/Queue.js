@@ -31,11 +31,7 @@ var Queue = function() {
 }
 
 
-
-
 var initQueue = new Queue()
-
-
 
 
 //   利用队列来思考击鼓传花的问题   
