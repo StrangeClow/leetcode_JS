@@ -403,7 +403,7 @@
             computed
                计算属性 可动态class
             filter
-               过滤器
+               过滤器 自定义
             mixin
               公用方法 混入
             
